@@ -26,18 +26,21 @@ dayjs.extend(timezone);
  * Search for the original tweet that published an X article.
  * Used when bookmarked tweet is a share, not the original.
  */
-function searchForArticleTweet(articleId, config) {
+async function searchForArticleTweet(articleId, config) {
   try {
     const env = buildBirdEnv(config);
     const birdCmd = config.birdPath || 'bird';
     // articleId is validated as digits-only by caller's regex
     const searchQuery = `url:x.com/i/article/${articleId}`;
-    const output = execSync(`${birdCmd} search "${searchQuery}" -n 5 --json`, {
-      encoding: 'utf8',
+    const parsed = await runBirdJsonCommand(`${shellEscape(birdCmd)} search ${shellEscape(searchQuery)} -n 5 --json`, {
       timeout: 30000,
-      env
+      env,
+      prefix: 'smaug-search',
+      preDelayMs: Math.max(0, parseInt(config.birdRequestDelayMs ?? 0, 10) || 0),
+      retries: 2,
+      retryDelayMs: 3000,
+      retryLabel: 'article search'
     });
-    const parsed = JSON.parse(output);
     // bird CLI may return array or { tweets: [...] } depending on version
     const results = Array.isArray(parsed) ? parsed : (parsed.tweets || []);
     if (results.length > 0) {
@@ -121,12 +124,15 @@ export async function fetchXArticleContent(articleUrl, config, sourceTweetId = n
   // Try the bookmarked tweet first - fastest path when it contains the article directly
   if (sourceTweetId) {
     try {
-      const output = execSync(`${birdCmd} read ${sourceTweetId} --json`, {
-        encoding: 'utf8',
+      const tweetData = await runBirdJsonCommand(`${shellEscape(birdCmd)} read ${sourceTweetId} --json`, {
         timeout: 30000,
-        env
+        env,
+        prefix: 'smaug-read',
+        preDelayMs: Math.max(0, parseInt(config.birdRequestDelayMs ?? 0, 10) || 0),
+        retries: 2,
+        retryDelayMs: 3000,
+        retryLabel: `article read ${sourceTweetId}`
       });
-      const tweetData = JSON.parse(output);
       const result = extractArticle(tweetData, 'bird-cli', sourceTweetId);
       if (result) return result;
 
@@ -137,7 +143,7 @@ export async function fetchXArticleContent(articleUrl, config, sourceTweetId = n
   }
 
   // Bookmarked tweet was a share/retweet - search for the original article tweet
-  const originalTweet = searchForArticleTweet(articleId, config);
+  const originalTweet = await searchForArticleTweet(articleId, config);
   if (originalTweet) {
     // Use search result directly if it has full content (avoids extra API call)
     const searchContent = originalTweet.text || originalTweet.quotedTweet?.text || '';
@@ -152,12 +158,15 @@ export async function fetchXArticleContent(articleUrl, config, sourceTweetId = n
     // Search result truncated - need full tweet data
     try {
       console.log(`  Found original article tweet: ${originalTweet.id}, fetching full content...`);
-      const output = execSync(`${birdCmd} read ${originalTweet.id} --json`, {
-        encoding: 'utf8',
+      const tweetData = await runBirdJsonCommand(`${shellEscape(birdCmd)} read ${originalTweet.id} --json`, {
         timeout: 30000,
-        env
+        env,
+        prefix: 'smaug-read',
+        preDelayMs: Math.max(0, parseInt(config.birdRequestDelayMs ?? 0, 10) || 0),
+        retries: 2,
+        retryDelayMs: 3000,
+        retryLabel: `article read ${originalTweet.id}`
       });
-      const tweetData = JSON.parse(output);
       const readResult = extractArticle(tweetData, 'bird-cli-search-read', originalTweet.id);
       if (readResult) return readResult;
     } catch (error) {
@@ -264,7 +273,77 @@ function buildBirdEnv(config) {
   return env;
 }
 
-export function fetchBookmarks(config, count = 10, options = {}) {
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function shellEscape(value) {
+  return `'${String(value).replace(/'/g, `'\\''`)}'`;
+}
+
+function isRateLimitError(error) {
+  return /(?:HTTP\s+429|rate limit exceeded|too many requests)/i.test(error?.message || '');
+}
+
+function parseBirdBookmarksPayload(parsed) {
+  if (Array.isArray(parsed)) {
+    return {
+      bookmarks: parsed,
+      nextCursor: null
+    };
+  }
+
+  return {
+    bookmarks: parsed?.tweets || parsed?.bookmarks || [],
+    nextCursor: parsed?.nextCursor || parsed?.next_cursor || parsed?.cursor || null
+  };
+}
+
+async function runBirdJsonCommand(
+  command,
+  {
+    env,
+    timeout = 60000,
+    prefix = 'smaug-bookmarks',
+    preDelayMs = 0,
+    retries = 0,
+    retryDelayMs = 3000,
+    retryLabel = 'bird command'
+  } = {}
+) {
+  let attempt = 0;
+
+  while (true) {
+    const tmpFile = path.join(os.tmpdir(), `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2)}.json`);
+    try {
+      if (attempt === 0 && preDelayMs > 0) {
+        console.log(`    Waiting ${preDelayMs}ms before ${retryLabel}...`);
+        await sleep(preDelayMs);
+      }
+      execSync(`${command} > ${shellEscape(tmpFile)}`, {
+        timeout,
+        env,
+        shell: true
+      });
+      const output = fs.readFileSync(tmpFile, 'utf8');
+      return JSON.parse(output);
+    } catch (error) {
+      if (attempt >= retries || !isRateLimitError(error)) {
+        throw error;
+      }
+
+      attempt += 1;
+      console.log(`    Rate limited during ${retryLabel}; retrying in ${retryDelayMs}ms (${attempt}/${retries})...`);
+      await sleep(retryDelayMs);
+    } finally {
+      if (fs.existsSync(tmpFile)) {
+        fs.unlinkSync(tmpFile);
+      }
+    }
+  }
+}
+
+export async function fetchBookmarks(config, count = 10, options = {}) {
   try {
     const env = buildBirdEnv(config);
     const birdCmd = config.birdPath || 'bird';
@@ -272,37 +351,99 @@ export function fetchBookmarks(config, count = 10, options = {}) {
     // Use --all for large fetches (> 50) or when explicitly requested
     const useAll = options.all || count > 50;
     const folderId = options.folderId;
+    const pageDelayMs = Math.max(0, parseInt(options.pageDelayMs ?? config.fetchPageDelayMs ?? 0, 10) || 0);
+    const birdRequestDelayMs = Math.max(0, parseInt(options.birdRequestDelayMs ?? config.birdRequestDelayMs ?? 0, 10) || 0);
+    const configuredPageSize = options.pageSize ?? config.fetchPageSize;
+    const pageSize = Math.max(1, parseInt(configuredPageSize ?? 20, 10) || 20);
+    const estimatedPagesNeeded = Math.ceil(count / pageSize);
+    const maxPages = options.maxPages || Math.max(estimatedPagesNeeded, 10);
+    const manualPagination = useAll && (pageDelayMs > 0 || configuredPageSize != null);
 
-    let cmd;
-    if (useAll) {
-      // Paginated fetch - use longer timeout
-      // Calculate maxPages from count (bird returns ~20 per page, use 25 as buffer)
-      const estimatedPagesNeeded = Math.ceil(count / 20);
-      const maxPages = options.maxPages || Math.max(estimatedPagesNeeded, 10);
-      cmd = folderId
-        ? `${birdCmd} bookmarks --folder-id ${folderId} --all --max-pages ${maxPages} --json`
-        : `${birdCmd} bookmarks --all --max-pages ${maxPages} --json`;
-    } else {
-      cmd = folderId
-        ? `${birdCmd} bookmarks --folder-id ${folderId} -n ${count} --json`
-        : `${birdCmd} bookmarks -n ${count} --json`;
+    if (manualPagination) {
+      console.log(
+        `  Running paginated fetch page-by-page (${pageSize} per page, up to ${maxPages} pages${pageDelayMs > 0 ? `, ${pageDelayMs}ms delay` : ''})`
+      );
+
+      const collected = [];
+      const seen = new Set();
+      let cursor = options.cursor || null;
+      let page = 1;
+
+      while (page <= maxPages && collected.length < count) {
+        const remaining = count - collected.length;
+        const batchSize = Math.min(pageSize, remaining);
+        const baseCmd = folderId
+          ? `${shellEscape(birdCmd)} bookmarks --folder-id ${folderId}`
+          : `${shellEscape(birdCmd)} bookmarks`;
+        const cursorArg = cursor ? ` --cursor ${shellEscape(cursor)}` : '';
+        const command = `${baseCmd} -n ${batchSize}${cursorArg} --json`;
+
+        console.log(`  Page ${page}/${maxPages}: ${folderId ? `folder ${folderId}, ` : ''}${batchSize} requested${cursor ? ' (cursor)' : ''}`);
+        const parsed = await runBirdJsonCommand(command, {
+          env,
+          timeout: 60000,
+          prefix: 'smaug-bookmarks-page',
+          preDelayMs: birdRequestDelayMs,
+          retries: 2,
+          retryDelayMs: Math.max(pageDelayMs, 3000),
+          retryLabel: 'bookmark page fetch'
+        });
+        const { bookmarks: pageBookmarks, nextCursor } = parseBirdBookmarksPayload(parsed);
+
+        if (!pageBookmarks.length) {
+          console.log('    No bookmarks returned; stopping pagination.');
+          break;
+        }
+
+        let added = 0;
+        for (const bookmark of pageBookmarks) {
+          const id = bookmark?.id?.toString();
+          if (!id || seen.has(id)) continue;
+          seen.add(id);
+          collected.push(bookmark);
+          added++;
+          if (collected.length >= count) break;
+        }
+
+        console.log(`    Received ${pageBookmarks.length}, added ${added}, total ${collected.length}`);
+
+        if (!nextCursor) {
+          console.log('    No next cursor returned; reached the end.');
+          break;
+        }
+
+        cursor = nextCursor;
+        page++;
+
+        if (page <= maxPages && collected.length < count && pageDelayMs > 0) {
+          console.log(`    Sleeping ${pageDelayMs}ms before next page...`);
+          await sleep(pageDelayMs);
+        }
+      }
+
+      return collected;
     }
 
-    console.log(`  Running: ${cmd.replace(/--json/, '').trim()}`);
+    const displayCmd = useAll
+      ? (folderId
+        ? `${birdCmd} bookmarks --folder-id ${folderId} --all --max-pages ${maxPages}`
+        : `${birdCmd} bookmarks --all --max-pages ${maxPages}`)
+      : (folderId
+        ? `${birdCmd} bookmarks --folder-id ${folderId} -n ${count}`
+        : `${birdCmd} bookmarks -n ${count}`);
+    const cmd = `${displayCmd} --json`.replace(birdCmd, shellEscape(birdCmd));
 
-    // Use temp file to work around bird CLI pipe buffering bug
-    const tmpFile = path.join(os.tmpdir(), `smaug-bookmarks-${Date.now()}.json`);
-    execSync(`${cmd} > "${tmpFile}"`, {
-      timeout: useAll ? 180000 : 60000, // 3 min for --all, 60s otherwise
+    console.log(`  Running: ${displayCmd}`);
+
+    const parsed = await runBirdJsonCommand(cmd, {
+      timeout: useAll ? 180000 : 60000,
       env,
-      shell: true
+      preDelayMs: birdRequestDelayMs,
+      retries: 2,
+      retryDelayMs: Math.max(pageDelayMs, 3000),
+      retryLabel: 'bookmark fetch'
     });
-    const output = fs.readFileSync(tmpFile, 'utf8');
-    fs.unlinkSync(tmpFile);
-    const parsed = JSON.parse(output);
-    // bird CLI v0.6.0+ returns { tweets: [...], nextCursor: ... } for paginated requests
-    // but plain arrays for non-paginated. Handle both formats.
-    let bookmarks = Array.isArray(parsed) ? parsed : (parsed.tweets || []);
+    let { bookmarks } = parseBirdBookmarksPayload(parsed);
 
     // Respect the count parameter - truncate if we fetched more than requested
     // (paginated mode may return more bookmarks than asked for)
@@ -338,15 +479,15 @@ export function fetchLikes(config, count = 10) {
   }
 }
 
-export function fetchFromSource(config, count = 10, options = {}) {
+export async function fetchFromSource(config, count = 10, options = {}) {
   const source = config.source || 'bookmarks';
 
   if (source === 'bookmarks') {
-    return fetchBookmarks(config, count, options);
+    return await fetchBookmarks(config, count, options);
   } else if (source === 'likes') {
     return fetchLikes(config, count);
   } else if (source === 'both') {
-    const bookmarks = fetchBookmarks(config, count, options);
+    const bookmarks = await fetchBookmarks(config, count, options);
     const likes = fetchLikes(config, count);
     // Merge and dedupe by ID
     const seen = new Set();
@@ -366,7 +507,7 @@ export function fetchFromSource(config, count = 10, options = {}) {
 /**
  * Fetch bookmarks from configured folders, tagging each with its folder name
  */
-export function fetchFromFolders(config, count = 10, options = {}) {
+export async function fetchFromFolders(config, count = 10, options = {}) {
   const folders = config.folders || {};
   const folderIds = Object.keys(folders);
 
@@ -384,7 +525,7 @@ export function fetchFromFolders(config, count = 10, options = {}) {
     console.log(`\n📁 Folder "${folderTag}" (${folderId}):`);
 
     try {
-      const bookmarks = fetchBookmarks(config, count, { ...options, folderId });
+      const bookmarks = await fetchBookmarks(config, count, { ...options, folderId });
       let added = 0;
 
       for (const bookmark of bookmarks) {
@@ -407,16 +548,19 @@ export function fetchFromFolders(config, count = 10, options = {}) {
   return allBookmarks;
 }
 
-export function fetchTweet(config, tweetId) {
+export async function fetchTweet(config, tweetId) {
   try {
     const env = buildBirdEnv(config);
     const birdCmd = config.birdPath || 'bird';
-    const output = execSync(`${birdCmd} read ${tweetId} --json`, {
-      encoding: 'utf8',
+    return await runBirdJsonCommand(`${shellEscape(birdCmd)} read ${tweetId} --json`, {
       timeout: 15000,
-      env
+      env,
+      prefix: 'smaug-read',
+      preDelayMs: Math.max(0, parseInt(config.birdRequestDelayMs ?? 0, 10) || 0),
+      retries: 2,
+      retryDelayMs: 3000,
+      retryLabel: `tweet read ${tweetId}`
     });
-    return JSON.parse(output);
   } catch (error) {
     console.log(`  Could not fetch parent tweet ${tweetId}: ${error.message}`);
     return null;
@@ -584,13 +728,17 @@ export async function fetchAndPrepareBookmarks(options = {}) {
   const state = loadState(config);
   const source = options.source || config.source || 'bookmarks';
   const includeMedia = options.includeMedia ?? config.includeMedia ?? false;
-  const configWithOptions = { ...config, source, includeMedia };
+  const birdRequestDelayMs = Math.max(0, parseInt(options.birdRequestDelayMs ?? config.birdRequestDelayMs ?? 0, 10) || 0);
+  const bookmarkDelayMs = Math.max(0, parseInt(options.bookmarkDelayMs ?? config.bookmarkDelayMs ?? 0, 10) || 0);
+  const configWithOptions = { ...config, source, includeMedia, birdRequestDelayMs, bookmarkDelayMs };
   const count = options.count || 20;
 
   // Build fetch options for pagination
   const fetchOptions = {
     all: options.all || count > 50,
-    maxPages: options.maxPages
+    maxPages: options.maxPages,
+    pageDelayMs: options.pageDelayMs,
+    pageSize: options.pageSize
   };
 
   let tweets = [];
@@ -599,11 +747,11 @@ export async function fetchAndPrepareBookmarks(options = {}) {
   if (hasFolders && source === 'bookmarks') {
     // Fetch from each configured folder with tags
     console.log(`Fetching from ${Object.keys(config.folders).length} folder(s)${includeMedia ? ' (with media)' : ''}`);
-    tweets = fetchFromFolders(configWithOptions, count, fetchOptions);
+    tweets = await fetchFromFolders(configWithOptions, count, fetchOptions);
   } else {
     // Normal fetch from source
     console.log(`Fetching from source: ${source}${includeMedia ? ' (with media)' : ''}${fetchOptions.all ? ' (paginated)' : ''}`);
-    tweets = fetchFromSource(configWithOptions, count, fetchOptions);
+    tweets = await fetchFromSource(configWithOptions, count, fetchOptions);
   }
 
   if (!tweets || tweets.length === 0) {
@@ -643,16 +791,22 @@ export async function fetchAndPrepareBookmarks(options = {}) {
   console.log(`Preparing ${toProcess.length} tweets...`);
 
   const prepared = [];
+  const runtimeConfig = configWithOptions;
 
-  for (const bookmark of toProcess) {
+  for (const [index, bookmark] of toProcess.entries()) {
     try {
+      if (index > 0 && bookmarkDelayMs > 0) {
+        console.log(`\nPausing ${bookmarkDelayMs}ms before next bookmark...`);
+        await sleep(bookmarkDelayMs);
+      }
+
       console.log(`\nProcessing bookmark ${bookmark.id}...`);
       const text = bookmark.text || bookmark.full_text || '';
 
       // Format date from tweet's createdAt, falling back to current date
       let date;
       if (bookmark.createdAt) {
-        const tweetDate = dayjs(bookmark.createdAt).tz(config.timezone || 'America/New_York');
+        const tweetDate = dayjs(bookmark.createdAt).tz(runtimeConfig.timezone || 'America/New_York');
         date = tweetDate.format('dddd, MMMM D, YYYY');
       } else {
         date = now.format('dddd, MMMM D, YYYY');
@@ -696,7 +850,7 @@ export async function fetchAndPrepareBookmarks(options = {}) {
           type = 'x-article';
           console.log(`  X article detected: ${expanded}`);
           try {
-            content = await fetchXArticleContent(expanded, config, bookmark.id);
+            content = await fetchXArticleContent(expanded, runtimeConfig, bookmark.id);
             if (content.content) {
               console.log(`  X article fetched: "${content.title || 'untitled'}" (${content.content.length} chars)`);
             } else if (content.title) {
@@ -723,7 +877,7 @@ export async function fetchAndPrepareBookmarks(options = {}) {
             if (tweetIdMatch) {
               const quotedTweetId = tweetIdMatch[1];
               console.log(`  Quote tweet detected, fetching ${quotedTweetId}...`);
-              const quotedTweet = fetchTweet(config, quotedTweetId);
+              const quotedTweet = await fetchTweet(runtimeConfig, quotedTweetId);
               if (quotedTweet) {
                 content = {
                   id: quotedTweet.id,
@@ -745,7 +899,7 @@ export async function fetchAndPrepareBookmarks(options = {}) {
         // Fetch content for articles and GitHub repos
         if (type === 'article' || type === 'github') {
           try {
-            const fetchResult = await fetchContent(expanded, type, config);
+            const fetchResult = await fetchContent(expanded, type, runtimeConfig);
 
             if (fetchResult.source === 'github-api') {
               content = {
@@ -788,7 +942,7 @@ export async function fetchAndPrepareBookmarks(options = {}) {
         console.log(`  Direct X article detected ${source}`);
         const articleUrl = `https://x.com/i/article/${articleMeta.id || tweetId}`;
         try {
-          const content = await fetchXArticleContent(articleUrl, config, tweetId);
+          const content = await fetchXArticleContent(articleUrl, runtimeConfig, tweetId);
           if (content.content) {
             console.log(`  X article fetched: "${content.title || 'untitled'}" (${content.content.length} chars)`);
           } else if (content.title) {
@@ -819,14 +973,15 @@ export async function fetchAndPrepareBookmarks(options = {}) {
       let replyContext = null;
       if (bookmark.inReplyToStatusId) {
         console.log(`  This is a reply to ${bookmark.inReplyToStatusId}, fetching parent...`);
-        const parentTweet = fetchTweet(config, bookmark.inReplyToStatusId);
+        const parentTweet = await fetchTweet(runtimeConfig, bookmark.inReplyToStatusId);
         if (parentTweet) {
           replyContext = {
             id: parentTweet.id,
             author: parentTweet.author?.username || 'unknown',
             authorName: parentTweet.author?.name || parentTweet.author?.username || 'unknown',
             text: parentTweet.text || parentTweet.full_text || '',
-            tweetUrl: `https://x.com/${parentTweet.author?.username || 'unknown'}/status/${parentTweet.id}`
+            tweetUrl: `https://x.com/${parentTweet.author?.username || 'unknown'}/status/${parentTweet.id}`,
+            media: configWithOptions.includeMedia ? (parentTweet.media || []) : []
           };
         }
       }
@@ -834,14 +989,40 @@ export async function fetchAndPrepareBookmarks(options = {}) {
       // Check for native quote tweet
       let quoteContext = null;
       if (bookmark.quotedTweet) {
-        const qt = bookmark.quotedTweet;
+        let qt = bookmark.quotedTweet;
+        let quoteMedia = configWithOptions.includeMedia ? (qt.media || []) : [];
+        const quoteMayHaveHiddenMedia =
+          configWithOptions.includeMedia &&
+          qt.id &&
+          quoteMedia.length === 0 &&
+          (
+            /https?:\/\/t\.co\/\w+/i.test(qt.text || '') ||
+            links.some((link) => {
+              const expanded = String(link?.expanded || '');
+              return (
+                link?.type === 'media' &&
+                expanded.includes(`/status/${qt.id}/`)
+              );
+            })
+          );
+
+        if (quoteMayHaveHiddenMedia) {
+          console.log(`  Native quote detected, fetching ${qt.id} for full media...`);
+          const fullQuotedTweet = await fetchTweet(runtimeConfig, qt.id);
+          if (fullQuotedTweet) {
+            qt = fullQuotedTweet;
+            quoteMedia = fullQuotedTweet.media || [];
+          }
+        }
+
         quoteContext = {
           id: qt.id,
           author: qt.author?.username || 'unknown',
           authorName: qt.author?.name || qt.author?.username || 'unknown',
-          text: qt.text || '',
+          text: qt.text || qt.full_text || '',
           tweetUrl: `https://x.com/${qt.author?.username || 'unknown'}/status/${qt.id}`,
-          source: 'native-quote'
+          source: 'native-quote',
+          media: quoteMedia
         };
       }
 
@@ -890,12 +1071,25 @@ export async function fetchAndPrepareBookmarks(options = {}) {
     }
   } catch (e) {}
 
-  const existingPendingIds = new Set(existingPending.bookmarks.map(b => b.id));
-  const newBookmarks = prepared.filter(b => !existingPendingIds.has(b.id));
+  const pendingById = new Map(existingPending.bookmarks.map(b => [b.id, b]));
+  let newBookmarkCount = 0;
+  let updatedBookmarkCount = 0;
+
+  for (const bookmark of prepared) {
+    if (pendingById.has(bookmark.id)) {
+      if (options.force) {
+        pendingById.set(bookmark.id, bookmark);
+        updatedBookmarkCount += 1;
+      }
+    } else {
+      pendingById.set(bookmark.id, bookmark);
+      newBookmarkCount += 1;
+    }
+  }
 
   // Merge and sort by createdAt ascending (oldest first)
   // This ensures when processed, oldest get added first, newest end up on top
-  const allBookmarks = [...existingPending.bookmarks, ...newBookmarks];
+  const allBookmarks = [...pendingById.values()];
   allBookmarks.sort((a, b) => {
     const dateA = a.createdAt ? new Date(a.createdAt).getTime() : 0;
     const dateB = b.createdAt ? new Date(b.createdAt).getTime() : 0;
@@ -913,7 +1107,8 @@ export async function fetchAndPrepareBookmarks(options = {}) {
     fs.mkdirSync(pendingDir, { recursive: true });
   }
   fs.writeFileSync(config.pendingFile, JSON.stringify(output, null, 2));
-  console.log(`\nMerged ${newBookmarks.length} new bookmarks into ${config.pendingFile} (total: ${output.count})`);
+  const updateInfo = updatedBookmarkCount > 0 ? `, updated ${updatedBookmarkCount}` : '';
+  console.log(`\nMerged ${newBookmarkCount} new bookmarks${updateInfo} into ${config.pendingFile} (total: ${output.count})`);
 
   // Update state
   state.last_check = now.toISOString();

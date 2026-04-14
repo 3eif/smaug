@@ -107,6 +107,8 @@ npx smaug fetch 20
 # Fetch ALL bookmarks (paginated - requires bird CLI from git)
 npx smaug fetch --all
 npx smaug fetch --all --max-pages 5  # Limit to 5 pages
+npx smaug fetch 4000 --all --page-delay-ms 2000 --page-size 20  # Slower page-by-page fetch
+npx smaug fetch 100 --all --bird-delay-ms 2000 --bookmark-delay-ms 500  # Slow prep path too
 
 # Fetch from likes instead
 npx smaug fetch --source likes
@@ -131,7 +133,23 @@ By default, Twitter's API returns ~50-70 bookmarks per request. To fetch more, u
 ```bash
 npx smaug fetch --all              # Fetch all (up to 10 pages)
 npx smaug fetch --all --max-pages 20  # Fetch up to 20 pages
+npx smaug fetch 4000 --all --page-delay-ms 2000 --page-size 20
 ```
+
+If you want to be gentler on X's private endpoints, Smaug can paginate one page at a time using bird's bookmark cursor and sleep between pages:
+
+```bash
+npx smaug fetch 4000 --all --max-pages 1000 --page-delay-ms 2000 --page-size 20
+```
+
+- `--page-delay-ms`: milliseconds to wait between pages
+- `--page-size`: how many bookmarks to request per page while throttling
+- `--bird-delay-ms`: milliseconds to wait before X-side `bird read/search` calls
+- `--bookmark-delay-ms`: milliseconds to wait between bookmark prep steps
+
+Without `--page-delay-ms`, Smaug keeps the original fast one-shot `bird bookmarks --all` behavior.
+
+If your bird build does not return a cursor for page-by-page fetches, `--bird-delay-ms` and `--bookmark-delay-ms` still slow the expensive per-bookmark preparation phase where Smaug expands links and fetches reply/article context.
 
 **Note:** This requires bird CLI built from git (not the npm release). See [Troubleshooting](#troubleshooting) for installation instructions.
 
@@ -352,6 +370,10 @@ Example `smaug.config.json`:
 |--------|---------|-------------|
 | `source` | `bookmarks` | What to fetch: `bookmarks` (default), `likes`, or `both` |
 | `includeMedia` | `false` | **EXPERIMENTAL**: Include media attachments (photos, videos, GIFs) |
+| `fetchPageDelayMs` | `0` | Delay between paginated bookmark pages in milliseconds |
+| `fetchPageSize` | `null` | Page size to use when throttling paginated bookmark fetches |
+| `birdRequestDelayMs` | `0` | Delay before X-side `bird` read/search requests |
+| `bookmarkDelayMs` | `0` | Delay between bookmark preparation steps |
 | `archiveFile` | `./bookmarks.md` | Main archive file |
 | `timezone` | `America/New_York` | For date formatting |
 | `cliTool` | `claude` | AI CLI to use: `claude` or `opencode` |
@@ -363,7 +385,7 @@ Example `smaug.config.json`:
 | `parallelThreshold` | `8` | Min bookmarks before parallel processing kicks in |
 | `webhookUrl` | `null` | Discord/Slack webhook for notifications |
 
-Environment variables also work: `AUTH_TOKEN`, `CT0`, `SOURCE`, `INCLUDE_MEDIA`, `ARCHIVE_FILE`, `TIMEZONE`, `CLI_TOOL`, `CLAUDE_MODEL`, `OPENCODE_MODEL`, etc.
+Environment variables also work: `AUTH_TOKEN`, `CT0`, `SOURCE`, `INCLUDE_MEDIA`, `FETCH_PAGE_DELAY_MS`, `FETCH_PAGE_SIZE`, `BIRD_REQUEST_DELAY_MS`, `BOOKMARK_DELAY_MS`, `ARCHIVE_FILE`, `TIMEZONE`, `CLI_TOOL`, `CLAUDE_MODEL`, `OPENCODE_MODEL`, etc.
 
 ### Experimental: Media Attachments
 

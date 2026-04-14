@@ -258,6 +258,50 @@ async function main() {
         maxPages = parseInt(args[maxPagesIdx + 1], 10);
       }
 
+      // Parse --page-delay-ms flag
+      const pageDelayIdx = args.findIndex(a => a === '--page-delay-ms');
+      let pageDelayMs = null;
+      if (pageDelayIdx !== -1 && args[pageDelayIdx + 1]) {
+        pageDelayMs = parseInt(args[pageDelayIdx + 1], 10);
+        if (Number.isNaN(pageDelayMs) || pageDelayMs < 0) {
+          console.error('Invalid --page-delay-ms value. Must be 0 or greater.');
+          process.exit(1);
+        }
+      }
+
+      // Parse --page-size flag
+      const pageSizeIdx = args.findIndex(a => a === '--page-size');
+      let pageSize = null;
+      if (pageSizeIdx !== -1 && args[pageSizeIdx + 1]) {
+        pageSize = parseInt(args[pageSizeIdx + 1], 10);
+        if (Number.isNaN(pageSize) || pageSize <= 0) {
+          console.error('Invalid --page-size value. Must be a positive number.');
+          process.exit(1);
+        }
+      }
+
+      // Parse --bird-delay-ms flag
+      const birdDelayIdx = args.findIndex(a => a === '--bird-delay-ms');
+      let birdRequestDelayMs = null;
+      if (birdDelayIdx !== -1 && args[birdDelayIdx + 1]) {
+        birdRequestDelayMs = parseInt(args[birdDelayIdx + 1], 10);
+        if (Number.isNaN(birdRequestDelayMs) || birdRequestDelayMs < 0) {
+          console.error('Invalid --bird-delay-ms value. Must be 0 or greater.');
+          process.exit(1);
+        }
+      }
+
+      // Parse --bookmark-delay-ms flag
+      const bookmarkDelayIdx = args.findIndex(a => a === '--bookmark-delay-ms');
+      let bookmarkDelayMs = null;
+      if (bookmarkDelayIdx !== -1 && args[bookmarkDelayIdx + 1]) {
+        bookmarkDelayMs = parseInt(args[bookmarkDelayIdx + 1], 10);
+        if (Number.isNaN(bookmarkDelayMs) || bookmarkDelayMs < 0) {
+          console.error('Invalid --bookmark-delay-ms value. Must be 0 or greater.');
+          process.exit(1);
+        }
+      }
+
       const result = await fetchAndPrepareBookmarks({
         count,
         specificIds: specificIds.length > 0 ? specificIds : null,
@@ -265,7 +309,11 @@ async function main() {
         source,
         includeMedia,
         all: fetchAll,
-        maxPages
+        maxPages,
+        pageDelayMs,
+        pageSize,
+        birdRequestDelayMs,
+        bookmarkDelayMs
       });
 
       if (result.count > 0) {
@@ -352,6 +400,10 @@ Commands:
   fetch [n]      Fetch n tweets (default: 20)
   fetch --all    Fetch ALL bookmarks (paginated)
   fetch --max-pages N  Limit pagination to N pages (default: 10)
+  fetch --page-delay-ms N  Sleep N milliseconds between bookmark pages
+  fetch --page-size N  Fetch N bookmarks per page when delaying pagination
+  fetch --bird-delay-ms N  Sleep N milliseconds before bird read/search calls
+  fetch --bookmark-delay-ms N  Sleep N milliseconds between bookmark prep steps
   fetch --force  Re-fetch even if already archived
   fetch --source <source>  Fetch from: bookmarks, likes, or both
   fetch --media  EXPERIMENTAL: Include media attachments
@@ -366,6 +418,8 @@ Examples:
   smaug fetch 50                 # Fetch 50 tweets
   smaug fetch --all              # Fetch ALL bookmarks (paginated)
   smaug fetch --all --max-pages 5  # Fetch up to 5 pages
+  smaug fetch 4000 --all --page-delay-ms 2000 --page-size 20
+  smaug fetch 100 --all --bird-delay-ms 2000 --bookmark-delay-ms 500
   smaug fetch --source likes     # Fetch from likes only
   smaug fetch --source both      # Fetch from bookmarks AND likes
   smaug fetch --media            # Include photos/videos/GIFs (experimental)

@@ -34,6 +34,12 @@ const DEFAULT_CONFIG = {
   // Path to bird CLI (if not in PATH)
   birdPath: null,
 
+  // Optional throttling for paginated bookmark fetches
+  fetchPageDelayMs: 0,
+  fetchPageSize: null,
+  birdRequestDelayMs: 0,
+  bookmarkDelayMs: 0,
+
   // Twitter credentials (can also use AUTH_TOKEN and CT0 env vars)
   twitter: {
     authToken: null,
@@ -221,6 +227,18 @@ export function loadConfig(configPath) {
   if (process.env.BIRD_PATH) {
     config.birdPath = process.env.BIRD_PATH;
   }
+  if (process.env.FETCH_PAGE_DELAY_MS) {
+    config.fetchPageDelayMs = parseInt(process.env.FETCH_PAGE_DELAY_MS, 10);
+  }
+  if (process.env.FETCH_PAGE_SIZE) {
+    config.fetchPageSize = parseInt(process.env.FETCH_PAGE_SIZE, 10);
+  }
+  if (process.env.BIRD_REQUEST_DELAY_MS) {
+    config.birdRequestDelayMs = parseInt(process.env.BIRD_REQUEST_DELAY_MS, 10);
+  }
+  if (process.env.BOOKMARK_DELAY_MS) {
+    config.bookmarkDelayMs = parseInt(process.env.BOOKMARK_DELAY_MS, 10);
+  }
   if (process.env.SOURCE) {
     config.source = process.env.SOURCE;
   }
@@ -296,6 +314,10 @@ export function initConfig(targetPath = './smaug.config.json') {
     stateFile: './.state/bookmarks-state.json',
     timezone: 'America/New_York',
     birdPath: null,
+    fetchPageDelayMs: 0,
+    fetchPageSize: null,
+    birdRequestDelayMs: 0,
+    bookmarkDelayMs: 0,
     twitter: {
       authToken: 'YOUR_AUTH_TOKEN_HERE',
       ct0: 'YOUR_CT0_TOKEN_HERE'
