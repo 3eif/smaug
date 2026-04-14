@@ -1,0 +1,62 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1800' height='1400' viewBox='0 0 1800 1400' role='img' aria-labelledby='title desc'>
+<title id='title'>Bookmarks by Tweet Year</title>
+<desc id='desc'>Horizontal bar chart showing pending Smaug bookmarks grouped by the original tweet year.</desc>
+<rect width='100%' height='100%' fill='#faf7f2'/>
+<text x='240' y='78' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='44' font-weight='700' fill='#172033'>Bookmarks by Tweet Year</text>
+<text x='240' y='122' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='24' fill='#667085'>Source: pending-bookmarks.json • Pending bookmarks: 2839 • Generated: 2026-03-26T17:06:42.138Z</text>
+<line x1='240.0' y1='180' x2='240.0' y2='1280' stroke='#eceff4' stroke-width='2'/>
+<text x='240.0' y='156' text-anchor='middle' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='20' fill='#667085'>0</text>
+<line x1='470.0' y1='180' x2='470.0' y2='1280' stroke='#eceff4' stroke-width='2'/>
+<text x='470.0' y='156' text-anchor='middle' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='20' fill='#667085'>267</text>
+<line x1='700.0' y1='180' x2='700.0' y2='1280' stroke='#eceff4' stroke-width='2'/>
+<text x='700.0' y='156' text-anchor='middle' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='20' fill='#667085'>535</text>
+<line x1='930.0' y1='180' x2='930.0' y2='1280' stroke='#eceff4' stroke-width='2'/>
+<text x='930.0' y='156' text-anchor='middle' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='20' fill='#667085'>802</text>
+<line x1='1160.0' y1='180' x2='1160.0' y2='1280' stroke='#eceff4' stroke-width='2'/>
+<text x='1160.0' y='156' text-anchor='middle' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='20' fill='#667085'>1069</text>
+<line x1='1390.0' y1='180' x2='1390.0' y2='1280' stroke='#eceff4' stroke-width='2'/>
+<text x='1390.0' y='156' text-anchor='middle' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='20' fill='#667085'>1337</text>
+<line x1='1620.0' y1='180' x2='1620.0' y2='1280' stroke='#eceff4' stroke-width='2'/>
+<text x='1620.0' y='156' text-anchor='middle' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='20' fill='#667085'>1604</text>
+<text x='212' y='233.1' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='28' font-weight='600' fill='#172033'>2014</text>
+<rect x='240' y='180.0' width='1380.0' height='90.2' rx='16' fill='#efe7da'/>
+<rect x='240' y='180.0' width='0.9' height='90.2' rx='16' fill='#d97706'/>
+<text x='258.9' y='233.1' text-anchor='start' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='26' font-weight='700' fill='#172033'>1</text>
+<text x='212' y='345.3' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='28' font-weight='600' fill='#172033'>2018</text>
+<rect x='240' y='292.2' width='1380.0' height='90.2' rx='16' fill='#efe7da'/>
+<rect x='240' y='292.2' width='2.6' height='90.2' rx='16' fill='#d97706'/>
+<text x='260.6' y='345.3' text-anchor='start' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='26' font-weight='700' fill='#172033'>3</text>
+<text x='212' y='457.5' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='28' font-weight='600' fill='#172033'>2019</text>
+<rect x='240' y='404.4' width='1380.0' height='90.2' rx='16' fill='#efe7da'/>
+<rect x='240' y='404.4' width='0.9' height='90.2' rx='16' fill='#d97706'/>
+<text x='258.9' y='457.5' text-anchor='start' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='26' font-weight='700' fill='#172033'>1</text>
+<text x='212' y='569.7' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='28' font-weight='600' fill='#172033'>2020</text>
+<rect x='240' y='516.6' width='1380.0' height='90.2' rx='16' fill='#efe7da'/>
+<rect x='240' y='516.6' width='0.9' height='90.2' rx='16' fill='#d97706'/>
+<text x='258.9' y='569.7' text-anchor='start' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='26' font-weight='700' fill='#172033'>1</text>
+<text x='212' y='681.9' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='28' font-weight='600' fill='#172033'>2021</text>
+<rect x='240' y='628.8' width='1380.0' height='90.2' rx='16' fill='#efe7da'/>
+<rect x='240' y='628.8' width='2.6' height='90.2' rx='16' fill='#d97706'/>
+<text x='260.6' y='681.9' text-anchor='start' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='26' font-weight='700' fill='#172033'>3</text>
+<text x='212' y='794.1' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='28' font-weight='600' fill='#172033'>2022</text>
+<rect x='240' y='741.0' width='1380.0' height='90.2' rx='16' fill='#efe7da'/>
+<rect x='240' y='741.0' width='6.0' height='90.2' rx='16' fill='#d97706'/>
+<text x='264.0' y='794.1' text-anchor='start' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='26' font-weight='700' fill='#172033'>7</text>
+<text x='212' y='906.3' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='28' font-weight='600' fill='#172033'>2023</text>
+<rect x='240' y='853.2' width='1380.0' height='90.2' rx='16' fill='#efe7da'/>
+<rect x='240' y='853.2' width='226.3' height='90.2' rx='16' fill='#d97706'/>
+<text x='446.3' y='906.3' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='26' font-weight='700' fill='#172033'>263</text>
+<text x='212' y='1018.5' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='28' font-weight='600' fill='#172033'>2024</text>
+<rect x='240' y='965.4' width='1380.0' height='90.2' rx='16' fill='#efe7da'/>
+<rect x='240' y='965.4' width='415.5' height='90.2' rx='16' fill='#d97706'/>
+<text x='635.5' y='1018.5' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='26' font-weight='700' fill='#172033'>483</text>
+<text x='212' y='1130.7' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='28' font-weight='600' fill='#172033'>2025</text>
+<rect x='240' y='1077.6' width='1380.0' height='90.2' rx='16' fill='#efe7da'/>
+<rect x='240' y='1077.6' width='1380.0' height='90.2' rx='16' fill='#d97706'/>
+<text x='1600.0' y='1130.7' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='26' font-weight='700' fill='#172033'>1604</text>
+<text x='212' y='1242.9' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='28' font-weight='600' fill='#172033'>2026</text>
+<rect x='240' y='1189.8' width='1380.0' height='90.2' rx='16' fill='#efe7da'/>
+<rect x='240' y='1189.8' width='406.9' height='90.2' rx='16' fill='#f59e0b'/>
+<text x='626.9' y='1242.9' text-anchor='end' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='26' font-weight='700' fill='#172033'>473</text>
+<text x='930.0' y='1356' text-anchor='middle' font-family='-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif' font-size='24' fill='#667085'>Number of pending bookmarks by original tweet year</text>
+</svg>
