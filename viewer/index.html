@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smaug Links</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 8px 10px 10px;
+        background: #ffffff;
+        color: #000000;
+        font: 12px/1.35 Verdana, Geneva, sans-serif;
+        box-sizing: border-box;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+
+      a {
+        color: #0000cc;
+      }
+
+      h1 {
+        margin: 0 0 4px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      p {
+        margin: 0 0 8px;
+      }
+
+      .meta {
+        color: #666666;
+      }
+
+      details {
+        margin: 0;
+      }
+
+      summary {
+        cursor: pointer;
+      }
+
+      .year {
+        margin: 0 0 6px;
+      }
+
+      .year > summary {
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      .month {
+        margin: 4px 0 4px 14px;
+      }
+
+      .month > summary {
+        font-size: 13px;
+      }
+
+      .bookmark-list {
+        margin: 4px 0 0 14px;
+      }
+
+      .bookmark {
+        margin: 0 0 3px;
+      }
+
+      .bookmark-row {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        background: transparent;
+        color: #0000cc;
+        text-align: left;
+        text-decoration: underline;
+        font: inherit;
+        cursor: pointer;
+      }
+
+      .bookmark-row.active-preview {
+        background: #f6f6ef;
+      }
+
+      .bookmark-title,
+      .bookmark-row {
+        color: #0000cc;
+      }
+
+      .label {
+        color: #666666;
+      }
+
+      .active-preview {
+        background: #f6f6ef;
+      }
+
+      .preview {
+        display: block;
+        border: 1px solid #c9c9c9;
+        background: #ffffff;
+      }
+
+      .preview-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 6px 8px;
+        border-bottom: 1px solid #e0e0e0;
+        background: #f6f6ef;
+      }
+
+      .preview-title {
+        margin: 0;
+        font-size: 11px;
+        font-weight: bold;
+      }
+
+      .preview-close {
+        padding: 0;
+        border: 0;
+        background: transparent;
+        color: #666666;
+        font: inherit;
+        cursor: pointer;
+      }
+
+      .preview-body {
+        flex: 1;
+        min-height: 0;
+        overflow: auto;
+        padding: 10px;
+      }
+
+      .preview-line,
+      .preview-body p,
+      .preview-body ul,
+      .preview-body pre {
+        margin: 0 0 8px;
+      }
+
+      .preview-line {
+        color: #666666;
+      }
+
+      .tweet-card {
+        border: 1px solid #d7d7d7;
+        padding: 10px;
+        background: #ffffff;
+      }
+
+      .tweet-head {
+        display: grid;
+        grid-template-columns: 34px 1fr;
+        gap: 8px;
+        align-items: start;
+        margin: 0 0 10px;
+      }
+
+      .tweet-avatar {
+        width: 34px;
+        height: 34px;
+        display: grid;
+        place-items: center;
+        border: 1px solid #d0d0d0;
+        border-radius: 999px;
+        color: #555555;
+        background: #f7f7f7;
+        font-size: 11px;
+        font-weight: bold;
+      }
+
+      .tweet-author {
+        margin: 0 0 2px;
+        font-size: 12px;
+        font-weight: bold;
+        color: #111111;
+      }
+
+      .tweet-handle {
+        color: #666666;
+        font-weight: normal;
+      }
+
+      .tweet-meta {
+        margin: 0;
+        color: #666666;
+        font-size: 11px;
+      }
+
+      .preview-text,
+      .preview-body pre {
+        white-space: pre-wrap;
+        word-break: break-word;
+        font: inherit;
+        line-height: 1.45;
+      }
+
+      .tweet-text {
+        margin: 0 0 10px;
+        color: #111111;
+        font-size: 14px;
+        line-height: 1.42;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+
+      .preview-box {
+        margin: 0 0 8px;
+        padding: 8px;
+        border: 1px solid #d9d9d9;
+        background: #fafafa;
+      }
+
+      .preview-media {
+        margin: 0 0 8px;
+      }
+
+      .preview-media img,
+      .preview-media video {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 0 8px;
+      }
+
+      .preview-body ul {
+        padding-left: 16px;
+      }
+
+      .media-placeholder {
+        padding: 26px 12px;
+        border: 1px dashed #c7c7c7;
+        color: #666666;
+        text-align: center;
+        background: #fafafa;
+      }
+
+      .tweet-links {
+        margin: 0;
+        padding-left: 18px;
+      }
+
+      .tweet-link-summary {
+        color: #666666;
+        font-size: 11px;
+      }
+
+      .loading,
+      .error {
+        margin-top: 16px;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(320px, 48%);
+        gap: 10px;
+        align-items: stretch;
+        height: calc(100vh - 18px);
+      }
+
+      .left-pane,
+      .right-pane {
+        min-width: 0;
+      }
+
+      .left-pane {
+        height: 100%;
+        overflow: auto;
+        padding-right: 6px;
+        overscroll-behavior: contain;
+      }
+
+      .right-pane {
+        height: calc(100vh - 18px);
+        display: flex;
+        min-height: 0;
+      }
+
+      .right-pane .preview {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+      }
+
+      .preview-body {
+        overscroll-behavior: contain;
+      }
+
+      .search-wrap {
+        margin: 0 0 8px;
+      }
+
+      .search-input {
+        width: 100%;
+        margin: 0;
+        padding: 4px 6px;
+        border: 1px solid #bbbbbb;
+        background: #ffffff;
+        color: #000000;
+        font: inherit;
+      }
+
+      .search-help {
+        margin: 4px 0 0;
+        color: #666666;
+      }
+
+      summary:focus {
+        outline: 1px dotted #000000;
+        outline-offset: 2px;
+      }
+
+      .bookmark-row:focus,
+      .search-input:focus,
+      .preview-close:focus {
+        outline: 1px dotted #000000;
+        outline-offset: 2px;
+      }
+
+      @media (max-width: 900px) {
+        body {
+          height: auto;
+          overflow: auto;
+        }
+
+        .layout {
+          grid-template-columns: 1fr;
+          height: auto;
+        }
+
+        .left-pane {
+          height: auto;
+          overflow: visible;
+          padding-right: 0;
+        }
+
+        .right-pane {
+          position: static;
+          height: auto;
+          display: block;
+          min-height: 0;
+        }
+
+        .right-pane .preview {
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="left-pane">
+        <h1>Smaug Links</h1>
+        <p class="meta" id="meta">Loading…</p>
+        <div id="app" class="loading">Reading pending bookmarks.</div>
+      </div>
+      <div class="right-pane">
+        <div class="preview" id="preview">
+          <div class="preview-head">
+            <p class="preview-title" id="previewTitle">Preview</p>
+            <button class="preview-close" id="previewClose" type="button">clear</button>
+          </div>
+          <div class="preview-body" id="previewBody">Use arrow keys to move through the list.</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const state = {
+        bookmarks: [],
+        bookmarksById: new Map(),
+        query: "",
+        activeBookmarkId: null,
+        openYears: new Set(),
+        openMonths: new Set(),
+        preloadedMedia: new Set(),
+        preloadedVideos: []
+      };
+
+      async function main() {
+        const res = await fetch("/data");
+        if (!res.ok) throw new Error("Could not load bookmark data.");
+
+        const data = await res.json();
+        state.bookmarks = (data.bookmarks || [])
+          .map(normalizeBookmark)
+          .filter(Boolean)
+          .sort((a, b) => b.time - a.time);
+        state.bookmarksById = new Map(state.bookmarks.map((bookmark) => [String(bookmark.id), bookmark]));
+
+        const firstYear = state.bookmarks[0]?.year;
+        if (firstYear) state.openYears.add(String(firstYear));
+
+        setupSearch();
+        render();
+        requestAnimationFrame(() => {
+          focusNavItem(visibleNavItems()[0]);
+        });
+      }
+
+      function normalizeBookmark(bookmark) {
+        const raw = bookmark.createdAt || bookmark.date;
+        const date = raw ? new Date(raw) : null;
+        if (!date || Number.isNaN(date.getTime())) return null;
+
+        const year = date.getFullYear();
+        const month = date.toLocaleString("en-US", {
+          month: "long",
+          year: "numeric"
+        });
+        const label = linkLabel({
+          ...bookmark,
+          createdAt: bookmark.createdAt,
+          date: bookmark.date
+        });
+
+        return {
+          ...bookmark,
+          time: date.getTime(),
+          year,
+          month,
+          monthKey: `${year}-${month}`,
+          label,
+          createdLabel: date.toLocaleString("en-US", {
+            year: "numeric",
+            month: "short",
+            day: "numeric",
+            hour: "numeric",
+            minute: "2-digit"
+          }),
+          search: buildSearchIndex({ ...bookmark, year, month, label })
+        };
+      }
+
+      function buildSearchIndex(bookmark) {
+        const label = normalizeSearchValue(bookmark.label);
+        const author = normalizeSearchValue([bookmark.author, bookmark.authorName].filter(Boolean).join(" "));
+        const text = normalizeSearchValue([
+          bookmark.text,
+          bookmark.replyContext?.author,
+          bookmark.replyContext?.text,
+          bookmark.quoteContext?.author,
+          bookmark.quoteContext?.text
+        ].filter(Boolean).join(" "));
+        const links = normalizeSearchValue(
+          (bookmark.links || [])
+            .map((link) => [
+              link.original,
+              link.expanded,
+              link.type,
+              link.content?.title,
+              link.content?.fullName,
+              link.content?.name,
+              link.content?.description,
+              link.content?.previewText,
+              link.content?.note,
+              compactSearchValue(link.content?.text, 500),
+              compactSearchValue(link.content?.content, 500),
+              compactSearchValue(link.content?.readme, 500)
+            ].filter(Boolean).join(" "))
+            .join(" ")
+        );
+        const meta = normalizeSearchValue([bookmark.year, bookmark.month, bookmark.createdLabel].filter(Boolean).join(" "));
+        const all = [label, author, text, links, meta].filter(Boolean).join(" ").trim();
+
+        return { label, author, text, links, meta, all };
+      }
+
+      function setupSearch() {
+        const meta = document.getElementById("meta");
+        const wrap = document.createElement("div");
+        wrap.className = "search-wrap";
+        wrap.innerHTML = `
+          <input id="searchInput" class="search-input" type="search" placeholder="Search bookmarks">
+          <p class="search-help">Arrow down jumps into the list. Esc clears search.</p>
+        `;
+        meta.insertAdjacentElement("afterend", wrap);
+
+        const input = document.getElementById("searchInput");
+        let frame = null;
+
+        input.addEventListener("input", () => {
+          if (frame) cancelAnimationFrame(frame);
+          frame = requestAnimationFrame(() => {
+            state.query = input.value.trim().toLowerCase();
+            render();
+          });
+        });
+
+        input.addEventListener("keydown", (event) => {
+          if (event.key === "ArrowDown") {
+            event.preventDefault();
+            focusNavItem(visibleNavItems()[0]);
+          } else if (event.key === "Escape" && input.value) {
+            input.value = "";
+            state.query = "";
+            render();
+          }
+        });
+      }
+
+      function render() {
+        const app = document.getElementById("app");
+        app.className = "";
+
+        const filtered = filterBookmarks(state.bookmarks, state.query);
+        const isSearching = state.query.length > 0;
+        updateMeta(filtered.length, state.bookmarks.length, isSearching);
+
+        const grouped = new Map();
+        for (const bookmark of filtered) {
+          if (!grouped.has(bookmark.year)) grouped.set(bookmark.year, new Map());
+          const months = grouped.get(bookmark.year);
+          if (!months.has(bookmark.monthKey)) {
+            months.set(bookmark.monthKey, { name: bookmark.month, items: [] });
+          }
+          months.get(bookmark.monthKey).items.push(bookmark);
+        }
+
+        const years = [...grouped.entries()].sort((a, b) => b[0] - a[0]);
+        const fragment = document.createDocumentFragment();
+
+        if (!years.length) {
+          app.innerHTML = "";
+          const empty = document.createElement("p");
+          empty.className = "meta";
+          empty.textContent = "No bookmarks match that search.";
+          fragment.appendChild(empty);
+          app.appendChild(fragment);
+          clearPreviewIfHidden(filtered);
+          return;
+        }
+
+        for (const [year, months] of years) {
+          const yearKey = String(year);
+          const yearDetails = document.createElement("details");
+          yearDetails.className = "year";
+          yearDetails.open = isSearching || state.openYears.has(yearKey) || (!state.openYears.size && year === years[0][0]);
+
+          yearDetails.addEventListener("toggle", () => {
+            if (yearDetails.open) state.openYears.add(yearKey);
+            else state.openYears.delete(yearKey);
+          });
+
+          const yearCount = [...months.values()].reduce((sum, entry) => sum + entry.items.length, 0);
+          const yearSummary = document.createElement("summary");
+          yearSummary.textContent = `${year} (${yearCount})`;
+          yearSummary.dataset.level = "year";
+          yearSummary.dataset.nav = "1";
+          yearDetails.appendChild(yearSummary);
+
+          const monthEntries = [...months.entries()].sort((a, b) => {
+            const aTime = a[1].items[0]?.time || 0;
+            const bTime = b[1].items[0]?.time || 0;
+            return bTime - aTime;
+          });
+
+          for (const [monthKey, entry] of monthEntries) {
+            const monthDetails = document.createElement("details");
+            monthDetails.className = "month";
+            monthDetails.open = isSearching || state.openMonths.has(monthKey);
+            monthDetails.dataset.monthKey = monthKey;
+
+            monthDetails.addEventListener("toggle", () => {
+              if (monthDetails.open) state.openMonths.add(monthKey);
+              else state.openMonths.delete(monthKey);
+            });
+
+            const monthSummary = document.createElement("summary");
+            monthSummary.textContent = `${entry.name} (${entry.items.length})`;
+            monthSummary.dataset.level = "month";
+            monthSummary.dataset.nav = "1";
+            monthDetails.appendChild(monthSummary);
+
+            const list = document.createElement("div");
+            list.className = "bookmark-list";
+            for (const bookmark of entry.items) {
+              list.appendChild(renderBookmarkRow(bookmark));
+            }
+
+            monthDetails.appendChild(list);
+            yearDetails.appendChild(monthDetails);
+          }
+
+          fragment.appendChild(yearDetails);
+        }
+
+        app.innerHTML = "";
+        app.appendChild(fragment);
+        restoreActiveBookmark(filtered);
+      }
+
+      function filterBookmarks(bookmarks, query) {
+        if (!query) return bookmarks;
+
+        const normalizedQuery = normalizeSearchValue(query);
+        const terms = tokenizeQuery(normalizedQuery);
+        if (!terms.length) return bookmarks;
+
+        return bookmarks
+          .map((bookmark) => ({
+            bookmark,
+            score: scoreBookmark(bookmark, terms, normalizedQuery)
+          }))
+          .filter((entry) => entry.score > 0)
+          .sort((a, b) => b.score - a.score || b.bookmark.time - a.bookmark.time)
+          .map((entry) => entry.bookmark);
+      }
+
+      function updateMeta(resultCount, totalCount, isSearching) {
+        document.getElementById("meta").textContent = isSearching
+          ? `${resultCount} results / ${totalCount} pending bookmarks`
+          : `${totalCount} pending bookmarks`;
+      }
+
+      function renderBookmarkRow(bookmark) {
+        const wrapper = document.createElement("div");
+        wrapper.className = "bookmark";
+
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "bookmark-row";
+        button.textContent = bookmark.label;
+        button.dataset.level = "bookmark";
+        button.dataset.nav = "1";
+        button.dataset.id = String(bookmark.id);
+        button.addEventListener("focus", () => showPreview(bookmark, button));
+        button.addEventListener("click", () => {
+          button.focus({ preventScroll: true });
+          showPreview(bookmark, button);
+        });
+
+        wrapper.appendChild(button);
+        return wrapper;
+      }
+
+      function showPreview(bookmark, navItem) {
+        const body = document.getElementById("previewBody");
+        const title = document.getElementById("previewTitle");
+
+        clearActiveRow();
+        state.activeBookmarkId = String(bookmark.id);
+        if (navItem) navItem.classList.add("active-preview");
+
+        title.textContent = `@${bookmark.author || "tweet"} preview`;
+        body.innerHTML = renderPreview(bookmark);
+        preloadNearbyMedia(state.activeBookmarkId);
+      }
+
+      function clearActiveRow() {
+        const current = document.querySelector(".bookmark-row.active-preview");
+        if (current) current.classList.remove("active-preview");
+      }
+
+      function resetPreview() {
+        clearActiveRow();
+        state.activeBookmarkId = null;
+        document.getElementById("previewTitle").textContent = "Preview";
+        document.getElementById("previewBody").innerHTML = "Use arrow keys to move through the list.";
+      }
+
+      function restoreActiveBookmark(filtered) {
+        if (!state.activeBookmarkId) return;
+        const bookmark = filtered.find((item) => String(item.id) === state.activeBookmarkId);
+        if (!bookmark) {
+          resetPreview();
+          return;
+        }
+
+        const row = document.querySelector(`.bookmark-row[data-id="${escapeSelector(state.activeBookmarkId)}"]`);
+        if (row) showPreview(bookmark, row);
+      }
+
+      function clearPreviewIfHidden(filtered) {
+        if (!state.activeBookmarkId) return;
+        const visible = filtered.some((item) => String(item.id) === state.activeBookmarkId);
+        if (!visible) resetPreview();
+      }
+
+      function primaryLink(bookmark) {
+        return (bookmark.links || [])[0] || null;
+      }
+
+      function linkLabel(bookmark) {
+        const firstLink = primaryLink(bookmark);
+        if (firstLink?.content?.fullName) return firstLink.content.fullName;
+        if (firstLink?.content?.name) return firstLink.content.name;
+        if (firstLink?.content?.title) return firstLink.content.title;
+        if (bookmark.text) {
+          const clean = bookmark.text
+            .replace(/https?:\/\/t\.co\/\S+/g, "")
+            .replace(/https?:\/\/\S+/g, "")
+            .replace(/\s+/g, " ")
+            .trim();
+          if (clean) {
+            return clean.length > 110 ? `${clean.slice(0, 110)}...` : clean;
+          }
+        }
+        if (isMediaOnlyBookmark(bookmark)) {
+          return `media tweet by @${bookmark.author || "unknown"}`;
+        }
+        if (bookmark.author) return `tweet by @${bookmark.author}`;
+        if (firstLink?.expanded) return firstLink.expanded;
+        return bookmark.tweetUrl || "bookmark";
+      }
+
+      function isMediaOnlyBookmark(bookmark) {
+        const links = bookmark.links || [];
+        if (!links.length) return false;
+        return links.every((link) => {
+          const url = String(link.expanded || link.original || "");
+          return (
+            link.type === "media" ||
+            link.type === "image" ||
+            link.type === "video" ||
+            /\/photo\/\d+/.test(url) ||
+            /\/video\/\d+/.test(url)
+          );
+        });
+      }
+
+      function renderLinkContent(content) {
+        if (!content) return "";
+        if (typeof content === "string") {
+          return `<pre>${escapeHtml(content)}</pre>`;
+        }
+
+        const fields = [];
+        if (content.description) fields.push(`<div>${escapeHtml(content.description)}</div>`);
+        if (content.previewText) fields.push(`<div>${escapeHtml(content.previewText)}</div>`);
+        if (content.language) fields.push(`<div><span class="label">language:</span> ${escapeHtml(content.language)}</div>`);
+        if (typeof content.stars === "number") fields.push(`<div><span class="label">stars:</span> ${content.stars}</div>`);
+        if (content.topics && content.topics.length) fields.push(`<div><span class="label">topics:</span> ${escapeHtml(content.topics.join(", "))}</div>`);
+        if (content.note) fields.push(`<div>${escapeHtml(content.note)}</div>`);
+        if (content.readme) {
+          const readme = content.readme.length > 1600 ? `${content.readme.slice(0, 1600)}...` : content.readme;
+          fields.push(`<pre>${escapeHtml(readme)}</pre>`);
+        }
+        if (content.content) {
+          const text = content.content.length > 1600 ? `${content.content.slice(0, 1600)}...` : content.content;
+          fields.push(`<pre>${escapeHtml(text)}</pre>`);
+        }
+
+        return fields.join("");
+      }
+
+      function renderPreview(bookmark) {
+        const parts = [];
+        const displayText = cleanedTweetText(bookmark) || linkLabel(bookmark);
+        const initials = (bookmark.authorName || bookmark.author || "?")
+          .trim()
+          .slice(0, 2)
+          .toUpperCase();
+
+        parts.push(`
+          <div class="tweet-card">
+            <div class="tweet-head">
+              <div class="tweet-avatar">${escapeHtml(initials)}</div>
+              <div>
+                <p class="tweet-author">${escapeHtml(bookmark.authorName || bookmark.author || "Unknown")} <span class="tweet-handle">@${escapeHtml(bookmark.author || "")}</span></p>
+                <p class="tweet-meta">${escapeHtml(bookmark.createdLabel)}</p>
+              </div>
+            </div>
+            <p class="tweet-text">${escapeHtml(displayText)}</p>
+            ${renderPreviewContext(bookmark)}
+            ${renderPreviewMedia(bookmark)}
+            ${renderPreviewLinks(bookmark.links || [])}
+            ${bookmark.tweetUrl ? `<p><a href="${escapeAttr(bookmark.tweetUrl)}" target="_blank" rel="noreferrer">${escapeHtml(bookmark.tweetUrl)}</a></p>` : ""}
+          </div>
+        `);
+
+        return parts.join("");
+      }
+
+      function renderPreviewContext(bookmark) {
+        const parts = [];
+
+        if (bookmark.isReply && bookmark.replyContext) {
+          parts.push(
+            `<div class="preview-box"><p class="preview-line">replying to @${escapeHtml(bookmark.replyContext.author || "")}</p><p class="preview-text">${escapeHtml(bookmark.replyContext.text || "")}</p>${renderContextMedia(bookmark.replyContext)}</div>`
+          );
+        }
+
+        if (bookmark.isQuote && bookmark.quoteContext) {
+          parts.push(
+            `<div class="preview-box"><p class="preview-line">quoted @${escapeHtml(bookmark.quoteContext.author || "")}</p><p class="preview-text">${escapeHtml(bookmark.quoteContext.text || "")}</p>${renderContextMedia(bookmark.quoteContext)}</div>`
+          );
+        }
+
+        return parts.join("");
+      }
+
+      function renderPreviewMedia(bookmark) {
+        const media = bookmark.media || [];
+        if (!media.length) {
+          return renderInferredMediaPlaceholder(bookmark);
+        }
+
+        const items = renderMediaItems(media);
+        if (!items) return "";
+        return `<div class="preview-media">${items}</div>`;
+      }
+
+      function renderContextMedia(context) {
+        const media = context?.media || [];
+        const items = renderMediaItems(media);
+        if (!items) return "";
+        return `<div class="preview-media">${items}</div>`;
+      }
+
+      function renderMediaItems(media) {
+        return (media || [])
+          .map((item) => {
+            if (item.type === "photo" && (item.previewUrl || item.url)) {
+              const src = item.previewUrl || item.url;
+              return `<img src="${escapeAttr(src)}" alt="">`;
+            }
+
+            if ((item.type === "video" || item.type === "animated_gif") && (item.videoUrl || item.url)) {
+              const src = item.videoUrl || item.url;
+              const poster = item.previewUrl ? ` poster="${escapeAttr(item.previewUrl)}"` : "";
+              const loop = item.type === "animated_gif" ? " loop" : "";
+              return `<video controls preload="metadata"${poster}${loop} src="${escapeAttr(src)}"></video>`;
+            }
+
+            if (item.url) {
+              return `<p><a href="${escapeAttr(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.url)}</a></p>`;
+            }
+
+            return "";
+          })
+          .filter(Boolean)
+          .join("");
+      }
+
+      function allMediaItems(bookmark) {
+        return [
+          ...(bookmark?.media || []),
+          ...(bookmark?.quoteContext?.media || []),
+          ...(bookmark?.replyContext?.media || [])
+        ];
+      }
+
+      function preloadNearbyMedia(activeId) {
+        const rows = visibleBookmarkRows();
+        const index = rows.findIndex((row) => row.dataset.id === String(activeId));
+        if (index === -1) return;
+
+        const targets = [rows[index], rows[index + 1], rows[index + 2]].filter(Boolean);
+        for (const row of targets) {
+          const bookmark = state.bookmarksById.get(String(row.dataset.id));
+          if (bookmark) preloadBookmarkMedia(bookmark);
+        }
+      }
+
+      function preloadBookmarkMedia(bookmark) {
+        for (const item of allMediaItems(bookmark)) {
+          const imageSrc = item.previewUrl || (item.type === "photo" ? item.url : "");
+          if (imageSrc && !state.preloadedMedia.has(imageSrc)) {
+            state.preloadedMedia.add(imageSrc);
+            const img = new Image();
+            img.decoding = "async";
+            img.src = imageSrc;
+          }
+
+          const videoSrc = item.videoUrl || (item.type !== "photo" ? item.url : "");
+          if (videoSrc && !state.preloadedMedia.has(videoSrc)) {
+            state.preloadedMedia.add(videoSrc);
+            const video = document.createElement("video");
+            video.preload = "metadata";
+            video.muted = true;
+            video.src = videoSrc;
+            video.load();
+            state.preloadedVideos.push(video);
+            if (state.preloadedVideos.length > 12) {
+              state.preloadedVideos.splice(0, state.preloadedVideos.length - 12);
+            }
+          }
+        }
+      }
+
+      function renderInferredMediaPlaceholder(bookmark) {
+        if ((bookmark.quoteContext?.media || []).length || (bookmark.replyContext?.media || []).length) {
+          return "";
+        }
+        const kinds = inferMediaKinds(bookmark);
+        if (!kinds.length) return "";
+        const label = kinds.join(" + ");
+        return `
+          <div class="preview-media">
+            <div class="media-placeholder">
+              ${escapeHtml(label)} attached
+            </div>
+          </div>
+        `;
+      }
+
+      function renderPreviewLinks(links) {
+        const filtered = links.filter((link) => !shouldHidePreviewLink(link));
+        if (!filtered.length) return "";
+        const items = filtered
+          .slice(0, 4)
+          .map((link) => {
+            const url = link.expanded || link.original || "";
+            const blurb = summarizeLink(link.content);
+            return `<li><a href="${escapeAttr(url)}" target="_blank" rel="noreferrer">${escapeHtml(url)}</a>${blurb ? `<div class="tweet-link-summary">${escapeHtml(blurb)}</div>` : ""}</li>`;
+          })
+          .join("");
+        return `<ul class="tweet-links">${items}</ul>`;
+      }
+
+      function shouldHidePreviewLink(link) {
+        const url = String(link?.expanded || link?.original || "");
+        if (!url) return true;
+        return /twitter\.com\/[^/]+\/status\/\d+\/(photo|video)\/\d+/i.test(url);
+      }
+
+      function summarizeLink(content) {
+        if (!content) return "";
+        if (typeof content === "string") return compactText(content, 160);
+        return compactText(
+          content.description ||
+          content.previewText ||
+          content.note ||
+          content.title ||
+          content.name ||
+          content.fullName ||
+          "",
+          160
+        );
+      }
+
+      function compactText(value, max = 110) {
+        const clean = String(value || "").replace(/\s+/g, " ").trim();
+        if (!clean) return "";
+        return clean.length > max ? `${clean.slice(0, max)}...` : clean;
+      }
+
+      function compactSearchValue(value, max = 500) {
+        const clean = String(value || "").replace(/\s+/g, " ").trim();
+        if (!clean) return "";
+        return clean.length > max ? clean.slice(0, max) : clean;
+      }
+
+      function normalizeSearchValue(value) {
+        return String(value || "")
+          .toLowerCase()
+          .normalize("NFKD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/https?:\/\/(www\.)?/g, " ")
+          .replace(/[^a-z0-9]+/g, " ")
+          .replace(/\s+/g, " ")
+          .trim();
+      }
+
+      function tokenizeQuery(query) {
+        return normalizeSearchValue(query).split(" ").filter(Boolean);
+      }
+
+      function countTermMatches(text, term) {
+        if (!text || !term) return 0;
+        let count = 0;
+        let start = 0;
+        while (true) {
+          const index = text.indexOf(term, start);
+          if (index === -1) break;
+          count += 1;
+          start = index + term.length;
+        }
+        return count;
+      }
+
+      function scoreBookmark(bookmark, terms, normalizedQuery) {
+        const search = bookmark.search || {};
+        if (!search.all) return 0;
+        if (!terms.every((term) => search.all.includes(term))) return 0;
+
+        let score = 0;
+
+        if (normalizedQuery && search.label.includes(normalizedQuery)) score += 160;
+        if (normalizedQuery && search.text.includes(normalizedQuery)) score += 120;
+        if (normalizedQuery && search.links.includes(normalizedQuery)) score += 100;
+        if (normalizedQuery && search.author.includes(normalizedQuery)) score += 90;
+        if (normalizedQuery && search.all.includes(normalizedQuery)) score += 50;
+
+        for (const term of terms) {
+          score += countTermMatches(search.label, term) * 28;
+          score += countTermMatches(search.text, term) * 18;
+          score += countTermMatches(search.links, term) * 16;
+          score += countTermMatches(search.author, term) * 14;
+          score += countTermMatches(search.meta, term) * 6;
+        }
+
+        if (terms.length > 1) {
+          const tightLabel = terms.every((term) => search.label.includes(term));
+          const tightText = terms.every((term) => search.text.includes(term));
+          const tightLinks = terms.every((term) => search.links.includes(term));
+          if (tightLabel) score += 40;
+          if (tightText) score += 28;
+          if (tightLinks) score += 20;
+        }
+
+        return score;
+      }
+
+      function cleanedTweetText(bookmark) {
+        return String(bookmark.text || "")
+          .replace(/https?:\/\/t\.co\/\S+/g, "")
+          .replace(/\r\n/g, "\n")
+          .replace(/\n{3,}/g, "\n\n")
+          .replace(/[\t ]+/g, " ")
+          .replace(/ ?\n ?/g, "\n")
+          .trim();
+      }
+
+      function inferMediaKinds(bookmark) {
+        const kinds = new Set();
+        for (const link of bookmark.links || []) {
+          const url = String(link.expanded || link.original || "");
+          if (link.type === "video" || /\/video\/\d+/.test(url)) {
+            kinds.add("video");
+          } else if (
+            link.type === "media" ||
+            link.type === "image" ||
+            /\/photo\/\d+/.test(url)
+          ) {
+            kinds.add("photo");
+          }
+        }
+        return [...kinds];
+      }
+
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;");
+      }
+
+      function escapeAttr(value) {
+        return escapeHtml(value);
+      }
+
+      function escapeSelector(value) {
+        if (window.CSS && typeof window.CSS.escape === "function") {
+          return window.CSS.escape(String(value));
+        }
+        return String(value).replace(/"/g, '\\"');
+      }
+
+      function visibleNavItems() {
+        return [...document.querySelectorAll('[data-nav="1"]')].filter((item) => item.getClientRects().length > 0);
+      }
+
+      function visibleBookmarkRows() {
+        return [...document.querySelectorAll(".bookmark-row")].filter((item) => item.getClientRects().length > 0);
+      }
+
+      function focusNavItem(item) {
+        if (!item || document.activeElement === item) return;
+        item.focus();
+      }
+
+      function keyboardAnchorItem() {
+        const active = document.activeElement;
+        if (active instanceof HTMLElement && active.matches('[data-nav="1"]')) {
+          return active;
+        }
+
+        if (state.activeBookmarkId) {
+          const activeRow = document.querySelector(`.bookmark-row[data-id="${escapeSelector(state.activeBookmarkId)}"]`);
+          if (activeRow instanceof HTMLElement && activeRow.getClientRects().length > 0) {
+            return activeRow;
+          }
+        }
+
+        return visibleNavItems()[0] || null;
+      }
+
+      function firstVisibleChild(details) {
+        if (!details || !details.open) return null;
+        return [...details.querySelectorAll(':scope > .month > summary, :scope > .bookmark-list .bookmark-row, :scope > .bookmark-list > .bookmark > .bookmark-row')]
+          .find((item) => item.getClientRects().length > 0) || null;
+      }
+
+      function parentNavItem(item) {
+        if (!item) return null;
+        if (item.matches(".bookmark-row")) {
+          return item.closest(".month")?.querySelector(":scope > summary") || null;
+        }
+        const details = item.parentElement;
+        if (!details) return null;
+        const parentDetails = details.parentElement?.closest("details");
+        if (!parentDetails) return null;
+        return parentDetails.querySelector(":scope > summary");
+      }
+
+      document.addEventListener("keydown", (event) => {
+        if (
+          event.target instanceof HTMLElement &&
+          (
+            event.target.matches("input, textarea, select") ||
+            event.target.isContentEditable
+          )
+        ) {
+          return;
+        }
+
+        const current = keyboardAnchorItem();
+        if (!(current instanceof HTMLElement) || !current.matches('[data-nav="1"]')) return;
+
+        const items = visibleNavItems();
+        const index = items.indexOf(current);
+        if (index === -1) return;
+
+        if (event.key === "ArrowDown") {
+          event.preventDefault();
+          focusNavItem(items[index + 1] || items[index]);
+          return;
+        }
+
+        if (event.key === "ArrowUp") {
+          event.preventDefault();
+          focusNavItem(items[index - 1] || items[index]);
+          return;
+        }
+
+        if (event.key === "ArrowRight") {
+          if (current.matches(".bookmark-row")) return;
+          event.preventDefault();
+          const details = current.parentElement;
+          if (details instanceof HTMLDetailsElement && !details.open) {
+            details.open = true;
+            return;
+          }
+          const child = firstVisibleChild(details);
+          if (child) focusNavItem(child);
+          return;
+        }
+
+        if (event.key === "ArrowLeft") {
+          event.preventDefault();
+          const details = current.matches(".bookmark-row") ? current.closest("details") : current.parentElement;
+          if (details instanceof HTMLDetailsElement && details.open) {
+            if (current.matches(".bookmark-row")) {
+              focusNavItem(parentNavItem(current));
+              return;
+            }
+            details.open = false;
+            return;
+          }
+          focusNavItem(parentNavItem(current));
+        }
+      });
+
+      document.getElementById("previewClose").addEventListener("click", resetPreview);
+
+      main().catch((error) => {
+        const app = document.getElementById("app");
+        app.className = "error";
+        app.textContent = error.message;
+      });
+    </script>
+  </body>
+</html>

@@ -10,6 +10,7 @@
   "scripts": {
     "fetch": "node src/cli.js fetch",
     "process": "node src/cli.js process",
+    "browse": "node src/viewer-server.js",
     "start": "node src/cli.js",
     "test": "node --test"
   },
