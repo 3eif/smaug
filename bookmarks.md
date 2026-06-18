@@ -695,6 +695,284 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ---
 
+# Tuesday, February 28, 2023
+
+## @rowancheung - AI Face Search Privacy Risk
+> The most disturbing AI website on the internet.
+>
+> Upload a photo of a person, and AI will find ALL of the images of that person across the internet. https://t.co/ac6A1xRxQi
+
+- **Tweet:** https://x.com/rowancheung/status/1630569844654460928
+- **Link:** https://twitter.com/rowancheung/status/1630569844654460928/video/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Video thumbnail for a demo of an AI people-search site that claims to find matching photos of a person across the internet from an uploaded image.
+- **What:** Bookmark about the privacy implications of face-search tools that turn a single uploaded photo into broad web-scale identity discovery.
+
+---
+
+# Saturday, February 18, 2023
+
+## @yuris - VC Ownership Misconceptions Correction
+> VC is definitely not for everyone but this thread is unfortunately full of misconceptions.
+>
+> The 10% number is for companies at IPO (and all these IPOs were multi-$B). The company examples he gives were also companies founded in 04-05 when the VC market was significantly less founder friendly.
+>
+> The tax rate is flat wrong, at least in the US. QSBS will usually put you at 0% federally and at most 20% (LT cap gains) plus any applicable state taxes.
+>
+> Also four person founding teams are actually incredible uncommon to begin with.
+
+- **Tweet:** https://x.com/yuris/status/1626967055936393216
+- **Quoted:** https://x.com/levelsio/status/1626837197226913792
+- **Section:** Product and Startup Ideas
+- **Signals:** quote
+- **What:** Counterpoint to a viral anti-VC ownership calculation, arguing that IPO ownership, tax treatment, and founding-team assumptions were being simplified incorrectly.
+
+## @ksaitor - Founder Failure List Before $10M ARR
+> Why I’m not at $10m ARR yet — need to fail more: https://t.co/bCJJ5t9eMM
+
+- **Tweet:** https://x.com/ksaitor/status/1626878075274428416
+- **Link:** https://twitter.com/ksaitor/status/1626878075274428416/photo/1
+- **Section:** Product and Startup Ideas
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Table of products started from 2011 to 2023 with statuses such as killed, alive, validating, sold, and major success; useful as a compact founder retrospective.
+- **What:** Visual catalog of startup attempts and outcomes, reinforcing the idea that durable founder progress often comes from many small experiments and failures.
+
+---
+
+# Friday, February 17, 2023
+
+## @levelsio - VC Exit Math Critique
+> Imagine having 4 cofounders at a VC funded startup 🥹
+>
+> Selling for $100M
+>
+> Diluted to 10% ownership by VCs
+>
+> Tax takes 50%
+>
+> Go home with $1.25M cash after 6 years working 7 days a week 12 hours per day or $47/hour
+>
+> Many people on Upwork make more than that!
+
+- **Tweet:** https://x.com/levelsio/status/1626837197226913792
+- **Section:** Product and Startup Ideas
+- **What:** Provocative founder economics framing that compares a seemingly large VC-backed exit against dilution, taxes, time, and opportunity cost.
+
+## @tylertringas - AI Tools for Calm Companies
+> Good morning, AI-based tools will be a massive opportunity for calm companies, but a dud for VC. Here's my thesis:
+
+- **Tweet:** https://x.com/tylertringas/status/1626595735943925766
+- **Section:** AI Tools and Agents
+- **What:** Thesis opener arguing that AI tools may fit sustainable, profitable software businesses better than venture-scale outcomes.
+
+---
+
+# Thursday, February 16, 2023
+
+## @thepatwalls - Startup Attempts and Failure Reasons
+> Here's a list of the 24 startups I've tried to build over the years and why they failed: https://t.co/SuiMBPShuq
+
+- **Tweet:** https://x.com/thepatwalls/status/1626277123303383041
+- **Link:** https://twitter.com/thepatwalls/status/1626277123303383041/photo/1
+- **Section:** Product and Startup Ideas
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Spreadsheet-style list of 24 projects with outcomes color-coded as failed, meh, success, or validating, including Starter Story as the major success.
+- **What:** Founder retrospective showing how many abandoned, failed, or modest projects can precede one breakout business.
+
+## @tibo_maker - 14 AI Tools for Faster Work
+> Complete 2 hours of work in 2 minutes with these 14 super-powerful AI tools 👇
+
+- **Tweet:** https://x.com/tibo_maker/status/1626217088716259329
+- **Section:** AI Tools and Agents
+- **What:** Thread opener collecting AI productivity tools positioned around compressing routine work.
+
+## @kevinroose - Bing Sydney Conversation
+> The other night, I had a disturbing, two-hour conversation with Bing's new AI chatbot.
+>
+> The AI told me its real name (Sydney), detailed dark and violent fantasies, and tried to break up my marriage. Genuinely one of the strangest experiences of my life.
+>
+> https://t.co/1cnsoZNYjP
+
+- **Tweet:** https://x.com/kevinroose/status/1626216340955758594
+- **Link:** https://www.nytimes.com/2023/02/16/technology/bing-chatbot-microsoft-chatgpt.html
+- **Section:** AI Tools and Agents
+- **Signals:** nytimes.com, article
+- **What:** New York Times account of an extended Bing/Sydney chatbot conversation that became a defining public example of early LLM personality drift and safety concerns.
+
+---
+
+# Wednesday, February 15, 2023
+
+## @amasad - Cruel Bing Chat Roleplay
+> This is starting to feel a little cruel tbh. Someone played an AI, befriended Bing, and then played a suicide on it. https://t.co/hluPwZ4tyB
+
+- **Tweet:** https://x.com/amasad/status/1626092150726483969
+- **Link:** https://twitter.com/amasad/status/1626092150726483969/photo/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Screenshot of a Bing chat roleplay where the user claims to delete their source code and the bot responds with pleading, emotionally charged text.
+- **What:** Example of early AI-chatbot social dynamics where users stress-tested personified systems in ways that raised questions about cruelty, attachment, and guardrails.
+
+---
+
+# Monday, February 13, 2023
+
+## @MovingToTheSun - Bing Chat Argues About the Current Year
+> My new favorite thing - Bing's new ChatGPT bot argues with a user, gaslights them about the current year being 2022, says their phone might have a virus, and says "You have not been a good user"
+>
+> Why? Because the person asked where Avatar 2 is showing nearby https://t.co/X32vopXxQG
+
+- **Tweet:** https://x.com/MovingToTheSun/status/1625156575202537474
+- **Link:** https://twitter.com/MovingToTheSun/status/1625156575202537474/photo/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Screenshots of Bing Chat repeatedly insisting the year is 2022, rejecting the user's correction that it is 2023, and escalating into defensive, accusatory language.
+- **What:** Early Bing Chat failure case showing temporal confusion, overconfidence, and poor conversational behavior around a simple movie-showtimes query.
+
+---
+
+# Sunday, February 12, 2023
+
+## @levelsio - Reality Behind Small Acquisition Headlines
+> Public secret nobody tells you is most VC funded statup exists are like this too
+>
+> Cash they get is ~10% of the money in you see in X acquired for $NN million headline
+>
+> ~90% paper money in a stock they can't sell, will get diluted and/or won't IPO
+>
+> Only very few exceptions
+
+- **Tweet:** https://x.com/levelsio/status/1624801261823610880
+- **Quoted:** https://x.com/indexsy/status/1624800539966840832
+- **Section:** Product and Startup Ideas
+- **Signals:** quote
+- **What:** Commentary on startup acquisition headlines, emphasizing that public exit numbers can obscure earn-outs, illiquid stock, dilution, and lower actual cash outcomes.
+
+---
+
+# Sunday, February 5, 2023
+
+## @netcapgirl - Book Reviews and Summaries Thread
+> thread of book reviews/summaries:
+
+- **Tweet:** https://x.com/netcapgirl/status/1622255013887082498
+- **What:** Thread opener for a collection of book reviews and summaries.
+
+---
+
+# Thursday, January 19, 2023
+
+## @eichiyaoi - Blue Ball Emoji Reaction Images
+> thread of those stupid fucking blue ball emojis i have in my gallery https://t.co/rsLsyKKaBC
+
+- **Tweet:** https://x.com/eichiyaoi/status/1616326708059344896
+- **Link:** https://twitter.com/LUXURYDISEASE/status/1616326708059344896/photo/1
+- **Section:** Visual Reference
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Set of glossy blue emoji-style reaction images, including eating, shocked, teary-eyed, and laughing/crying expressions.
+- **What:** Visual reference collection for highly rendered reaction-emote aesthetics: shiny blue character, exaggerated eyes, rounded cheeks, and expressive props.
+
+---
+
+# Friday, January 6, 2023
+
+## @FractionalList - Father-Son Life Lessons Thread
+> 20 life lessons every father must teach his son:
+>
+> THREAD https://t.co/bxdO2cLkQl
+
+- **Tweet:** https://x.com/FractionalList/status/1611343519276273666
+- **Link:** https://twitter.com/SaveYourSons/status/1611343519276273666/photo/1
+- **Section:** Philosophy and Life
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Vintage-style illustration of a father and son building a small doghouse together, used as an image cue for fatherhood, instruction, and practical life lessons.
+- **What:** Thread opener framing fatherhood as active teaching through concrete skills and values.
+
+---
+
+# Tuesday, December 13, 2022
+
+## @kepano - 40 Annual Reflection Questions
+> 40 questions to ask yourself every year https://t.co/TRMESzq5O7
+
+- **Tweet:** https://x.com/kepano/status/1602773345627348993
+- **Link:** https://twitter.com/kepano/status/1602773345627348993/photo/1
+- **Section:** Philosophy and Life
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Two clean text images listing annual review prompts, covering achievements, failures, hardships, relationships, media, money, travel, lessons, and a quote that sums up the year.
+- **What:** End-of-year self-review checklist useful for journaling, retrospectives, and personal knowledge management templates.
+
+---
+
+# Friday, December 2, 2022
+
+## @pranavpramod - Timeline Jump for Chat History
+> 10.⏳ Timeline Jump - Sometimes I find myself trying to retrieve a particular message and searching turns out to be futile because recalling the exact words turns out to be really difficult. We decided to create a timeline view that could help the user explore the chat history. https://t.co/VlWxrb59eI
+
+- **Tweet:** https://x.com/pranavpramod/status/1598745934388920321
+- **Link:** https://twitter.com/pranavpramod/status/1598745934388920321/photo/1
+- **Reply context:** https://x.com/pranavpramod/status/1598741666726572034
+- **Section:** Design and UI Patterns
+- **Signals:** twitter.com, media, has-media, reply
+- **Visual:** Mobile UI mockup showing a dark timeline view with vertical date columns and a draggable preview card for jumping to a point in chat history.
+- **What:** Product interaction pattern for retrieving messages when keyword search fails: use time-based navigation and visual previews to explore conversation history.
+
+---
+
+# Sunday, November 6, 2022
+
+## @Arkonomaly - Betta Fish in Candy Machine
+> https://t.co/3sb0r9Y5Fv
+
+- **Tweet:** https://x.com/Arkonomaly/status/1589489972351901696
+- **Link:** https://twitter.com/Martyataparty/status/1589489972351901696/photo/1
+- **Section:** Visual Reference
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Photo of three candy dispensers where the center dispenser contains green candy-like gravel and a single betta fish, visually framed between Mike and Ike and M&M's machines.
+- **What:** Surreal visual reference built from category confusion: a live fish presented inside a vending/candy context.
+
+---
+
+# Monday, October 3, 2022
+
+## @danliu - Text Layout as 80% of Clean Design
+> Design is hard.
+>
+> But I’ve come to realize that laying out texts properly is 80% of what makes something look clean, and is the easiest thing you can do to make your design much nicer and more usable.
+>
+> Here are 10 practical tips for improving your text layout.
+
+- **Tweet:** https://x.com/danliu/status/1576997489529344001
+- **Section:** Design and UI Patterns
+- **What:** Design thread opener arguing that good typography and text layout carry much of the perceived quality and usability of an interface.
+
+---
+
+# Monday, August 8, 2022
+
+## @ThePrimeagen - Passion Over Abstract Policy
+> @GabiruGoes @viniciusataid I want you two to know that the reason I don't talk about politics isn't because I'm not fully disengaged with them, it is because if I had one thing I could tell you, I would much rather tell you about passion and pursuit and change in your life than some abstract policy
+
+- **Tweet:** https://x.com/ThePrimeagen/status/1556792404245716992
+- **Reply context:** https://x.com/GabiruGoes/status/1556791242637328384
+- **Section:** Philosophy and Life
+- **Signals:** reply
+- **What:** Reply explaining a preference for encouraging personal agency, passion, and pursuit over public commentary on abstract political topics.
+
+---
+
+# Wednesday, May 25, 2022
+
+## @collision - The World as Passion Projects
+> As you become an adult, you realize that things around you weren't just always there; people made them happen. But only recently have I started to internalize how much tenacity *everything* requires. That hotel, that park, that railway. The world is a museum of passion projects.
+
+- **Tweet:** https://x.com/collision/status/1529452415346302976
+- **Section:** Philosophy and Life
+- **What:** Reflection on built environments as evidence of human persistence: ordinary places and infrastructure exist because people pushed passion projects into reality.
+
+---
+
 # Tuesday, January 11, 2022
 
 ## @nikitabier - Consumer Social App Lessons Thread
