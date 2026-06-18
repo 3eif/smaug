@@ -695,7 +695,1099 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ---
 
+# Friday, December 15, 2023
+
+## @saltyAom - Elysia benchmark against Rust and Go
+> Update Elysia's benchmark to include Rust, and Go because I feel too bad comparing Elysia to Node.
+> We are now using TechEmpower as the reference. https://t.co/Lhf9zJEc24
+
+- **Tweet:** https://x.com/saltyAom/status/1735734133383630865
+- **Link:** https://twitter.com/saltyAom/status/1735734133383630865/photo/1
+- **Section:** Coding Reference
+- **Signals:** twitter.com
+- **Visual:** Benchmark chart image comparing Elysia against Rust and Go using TechEmpower-style results.
+- **What:** SaltyAom updates Elysia benchmarks to compare against Rust and Go using TechEmpower as reference, positioning the framework beyond Node comparisons.
+
+---
+
+# Thursday, December 14, 2023
+
+## @wagieeacc - Mixtral inference price competition
+> Nice try. We ship Mixtral for $0.00055/1K tokens, with further price decreases to come very soon.
+>
+> Anyone can try this chat, or our API, for free.
+> https://t.co/og5RjH215V
+>
+> *Quoting @togethercompute:* Access Mixtral with the fastest inference performance anywhere! Up to 100 token/s for $0.0006/1K tokens — to our knowledge the fastest performance at the lowest price!
+>
+> Mixtral-8x7b-32kseqlen @MistralAI &amp; DiscoLM-mixtral-8x7b-v2 are live on Together API!
+>
+> https://t.co/cpJ6tnshD1 https://t.co/RWotIphVzF
+
+- **Tweet:** https://x.com/wagieeacc/status/1735488054524088439
+- **Link:** https://t.co/og5RjH215V
+- **Link:** https://www.together.ai/blog/mixtral
+- **Link:** https://twitter.com/togethercompute/status/1734282721982324936/video/1
+- **Filed:** [mixtral-inference-price-competition-t-co.md](./knowledge/articles/mixtral-inference-price-competition-t-co.md), [mixtral-inference-price-competition-together-ai.md](./knowledge/articles/mixtral-inference-price-competition-together-ai.md)
+- **Section:** AI Tools and Agents
+- **Signals:** t.co, together.ai, twitter.com, quote
+- **Visual:** Quoted Together AI Mixtral video preview used as pricing/performance comparison context.
+- **What:** Martin Shkreli responds to Together AI's Mixtral announcement by competing on lower inference pricing and free trial access.
+
+## @daniel_nguyenx - KTool conversion-rate breakdown
+> https://t.co/MntsnsylZR got 246k page views from 169k visitors during its lifetime
+>
+> It has 10k users, 360 are paid customers
+>
+> That 5.9% conversion rate from visitor to users and 3.6% from free to paid
+>
+> Overall  that’s 0.21% from visitor to paid customer
+>
+> I think that’s low
+>
+> I’m not sure if I just suck at convincing people to pay, or this is a vitamin product
+>
+> Likely both lol
+>
+> Anyway if there is a lesson here then it’s to avoid consumer SaaS if you’re a solo founder
+>
+> #buildinpublic
+
+- **Tweet:** https://x.com/daniel_nguyenx/status/1735366569700802938
+- **Link:** https://ktool.io/
+- **Filed:** [ktool-conversion-rate-breakdown-ktool-io.md](./knowledge/articles/ktool-conversion-rate-breakdown-ktool-io.md)
+- **Section:** Product and Startup Ideas
+- **Signals:** ktool.io
+- **What:** Daniel Nguyen shares KTool's lifetime funnel numbers and questions whether its visitor-to-paid conversion is too low.
+
+## @levelsio - Dynamic GUIs for LLM responses
+> ChatGPT/LLM style text AIs are limited by that you have to type everything, you ask something and it replies with text when most of the day we use Graphic User Interfaces (GUIs)
+>
+> A good solution for that would be for LLMs to add dynamically generated interfaces
+>
+> I asked @adamwathan from Tailwind to try go into it as he's essentially the UI king of the internet now, yet he had no clue what the heck I was talking about
+>
+> So I tried to explain with these examples, which might help other ppl understand what we mean too. Because if he doesn't get it yet most ppl don't probably. So imagine this:
+>
+> --
+>
+> me: Hi, I have this photo can u help me color grade it?
+>
+> ChatLLM: sure, I’ll code up a mini color grader for your photo with an interface for you:
+>
+> --
+>
+> me: hi i want to become a nomad and travel this year, where should i go?
+>
+> ChatLLM: here’s a mini nomadlist-type GUI i made for you with the latest data of where to go:
+>
+> --
+>
+> me: what’s the weather in Porto now?
+>
+> ChatLLM: here's the weather, you can tap the days to see more:
+>
+> --
+>
+> me: hi, i want to code my first app
+>
+> ChatLLM: sure here’s a simple IDE that will help u code it:
+>
+> *Quoting @Algomancer:* Can one of you really amazing front end developers please build a llm native ui kit. Specifically, UI's are just function calls / tool use dependent on human input. There is no reason we should be stuck in call and response land.
+>
+> These should be very minimal components generated or configured at run time (just like function calling / tool use) and state should be provided to in the context window of language models. I am really surprised this hasn't been really well explored by now.
+
+- **Tweet:** https://x.com/levelsio/status/1735290564675797151
+- **Section:** AI Tools and Agents
+- **Signals:** quote
+- **Visual:** Screenshots illustrating dynamically generated UI concepts for LLM interfaces beyond text chat.
+- **What:** Levelsio argues LLMs should generate interactive GUI elements dynamically instead of limiting users to typed prompts and text responses.
+
+---
+
+# Wednesday, December 13, 2023
+
+## @minchoi - Outfit Anyone plus Animate Anyone
+> This is mind blowing!
+>
+> AI can now Outfit AND Animate Anyone from a single  image 🤯
+>
+> This Outfit Anyone + Animate Anyone is integrated together to take an image of a model, dress them with any style, then animate them 🤯
+>
+> https://t.co/MjvDkpGS4h https://t.co/CjlchznzvL
+
+- **Tweet:** https://x.com/minchoi/status/1735176374313202043
+- **Link:** https://humanaigc.github.io/outfit-anyone/
+- **Link:** https://twitter.com/minchoi/status/1735176374313202043/video/1
+- **Filed:** [outfit-anyone-plus-animate-anyone-humanaigc-github-io.md](./knowledge/articles/outfit-anyone-plus-animate-anyone-humanaigc-github-io.md)
+- **Section:** AI Tools and Agents
+- **Signals:** humanaigc.github.io, twitter.com
+- **Visual:** Video preview of Outfit Anyone plus Animate Anyone applied to a model image.
+- **What:** Min Choi shares a demo combining Outfit Anyone and Animate Anyone to dress and animate a person from a single image.
+
+## @rauchg - Search Agora ecommerce search engine
+> I'm amazed. A single dev scraped 25M ecom stores and built his own search engine to… scratch an itch.
+>
+> It performs really well. 25 million products indexed.
+> It's amazing how far cloud infra &amp; DX has come.
+>
+> https://t.co/CW02YZBiag https://t.co/CjMLgu704P
+
+- **Tweet:** https://x.com/rauchg/status/1735135734569562210
+- **Link:** https://www.searchagora.com/
+- **Link:** https://twitter.com/rauchg/status/1735135734569562210/photo/1
+- **Filed:** [search-agora-ecommerce-search-engine-searchagora-com.md](./knowledge/articles/search-agora-ecommerce-search-engine-searchagora-com.md)
+- **Section:** Design and UI Patterns
+- **Signals:** searchagora.com, twitter.com
+- **Visual:** Search Agora screenshot illustrating a custom ecommerce product search engine over millions of stores.
+- **What:** Guillermo Rauch calls out Search Agora, a single-developer ecommerce search engine indexing 25 million products, as evidence of modern cloud and developer-experience leverage.
+
+## @rauchg - Vertically optimized unbundled ChatGPT apps
+> Excited about vertically-optimized, unbundled ChatGPT. e.g.:
+>
+> ◆ Web search → https://t.co/1PtnFqCcON
+> ◆ Agents → https://t.co/a84o1xkGCu
+> ◆ Data analysis → https://t.co/VpT5sNRifB
+> ◆ Finance & stocks → https://t.co/U3W5rtVZfA
+> ◆ Documents → https://t.co/6fQVOT8swN
+>
+> Specialization will create many winners, especially as product maturity increases. God is in the details.
+
+- **Tweet:** https://x.com/rauchg/status/1734977687545090346
+- **Link:** https://www.perplexity.ai/
+- **Link:** https://cognosys.ai/
+- **Link:** https://julius.ai/
+- **Link:** https://fintool.com/
+- **Link:** https://pdf.ai/
+- **Filed:** [vertically-optimized-unbundled-chatgpt-apps-perplexity-ai.md](./knowledge/articles/vertically-optimized-unbundled-chatgpt-apps-perplexity-ai.md), [vertically-optimized-unbundled-chatgpt-apps-cognosys-ai.md](./knowledge/articles/vertically-optimized-unbundled-chatgpt-apps-cognosys-ai.md), [vertically-optimized-unbundled-chatgpt-apps-julius-ai.md](./knowledge/articles/vertically-optimized-unbundled-chatgpt-apps-julius-ai.md), [vertically-optimized-unbundled-chatgpt-apps-fintool-com.md](./knowledge/articles/vertically-optimized-unbundled-chatgpt-apps-fintool-com.md), [vertically-optimized-unbundled-chatgpt-apps-pdf-ai.md](./knowledge/articles/vertically-optimized-unbundled-chatgpt-apps-pdf-ai.md)
+- **Section:** AI Tools and Agents
+- **Signals:** perplexity.ai, cognosys.ai, julius.ai, fintool.com, pdf.ai
+- **What:** Guillermo Rauch predicts winners from specialized, vertically optimized ChatGPT-like apps across search, agents, data analysis, finance, and documents.
+
+---
+
+# Tuesday, December 12, 2023
+
+## @staticmaker1 - Reflect generating $30k monthly
+> boring Apple Notes alternative generates $30,000 a month.
+>
+> solo founder.
+>
+> launched in 2021.
+>
+> B2C market.
+>
+> monetization via subscriptions.
+>
+> https://t.co/K3VmK4fz2D https://t.co/WWisHm2rwC
+
+- **Tweet:** https://x.com/staticmaker1/status/1734757782329381224
+- **Link:** https://reflect.app/
+- **Link:** https://twitter.com/staticmaker1/status/1734757782329381224/photo/1
+- **Filed:** [reflect-generating-30k-monthly-reflect-app.md](./knowledge/articles/reflect-generating-30k-monthly-reflect-app.md)
+- **Section:** Product and Startup Ideas
+- **Signals:** reflect.app, twitter.com
+- **Visual:** Screenshot or product visual for Reflect, framed as a profitable Apple Notes alternative.
+- **What:** Staticmaker highlights Reflect as a boring but meaningful B2C notes business generating about $30k per month from subscriptions.
+
+## @NickADobos - Bearish take on open-source LLM distribution
+> I’m extremely bearish on open source LLMs. Ok neat, you made a good model. Now what?
+>
+> Part 1 of the plan is build a GPT-4+ model
+>
+> Parts 2-9 include build a network effect of builders &amp; software on top of the model, then distribute &amp; sell it
+>
+> Then recursion on 100mil people
+
+- **Tweet:** https://x.com/NickADobos/status/1734674807395176814
+- **Section:** AI Tools and Agents
+- **What:** Nick Dobos argues that model quality alone is insufficient for open-source LLMs; distribution, network effects, builder ecosystems, and sales matter more after the base model exists.
+
+## @brotzky - Fey Next.js SPA load speed
+> Fey is a SPA and this is how fast the initial load is:
+>
+> (it's built on @nextjs) https://t.co/qpuIPS19ty
+>
+> *Quoting @rauchg:* I know there's a belief that "SPAs are good for apps / dashboards".
+>
+> There's a SaaS app I use which sends me notifications. Each time I click their links I stare at their fancy spinner for multiple seconds.
+>
+> Unlike when someone sends me a e.g.: GitHub issue or PR I see the content instantaneously.
+>
+> Feel the SSR.
+
+- **Tweet:** https://x.com/brotzky/status/1734630154574660005
+- **Link:** https://twitter.com/brotzky_/status/1734630154574660005/video/1
+- **Section:** Coding Reference
+- **Signals:** twitter.com, quote
+- **Visual:** Video preview demonstrating Fey initial load speed for a Next.js single-page app.
+- **What:** Brotzky uses Fey as evidence that a Next.js single-page app can still have a very fast initial load.
+
+## @tldraw - tldraw unexpected capability demo
+> this works too!?!??!!? https://t.co/USqXb8IBe5
+
+- **Tweet:** https://x.com/tldraw/status/1734624421623521719
+- **Link:** https://twitter.com/tldraw/status/1734624421623521719/photo/1
+- **Section:** Visual Reference
+- **Signals:** twitter.com
+- **Visual:** Visual demo from tldraw showing an unexpected image/canvas capability.
+- **What:** A tldraw visual demo showing that another unexpected interaction works, saved as a reference for canvas and whiteboard affordances.
+
+## @eter_inquirer - Shipping SaaS after work in three months
+> I went from not knowing how to code to shipping a SaaS in ~3 months, while having a day job.
+>
+> This is what I did everyday👇
+>
+> 8-9AM: tweet/social media
+> 9:30-5: Work
+> 5-7PM: Catch up w/ GF, Eat, Wind Down
+> 7-11PM: Build 🚀
+>
+> + weekends :). It isn't glamorous, but it pays off.
+
+- **Tweet:** https://x.com/eter_inquirer/status/1734602368027873638
+- **Section:** Coding Reference
+- **Visual:** Image accompanying a schedule for learning to code and shipping a SaaS alongside a day job.
+- **What:** Abishek describes a disciplined weekday and weekend schedule for learning to code and shipping a SaaS in about three months while keeping a day job.
+
+---
+
+# Monday, December 11, 2023
+
+## @jh3yy - CSS pointer-follow glow border
+> CSS Tip! 🤙
+>
+> You can use mask-composite and some JavaScript to create this pointer proximity following glow border ✨
+>
+> .glow {
+>   mask-composite: intersect;
+>   mask-clip: padding-box, border-box;
+>   mask:
+>     linear-gradient(#0000, #0000),
+>     conic-gradient(#0000 0deg, #​fff, #0000 45deg);
+> }
+>
+> The trick is to mask a background-image with a combination of mask layers. mask-composite: intersect; means the mask used will be the intersection of the layers 🔥 use source-in, xor; in browsers that don't support intersect;
+>
+> In this demo, you can use pseudoelements and rely on scoped custom properties to do a lot of the heavy lifting  for you 🙌
+>
+> Once you've masked the background, you need to update the starting angle of the conic-gradient on pointermove 👆
+>
+> You can work that out by getting the center point of each card and then calculating the angle between that and the pointer with Math.atan2 🤓
+>
+> let ANGLE = Math.atan2(
+>   event?.y - CARD_CENTER[1],
+>   event?.x - CARD_CENTER[0]
+> ) * 180 / Math.PI
+> ANGLE = ANGLE < 0 ? ANGLE + 360 : ANGLE;
+> CARD.​style.setProperty('--start', ANGLE + 90)
+>
+> You plug that into your conic-gradient mask as a custom property accounting for --spread ⚡️
+>
+> conic-gradient(from calc((var(--angle) - (var(--spread) * 0.5)) * 1deg), #000 0deg, #​fff, #0000 calc(var(--spread) * 1deg));
+>
+> To get the blur, you apply a blur to the glow container on each card 🤙
+>
+> .glows {
+>   filter: blur(calc(var(--blur) * 1px);
+> }
+>
+> That's it! Layers of masks that are clipped and composited before being blurred 😎 The added trick is to fade each one in when the pointer is in the defined proximity of the card. For example, don't show unless within 100px of a card. You can see that in the video. Check out the JavaScript code for that 🫶
+>
+> Couldn't resist making this one 😁
+>
+> @CodePen link below! 👇
+>
+> *Quoting @double__glitch:* Hey, do you like fancy glowing cards?
+>
+> Let's get this tweet to 250 likes, and I'll create a tutorial for it.
+>
+> This is 100% @figma. Xitter is really butchering the quality, check how smooth it is live: https://t.co/htTwLVVRBk https://t.co/bvzBrpvfiX
+
+- **Tweet:** https://x.com/jh3yy/status/1734369933558010226
+- **Link:** https://www.figma.com/proto/Aw5VqbnFfVZDeCMnnS3Nvm/Card?page-id=0%3A1&type=design&node-id=100-9&viewport=591%2C-52%2C0.4&t=ZUipTpzvl3QQrzEv-1&scaling=scale-down&hotspot-hints=0&mode=design
+- **Link:** https://twitter.com/double__glitch/status/1734181651976998996/video/1
+- **Filed:** [css-pointer-follow-glow-border-figma-com.md](./knowledge/articles/css-pointer-follow-glow-border-figma-com.md)
+- **Section:** Design and UI Patterns
+- **Signals:** figma.com, twitter.com, quote
+- **Visual:** Video preview of a CSS glow-border effect following pointer proximity around a card.
+- **What:** Jhey shares a CSS technique using mask-composite, conic gradients, and JavaScript to make a pointer-proximity glow border.
+
+## @skirano - Local Mistral 8x7B in LM Studio
+> Just incredible.  I am running Mistral 8x7B instruct at 27 tokens per second, completely locally thanks to @LMStudioAI.
+>
+> A model that scores better than GPT-3.5, locally.
+>
+> Imagine where we will be 1 year from now. 🏃💨 https://t.co/BsHBideReC
+
+- **Tweet:** https://x.com/skirano/status/1734351099451023534
+- **Link:** https://twitter.com/skirano/status/1734351099451023534/video/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com
+- **Visual:** Video preview showing local Mistral 8x7B inference running in LM Studio.
+- **What:** Pietro Schirano shows Mistral 8x7B Instruct running locally in LM Studio at roughly 27 tokens per second, framing local open models as rapidly improving.
+
+## @togethercompute - Together AI Mixtral inference pricing
+> Access Mixtral with the fastest inference performance anywhere! Up to 100 token/s for $0.0006/1K tokens — to our knowledge the fastest performance at the lowest price!
+>
+> Mixtral-8x7b-32kseqlen @MistralAI &amp; DiscoLM-mixtral-8x7b-v2 are live on Together API!
+>
+> https://t.co/cpJ6tnshD1 https://t.co/RWotIphVzF
+
+- **Tweet:** https://x.com/togethercompute/status/1734282721982324936
+- **Link:** https://www.together.ai/blog/mixtral
+- **Link:** https://twitter.com/togethercompute/status/1734282721982324936/video/1
+- **Filed:** [together-ai-mixtral-inference-pricing-together-ai.md](./knowledge/articles/together-ai-mixtral-inference-pricing-together-ai.md)
+- **Section:** AI Tools and Agents
+- **Signals:** together.ai, twitter.com
+- **Visual:** Video preview of Together AI running Mixtral inference and performance claims.
+- **What:** Together AI announces fast, low-cost Mixtral inference and related models on its API, using token speed and per-token price as the hook.
+
+## @thepatwalls - Stripo as Canva for HTML email
+> $4.8M/year SaaS you've never heard of:
+>
+> - Problem: Designing emails sucks
+> -​ Solution: Canva for HTML email
+> - $400k MRR
+> - Freemium + $45/user/mo
+> - ​1M users
+> - 1.8M emails created
+> - Growth: SEO
+> ​- 65% of Fortune 100 use
+> - Founder: 98 followers on X
+>
+> https://t.co/8FQHckZxnm https://t.co/M9hcewtiLt
+
+- **Tweet:** https://x.com/thepatwalls/status/1734237934637990192
+- **Link:** https://stripo.email/
+- **Link:** https://twitter.com/thepatwalls/status/1734237934637990192/photo/1
+- **Filed:** [stripo-as-canva-for-html-email-stripo-email.md](./knowledge/articles/stripo-as-canva-for-html-email-stripo-email.md)
+- **Section:** Product and Startup Ideas
+- **Signals:** stripo.email, twitter.com
+- **Visual:** Screenshots and product visuals for Stripo, an email design SaaS positioned as Canva for HTML email.
+- **What:** Pat Walls breaks down Stripo as a sizeable SaaS for HTML email design, highlighting revenue, pricing, freemium growth, SEO, enterprise usage, and an under-the-radar founder profile.
+
+## @marclou - Gamifying startup shipping
+> I shipped 17 startups in 2 years because I gamified the process:
+>
+> - Build in 14 days max
+> - Launch with a fun video
+> - Talk about it on Twitter
+>
+> You can't give up if you're having fun. https://t.co/ObPgtSts85
+
+- **Tweet:** https://x.com/marclou/status/1734192568328724523
+- **Link:** https://twitter.com/marc_louvion/status/1734192568328724523/photo/1
+- **Section:** Product and Startup Ideas
+- **Signals:** twitter.com
+- **Visual:** Visual proof point for Marc Lou shipping many startup projects over two years.
+- **What:** Marc Lou explains that he shipped 17 startups in two years by gamifying the process: tight build windows, fun launch videos, and public distribution.
+
+---
+
+# Sunday, December 10, 2023
+
+## @levelsio - Open-source LLMs approaching GPT-4 capability
+> Open source LLMs reaching GPT-4 levels way earlier than we thought is the most exciting thing now to me
+>
+> With open source RAGs (plugins for LLMs) we can even add stuff like GPT-4 Vision, web browsing and data analysis and reach features parity with GPT-4 and future versions
+>
+> This democratizes the entire LLM world and means it's possible it won't be monopolized by 3 different BigTech giants but be usable for everyone without any filters and restrictions
+>
+> This means so many more creative uses of it without limits set by tech companies in San Francisco
+>
+> It'll be a lot like what Stable Diffusion did for AI image generation
+>
+> We just need to make open source LLMs easy to use now for normal people
+>
+> LMstudio dot ai is a nice start but still too complicated to use, eg you have to search and download and pick your own model weights. Just preset it for people! Too much open source engineer thinking and not enough normal user thinking IMHO
+>
+> Anyway very exciting time
+>
+> If u want to try, get LMstudio and download the Mistral 7B as well as the new big Mistral model and try it out, free and open source and NO restrictions
+
+- **Tweet:** https://x.com/levelsio/status/1733946611317797196
+- **Section:** AI Tools and Agents
+- **What:** Levelsio argues that open-source LLMs reaching GPT-4-like capability sooner than expected could democratize AI, especially when paired with open-source RAG and tool layers.
+
+---
+
+# Saturday, December 9, 2023
+
+## @jaredpalmer - Mixtral in Vercel AI Playground
+> You can now try @MistralAI mixtral-8x7b on the @Vercel AI Playground and use it with the AI SDK.
+>
+> (h/t @thefireworksai for the experimental implementation)
+>
+> Here's a video comparing it side-by-side to GPT-3.5-Turbo and Llama 2 70b Chat
+>
+> https://t.co/rEWptmjmQY https://t.co/QdC6Jj0oJU
+
+- **Tweet:** https://x.com/jaredpalmer/status/1733525646536483292
+- **Link:** https://ai-sdk.dev/playground/s/Hg5wTwQ
+- **Link:** https://twitter.com/jaredpalmer/status/1733525646536483292/video/1
+- **Filed:** [mixtral-in-vercel-ai-playground-ai-sdk-dev.md](./knowledge/articles/mixtral-in-vercel-ai-playground-ai-sdk-dev.md)
+- **Section:** AI Tools and Agents
+- **Signals:** ai-sdk.dev, twitter.com
+- **Visual:** Video preview comparing Mixtral in Vercel AI Playground against other chat models.
+- **What:** Jared Palmer notes Mixtral 8x7B is available in Vercel AI Playground and the AI SDK, with a side-by-side video against GPT-3.5 Turbo and Llama 2 70B.
+
+---
+
+# Thursday, December 7, 2023
+
+## @ronyfadel - Tracking App Store rankings
+> Does anyone recommend a way to track App Store rankings?
+>
+> I'm curious to see how well Teleprompter ranked yesterday!
+
+- **Tweet:** https://x.com/ronyfadel/status/1732825275547676806
+- **Section:** AI Tools and Agents
+- **What:** Rony asks for recommendations on tracking App Store rankings after wanting to evaluate Teleprompter's ranking performance.
+
+## @aidancramer - TikTok influencer outreach benchmarks
+> Insights from our latest TikTok influencer outreach!
+>
+> We've contacted a range of micro and mid-sized creators, and here's a breakdown of what we found: https://t.co/hgIGTxWaFY
+
+- **Tweet:** https://x.com/aidancramer/status/1732747602049847320
+- **Link:** https://twitter.com/Aidancramer/status/1732747602049847320/photo/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com
+- **Visual:** Outreach-results screenshot summarizing TikTok influencer response or pricing data.
+- **What:** Aidan shares TikTok influencer outreach findings across micro and mid-sized creators, useful for creator marketing benchmarks.
+
+---
+
+# Wednesday, December 6, 2023
+
+## @Camp4 - Compounding life paths from random yeses
+> In 1989 I randomly sat next to a cute girl at college orientation. I mustered the courage to say hi. I’ve been married to that girl for 26 years.
+>
+> In 1999 a friend invited me to try rock climbing. I said yes and discovered a life-long passion.
+>
+> In 2017 while sitting in a board meeting I had an epiphany: This isn't the life I want. I quit my job and moved the fam to Boulder with no plan. The rest is history.
+>
+> Here’s the crazy thing about life:
+>
+> One action, one decision, one pivotal moment can change everything (for better or worse).
+>
+> But here's the trick:
+>
+> You don’t know beforehand which action will be the game-changer.
+>
+> That’s why it’s important to have a strong bias toward action. You miss 100% of the shots you don’t take.
+>
+> Make that phone call you’ve been putting off
+> Push through when you feel like quitting
+> Have that uncomfortable conversation
+> Introduce yourself to that cute guy/girl
+> Check out that church or faith group
+> Ask for that promotion or raise
+> Apply for that new job
+> Sign up for that class
+> Start that side hustle
+> Post that tweet
+> Take that trip
+>
+> The world belongs to the bold. Be a seeker, open to change and opportunity.
+>
+> And most importantly...
+>
+> Shoot your shot.
+
+- **Tweet:** https://x.com/Camp4/status/1732422314787033392
+- **Section:** Design and UI Patterns
+- **What:** Kevin Dahlstrom argues for saying yes to more opportunities by tracing major life outcomes back to random decisions and invitations.
+
+---
+
+# Tuesday, December 5, 2023
+
+## @foliofed - AI tool directory submission list
+> Making an AI-powered tool? ✨
+> Submit to these directories &amp; thank me later https://t.co/sPszsaPosN
+
+- **Tweet:** https://x.com/foliofed/status/1732110758983684522
+- **Link:** https://twitter.com/foliofed/status/1732110758983684522/photo/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com
+- **Visual:** Directory-list graphic for submitting AI tools to discovery sites.
+- **What:** Fed shares a visual list of directories where makers can submit AI-powered tools for discovery and launch distribution.
+
+## @tibo_maker - Editable TikTok generator from any post
+> I've built it 🤯
+>
+> 👉 Create TikTok video from a blog post / a tweet / a Linkedin post ... anything ..
+>
+> And the beauty: it's is 100% editable 🤩
+>
+> Link in next tweet https://t.co/s4I8HsRqFC
+
+- **Tweet:** https://x.com/tibo_maker/status/1732006700687753307
+- **Link:** https://twitter.com/tibo_maker/status/1732006700687753307/video/1
+- **Section:** Design and UI Patterns
+- **Signals:** twitter.com
+- **Visual:** Video preview of an editable workflow for turning source text into a TikTok-style video.
+- **What:** Tibo shows a tool for generating editable TikTok videos from a blog post, tweet, LinkedIn post, or other source content.
+
+---
+
+# Monday, December 4, 2023
+
+## @UltraLinx - Lofree mouse design reference
+> Well this is one unique mouse. @lofreeco https://t.co/ZmFEelxQlf
+
+- **Tweet:** https://x.com/UltraLinx/status/1731662723207868419
+- **Link:** https://twitter.com/UltraLinx/status/1731662723207868419/photo/1
+- **Section:** Visual Reference
+- **Signals:** twitter.com
+- **Visual:** Product photos of a distinctive Lofree mouse, useful as a hardware design reference.
+- **What:** A hardware design reference for an unusual Lofree mouse, likely saved for product aesthetics and input-device inspiration.
+
+---
+
+# Friday, December 1, 2023
+
+## @voooooogel - Testing whether tipping ChatGPT improves output
+> so a couple days ago i made a shitpost about tipping chatgpt, and someone replied "huh would this actually help performance"
+>
+> so i decided to test it and IT ACTUALLY WORKS WTF https://t.co/kqQUOn7wcS
+
+- **Tweet:** https://x.com/voooooogel/status/1730726744314069190
+- **Link:** https://twitter.com/voooooogel/status/1730726744314069190/photo/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com
+- **What:** Thebes tests a joke premise that promising ChatGPT a tip improves performance and reports surprising results, useful as a prompt-behavior curiosity rather than settled evidence.
+
+## @IndieHackers - Cold email with 10 percent client conversion
+> Here’s a cold email that gets 1 client for every 10 emails sent:
+
+- **Tweet:** https://x.com/IndieHackers/status/1730542905993970073
+- **Section:** AI Tools and Agents
+- **What:** Indie Hackers shares a cold-email example claiming one client per ten emails, useful as an outreach copywriting reference.
+
+---
+
+# Thursday, November 30, 2023
+
+## @theo - Elon Musk clip about web advertising
+> For no reason in particular, here’s a clip of Elon Musk getting mad at me for explaining how web advertising works https://t.co/qA8KjkrmN2
+
+- **Tweet:** https://x.com/theo/status/1730491080888713434
+- **Link:** https://twitter.com/calebgamman/status/1605500174066806784/video/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com
+- **What:** Theo shares a clip of Elon Musk reacting to an explanation of web advertising mechanics, useful as a media/reference bookmark around ad-tech misunderstandings.
+
+## @FarzaTV - Farza on raising from a16z as a solo founder
+> A lot of ppl ask me about how @a16z ended up investing in us..
+>
+> So I wanna share it for the first time.
+>
+> Here's the story of a kid who had no idea what the hell he was doing.
+>
+> Few things:
+>
+> 1) I'm a solo founder.
+> 2) I had never raised money before.
+> 3) I had been building companies since 13 and built a bunch of stuff to 1M+ users -- but, never a startup.
+>
+> I was kinda dumb in 2019.
+>
+> I didn't know how to pitch and didn't wanna learn because pitching was cringe.
+>
+> My philosophy has always been that if I build something really cool and talk about it online -- people would reach out + just invest in me.
+>
+> So, I did just that.
+>
+> I built a piece of software to help parents create a legal homeschool for their child (kinda like Stripe Atlas, but for homeschools).
+>
+> I built the MVP + got my first customer in the first week.
+>
+> 4-mo later, Zip was doing well.
+>
+> I built the product, I had my first 50 customers, I had some solid momentum, users loved it.
+>
+> Being dumb was working out.
+>
+> The more I talked about my progress online, the more I had amazing people reach out to help out.
+>
+> Side note.
+>
+> This was a brutal period of my life.
+>
+> I was insanely hard on myself.
+>
+> Friends are important.
+>
+> I had my buddy @FurqanR to lean on. Talking to him even once a week about my co's problems gave me a lot of strength.
+>
+> He was always there for me, still is.
+>
+> Ty Furqan.
+>
+> In May 2020...
+>
+> I got a cold email.
+>
+> a16z hits me up.
+>
+> They think I have a team.
+>
+> Mom get the camera.
+>
+> The call ends up going well.
+>
+> I just talked about stuff like our customers, growth, and my vision for a whole operating system for the next 10M homeschoolers.
+>
+> After the call -- they ask details around how much I am raising.
+>
+> I wanna make it clear to you all:
+>
+> I had no idea what I was doing.
+>
+> If you know me in person, you know I am honest to a fault -- I will say exactly what I am thinking.
+>
+> So when a16z asked me how much I was raising, I literally said that I was a "noob"
+>
+> Screenshot of email I sent after the call below.
+>
+> Go ahead and zoom in on those last two lines there.
+>
+> Yes. I actually sent this lol.
+>
+> Surprisingly @anneleeskates + @conniechan didn't leave me on read.
+>
+> We end up arriving at a next step.
+>
+> For the next 2-mo, I would talk to them once per week for 30m and give them a progress update + brainstorm new ideas.
+>
+> I was told by many to not do this.
+>
+> To instead run a "competitive" process but I just felt that was dumb game.
+>
+> These weekly calls ended up being great.
+>
+> It was perfect for them -- they could get more data on me.
+>
+> And, it was perfect for me -- I could just keep building and if my co blew up up either:
+>
+> a) they'd probably invest:
+> b) i just end up profitable lol.
+>
+> In those 2-mo, I end up doing a big pivot.
+>
+> I pivot from legal software to building Twitch for teachers where teachers streamed their classes live to thousands of kids.
+>
+> For me, I grew up in a livestream native world -- so, it felt weird to me that everyone was obsessing over "small zoom room" type classes.
+>
+> I build it in a week and ship it.
+>
+> Users end up loving the pivot, especially kids -- within ~2-mo we end up getting 100,000 class joins per week + millions of mins streamed per week.
+>
+> At this point, the company is still just me.
+>
+> After those 2-mo, a16z decides to invest $2M.
+>
+> I got the valuation I wanted.
+>
+> Here's the actual entry from my journal on that day I got the call lol.
+>
+> 1-mo later papers signed + money wired.
+>
+> I tell this story because I see a lot of people wasting so much time playing the game of finding investors or using that as an excuse for their lack of progress.
+>
+> In reality, you simply need to put out really good work to an audience that grows over a long horizon.
+>
+> That is it.
+>
+> 2 years later we pivot away from K-5 edu.
+>
+> Same team, same company, same cap table.
+>
+> We started working on this curious new idea called @_buildspace...
+>
+> It ends up getting pretty big and raises $10M -- half that coming from a16z who ended up doubling down on us.
+>
+> Life is truly weird.
+>
+> Keep your head up.
+>
+> Stay shipping.
+
+- **Tweet:** https://x.com/FarzaTV/status/1730316753996329439
+- **Section:** Product and Startup Ideas
+- **What:** Farza starts a fundraising story about how a16z invested despite his being a solo founder with no prior fundraising experience, useful as founder storytelling reference.
+
+---
+
+# Wednesday, November 29, 2023
+
+## @terkelg - Interactive SVG GitHub profile README
+> Revamped my personal GitHub profile readme! 🎉
+>
+> I’ve made a fully responsive website inside an SVG, loaded as an image, using HTML, inside markdown, inside a readme​.md.
+>
+> Not only is it interactive and supports light/dark mode, but it also includes a fallback for Firefox😂#github https://t.co/TP0NTufAfO
+
+- **Tweet:** https://x.com/terkelg/status/1729906485436592158
+- **Link:** https://twitter.com/terkelg/status/1729906485436592158/video/1
+- **Section:** Coding Reference
+- **Signals:** twitter.com
+- **What:** Terkel demonstrates a GitHub profile README implemented as a responsive SVG website containing HTML inside markdown, with light/dark behavior and fallbacks.
+
+## @thedanigrant - Cold email template that got a first tech job
+> This is the cold email that got me my first job in tech.
+>
+> Shoot your shot. You never know.
+>
+> Here’s the template:
+> • 1 sentence: why them
+> • 1 sentence: your intent
+> • 2 sentences: why you
+> • Last sentence: let’s chat
+>
+> Hope this helps someone! https://t.co/aXy6VENE1G
+
+- **Tweet:** https://x.com/thedanigrant/status/1729885480404267423
+- **Link:** https://twitter.com/thedanigrant/status/1729885480404267423/photo/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com
+- **What:** Dani Grant shares the cold email template that got her first tech job: why them, intent, why you, and a concise ask to chat.
+
+---
+
+# Monday, November 27, 2023
+
+## @codyschneiderxx - TikTok public keyword research tool
+> tiktok has public tool to see what people are searching https://t.co/rha7Pw3vdd
+
+- **Tweet:** https://x.com/codyschneiderxx/status/1729271571968032998
+- **Link:** https://twitter.com/codyschneiderxx/status/1729271571968032998/photo/1
+- **Section:** Visual Reference
+- **Signals:** twitter.com
+- **Visual:** TikTok Creative Center keyword insights page showing search results for AI-related keywords.
+- **What:** Cody Schneider points to TikTok Creative Center as a public source for keyword/search demand, useful for content strategy and trend research.
+
+## @levelsio - Magnific pricing and refund policy observation
+> Trying @javilopen's https://t.co/P6hUmyfGbR today and saw this 😁
+>
+> I copied it from the Steam store myself https://t.co/olrIAex6Te
+
+- **Tweet:** https://x.com/levelsio/status/1729185259458363718
+- **Link:** https://magnific.ai/
+- **Link:** https://twitter.com/levelsio/status/1729185259458363718/photo/1
+- **Filed:** [magnific-pricing-and-refund-policy-observation-magnific-ai.md](./knowledge/articles/magnific-pricing-and-refund-policy-observation-magnific-ai.md)
+- **Section:** AI Tools and Agents
+- **Signals:** magnific.ai, twitter.com
+- **Visual:** Magnific pricing page screenshot with three subscription tiers and a no-refund notice tied to GPU processing costs.
+- **What:** Levelsio comments on Magnific's pricing/refund flow, capturing a high-priced GPU-backed AI product and its direct explanation of immediate compute costs.
+
+## @aidancramer - 500 paying subscribers in four months
+> 0-500 paying subscribers in 4-months 🚀 https://t.co/W17PlcAY46
+
+- **Tweet:** https://x.com/aidancramer/status/1729137407302447241
+- **Link:** https://twitter.com/Aidancramer/status/1729137407302447241/photo/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com
+- **Visual:** Dark chart showing active subscribers growing from near zero to 500 between January and November 2023.
+- **What:** A compact growth proof point showing a subscriber product reaching 500 paying users in about four months, with the chart emphasizing a sharp late ramp.
+
+## @ryenduu - Yuno research landing page
+> took some time designing but we got a landing page up and running! check out https://t.co/FVVI653Y1x https://t.co/gbtkD1TdCZ
+
+- **Tweet:** https://x.com/ryenduu/status/1729134982441074985
+- **Link:** https://www.yuno.so/
+- **Link:** https://twitter.com/ryenduu/status/1729134982441074985/video/1
+- **Filed:** [yuno-research-landing-page-yuno-so.md](./knowledge/articles/yuno-research-landing-page-yuno-so.md)
+- **Section:** Design and UI Patterns
+- **Signals:** yuno.so, twitter.com
+- **Visual:** Landing-page video preview for Yuno with a clean research-tool hero and document UI mockup.
+- **What:** Ryan Du shares the Yuno landing page, a research-product reference with a clean hero, waitlist CTA, and document-centric product mockup.
+
+## @unusual_whales - Google culture and morale warning
+> An ex-Google, $GOOGL, employee has said that company has an "eroded" culture and morale is at "an all-time low," per BI.
+
+- **Tweet:** https://x.com/unusual_whales/status/1729105538452172962
+- **Section:** AI Tools and Agents
+- **What:** A company-culture signal from an ex-Google employee claiming morale and culture have deteriorated, captured as a tech-industry datapoint.
+
+---
+
+# Sunday, November 26, 2023
+
+## @garrytan - Open-source contribution as startup job wedge
+> My advice to engineers starting out:
+>
+> Find an important open source project on the way up and fix a bunch of issues and then go cold email a bunch of startups you know use that open source project.
+>
+> Langchain or Chroma are a couple to start with
+
+- **Tweet:** https://x.com/garrytan/status/1728793817472463101
+- **Section:** AI Tools and Agents
+- **What:** Garry Tan recommends new engineers build credibility by fixing issues in rising open-source projects, then cold-emailing startups that depend on those projects.
+
+---
+
+# Saturday, November 25, 2023
+
+## @willdepue - Question about modeling the world
+> who do you know/what book have you read that has the most comprehensive understanding of how to model the world?
+
+- **Tweet:** https://x.com/willdepue/status/1728577916982706502
+- **Section:** AI Tools and Agents
+- **What:** A prompt for recommendations on people or books with unusually comprehensive world models; useful as a future reading-list seed.
+
+## @8teAPi - Twitter visibility and Premium strategy
+> Twitter Game
+>
+> 523 million monthly active users
+>
+> 61 median followers => 50% of Twitter users have less than this
+>
+> Below 1000 => you are near invisible to the algo. Posts will almost never be seen.
+> => Get Premium
+> => Find people you enjoy reading
+> => Interact with them
+> => for large accounts, reply to them within 2 minutes of their post, otherwise QT them. For small accounts whatever
+> => join small spaces where you can have a chance to talk, or host one. Establish genuine connection
+>
+> 1000 => congrats, only 15% of Twitter gets here
+>
+> 1k to 10k
+> => posting now makes sense as it gets seen and you have a chance of going viral
+> => the only thing that correlates to growth is visibility
+> => you need to post/QT (retweeting and replyguying won’t get you there)
+> => just post more and experiment, then delete stuff that doesn’t catch the wind. You can tell how far  tweet is going to go with views in first 5 minutes of posting
+> => what works on Twitter is either a) emotion or b) information, on a narrow interest. You can have stellar Twitter game making jokes and putting emojis on dry technical topics
+> => Twitter users are fast scrolling infovores. Stuff has gotta be dense
+> => easy hacks: watch the timing of your audience. Mine is workday morning Pacific time. With a second bump in the evening
+> => manage your tweets. Tweet once, then repost at your audience bump time
+> => like all replies (it’s a read receipt)
+> => respond to at least Twitter Blue
+> => add interesting replies to the main thread. I imagine it as moderating a Reddit board temporarily, so you can keep a popular post on the TL indefinitely by continuing to comment and add to the thread
+> => every reply, retweet, repost, additional thread tweet pushes content on the main TL, bring more readers in
+> => you can grind your way up here
+>
+> 10k => only about 100k users are here, only 1 in 10k, officially lower success rate than to Stanford at 2 in 100.
+>
+> 10k - 100k => you can go viral every week at this point
+> => you start making serious friends on app
+> => the need to like/reply grind fades
+> => you can promote content from smaller accounts, by retweeting or quotetweeting them
+> => still looks insightful because your distribution is so much bigger
+>
+> 100k => suspect only 1000 - 10,000 accounts at this level
+> => many are unable to post
+> => every interesting post gets highly criticized
+> => saying a mean thing to someone gets them destroyed online by your followers
+> => posting a lot overwhelms the timeline and gets you blocks
+> => almost every tweet has real world consequences
+
+- **Tweet:** https://x.com/8teAPi/status/1728397243479462283
+- **Section:** Design and UI Patterns
+- **What:** A practical Twitter growth note arguing that accounts under roughly 1,000 followers are near-invisible and should use Premium plus targeted replies to get into larger conversations.
+
+---
+
+# Friday, November 24, 2023
+
+## @patrickc - Stripe BFCM live dashboard
+> Stripe, live: https://t.co/CtyT1XIhrL.
+
+- **Tweet:** https://x.com/patrickc/status/1728023528757170400
+- **Link:** https://stripe.com/newsroom/news/bfcm2023
+- **Filed:** [stripe-bfcm-live-dashboard-stripe-com.md](./knowledge/articles/stripe-bfcm-live-dashboard-stripe-com.md)
+- **Section:** Plain Tweets
+- **Signals:** stripe.com
+- **What:** Patrick Collison links to Stripe's live Black Friday/Cyber Monday newsroom dashboard, useful as an example of public company telemetry as marketing.
+
+---
+
+# Wednesday, November 22, 2023
+
+## @wenquai - LinkedIn-based life-path map app
+> An app that takes in your LinkedIn profile and interests to show you a map of possible future life paths 🗺️
+>
+> I like to think of it as verse-jumping (from EEAAO) but irl https://t.co/0J71Ho23VA
+
+- **Tweet:** https://x.com/wenquai/status/1727368975720546336
+- **Link:** https://twitter.com/wenquai/status/1727368975720546336/video/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com
+- **Visual:** Minimal prototype screen asking for a LinkedIn profile URL to generate possible life paths.
+- **What:** A product idea for mapping possible future life paths from a LinkedIn profile and interests, positioned as a real-life version of branching timelines.
+
+---
+
+# Monday, November 20, 2023
+
+## @DanKulkov - Product Hunt late-vote manipulation concern
+> How to win on @ProductHunt in 2023:
+>
+> 1. Be in the 7-8 place most of the time
+> 2. Wait until there are 3 hours left and support is sleeping
+> 3. Buy fake upvotes to get on the 1st place
+> 4. Showcase your investors that your product won the Product Hunt
+>
+> Shame. https://t.co/XtTj85vRHg
+
+- **Tweet:** https://x.com/DanKulkov/status/1726866598399774993
+- **Link:** https://twitter.com/DanKulkov/status/1726866598399774993/photo/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com
+- **Visual:** Product Hunt-style charts tracking votes, comments, and upvote speed, with a late spike called out visually.
+- **What:** Dan Kulkov criticizes a Product Hunt race pattern where late fake upvotes can swing rankings after support is offline, using chart evidence as the point of the bookmark.
+
+---
+
+# Sunday, November 19, 2023
+
+## @davefontenot - OpenRouter as an OpenAI outage hedge
+> if you’re building on top of openai, now might be a good time to implement https://t.co/nEZ1xg2X9B
+>
+> i don’t think it would be unreasonable to expect and plan for openai outages this week
+
+- **Tweet:** https://x.com/davefontenot/status/1726509552731046079
+- **Link:** https://openrouter.ai/
+- **Filed:** [openrouter-as-an-openai-outage-hedge-openrouter-ai.md](./knowledge/articles/openrouter-as-an-openai-outage-hedge-openrouter-ai.md)
+- **Section:** AI Tools and Agents
+- **Signals:** openrouter.ai
+- **What:** Dave Font suggests OpenRouter as an abstraction layer or fallback for products built on OpenAI, especially when provider outages are plausible.
+
+## @DrJimFan - NVIDIA AI agents hiring during OpenAI turmoil
+> My team at NVIDIA is hiring. We 🩷 you all from OpenAI. Engineers, researchers, product team, alike. Email me at linxif@nvidia.com. DM is open too. NVIDIA has warm GPUs for you on a cold winter night like this, fresh out of the oven.🩷
+>
+> I do research on AI agents. Gaming+AI, robotics, multimodal LLMs, open-ended simulations, etc. If you want an excuse to play games like Minecraft at work - I'm your guy.
+>
+> I'm shocked by the ongoing development. I can only begin to grasp the depth of what you must be going through. Please, don't hesitate to ping me if there's anything I can do to help, or just say hi and share anything you'd like to talk about. I'm a good listener.
+
+- **Tweet:** https://x.com/DrJimFan/status/1726490491452379250
+- **Section:** AI Tools and Agents
+- **What:** Jim Fan uses the OpenAI leadership turbulence moment to recruit engineers, researchers, and product people into NVIDIA AI agents work spanning gaming, robotics, multimodal models, and simulation.
+
+## @IndieHackers - Product Hunt launch stats from paying users
+> You can acquire paying users from Product Hunt.
+>
+> Here are some actual stats from a recent launch:
+
+- **Tweet:** https://x.com/IndieHackers/status/1726419589804757044
+- **Section:** Product and Startup Ideas
+- **What:** Indie Hackers points to real Product Hunt acquisition stats, framing Product Hunt not just as vanity exposure but as a possible source of paying users.
+
+## @AustinDeSisto - Rocket launch lock-screen wallpaper
+> I haven’t had a photo NOT taken by me on my wallpaper in years, but I just had to make an exception here https://t.co/f8I56VV4vt
+
+- **Tweet:** https://x.com/AustinDeSisto/status/1726391907540980169
+- **Link:** https://twitter.com/AustinDeSisto/status/1726391907540980169/photo/1
+- **Section:** Research Papers
+- **Signals:** twitter.com
+- **Visual:** Phone lock-screen wallpaper using a dramatic rocket launch image with plume and engine glow behind the clock widgets.
+- **What:** A visual bookmark of a rocket-launch wallpaper strong enough to replace the author's usual self-shot photos; useful as a reference for dramatic mobile imagery.
+
+## @levelsio - AI-generated TikTok avatar workflow
+> ✨ How to make a 100% AI-generated TikTok video of yourself:
+>
+> - go to https://t.co/PJvvSGB274 and train yourself as a video avatar, takes 30s
+> - ask ChatGPT to write a TikTok script
+> - copy script into HeyGen
+> - save video
+> - post on TikTok
+>
+> See mine: https://t.co/2XWCdOOgWJ https://t.co/i5OVMMSLRK
+
+- **Tweet:** https://x.com/levelsio/status/1726242441605623916
+- **Link:** https://www.heygen.com/
+- **Link:** https://www.tiktok.com/@levelsio/video/7303173974127578401
+- **Link:** https://twitter.com/levelsio/status/1726242441605623916/video/1
+- **Filed:** [ai-generated-tiktok-avatar-workflow-heygen-com.md](./knowledge/articles/ai-generated-tiktok-avatar-workflow-heygen-com.md), [ai-generated-tiktok-avatar-workflow-tiktok-com.md](./knowledge/articles/ai-generated-tiktok-avatar-workflow-tiktok-com.md)
+- **Section:** AI Tools and Agents
+- **Signals:** heygen.com, tiktok.com, twitter.com
+- **Visual:** Screenshots and video previews of an AI-generated talking-head TikTok workflow, including ChatGPT script drafting and a video editor transcript view.
+- **What:** Levelsio outlines a practical stack for making a synthetic TikTok of yourself: train an avatar, use ChatGPT for the script, generate the video in HeyGen, and post it to TikTok.
+
+## @zfellows - Naval on what young people should work on
+> .@naval's advice on what young people should work on if they want to get rich https://t.co/KiApRzEsHH
+
+- **Tweet:** https://x.com/zfellows/status/1726195610489938166
+- **Link:** https://twitter.com/ZFellows_/status/1726195610489938166/video/1
+- **Section:** Visual Reference
+- **Signals:** twitter.com
+- **Visual:** Video preview of a person standing formally on a mat in a quiet room, used as context for a Naval advice clip.
+- **What:** Z Fellows shares a short Naval clip about young people choosing work with upside; useful as a career and wealth-building reference, with video stills rather than a full transcript.
+
+---
+
 # Saturday, November 18, 2023
+
+## @protosphinx - North-star figures drive industry momentum
+> every industry needs a north star that drives the agenda and momentum. elon does that for space tech and ev (and unfortunately x too).
+>
+> steve jobs did that for mobiles and consumer computing.
+>
+> it’s not what they do individually within their company that matters. it’s not the patents or the research or the code being written or not - by them.
+>
+> it’s the momentum and focus and attention that comes with it - which is key.
+>
+> entrepreneurs create momentum.
+>
+> take that leader out and that momentum stalls. who knows what phones could’ve been if sj was around. i sure remember the massive upgrade ipod and iphones were over shitty devices at that time. who knows what could’ve been. all i know is we lost the momentum in personal computing. same iphones. same mac. nothing pathbreaking.
+>
+> ibm produces more patents than anyone. but do you see them making a difference in your life? no momentum.
+>
+> chatgpt was a bold product. yes, there was a lot of research at that time outside openai and openai certainly did not invent anything new. yes, many many orgs have been doing a lot of work.
+>
+> but chatgpt is what drove that conversation forward. that’s momentum.
+>
+> same with tesla and spacex. investment follows momentum. public interest follows that.
+>
+> public interest converts into real dollars.
+>
+> you get your ai startup funding. go public. retail buys your stock. etc etc.
+>
+> and we move forward. jobs. opportunities. better life. better tech.
+>
+> momentum is life.
+
+- **Tweet:** https://x.com/protosphinx/status/1726105137947492802
+- **Section:** AI Tools and Agents
+- **What:** A strategic observation that charismatic north-star operators can set an industry agenda even when the leverage comes less from their direct patents or research and more from narrative, urgency, and coordination.
+
+## @thepatwalls - SeatGuru for avoiding bad airplane seats
+> Easy life hack:
+>
+> (for next time you fly)
+>
+> NEVER trust the airline's seat map.
+>
+> Or you might find yourself in a seat that can't recline.
+>
+> Instead, use this website.
+>
+> You can look up by plane model (e.g. Boeing 747).
+>
+> And see exactly which seats have:
+>
+> - no legroom
+> - can't recline
+> - next to bathroom
+> - extra legroom
+> - no window
+> - emergency exit
+> - etc
+>
+> All crowdsourced by real people.
+>
+> https://t.co/HKiZSJDddo
+
+- **Tweet:** https://x.com/thepatwalls/status/1726026246528565487
+- **Link:** https://www.tripadvisor.com/
+- **Filed:** [seatguru-for-avoiding-bad-airplane-seats-tripadvisor-com.md](./knowledge/articles/seatguru-for-avoiding-bad-airplane-seats-tripadvisor-com.md)
+- **Section:** AI Tools and Agents
+- **Signals:** tripadvisor.com
+- **Visual:** SeatGuru screenshots showing United Boeing 777 seat maps, colored good/warning/bad seat indicators, amenity icons, and a key for interpreting aircraft cabin layouts.
+- **What:** Pat Walls recommends checking SeatGuru or Tripadvisor-style seat maps instead of trusting the airline seat selector, because crowdsourced maps flag recline, bathroom proximity, windows, exits, and legroom problems before booking.
 
 ## @Taishi 🇯🇵🇨🇦 - AI webcam roast tool
 > Jim Carrey is now roasting me in a webcam.
