@@ -243,8 +243,24 @@
         display: flex;
         justify-content: space-between;
         gap: 12px;
-        align-items: baseline;
-        margin-bottom: 9px;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .author-wrap {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        min-width: 0;
+      }
+
+      .avatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #151515;
+        object-fit: cover;
+        flex: 0 0 auto;
       }
 
       .media-thumb {
@@ -261,7 +277,7 @@
       .media-stack {
         display: grid;
         gap: 8px;
-        margin-bottom: 12px;
+        margin-top: 12px;
       }
 
       .media-stack .media-thumb {
@@ -276,14 +292,6 @@
         color: #777;
         font-size: 11px;
         white-space: nowrap;
-      }
-
-      .title {
-        margin: 0 0 7px;
-        color: var(--muted);
-        font-size: 11px;
-        line-height: 1.3;
-        font-weight: 400;
       }
 
       .what {
@@ -563,13 +571,15 @@
           node.dataset.id = item.id;
           if (previewUrl) node.dataset.previewUrl = previewUrl;
           node.innerHTML = `
-            ${media.length ? `<div class="media-stack">${media.map((src) => `<img class="media-thumb" src="${escapeAttr(src)}" alt="" loading="lazy" decoding="async">`).join("")}</div>` : ""}
             <div class="tweet-head">
-              <span class="author">@${escapeHtml(item.author)}</span>
+              <div class="author-wrap">
+                <img class="avatar" src="${escapeAttr(avatarUrl(item))}" alt="" loading="lazy" decoding="async" onerror="this.hidden=true">
+                <span class="author">@${escapeHtml(item.author)}</span>
+              </div>
               <span class="date">${escapeHtml(shortDate(item.date))}</span>
             </div>
-            <p class="title">${escapeHtml(item.title)}</p>
             <p class="what">${escapeHtml(displayText)}</p>
+            ${media.length ? `<div class="media-stack">${media.map((src) => `<img class="media-thumb" src="${escapeAttr(src)}" alt="" loading="lazy" decoding="async">`).join("")}</div>` : ""}
             ${previewUrl ? `<a class="link-preview" href="${escapeAttr(previewUrl)}" target="_blank" rel="noreferrer" data-preview-url="${escapeAttr(previewUrl)}" hidden></a>` : ""}
             ${item.tweet ? `<a href="${escapeAttr(item.tweet)}" target="_blank" rel="noreferrer">open</a>` : ""}
           `;
@@ -630,6 +640,10 @@
 
       function shortDate(date) {
         return String(date || "").replace(/^[A-Za-z]+,\s*/, "").replace(/,\s*\d{4}$/, "");
+      }
+
+      function avatarUrl(item) {
+        return `/avatar?author=${encodeURIComponent(item.author || "")}&tweet=${encodeURIComponent(item.tweet || "")}`;
       }
 
       function displayTweetText(text, item, options) {

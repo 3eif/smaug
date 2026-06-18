@@ -43,6 +43,13 @@ function previewImageCachePaths(config, value) {
   };
 }
 
+function avatarCachePath(config, author) {
+  const avatarRoot = resolveConfiguredPath(config, 'avatarCacheDir', './.state/avatars');
+  const safeAuthor = String(author || '').replace(/[^A-Za-z0-9_]/g, '').toLowerCase();
+  if (!safeAuthor) return '';
+  return path.join(avatarRoot, `${safeAuthor}.json`);
+}
+
 function decodeHtmlEntities(value = '') {
   return String(value)
     .replace(/&amp;/g, '&')
@@ -114,6 +121,50 @@ function parseLinkPreview(url, html) {
     siteName: siteName || parsed.hostname.replace(/^www\./, ''),
     hostname: parsed.hostname.replace(/^www\./, '')
   };
+}
+
+async function avatarUrlForAuthor(config, author, tweetUrl) {
+  const cachePath = avatarCachePath(config, author);
+  if (!cachePath) throw new Error('Missing avatar author');
+  if (fs.existsSync(cachePath)) {
+    return JSON.parse(fs.readFileSync(cachePath, 'utf8')).image;
+  }
+
+  const url = new URL(tweetUrl || `https://x.com/${author}`);
+  if (!['https:', 'http:'].includes(url.protocol) || !['x.com', 'twitter.com'].includes(url.hostname.replace(/^www\./, ''))) {
+    throw new Error('Unsupported avatar URL');
+  }
+
+  const response = await fetch(url.href, {
+    redirect: 'follow',
+    headers: {
+      'Accept': 'text/html,application/xhtml+xml',
+      'User-Agent': 'SmaugArchivePreview/1.0'
+    }
+  });
+  if (!response.ok) throw new Error(`Avatar fetch failed with ${response.status}`);
+
+  const html = await response.text();
+  const image = metaContent(html, ['og:image', 'twitter:image']);
+  if (!image || !image.includes('pbs.twimg.com/profile_images/')) {
+    throw new Error('Avatar image not found');
+  }
+
+  fs.mkdirSync(path.dirname(cachePath), { recursive: true });
+  fs.writeFileSync(cachePath, JSON.stringify({ author, image, source: response.url || url.href }, null, 2));
+  return image;
+}
+
+async function sendAvatar(res, config, author, tweetUrl) {
+  try {
+    const image = await avatarUrlForAuthor(config, author, tweetUrl);
+    await sendLinkPreviewImage(res, config, image);
+  } catch (error) {
+    sendJson(res, 422, {
+      error: 'Could not load avatar',
+      details: error.message
+    });
+  }
 }
 
 function contentTypeExtension(contentType) {
@@ -405,6 +456,11 @@ const server = http.createServer((req, res) => {
   if (url.pathname === '/link-preview-image') {
     const target = url.searchParams.get('url') || '';
     sendLinkPreviewImage(res, config, target);
+    return;
+  }
+
+  if (url.pathname === '/avatar') {
+    sendAvatar(res, config, url.searchParams.get('author') || '', url.searchParams.get('tweet') || '');
     return;
   }
 
