@@ -695,6 +695,36 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ---
 
+# Thursday, May 31, 2018
+
+## @naval - Learn to sell and build
+> Learn to sell. Learn to build. If you can do both, you will be unstoppable.
+
+- **Tweet:** https://x.com/naval/status/1002104154737684480
+- **What:** Follow-up from Naval's wealth-building thread distilling leverage into two practical abilities: selling and building. The line is useful as a compact founder/operator heuristic.
+
+## @naval - How to Get Rich thread opener
+> How to Get Rich (without getting lucky):
+
+- **Tweet:** https://x.com/naval/status/1002103360646823936
+- **What:** Opening tweet for Naval's widely shared "How to Get Rich" thread, framing wealth creation as a set of learnable principles rather than luck.
+
+---
+
+# Monday, May 21, 2018
+
+## @nikitabier - YC rejection email and teen-girl beachhead lesson
+> Good luck to everyone on their YC interviews this week. Here’s our rejection email.
+>
+> FWIW: 70% of tbh’s userbase was teen girls. https://t.co/PW7IiRKJAN
+
+- **Tweet:** https://x.com/nikitabier/status/998579954211213313
+- **Link:** https://twitter.com/nikitabier/status/998579954211213313/photo/1
+- **Visual:** Screenshot of a 2012 YC rejection email from Garry Tan saying the anonymous review product had a worthy goal, but that "young women" did not seem like the right initial beachhead. The contrast with tbh's later teen-girl user base is the point of the bookmark.
+- **What:** Nikita Bier uses tbh's YC rejection to show how early market assumptions can be wrong, especially around overlooked user segments and social consumer products.
+
+---
+
 # Sunday, October 12, 2014
 
 ## @ZohranKMamdani - My Beautiful Dark Twisted Fantasy appreciation
