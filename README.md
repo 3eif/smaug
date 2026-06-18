@@ -440,6 +440,17 @@ When enriched bookmarks have local `mediaAssets[]`, Codex-backed `smaug run` att
 
 For videos, Smaug caches thumbnails and records direct video URLs when `bird read` exposes them. With `--video-frames N`, Smaug also samples up to 12 frames from each direct video URL via `ffmpeg`. It does not yet transcribe audio automatically.
 
+### Fast Bulk Archive
+
+For large backlogs where you want everything organized quickly before doing AI polish, use the deterministic bulk archiver:
+
+```bash
+npx smaug bulk-archive --dry-run
+npx smaug bulk-archive
+```
+
+This writes clean archive entries from existing pending metadata, preserves descending date order, and removes processed bookmarks only after verifying every selected tweet ID appears in the merged archive. It does not create detailed knowledge-library files; use an AI refinement pass later for the most valuable tools, articles, images, and videos.
+
 ### Experimental: Media Attachments
 
 Media extraction (photos, videos, GIFs) is available but disabled by default. To enable:

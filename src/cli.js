@@ -16,6 +16,7 @@
 import { fetchAndPrepareBookmarks } from './processor.js';
 import { initConfig, loadConfig } from './config.js';
 import { enrichPendingBookmarks } from './organizer.js';
+import { bulkArchivePendingBookmarks } from './bulk-archiver.js';
 import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
@@ -405,6 +406,30 @@ async function main() {
       break;
     }
 
+    case 'bulk-archive': {
+      const limitIdx = args.findIndex(a => a === '--limit' || a === '-l');
+      let limit = null;
+      if (limitIdx !== -1 && args[limitIdx + 1]) {
+        limit = parseInt(args[limitIdx + 1], 10);
+        if (Number.isNaN(limit) || limit <= 0) {
+          console.error('Invalid --limit value. Must be a positive number.');
+          process.exit(1);
+        }
+      }
+
+      const result = await bulkArchivePendingBookmarks({
+        limit,
+        dryRun: args.includes('--dry-run')
+      });
+
+      console.log(`${result.dryRun ? 'Dry run' : 'Bulk archived'} ${result.selected} bookmark(s).`);
+      console.log(`Date sections touched: ${result.dateSections}`);
+      console.log(`Remaining pending: ${result.remaining}`);
+      console.log(`Archive: ${result.archiveFile}`);
+      console.log(`Pending: ${result.pendingFile}`);
+      break;
+    }
+
     case 'status': {
       const config = loadConfig();
 
@@ -468,6 +493,8 @@ Commands:
   enrich --media --download-media  Fetch media URLs and cache images/thumbnails
   enrich --media --download-media --video-frames 3  Sample frames from videos
   enrich --latest --limit N         Enrich newest N pending bookmarks
+  bulk-archive   Fast deterministic archive of pending bookmarks without AI
+  bulk-archive --dry-run --limit N  Validate fast archive output without writing
   process        Show pending tweets
   status         Show current status
 
@@ -489,6 +516,8 @@ Examples:
   smaug enrich --limit 25 --media --download-media
   smaug enrich --limit 25 --media --download-media --video-frames 3
   smaug enrich --latest --limit 25 --media --download-media
+  smaug bulk-archive --dry-run    # Preview fast deterministic processing
+  smaug bulk-archive              # Archive all pending bookmarks quickly
 
 Config (smaug.config.json):
   "source": "bookmarks"    Default source (bookmarks, likes, or both)

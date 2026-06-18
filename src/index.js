@@ -29,6 +29,13 @@ export {
   inferMediaRefs
 } from './organizer.js';
 
+export {
+  bulkArchivePendingBookmarks,
+  formatBookmarkEntry,
+  mergeArchive,
+  validateArchiveOrder
+} from './bulk-archiver.js';
+
 // Scheduled job runner
 export { run as runJob } from './job.js';
 export { default as job } from './job.js';
