@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import http from 'http';
+import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -24,6 +25,195 @@ function resolveConfiguredPath(config, key, fallback) {
   const configured = config[key] || fallback;
   const expanded = configured.replace(/^~(?=$|\/|\\)/, process.env.HOME || '');
   return path.isAbsolute(expanded) ? expanded : path.resolve(projectRoot, expanded);
+}
+
+function cachePathForUrl(config, value) {
+  const previewRoot = resolveConfiguredPath(config, 'linkPreviewCacheDir', './.state/link-previews');
+  const hash = crypto.createHash('sha256').update(value).digest('hex');
+  return path.join(previewRoot, `${hash}.json`);
+}
+
+function previewImageCachePaths(config, value) {
+  const imageRoot = resolveConfiguredPath(config, 'linkPreviewImageCacheDir', './.state/link-preview-images');
+  const hash = crypto.createHash('sha256').update(value).digest('hex');
+  return {
+    imageRoot,
+    hash,
+    metaPath: path.join(imageRoot, `${hash}.json`)
+  };
+}
+
+function decodeHtmlEntities(value = '') {
+  return String(value)
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&#x27;/g, "'")
+    .replace(/&#x2F;/g, '/')
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)));
+}
+
+function htmlAttr(tag, name) {
+  const match = tag.match(new RegExp(`${name}\\s*=\\s*["']([^"']+)["']`, 'i'));
+  return match ? decodeHtmlEntities(match[1].trim()) : '';
+}
+
+function metaContent(html, names) {
+  const metas = html.match(/<meta\b[^>]*>/gi) || [];
+  for (const name of names) {
+    for (const tag of metas) {
+      const key = htmlAttr(tag, 'property') || htmlAttr(tag, 'name');
+      if (key.toLowerCase() === name) {
+        return htmlAttr(tag, 'content');
+      }
+    }
+  }
+  return '';
+}
+
+function firstExternalLink(links = []) {
+  return links.find((link) => {
+    try {
+      const url = new URL(link);
+      return ['http:', 'https:'].includes(url.protocol) && !['x.com', 'twitter.com'].includes(url.hostname.replace(/^www\./, ''));
+    } catch {
+      return false;
+    }
+  }) || '';
+}
+
+function absoluteUrl(base, value) {
+  if (!value) return '';
+  try {
+    return new URL(value, base).href;
+  } catch {
+    return '';
+  }
+}
+
+function parseLinkPreview(url, html) {
+  const titleMatch = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+  const rawTitle = metaContent(html, ['og:title', 'twitter:title']) || (titleMatch ? titleMatch[1] : '');
+  const description = metaContent(html, ['og:description', 'twitter:description', 'description']);
+  const image = metaContent(html, ['og:image', 'og:image:url', 'twitter:image', 'twitter:image:src']);
+  const siteName = metaContent(html, ['og:site_name', 'twitter:site']);
+  const parsed = new URL(url);
+
+  return {
+    url,
+    title: decodeHtmlEntities(rawTitle).replace(/\s+/g, ' ').trim(),
+    description: decodeHtmlEntities(description).replace(/\s+/g, ' ').trim(),
+    image: absoluteUrl(url, image),
+    siteName: siteName || parsed.hostname.replace(/^www\./, ''),
+    hostname: parsed.hostname.replace(/^www\./, '')
+  };
+}
+
+function contentTypeExtension(contentType) {
+  const normalized = String(contentType || '').split(';')[0].trim().toLowerCase();
+  return {
+    'image/jpeg': '.jpg',
+    'image/png': '.png',
+    'image/gif': '.gif',
+    'image/webp': '.webp'
+  }[normalized] || '';
+}
+
+async function fetchLinkPreview(config, rawUrl) {
+  const url = new URL(rawUrl);
+  if (!['http:', 'https:'].includes(url.protocol)) {
+    throw new Error('Unsupported preview URL');
+  }
+
+  const cachePath = cachePathForUrl(config, url.href);
+  if (fs.existsSync(cachePath)) {
+    return JSON.parse(fs.readFileSync(cachePath, 'utf8'));
+  }
+
+  const response = await fetch(url.href, {
+    redirect: 'follow',
+    headers: {
+      'Accept': 'text/html,application/xhtml+xml',
+      'User-Agent': 'SmaugArchivePreview/1.0'
+    }
+  });
+  if (!response.ok) {
+    throw new Error(`Preview fetch failed with ${response.status}`);
+  }
+
+  const contentType = response.headers.get('content-type') || '';
+  if (!contentType.includes('text/html')) {
+    throw new Error('Preview URL did not return HTML');
+  }
+
+  const html = await response.text();
+  const preview = parseLinkPreview(response.url || url.href, html);
+  fs.mkdirSync(path.dirname(cachePath), { recursive: true });
+  fs.writeFileSync(cachePath, JSON.stringify(preview, null, 2));
+  return preview;
+}
+
+async function sendLinkPreviewImage(res, config, rawUrl) {
+  try {
+    const url = new URL(rawUrl);
+    if (!['http:', 'https:'].includes(url.protocol)) {
+      throw new Error('Unsupported preview image URL');
+    }
+
+    const cache = previewImageCachePaths(config, url.href);
+    if (fs.existsSync(cache.metaPath)) {
+      const meta = JSON.parse(fs.readFileSync(cache.metaPath, 'utf8'));
+      if (fs.existsSync(meta.filePath)) {
+        res.writeHead(200, {
+          'Content-Type': meta.contentType,
+          'Cache-Control': 'public, max-age=86400'
+        });
+        fs.createReadStream(meta.filePath).pipe(res);
+        return;
+      }
+    }
+
+    const response = await fetch(url.href, {
+      redirect: 'follow',
+      headers: {
+        'Accept': 'image/avif,image/webp,image/png,image/jpeg,image/gif,*/*',
+        'User-Agent': 'SmaugArchivePreview/1.0'
+      }
+    });
+    if (!response.ok) throw new Error(`Image fetch failed with ${response.status}`);
+
+    const contentType = response.headers.get('content-type') || '';
+    const ext = contentTypeExtension(contentType);
+    if (!ext) throw new Error('Preview image URL did not return a supported image');
+
+    const buffer = Buffer.from(await response.arrayBuffer());
+    fs.mkdirSync(cache.imageRoot, { recursive: true });
+    const filePath = path.join(cache.imageRoot, `${cache.hash}${ext}`);
+    fs.writeFileSync(filePath, buffer);
+    if (!isRasterImage(filePath)) {
+      fs.rmSync(filePath, { force: true });
+      throw new Error('Preview image was not a raster image');
+    }
+
+    const meta = {
+      url: response.url || url.href,
+      contentType: MIME_TYPES[ext] || contentType.split(';')[0],
+      filePath
+    };
+    fs.writeFileSync(cache.metaPath, JSON.stringify(meta, null, 2));
+    res.writeHead(200, {
+      'Content-Type': meta.contentType,
+      'Cache-Control': 'public, max-age=86400'
+    });
+    res.end(buffer);
+  } catch (error) {
+    sendJson(res, 422, {
+      error: 'Could not load preview image',
+      details: error.message
+    });
+  }
 }
 
 function isRasterImage(filePath) {
@@ -92,6 +282,8 @@ function parseArchive(markdown, config) {
         .trim();
 
       const id = meta.Tweet?.match(/status\/(\d+)/)?.[1] || `${date}-${j}`;
+      const links = [...entry.matchAll(/^- \*\*(?:Link|Media|Quoted|Parent):\*\* (.+)$/gm)]
+        .map((match) => match[1].trim());
       sections.push({
         id,
         date,
@@ -103,8 +295,8 @@ function parseArchive(markdown, config) {
         what: meta.What || '',
         visual: meta.Visual || '',
         media: localMediaForId(config, id),
-        links: [...entry.matchAll(/^- \*\*(?:Link|Media|Quoted|Parent):\*\* (.+)$/gm)]
-          .map((match) => match[1].trim())
+        links,
+        previewUrl: firstExternalLink(links)
       });
     }
   }
@@ -189,6 +381,23 @@ const server = http.createServer((req, res) => {
 
   if (url.pathname.startsWith('/media/')) {
     sendMedia(res, config, url.pathname);
+    return;
+  }
+
+  if (url.pathname === '/link-preview') {
+    const target = url.searchParams.get('url') || '';
+    fetchLinkPreview(config, target)
+      .then((preview) => sendJson(res, 200, preview))
+      .catch((error) => sendJson(res, 422, {
+        error: 'Could not load link preview',
+        details: error.message
+      }));
+    return;
+  }
+
+  if (url.pathname === '/link-preview-image') {
+    const target = url.searchParams.get('url') || '';
+    sendLinkPreviewImage(res, config, target);
     return;
   }
 

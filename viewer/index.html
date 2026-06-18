@@ -302,6 +302,55 @@
         border-bottom: 1px solid rgba(255, 255, 255, 0.35);
       }
 
+      .link-preview {
+        display: block;
+        margin-top: 12px;
+        border: 1px solid var(--line);
+        color: inherit;
+        text-decoration: none;
+        background: rgba(255, 255, 255, 0.025);
+        overflow: hidden;
+      }
+
+      .link-preview[hidden] {
+        display: none;
+      }
+
+      .link-preview img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid var(--line);
+        background: #0b0b0b;
+      }
+
+      .link-preview-body {
+        display: grid;
+        gap: 4px;
+        padding: 10px 12px 11px;
+      }
+
+      .link-preview-title {
+        margin: 0;
+        color: var(--ink);
+        font-size: 13px;
+        line-height: 1.3;
+        font-weight: 600;
+      }
+
+      .link-preview-description {
+        margin: 0;
+        color: #b8b8b8;
+        font-size: 12px;
+        line-height: 1.35;
+      }
+
+      .link-preview-host {
+        margin: 2px 0 0;
+        color: #777;
+        font-size: 11px;
+      }
+
       .empty {
         position: fixed;
         left: 288px;
@@ -409,7 +458,8 @@
         categories: [],
         active: "All",
         query: "",
-        mode: localStorage.getItem(MODE_KEY) === "row" ? "row" : "grid"
+        mode: localStorage.getItem(MODE_KEY) === "row" ? "row" : "grid",
+        previewObserver: null
       };
 
       const els = {
@@ -486,7 +536,7 @@
           .filter((item) => state.active === "All" || item.section === state.active)
           .filter((item) => {
             if (!query) return true;
-            return `${item.author} ${item.title} ${item.what} ${item.text} ${item.date}`.toLowerCase().includes(query);
+            return `${item.author} ${item.title} ${item.what} ${item.text} ${item.date} ${item.previewUrl || ""}`.toLowerCase().includes(query);
           });
       }
 
@@ -498,12 +548,14 @@
         els.empty.hidden = visible.length > 0;
         els.stage.innerHTML = "";
         els.stage.className = `stage ${state.mode}`;
+        resetPreviewObserver();
 
         visible.forEach((item) => {
           const media = Array.isArray(item.media) ? item.media : [];
           const node = document.createElement("article");
           node.className = `tweet${media.length ? " has-media" : ""}`;
           node.dataset.id = item.id;
+          if (item.previewUrl) node.dataset.previewUrl = item.previewUrl;
           node.innerHTML = `
             ${media.length ? `<div class="media-stack">${media.map((src) => `<img class="media-thumb" src="${escapeAttr(src)}" alt="" loading="lazy" decoding="async">`).join("")}</div>` : ""}
             <div class="tweet-head">
@@ -512,10 +564,62 @@
             </div>
             <p class="title">${escapeHtml(item.title)}</p>
             <p class="what">${escapeHtml(item.text || item.what || "Saved tweet")}</p>
+            ${item.previewUrl ? `<a class="link-preview" href="${escapeAttr(item.previewUrl)}" target="_blank" rel="noreferrer" data-preview-url="${escapeAttr(item.previewUrl)}" hidden></a>` : ""}
             ${item.tweet ? `<a href="${escapeAttr(item.tweet)}" target="_blank" rel="noreferrer">open</a>` : ""}
           `;
           els.stage.appendChild(node);
         });
+
+        observeLinkPreviews();
+      }
+
+      function resetPreviewObserver() {
+        state.previewObserver?.disconnect();
+        state.previewObserver = null;
+      }
+
+      function observeLinkPreviews() {
+        const tweets = [...els.stage.querySelectorAll(".tweet[data-preview-url]")];
+        if (!tweets.length) return;
+
+        state.previewObserver = new IntersectionObserver((entries) => {
+          for (const entry of entries) {
+            if (!entry.isIntersecting) continue;
+            state.previewObserver.unobserve(entry.target);
+            loadLinkPreview(entry.target);
+          }
+        }, {
+          root: els.canvas,
+          rootMargin: "420px 0px"
+        });
+
+        tweets.forEach((tweet) => state.previewObserver.observe(tweet));
+      }
+
+      async function loadLinkPreview(tweet) {
+        const url = tweet.dataset.previewUrl;
+        const card = tweet.querySelector(".link-preview");
+        if (!url) return;
+
+        try {
+          const response = await fetch(`/link-preview?url=${encodeURIComponent(url)}`);
+          if (!response.ok) return;
+          const preview = await response.json();
+          if (!preview.title && !preview.image) return;
+          const imageUrl = preview.image ? `/link-preview-image?url=${encodeURIComponent(preview.image)}` : "";
+
+          card.innerHTML = `
+            ${imageUrl ? `<img src="${escapeAttr(imageUrl)}" alt="" loading="lazy" decoding="async">` : ""}
+            <div class="link-preview-body">
+              ${preview.title ? `<p class="link-preview-title">${escapeHtml(preview.title)}</p>` : ""}
+              ${preview.description ? `<p class="link-preview-description">${escapeHtml(preview.description)}</p>` : ""}
+              <p class="link-preview-host">${escapeHtml(preview.hostname || preview.siteName || new URL(url).hostname)}</p>
+            </div>
+          `;
+          card.hidden = false;
+        } catch {
+          card.hidden = true;
+        }
       }
 
       function shortDate(date) {
