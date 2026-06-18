@@ -695,6 +695,99 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ---
 
+# Tuesday, January 11, 2022
+
+## @nikitabier - Consumer Social App Lessons Thread
+> After 10 years of building consumer social apps, I've decided to start exploring new areas. Building these products is an unforgiving grind—but I learned a lot along the way. 
+>
+> For those embarking on this path, here's everything you need to know:
+>
+> TIME FOR A THREAD 👇
+
+- **Tweet:** https://x.com/nikitabier/status/1481118406749220868
+- **Section:** Design and UI Patterns
+- **What:** Nikita Bier opens a thread summarizing lessons from a decade building consumer social apps, useful as a founder/operator reference for social product dynamics.
+
+---
+
+# Thursday, December 2, 2021
+
+## @dalvarago - iMessage Wrapped Parody Screens
+> omg the new imessage wrapped is beating my ass https://t.co/ylem5wzW8d
+
+- **Tweet:** https://x.com/dalvarago/status/1466491683273650177
+- **Link:** https://twitter.com/dalvarago/status/1466491683273650177/photo/1
+- **Section:** Design and UI Patterns
+- **Signals:** twitter.com, media, has-media
+- **Visual:** A set of dark-mode iPhone screenshots parodying an "iMessage Wrapped" recap, including compose screens, message reaction overlays, laser-effect UI, serif year-in-review typography, and deliberately harsh personalized stats.
+- **What:** A visual reference for spoofing Spotify Wrapped-style recap mechanics inside an iMessage aesthetic, mixing system UI screenshots with exaggerated social metrics and meme copy.
+
+## @ZviikoeTweets - iMessage Wrapped Top Message Card
+> iMessage wrapped https://t.co/a4NHzOye3O
+
+- **Tweet:** https://x.com/ZviikoeTweets/status/1466324336642564096
+- **Link:** https://twitter.com/ZviikoeTweets/status/1466324336642564096/photo/1
+- **Section:** Design and UI Patterns
+- **Signals:** twitter.com, media, has-media
+- **Visual:** A mock Wrapped-style card using the Messages app icon, bright mint and magenta accents, and a bold stat line about the user's most-used message.
+- **What:** A compact visual reference for turning private messaging behavior into a shareable year-in-review card, using familiar app branding and Spotify Wrapped-like ranking language.
+
+---
+
+# Thursday, August 19, 2021
+
+## @nickcammarata - Happy People Wander
+> @sashachapin basically all the happiest people I know spend like 50% of their life wandering around
+
+- **Tweet:** https://x.com/nickcammarata/status/1428494972836368388
+- **Section:** Coding Reference
+- **Signals:** reply
+- **What:** A short reply capturing an observation about happiness and unstructured wandering. Parent context was not available in the prepared bookmark data.
+
+---
+
+# Friday, July 30, 2021
+
+## @nickcammarata - Converting Money Back Into Good Feels
+> A lot of people I know are giving up good feels for a chance at a lot of money but don’t have a plan to convert that money back into good feels, and I think they’ll find it’s harder than they expect
+
+- **Tweet:** https://x.com/nickcammarata/status/1421164454193008640
+- **What:** A caution about trading present quality of life for financial upside without a concrete plan for turning money back into lived well-being.
+
+---
+
+# Wednesday, December 9, 2020
+
+## @levelsio - Custom Stripe-Backed Invoice Generator
+> ✨🧾 I made my own invoice generator and @thepatwalls said I should open source it, so here we go
+>
+> I made this because it was easier to customize my own invoices like this, the backend is still @Stripe invoices
+>
+> https://t.co/XVrGR9a6AM https://t.co/W7C6iS0dBG
+
+- **Tweet:** https://x.com/levelsio/status/1336798773083779072
+- **Link:** https://gist.github.com/levelsio/b30721cc99166223fcf3dd590d6d0454
+- **Filed:** [remote-ok-invoice-generator.md](./knowledge/tools/remote-ok-invoice-generator.md)
+- **Section:** Coding Reference
+- **Signals:** gist.github.com, twitter.com, github, media, has-media
+- **Visual:** Screenshot of a clean black-and-white invoice layout for Remote OK, showing billing details, invoice metadata, a paid total, line item table, and amount paid summary.
+- **What:** Open-source gist for a custom invoice generator that keeps Stripe as the backend while allowing more control over invoice layout and branding.
+
+---
+
+# Monday, August 26, 2019
+
+## @naval - Life Quality When Doing Nothing
+> Visit all the places, eat all the food, read all the books, make all the friends, gather all the fame, support all the causes, build all the products, earn all the money...
+>
+> ...to see that the quality of your life is what it is when you are doing nothing.
+
+- **Tweet:** https://x.com/naval/status/1165903557209415680
+- **Section:** Design and UI Patterns
+- **What:** Philosophical reminder that external accumulation does not necessarily change baseline lived experience; the test is how life feels in stillness.
+
+---
+
 # Thursday, May 31, 2018
 
 ## @naval - Learn to sell and build
