@@ -22,6 +22,9 @@ const DEFAULT_CONFIG = {
   // Local cache for downloaded media thumbnails/images used by Codex analysis
   mediaCacheDir: './.state/media',
 
+  // Optional number of frames to sample from direct video URLs during enrichment
+  videoFrameCount: 0,
+
   // Where to store the markdown archive
   archiveFile: './bookmarks.md',
 
@@ -265,6 +268,9 @@ export function loadConfig(configPath) {
   if (process.env.MEDIA_CACHE_DIR) {
     config.mediaCacheDir = process.env.MEDIA_CACHE_DIR;
   }
+  if (process.env.VIDEO_FRAME_COUNT) {
+    config.videoFrameCount = parseInt(process.env.VIDEO_FRAME_COUNT, 10);
+  }
   if (process.env.AUTH_TOKEN) {
     config.twitter.authToken = process.env.AUTH_TOKEN;
   }
@@ -355,6 +361,7 @@ export function initConfig(targetPath = './smaug.config.json') {
     // EXPERIMENTAL: Include media attachments (photos, videos, GIFs)
     // includeMedia: false,
     mediaCacheDir: './.state/media',
+    videoFrameCount: 0,
     archiveFile: './bookmarks.md',
     pendingFile: './.state/pending-bookmarks.json',
     stateFile: './.state/bookmarks-state.json',

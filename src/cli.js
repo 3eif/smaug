@@ -349,12 +349,23 @@ async function main() {
         }
       }
 
+      const videoFramesIdx = args.findIndex(a => a === '--video-frames');
+      let videoFrameCount = null;
+      if (videoFramesIdx !== -1) {
+        videoFrameCount = args[videoFramesIdx + 1] ? parseInt(args[videoFramesIdx + 1], 10) : 3;
+        if (Number.isNaN(videoFrameCount) || videoFrameCount < 0) {
+          console.error('Invalid --video-frames value. Must be 0 or greater.');
+          process.exit(1);
+        }
+      }
+
       const result = await enrichPendingBookmarks({
         limit,
         latest: args.includes('--latest'),
         force: args.includes('--force') || args.includes('-f'),
         fetchMedia: args.includes('--media') || args.includes('--fetch-media'),
         downloadMedia: args.includes('--download-media'),
+        videoFrameCount,
         birdDelayMs
       });
 
@@ -455,6 +466,7 @@ Commands:
   fetch --media  EXPERIMENTAL: Include media attachments
   enrich         Add organization metadata to pending bookmarks
   enrich --media --download-media  Fetch media URLs and cache images/thumbnails
+  enrich --media --download-media --video-frames 3  Sample frames from videos
   enrich --latest --limit N         Enrich newest N pending bookmarks
   process        Show pending tweets
   status         Show current status
@@ -475,6 +487,7 @@ Examples:
   smaug fetch --force            # Re-process archived tweets
   smaug enrich                   # Classify pending bookmarks into richer sections
   smaug enrich --limit 25 --media --download-media
+  smaug enrich --limit 25 --media --download-media --video-frames 3
   smaug enrich --latest --limit 25 --media --download-media
 
 Config (smaug.config.json):

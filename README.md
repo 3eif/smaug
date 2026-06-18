@@ -378,6 +378,7 @@ Example `smaug.config.json`:
 | `source` | `bookmarks` | What to fetch: `bookmarks` (default), `likes`, or `both` |
 | `includeMedia` | `false` | **EXPERIMENTAL**: Include media attachments (photos, videos, GIFs) |
 | `mediaCacheDir` | `./.state/media` | Local cache for images/video thumbnails used by Codex visual analysis |
+| `videoFrameCount` | `0` | Optional number of frames to sample from each direct video URL during enrichment |
 | `fetchPageDelayMs` | `0` | Delay between paginated bookmark pages in milliseconds |
 | `fetchPageSize` | `null` | Page size to use when throttling paginated bookmark fetches |
 | `birdRequestDelayMs` | `0` | Delay before X-side `bird` read/search requests |
@@ -423,6 +424,12 @@ For visual analysis, hydrate media URLs and cache image/video thumbnails locally
 npx smaug enrich --limit 25 --media --download-media --bird-delay-ms 1000
 ```
 
+To give Codex more than a video thumbnail, sample a few frames from direct video URLs:
+
+```bash
+npx smaug enrich --limit 25 --media --download-media --video-frames 3 --bird-delay-ms 1000
+```
+
 To test the freshest bookmarks first, add `--latest`:
 
 ```bash
@@ -431,7 +438,7 @@ npx smaug enrich --latest --limit 25 --media --download-media --bird-delay-ms 10
 
 When enriched bookmarks have local `mediaAssets[]`, Codex-backed `smaug run` attaches those images/thumbnails to `codex exec` using `--image`. This lets Codex inspect actual images and video thumbnails while organizing the current batch.
 
-For videos, Smaug currently caches thumbnails and records direct video URLs when `bird read` exposes them. It does not yet sample multiple frames or transcribe audio automatically.
+For videos, Smaug caches thumbnails and records direct video URLs when `bird read` exposes them. With `--video-frames N`, Smaug also samples up to 12 frames from each direct video URL via `ffmpeg`. It does not yet transcribe audio automatically.
 
 ### Experimental: Media Attachments
 

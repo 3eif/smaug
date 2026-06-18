@@ -138,13 +138,14 @@ Only include `Section` and `Signals` when they add useful context. Do not blindl
 
 ### Visual Media Handling
 
-When `mediaAssets[]` exists, use the attached images/thumbnails as evidence. For videos, the attached image is usually a thumbnail, so describe it as a visual/video preview rather than claiming to have watched the full video unless a transcript or frames are provided.
+When `mediaAssets[]` exists, use the attached images/thumbnails/frames as evidence. For videos, `kind: "video-thumbnail"` is only a preview, while `kind: "video-frame"` means Smaug sampled frames from the video. Describe exactly which evidence is available and do not claim to have watched or heard the full video unless a transcript or frame sequence supports it.
 
 For visual bookmarks:
 
 - Describe what the media appears to show.
 - Capture style, UI pattern, product idea, artifact type, or visual reference value.
 - Route to `Visual Reference`, `Design and UI Patterns`, `Videos and Demos`, or another fitting `organization.section`.
+- Use sampled frames to recognize whether a video is a UI demo, tutorial, meme, design reference, product idea, performance, or news clip.
 - If media is only a URL and no asset was attached, say it is a media link and avoid overclaiming visual details.
 
 Suggested extra line:

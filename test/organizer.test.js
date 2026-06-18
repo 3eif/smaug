@@ -56,10 +56,24 @@ describe('collectCodexImageInputs', () => {
   test('collects existing local media asset paths up to a cap', () => {
     const result = collectCodexImageInputs({
       bookmarks: [
-        { mediaAssets: [{ kind: 'image', localPath: new URL(import.meta.url).pathname }] },
+        { mediaAssets: [
+          { kind: 'image', localPath: new URL(import.meta.url).pathname },
+          { kind: 'video-frame', localPath: new URL(import.meta.url).pathname }
+        ] },
         { mediaAssets: [{ kind: 'image', localPath: '/definitely/missing.jpg' }] }
       ]
     }, { maxImages: 1 });
+
+    assert.strictEqual(result.length, 1);
+    assert.ok(result[0].endsWith('organizer.test.js'));
+  });
+
+  test('collects sampled video frames as Codex image inputs', () => {
+    const result = collectCodexImageInputs({
+      bookmarks: [
+        { mediaAssets: [{ kind: 'video-frame', localPath: new URL(import.meta.url).pathname }] }
+      ]
+    }, { maxImages: 2 });
 
     assert.strictEqual(result.length, 1);
     assert.ok(result[0].endsWith('organizer.test.js'));

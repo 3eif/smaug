@@ -3,6 +3,7 @@
   "pendingFile": "./.state/pending-bookmarks.json",
   "stateFile": "./.state/bookmarks-state.json",
   "mediaCacheDir": "./.state/media",
+  "videoFrameCount": 0,
   "parallelThreshold": 8,
   "timezone": "UTC",
   "twitter": {

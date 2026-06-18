@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { spawn } from 'child_process';
 import { loadConfig } from './config.js';
 import { fetchTweet } from './processor.js';
 
@@ -242,6 +243,83 @@ function mediaFilename(ref, index) {
   return `${String(index + 1).padStart(2, '0')}-${type}${ext}`;
 }
 
+function frameFilename(index, frameIndex) {
+  return `${String(index + 1).padStart(2, '0')}-video-frame-${String(frameIndex + 1).padStart(2, '0')}.jpg`;
+}
+
+function videoFrameTimestamp(ref, frameIndex, frameCount) {
+  const durationSeconds = Number(ref.durationMs || 0) / 1000;
+  if (durationSeconds > 1) {
+    const ratio = (frameIndex + 1) / (frameCount + 1);
+    return Math.max(0.25, Math.min(durationSeconds - 0.25, durationSeconds * ratio));
+  }
+  return 1 + (frameIndex * 2);
+}
+
+function runFfmpeg(args) {
+  return new Promise((resolve, reject) => {
+    const proc = spawn('ffmpeg', args, { stdio: ['ignore', 'ignore', 'pipe'] });
+    let stderr = '';
+    proc.stderr.on('data', (chunk) => {
+      stderr += chunk.toString();
+    });
+    proc.on('error', reject);
+    proc.on('close', (code) => {
+      if (code === 0) resolve();
+      else reject(new Error(stderr.trim() || `ffmpeg exited with code ${code}`));
+    });
+  });
+}
+
+async function extractVideoFrames(ref, targetDir, index, frameCount) {
+  if (!ref.videoUrl || !/^https?:\/\//i.test(ref.videoUrl) || frameCount <= 0) return [];
+
+  fs.mkdirSync(targetDir, { recursive: true });
+  const assets = [];
+
+  for (let frameIndex = 0; frameIndex < frameCount; frameIndex += 1) {
+    const localPath = path.join(targetDir, frameFilename(index, frameIndex));
+    const timestamp = videoFrameTimestamp(ref, frameIndex, frameCount);
+
+    try {
+      if (!fs.existsSync(localPath)) {
+        await runFfmpeg([
+          '-loglevel', 'error',
+          '-y',
+          '-ss', String(timestamp),
+          '-i', ref.videoUrl,
+          '-frames:v', '1',
+          '-q:v', '2',
+          localPath
+        ]);
+      }
+
+      assets.push({
+        kind: 'video-frame',
+        source: ref.source,
+        sourceUrl: ref.videoUrl,
+        localPath,
+        frameIndex,
+        timestampSeconds: timestamp,
+        width: ref.width || null,
+        height: ref.height || null,
+        durationMs: ref.durationMs || null,
+        videoUrl: ref.videoUrl
+      });
+    } catch (error) {
+      assets.push({
+        kind: 'error',
+        source: ref.source,
+        sourceUrl: ref.videoUrl,
+        frameIndex,
+        error: `video frame extraction failed: ${error.message}`
+      });
+    }
+  }
+
+  return assets;
+}
+
 async function downloadMediaAsset(ref, targetDir, index) {
   const sourceUrl = ref.type === 'video'
     ? (ref.previewUrl || ref.url || ref.videoUrl)
@@ -327,10 +405,18 @@ async function hydrateMediaRefs(bookmark, config, options) {
   if (options.downloadMedia && refs.length > 0) {
     const targetDir = path.join(config.mediaCacheDir || './.state/media', String(bookmark.id));
     const downloaded = [];
+    const videoFrameCount = Math.max(0, Math.min(12, parseInt(
+      options.videoFrameCount ?? config.videoFrameCount ?? 0,
+      10
+    ) || 0));
+
     for (const [index, ref] of refs.entries()) {
       try {
         const asset = await downloadMediaAsset(ref, targetDir, index);
         if (asset) downloaded.push(asset);
+        if (ref.type === 'video' && videoFrameCount > 0) {
+          downloaded.push(...await extractVideoFrames(ref, targetDir, index, videoFrameCount));
+        }
       } catch (error) {
         downloaded.push({
           kind: 'error',
@@ -379,6 +465,7 @@ export async function enrichPendingBookmarks(options = {}) {
       const { refs, assets } = await hydrateMediaRefs(bookmark, config, {
         fetchMedia: !!options.fetchMedia,
         downloadMedia: !!options.downloadMedia,
+        videoFrameCount: options.videoFrameCount,
         birdDelayMs: Math.max(0, parseInt(options.birdDelayMs || 0, 10) || 0)
       });
       bookmark.mediaRefs = refs;
