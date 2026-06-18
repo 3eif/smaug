@@ -695,7 +695,1198 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ---
 
+# Monday, October 9, 2023
+
+## @pwang_szn - Learning from low-view CEO interviews
+> Most underrated way to learn:
+> 
+> 1. Find CEO's of Series C+ startups
+> 2. Watch their interviews on YT
+> 
+> The CEOs have zero financial incentives to hold anything back.
+> 
+> For ex:
+> - Seatgeek worth 1B+, &lt;2k views
+> - Spoton worth 6b+, &lt;100 views
+> 
+> Gold. 💎 https://t.co/f2wrfW2L2P
+
+- **Tweet:** https://x.com/pwang_szn/status/1711320711019786475
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** Product and Startup Ideas
+- **What:** Learning tactic: study interviews with Series C+ startup CEOs, especially low-view videos where operators share detailed lessons without much audience attention.
+
+---
+
+# Sunday, October 8, 2023
+
+## @Rainmaker1973 - Visual hierarchy example
+> It's called visual hierarchy
+
+- **Tweet:** https://x.com/Rainmaker1973/status/1710947544040157386
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** AI Tools and Agents
+- **What:** Minimal visual-design note calling out visual hierarchy as the explanation for the referenced image.
+
+## @olivr_wtf - HasanAbi video clip
+> from the river to the sea, do not fuck with hasanabi https://t.co/kZ5BcqElau
+
+- **Tweet:** https://x.com/olivr_wtf/status/1711164986553491703
+- **Visual/video preview:** Video thumbnail for a HasanAbi-related clip.
+- **Section:** Visual Reference
+- **What:** Video-preview bookmark of a HasanAbi-related clip; archive captures the source without claiming transcript details.
+
+## @Timb03 - SaaS growth without Twitter
+> You don't need Twitter to build a SaaS.
+> 
+> Joined Twitter 1 year ago, was at $30K MRR.
+> 
+> Start with SEO, free tools, blog posts, feature pages, affiliates, free plan, glossary pages, roadmaps, compare pages. https://t.co/CHbN4nRa32
+
+- **Tweet:** https://x.com/Timb03/status/1711268028191801725
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** Design and UI Patterns
+- **What:** SaaS growth advice arguing that Twitter is optional and that SEO, free tools, blog posts, feature pages, affiliates, glossary pages, and comparison pages can drive growth.
+
+---
+
+# Friday, October 6, 2023
+
+## @shauseth - Quarter-life crisis book recommendations
+> whats a good book recommendation for a quarter life crisis
+
+- **Tweet:** https://x.com/shauseth/status/1710334043127234914
+- **Section:** Philosophy and Life
+- **What:** Open request for book recommendations suited to a quarter-life crisis.
+
+---
+
+# Wednesday, October 4, 2023
+
+## @LinusEkenstam - AI image prompt photography terms
+> Here are 19 quick terms to get better AI images 
+> 
+> Borrow from photography to maximize the output in Midjourney, SDXL, Runway etc. 
+> 
+> Free cheat sheet 🙌🏻 https://t.co/0Qn953INXs
+
+- **Tweet:** https://x.com/LinusEkenstam/status/1709652635333152948
+- **Visual:** Image prompt cheat-sheet reference for photography terms.
+- **Section:** AI Tools and Agents
+- **What:** Cheat-sheet style reference for using photography terminology to improve AI image prompts in Midjourney, SDXL, Runway, and similar tools.
+
+---
+
+# Tuesday, October 3, 2023
+
+## @abacaj - Mistral open model positioning
+> Wow mistral is what OpenAI could have been... this is actually based if they keep this up https://t.co/HRuWxh9l9d
+
+- **Tweet:** https://x.com/abacaj/status/1709455939231772962
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** AI Tools and Agents
+- **What:** Reaction to Mistral's open approach as a contrast to OpenAI, with attached screenshot context.
+
+---
+
+# Sunday, October 1, 2023
+
+## @Davidjpark96 - Why startup clones are less threatening than they seem
+> Our startup gets cloned all the time
+> 
+> If you're building in public and you get any semblance of success, you will inevitably also get cloned.
+> 
+> Here's why you shouldn't be too worried:
+> 
+> 1. Founders who clone are less likely to fight on a long time horizon.
+> 
+> I can name 3 jenni clones off the top of my head and they are all either dead or abandoned projects.
+> 
+> They were able to make a little bit of money, but unfortunately, they died before they could start unlocking the truly valuable user insights.
+> 
+> This is because minor/subtle changes can drastically influence a product's outcome, and because of their subtlety they're often non-obvious and can take several months to fully understand.
+> 
+> For instance, determining the precise timing for displaying an AI generation to a writer on Jenni was crucial.
+> 
+> Our conversion rates improved significantly as we A/B tested the shit out of the speed at which generations appear on Jenni.
+> 
+> If AI suggestions shows up too fast, it's distracting for writers in flow.
+> 
+> If AI suggestions show up too slow, users are annoyed because they've hit writer's block.
+> 
+> Someone cloning our app may overlook this detail and not pay attention to the exact seconds it takes before a generation appears, but it would severely impact their conversion rate.
+> 
+> I'd estimate that there are thousands of optimizations we've made of this caliber on Jenni that took us years to figure out.
+> 
+> Could these clones have the patience to break these things down? While also, in tandem, having to continually clone our next feature sets? And then spending more time figuring out why we made the decisions for those features as well?
+> 
+> If it's a battle of attrition, the original idea is more likely to win.
+> 
+> 2. A founder who clones is less formidable than a founder who innovates.
+> 
+> The skill of knowing what to build and why lies at the core of being a builder.
+> 
+> Founders who clone either lack this skill or don't care enough about the problems they're addressing to build properly.
+> 
+> A copycat might create a product that initially seems valuable by imitating, but they will be unclear about why it's successful and will likely have no vision for its future direction.
+> 
+> To compete with you, they will need to invest significant time speaking with users and making educated guesses about why you built things the way you did.
+> 
+> And even if they invest the time to figure out your product, there is still a sizeable chance you can win by just waiting until they have a slow month and it coincides with another lucrative product to clone appearing on their timeline.
+> 
+> 3. On a high-level, we do care about our startup winning, but we care the most about our movement winning.
+> 
+> AI assistance in academia is going to improve the world.
+> 
+> But you’d be surprised how many people are strongly against AI in academia because they think it’ll make you “dumber” or they just "feel" it's unethical.
+> 
+> Feel free to check any of our viral videos to verify this public sentiment. Around 30% of our viral videos are littered with hate comments (which is not a bad thing, I can write a whole post about that later).
+> 
+> This opportunity to accelerate the world towards AI assistance is exciting.
+> 
+> It feels like we're building in that intersection where people think we are "crazy", but we know in our hearts that we are right.
+> 
+> This makes building worthwhile and for the most part, all these startups are just helping us educate the market on how powerful AI assistance can be.
+> 
+> To put things in perspective, we had the craziest period of hyper growth after ChatGPT was released because OpenAI educated the world on AI.
+> 
+> Prior to ChatGPT, many of our users weren't even aware that AI could write text and were convinced that Jenni was just plagiarizing text from the internet.
+> 
+> However, even in the off-chance that a clone not only educates, but also squeezes us out of the market, it's still not the darkest timeline.
+> 
+> If we lose it is likely because a startup out-executed us.
+> 
+> We had a head start and a great team, if someone beats us then they likely deserve all of their success.
+> 
+> Even if we aren't the ones to manifest our vision of the world, our competitor will likely bring something close to our vision to fruition.
+> 
+> More research, more breakthroughs, and more time saved thanks to AI assistance.
+> 
+> Us losing is far from the worst case scenario.
+> 
+> The darkest timeline is the one where no one cared about what we built, there were no clones, and AI will never accepted in academia and stays forever taboo.
+> 
+> Any action, even other players entering the market, takes us further from the darkest timeline and is a net positive.
+> 
+> Side note: I'm not trying to give a free pass to founders who clone, if you clone apps that's not something to be proud of.
+> 
+> But life is nuanced/complex and perhaps the copy cats were in a financial bind or they were brainwashed by money twitter to “just fucking hustle/grind/win by whatever means necessary”.
+> 
+> In summary, cloning sucks but you shouldn't worry too much about it.
+> 
+> Perhaps, worry just enough to write a 1000-word stream-of-consciousness post on it, but not any more than that haha.
+> 
+> I’ve gotten so much value from building in public it’s hard to quantify.
+> 
+> We’ve had amazing investors join our round, rockstar candidates join our team, and lucrative partnerships that were impossible to obtain via cold email.
+> 
+> In my opinion, getting cloned a few times a year for these opportunities is a fair trade.
+> 
+> I’ll end with the famous and catchy quote:
+> 
+> "Startups always die by suicide, not murder"
+> 
+> These clones are unlikely to kill you, but you freaking out and wasting time worrying about these clones just might.
+
+- **Tweet:** https://x.com/Davidjpark96/status/1708646361875493212
+- **Section:** Product and Startup Ideas
+- **What:** Founder reflection on being cloned, arguing that clones often lack long-term patience, product insight, and mission depth.
+
+---
+
+# Saturday, September 30, 2023
+
+## @bvvst - Wii-menu inspired portfolio
+> my portfolio looks like the wii menu
+> 
+> https://t.co/R5hO20g8oI https://t.co/tFWbn6cgcB
+
+- **Tweet:** https://x.com/bvvst/status/1708259248352706865
+- **Link:** https://www.luke.boo/
+- **Visual/video preview:** Video preview/site reference for a portfolio interface inspired by the Wii menu.
+- **Section:** Visual Reference
+- **Signals:** luke.boo, article
+- **What:** Visual reference for a personal portfolio modeled after the Wii menu, with a linked site and video preview.
+
+## @gregisenberg - Startup idea research tools
+> I raised many millions and sold 3 companies before age 30…
+> 
+> My first company sold to the founder of Uber, my last to Adam Neumann
+> 
+> But I had an unfair advantage (and you could too)
+> 
+> I used software to come up with 0.01% validated startup ideas
+> 
+> 6 underrated tools to help you get paid:
+> 
+> 1. EtsyHunt
+> 
+> EtsyHunt is the largest database of Etsy products.
+> 
+> 48+ million product listings to learn what is selling on Etsy, and discover winning products.
+> 
+> It'll get you thinking...
+> 
+> I love looking at the best-selling and rising charts
+> 
+> 2. SubredditStats
+> 
+> It's like a growth hacker's crystal ball.
+> 
+> Spot growing communities before they blow up.
+> 
+> Discover niches you didn't even know existed.
+> 
+> It helps you go nicher. Go from niche to super niche.
+> 
+> Brainstorming startups ideas?  You'll learn the problems of the community.
+> 
+> Some of my top startup ideas?
+> 
+> Named straight after subreddits.
+> 
+> Why? Because it's pre-validated gold.
+> 
+> Reddit isn’t just memes.
+> 
+> It's a gold mine of validated tribes and brand names.
+> 
+> 3. VidIQ
+> 
+> VidIQ helps you analyze top-performing YouTube videos.
+> 
+> Once you understand what makes a top video, you can make your next content piece a grand slam.
+> 
+> Start by using VidIQ to study successful videos in your niche. 
+> 
+> Apply the insights to refine your content strategy, focusing on what works. 
+> 
+> Regularly review and adjust based on new findings to keep your content in the spotlight.
+> 
+> Data driven decisions win every time.
+> 
+> Bonus tip: use "contains questions" feature on VidIQ to filter what questions people have on a YouTube video.
+> 
+> This will give you endless startup ideas.
+> 
+> 4. TikTok Creative Center
+> 
+> Ever wonder why someone’s TikTok ad went viral? 
+> 
+> Creative center is what you need.
+> 
+> It gives you all the tools to study top-performing ads.
+> 
+> A proven playbook is to decode competitors’ tactics, refine your content with creative tools, and leverage insights to outshine rivals. 
+> 
+> Then regularly assess trends and adjust your approach to stay competitive.
+> 
+> 5. PiPi Ads
+> 
+> You’ve got yourself in the game with Creative Center. 
+> 
+> PiPi Ads is where you come to master it. 
+> 
+> It has the largest number and types of TikTok ads. Use Pipi Ads to research and analyze winning strategies, then apply these insights to your campaigns. Optimize and test until you find your winning formula.
+> 
+> 6. Minea
+> 
+> Minea is a killer tool for your DTC biz.
+> 
+> One of the best features is that you can input a website, and it’ll identify the best keywords and all the backlinks. 
+> 
+> This way you can delve into them and use it to optimize your own website. 
+> 
+> Minea’s a crucial tool to tweak your strategies and boost your profits fast.
+> 
+> Knowledge is power, folks.
+> 
+> Sometimes the answers are out there. Just need the right tools to find them.
+> 
+> Go get 'em.
+> --
+> 
+> Follow me @gregisenberg for more, I'll give you endless startup ideas. 
+> 
+> (i also have playbooks on some of these tools on my membership community empire dot co if you want to go deeper)
+
+- **Tweet:** https://x.com/gregisenberg/status/1708281820960498118
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** Product and Startup Ideas
+- **What:** Startup research toolkit covering EtsyHunt, SubredditStats, VidIQ, TikTok Creative Center, PiPi Ads, and Minea for validated idea discovery.
+
+---
+
+# Tuesday, September 26, 2023
+
+## @itsandrewgao - Computer science degree safety debate
+> "Computer Science is no longer the safe major"
+> 
+> https://t.co/XthYCrkUDC
+
+- **Tweet:** https://x.com/itsandrewgao/status/1706736931336601835
+- **Link:** https://www.theatlantic.com/technology/archive/2023/09/computer-science-degree-value-generative-ai-age/675452/
+- **Signals:** theatlantic.com, article
+- **What:** Bookmark to an Atlantic article arguing that computer science may no longer be the default safe major in the generative AI era.
+
+---
+
+# Monday, September 25, 2023
+
+## @levelsio - TikTok creator outreach marketing tactic
+> Actionable marketing item for anyone to do today:
+> 
+> - Install TikTok iOS app
+> 
+> - Search your industry hashtag
+> 
+> - Make a list of 30 people who post about it with 100K+ views
+> 
+> - Find their contacts
+> 
+> - Pay them $100-$300 to post a video about your app/site/thing
+>
+> *Quoting @Shpigford:* Frequent advice to indie hackers is “do more marketing.”  That’s vague and impossible to act on.  So, what’s one *actionable* marketing item an indie hacker can do today?
+
+- **Tweet:** https://x.com/levelsio/status/1706275002469716184
+- **Quoted:** https://x.com/Shpigford/status/1706146655433568531
+- **Section:** Design and UI Patterns
+- **Signals:** quote
+- **What:** Concrete indie marketing tactic: find high-performing TikTok creators in a niche and pay for app or site videos.
+
+## @paulg - Paul Graham essay recommendations
+> *Replying to @UDAYSAKHARE2:* What are the best Paul Graham essay's to read? recommendation please
+>
+> @UDAYSAKHARE2 Try Cities and Ambition, How to Do Great Work, and How to Write Usefully.
+
+- **Tweet:** https://x.com/paulg/status/1706302112739508709
+- **Parent:** https://x.com/UDAYSAKHARE2/status/1706289481303884208
+- **Signals:** reply
+- **What:** Reply recommending three Paul Graham essays: Cities and Ambition, How to Do Great Work, and How to Write Usefully.
+
+## @zebulgar - Startup cold email success story
+> how it started:               how it’s going:
+> 
+> an email to @rabois can change your life https://t.co/BYc0L3hg8G
+
+- **Tweet:** https://x.com/zebulgar/status/1706327018122404324
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** AI Tools and Agents
+- **What:** Visual before-and-after story that an email to Keith Rabois led to a major opportunity; useful as a cold-outreach proof point.
+
+## @johnrushx - 30 open-source alternatives list
+> A list of "Open Source alternatives to XXX" 
+> that I've saved in my bookmarks for the past 3 years.
+> 
+> 30 tools 👇
+> 
+> → https://t.co/JFLPPhRZ2R - firebase
+> → https://t.co/uG9zXChSpM - docu sign
+> → https://t.co/owCwg8uBo3 - calendly
+> → https://t.co/GbUNT7SYap - google analytics
+> → https://t.co/dUmfing85m - product hunt
+> → https://t.co/QeK3SXKoD8 - open ai gpt
+> → https://t.co/l68jBub0Zy - docsend
+> → https://t.co/qmdXA53jLq - unity3d
+> → https://t.co/5kcymaauTy - all dev world
+> → https://t.co/yrQiJ3dW5r - medium
+> → https://t.co/GEwqLqc24O - twitter
+> → https://t.co/0Emchr2vFu - airtable
+> → https://t.co/hbOBrnRtCl - error tracking
+> → https://t.co/IFBuTadlBS - zappier
+> → https://t.co/uiMvjhROHV - retool
+> → https://t.co/LOd2Ob858g - bigquery
+> → https://t.co/mAb5EwPGyn - github
+> → https://t.co/N1HV8yGPL2 - figma
+> → https://t.co/8TmpklGbE8 - devops
+> → https://t.co/tUgZiZwSWW - circle
+> → https://t.co/dMBudsMaH4 - mixpanel
+> → https://t.co/sQWN0Nif7P - bitly
+> → https://t.co/QfHmlcNXYe - shopify
+> → https://t.co/bzVVLGyqeC - algolia
+> → https://t.co/nW61YSBM8d - notion
+> → https://t.co/AVAlYEavzX - webflow
+> → https://t.co/fFJtxmlFco - Typeform
+> → https://t.co/s02xkyMpAm - 1Password
+> → @shadcn - tailwind ui
+> → @nutlope - ai tools
+> 
+> If you've enjoyed this list, 
+> follow me → @johnrushx for more content like this.
+> 
+> I build everything in public 
+> and share all the details of my process.  
+> 
+> These are the projects I'm working on daily
+> → https://t.co/NO6rbXgR3K - a simple landing page builder for busy founders 
+> → https://t.co/ht7ue4R04S - AI blog & SEO on auto-pilot  
+> → https://t.co/U9jpfWIZaF - AI marketplace builder 
+> → https://t.co/5kcymaauTy - AI NoCode/ProCode platform with micro apps 
+> → https://t.co/mPEjz3yUzr - Tailwind CSS ui kit 
+> → https://t.co/dUmfing85m - A better Product Hunt alternative for dev tools.
+
+- **Tweet:** https://x.com/johnrushx/status/1706424446205022294
+- **Links:** https://supabase.com/, https://documenso.com/, https://cal.com/, https://plausible.io/, https://devhunt.org/, https://www.llama.com/, https://www.papermark.com/, https://godotengine.org/, https://marsx.dev/, https://ghost.org/, https://joinmastodon.org/, https://www.rowy.io/, https://sentry.io/welcome/, https://n8n.io/, https://www.appsmith.com/, https://clickhouse.com/, https://about.gitlab.com/, https://penpot.app/, https://www.jenkins.io/, https://forem.com/, https://posthog.com/, https://dub.co/, https://opencart.com/, https://typesense.org/, https://appflowy.com/, https://webstudio.is/, https://www.typebot.com/, https://www.passbolt.com/, https://unicornplatform.com/, https://seobotai.com/, https://marketsy.ai/, https://marsx.dev/, https://floatui.com/, https://devhunt.org/
+- **Section:** Coding Reference
+- **Signals:** supabase.com, documenso.com, cal.com, plausible.io, devhunt.org, llama.com
+- **What:** Large list of open-source alternatives across product categories, including Supabase, Documenso, Cal.com, Plausible, Sentry, n8n, Appsmith, ClickHouse, GitLab, Penpot, PostHog, Dub, Typesense, and more.
+
+---
+
+# Sunday, September 24, 2023
+
+## @Davidjpark96 - Short-form distribution for AI tools
+> It's ridiculously easy to go viral with your AI tool on short-form platforms
+> 
+> All AI demos are inherently flashy/impressive because the underlying tech is so powerful
+> 
+> So I'm very confused whenever I talk to an AI founder and they aren't focusing on these platforms
+> 
+> You can literally film a blatant ad of your product and it could get millions of views
+> 
+> This is not hyperbole, I've attached the number of views that just one of our Jenni accounts has received in its lifetime (we have around 30 accounts in total)
+> 
+> In aggregate, we're approaching a quarter billion views just with our organic accounts, and almost all videos are explicitly about Jenni
+> 
+> We estimate that we make around $1-$2 per 1000 views, which means short-form has an ungodly ROI
+> 
+> You can talk to any AI startup (especially B2C) that has great distribution and all of them are either leveraging short-form or their products are so alluring that their users are creating viral videos for them
+> 
+> Obviously, despite your product having an in-built viral cheat code, scaling your AI startup is still extremely difficult
+> 
+> It's an open secret that AI products can have serious problems with retention and defensibility
+> 
+> So you will have to spend thousands of hours fixing retention and creatively finding ways to deliver more value to your users
+> 
+> The odds of success are already slim, so why would you make it even more difficult for yourself by not capitalizing on the intrinsic spectacle of what you've built? 🤷‍♂️
+
+- **Tweet:** https://x.com/Davidjpark96/status/1706019242766962928
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** Product and Startup Ideas
+- **What:** Distribution argument that AI products are naturally suited to short-form video because demos are inherently visually impressive and can act as explicit ads.
+
+## @Shpigford - Actionable indie hacker marketing prompt
+> Frequent advice to indie hackers is “do more marketing.”
+> 
+> That’s vague and impossible to act on.
+> 
+> So, what’s one *actionable* marketing item an indie hacker can do today?
+
+- **Tweet:** https://x.com/Shpigford/status/1706146655433568531
+- **Section:** Product and Startup Ideas
+- **What:** Prompt asking for one concrete marketing action indie hackers can take, useful as a collection point for specific tactics.
+
+## @Erwin_AI - Landing page roast lessons
+> My landing page got roasted so hard it's now stuck in dark mode forever 😂
+> 
+> Both @nico_jeannen and @dannypostma went through my landing page this week. Conclusion: wow and ouch, there is a LOT to improve 🤯
+> 
+> If you want to improve your own landing page as well, read on 👇
+> 
+> The feedback is broadly applicable so I'm very sure it'll give you insights/ideas on how to improve your own landing page as well.
+> 
+> I'll add some screenshots below for context but feel free to also open up https://t.co/LNoSJF1ce9 for the full picture.
+> 
+> 1. One CTA is better than two next to each other in the hero section.
+> 
+> 2. CTAs should be more eye catching than mine is right now. Nice borders/effect but doesn't stand out enough because of dark background of the button.
+> 
+> 3. Change wording in social proof to be exactly relatable for the reader i.e. for me: "tailwind developers" rather than just "developers"
+> 
+> 4. There should be multiple CTAs throughout the page, otherwise it forces people to go through/read the entire page or scroll up to the menu, not good.
+> 
+> 5. More social proof is never bad, especially at the pricing section. Just some testimonials isn't necessarily enough.
+> 
+> 6. The pricing table makes the middle option stand out, but not enough (there is an animated border effect, can't see in screenshot though).
+> 
+> 7. Put down more numbers, aka quantify more. For example: Fast support, but how fast? (I pride myself in responding <24h and in 90% of the cases <12h, should mention this!)
+> 
+> 8. Offer an upsell later on when there are signals that the user uses the product a lot. Not doing that is almost equivalent to throwing money away.
+> 
+> 9. A founders note or perhaps me explaining through the video will give more trust for those coming on the page through social media etc. Unlikely to have negative impact for those that don't know me so it's a net-win improvement.
+> 
+> 10. Even if you think you don't have lots of text, you do. Even mid/long two sentences is way too much. Have to be much more concise. Point in case is my 'benefits' section.
+> 
+> 11. Collapse the FAQ, otherwise it's hard for people to find the question they have and irrelevant questions/answers clutter the screen
+> 
+> 12. Remove email CTA at bottom of landing page. It will give an opportunity for people to start doubting and not convert, but instead 'commit' by simply giving email. Or worse, confuse it for the next step.
+> 
+> MASSIVE shoutout to Nico and Danny. Really grateful they took some of their time to help me out.
+> 
+> If you want to learn even more, I suggest following those them if you don't already and look up Nico's roast tweet from yesterday, as he goes through 6 more landing pages with feedback and it's very insightful!
+> 
+> Ciao for now and good luck improving your landing page 🫡
+>
+> *Quoting @nico_jeannen:* Rasot #5: @Erwin_AI   https://t.co/RfNZvbEMoT
+
+- **Tweet:** https://x.com/Erwin_AI/status/1706151057016111269
+- **Links:** https://tailscan.com/, https://www.loom.com/share/85e930a0ecf84befa1f07c4c6dada277?from_recorder=1&focus_title=1
+- **Quoted:** https://x.com/nico_jeannen/status/1705882765684785390
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** Coding Reference
+- **Signals:** tailscan.com, loom.com, article, quote
+- **What:** Landing-page critique thread summarizing feedback on CTAs, social proof, pricing, quantified claims, FAQ structure, concise copy, and trust-building.
+
+---
+
+# Saturday, September 23, 2023
+
+## @0xSuman - SwiftCN SwiftUI component library
+> Introducing https://t.co/sttaUU6hI5 
+> 
+> (weekend project with @cgarciamoran )
+> 
+> Inspired by @shadcn UI, swiftcn contains SwiftUI Components that are beautiful and easy to customize.
+> 
+> Docs : 
+> https://t.co/CmGsiDNOsW https://t.co/m60TVx8VRM
+
+- **Tweet:** https://x.com/0xSuman/status/1705823334586593381
+- **Links:** https://t.co/sttaUU6hI5, https://swiftcn.mintlify.app/introduction
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** Design and UI Patterns
+- **Signals:** t.co, swiftcn.mintlify.app, article
+- **What:** SwiftCN launch: shadcn-inspired SwiftUI components with docs, positioned as customizable components for SwiftUI apps.
+
+---
+
+# Friday, September 22, 2023
+
+## @Appyg99 - BesteverAI ad creative generator
+> I am so excited to tell the world about what we've been working on for the last few months. World, say hello to @BesteverAI  —  GenAI tool for image &amp; video ads. 
+> 
+> The easiest way to generate creatives for campaigns is here. https://t.co/8UL1QmZ80T
+
+- **Tweet:** https://x.com/Appyg99/status/1705228873099809228
+- **Visual/video preview:** Attached media preview provides visual context for the bookmark.
+- **Section:** AI Tools and Agents
+- **What:** Video-preview bookmark for BesteverAI, a generative AI tool for producing image and video ad creatives.
+
+## @ProductHunt - Pricing psychology product idea
+> What if we told you there's psychology behind your product pricing?
+> 
+> And this tool helps you hack it. https://t.co/aqlmB3h7lb
+
+- **Tweet:** https://x.com/ProductHunt/status/1705462018550174134
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** Product and Startup Ideas
+- **What:** Product Hunt prompt around a tool that applies pricing psychology to product pricing decisions.
+
+---
+
+# Wednesday, September 20, 2023
+
+## @jordanphughes - Untitled UI v4 release
+> Just released Untitled UI v4.0 ✨
+> 
+> ❖ Auto Layout 5.0
+> ❖ Dark mode (finally)
+> ❖ Color, spacing &amp; radius variables
+> ❖ 3x different versions
+> 
+> I'll be sharing snippets over the next few weeks!
+> 
+> Love you all 💌 https://t.co/FOSI2CrR4o
+
+- **Tweet:** https://x.com/jordanphughes/status/1704500893708607838
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** Design and UI Patterns
+- **What:** Design-system release note for Untitled UI v4, including Auto Layout 5.0, dark mode, variables, and multiple versions.
+
+## @sdw - Lux Orion design process writeup
+> Me and @sandofsky wrote a post about the how and why of developing Orion, our latest b-side app. Lots of fun peeks at the design process in here.
+> 
+> https://t.co/9ZHp02NgvW https://t.co/oIbCf4Ap8p
+
+- **Tweet:** https://x.com/sdw/status/1704531887941677228
+- **Link:** https://www.lux.camera/meet-orion/
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** Design and UI Patterns
+- **Signals:** lux.camera, article
+- **What:** Lux Camera article about the design process behind Orion, with visual screenshots attached as supporting design-process references.
+
+---
+
+# Tuesday, September 19, 2023
+
+## @tibo_maker - X For You feed ranking code notes
+> How 𝕏 decides which posts to push in the "For You" feed?
+> 
+> I spent long hours digging through the "For You" code to understand what gets 𝗯𝗼𝗼𝘀𝘁𝗲𝗱.
+> 
+> The major factors that matter &amp; how YOU can use these to your advantage 🧵 https://t.co/aK6aZJPDOj
+
+- **Tweet:** https://x.com/tibo_maker/status/1704115393919320331
+- **Visual:** GitHub code screenshot from Twitter's home-mixer repository.
+- **Section:** Coding Reference
+- **What:** Thread based on reading X's open-source For You code to identify ranking and boosting factors. The image shows a GitHub code view for the duplicate-conversation filter.
+
+## @linear - Linear hiring while profitable
+> We’re now a team of 50, profitable, and are continuing to grow our team intentionally. If you’re interested in joining Linear, here are the key roles we’re hiring for:
+> 
+> - Head of Product Design
+> - Marketing Lead
+> - Experienced iOS & Android Engineers
+> 
+> Learn more: https://t.co/XxbnXcdJcr
+
+- **Tweet:** https://x.com/linear/status/1704173216044810313
+- **Link:** https://linear.app/careers
+- **Section:** Design and UI Patterns
+- **Signals:** linear.app, article
+- **What:** Hiring note from Linear emphasizing a small, profitable team and specific senior roles across design, marketing, and mobile engineering.
+
+## @JosephJacks_ - Bootstrapped billion-dollar software companies
+> The MAJORITY (&gt; 50%) of every great software company in history to cross $1 Billion in annual revenue raised &lt; $25M in venture capital dollars. Most of that cohort raised zero (totally bootstrapped).
+> 
+> https://t.co/0DkLu09TqG
+
+- **Tweet:** https://x.com/JosephJacks_/status/1704276354634854614
+- **Link:** https://docs.google.com/spreadsheets/d/1-F7_sCcqSZzH4TpYgyqQgjoUfahyGkOrpFHaBxxsn9E/edit
+- **Section:** AI Tools and Agents
+- **Signals:** docs.google.com, article
+- **What:** Data-oriented claim that most billion-dollar annual-revenue software companies raised less than $25M, with a linked spreadsheet as evidence.
+
+---
+
+# Monday, September 18, 2023
+
+## @inflammateomnia - Trolley problem reassurance comic
+> Everything is ok
+> You do not need to do anything with the lever
+> Everyone is proceeding towards their destination, and so are you https://t.co/jQdoyX5bQ7
+
+- **Tweet:** https://x.com/inflammateomnia/status/1703814960818606558
+- **Visual:** Line drawing of a trolley-problem scene, used as a visual metaphor for not intervening.
+- **Section:** Politics and News
+- **What:** Visual joke using a trolley-problem drawing to suggest there is no need to intervene; useful as a stress-reduction or systems metaphor image.
+
+## @calvinchen - Startup internship outreach playbook
+> how to get an internship at a startup as a student:
+> 
+> 1. find startup (seed-series A)
+> 2. email founders your GitHub and past projects
+> 3. tell them you will figure things out on your own and won't slow team down
+> 4. ask for small non-important tasks to prove your worth for free
+
+- **Tweet:** https://x.com/calvinchen/status/1703834772814930411
+- **Section:** Product and Startup Ideas
+- **What:** Student startup-internship playbook: find early-stage companies, email founders with proof of work, promise autonomy, and offer to start with small tasks.
+
+---
+
+# Friday, September 15, 2023
+
+## @aleksliving - Simple Icons brand SVG library
+> In case you didn’t know, you can find pretty much any brand’s SVG icon on https://t.co/7PkG2viXHB. 
+> 
+> Absolute life saver https://t.co/3f7of9OPuj
+
+- **Tweet:** https://x.com/aleksliving/status/1702931554081570952
+- **Link:** https://simpleicons.org/
+- **Visual/video preview:** Screen recording preview of the Simple Icons brand-icon grid.
+- **Section:** Philosophy and Life
+- **Signals:** simpleicons.org, article
+- **What:** Reference to Simple Icons as a library for finding SVG brand icons; the video preview shows a browsable grid of brand assets.
+
+---
+
+# Thursday, September 14, 2023
+
+## @ericosiu - SEO playbook from an 18M-visit site
+> My friend gets 18.3M visits on his site and earns $3M from it (with only 4 employees)
+> 
+> He revealed his SEO playbook and I'm gonna share it with you.
+> 
+> This works for ANY kind of website.
+> 
+> The strategies, tools, and hacks to reach millions🧵 https://t.co/eWApRMrW1M
+
+- **Tweet:** https://x.com/ericosiu/status/1702336413885460880
+- **Visual:** Google Analytics screenshot showing 18.3M users, used as proof for the SEO playbook hook.
+- **Section:** Visual Reference
+- **What:** SEO playbook hook based on a site with 18.3M visits and $3M revenue; attached analytics screenshot highlights the scale of traffic being discussed.
+
+---
+
+# Sunday, September 10, 2023
+
+## @thdxr - Why ambitious developer tools take VC
+> with bun's 1.0 launch there's going to be the inevitably cry of "but it's VC funded" - hope i can provide some perspective
+> 
+> don't get me wrong - i am not a huge fan of VCs
+> 
+> i have spent my entire career building early stage companies and the majority of VCs provide negative value
+> 
+> i think a lot of companies should have never gone down that path but i think people miss why many companies absolutely should
+> 
+> building a business is hard - you have to wake up every day and try to push it forward while the world largely ignores you
+> 
+> the entire struggle is about staying motivated
+> 
+> and the reality is it is a lot more fun and energizing to shoot for something ridiculously ambitious and impossible
+> 
+> day to day, a small business and a massive business take the same amount of struggle
+> 
+> in terms of pure concept, the small business seems easier to execute on - but things fail when the founders run out of energy, not really because the idea was too hard
+> 
+> there's not much that's more tedious and painful than building something like bun
+> 
+> the pain feels a bit pointless if the outcome is a small consulting business
+> 
+> they're clearly talented, they would have had the constant distraction of better sounding opportunities floating around - bun might have not even made it to 1.0
+> 
+> it feels more worth it when the outcome could be running massive data centers around the planet executing the majority of the world's compute
+> 
+> and do to something like that you need to go down the VC path
+> 
+> they'll likely fail but when they do, at least it won't be because they got bored and couldn't follow through
+
+- **Tweet:** https://x.com/thdxr/status/1700888238100021309
+- **Section:** Product and Startup Ideas
+- **What:** Argument that VC funding can be rational for difficult, infrastructure-scale developer tools because ambition helps founders sustain motivation through long execution cycles.
+
+## @IAmAaronWill - X account growth advice list
+> This is every piece of advice I wish someone told me when I started growing my X account.
+> 
+> 1. Build your email list
+> 2. Don’t argue with anyone
+> 3. Don’t use AI for anything
+> 4. Post as much as you can
+> 5. Talk to everyone you can
+> 6. Comments are you friend
+> 7. Celebrate everyone’s wins
+> 8. The DMs are for relationships
+> 9. Lead magnets drive email subs
+> 10. Don’t teach what you don’t know
+> 11. Personal stories differentiate you
+> 12. Authority is better than outbound
+> 13. If you disagree, don’t be a douche
+> 14. Rebrand as many times as it takes
+> 15. People will hate, ignore it and laugh
+> 16. Don’t chase the likes or the reposts
+> 17. Put your personality into everything
+> 18. Momentum crashes if you skip a day
+> 19. Do everything genuinely not forcefully
+> 20. Get yourself a team or business partner
+> 21. List tweets should go in ascending order
+> 22. If you’re boring, you’re getting left behind
+> 23. Sending cold DMs are great to get blocked
+> 24. You can make money with a small following
+> 25. “Here’s how I” is better than “Here’s how to”
+> 26. Transformation tweets do great for followers
+> 
+> I’ve missed some stuff so feel free to add your own advice.
+
+- **Tweet:** https://x.com/IAmAaronWill/status/1700894576511205580
+- **Section:** AI Tools and Agents
+- **What:** Tactical list for growing an X account, emphasizing email capture, replies, DMs, personality, consistency, and avoiding low-signal arguments.
+
+---
+
+# Wednesday, September 6, 2023
+
+## @petergyang - Cold email improvement notes
+> This is one of the best cold emails ever.
+> 
+> But here a 3 ways that it could be even better:
+> 
+> 1. Create a hook
+> The subject line needs a better hook than "internship." e.g., "Snapchat feedback from 10 high schoolers + internship"
+> 
+> 2. Add value
+> Give first, then ask. e.g., "I spoke to 10 classmates, here's a doc with quotes on how Snapchat can be better."
+> 
+> 3. Make a low-effort ask
+> A simple "How" is much better than "Want to schedule some time to chat?" But the ask could be even more specific. e.g., "Can you forward this to a recruiter?"
+
+- **Tweet:** https://x.com/petergyang/status/1699451169285026262
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** AI Tools and Agents
+- **What:** Cold-email critique using a concise internship email as the example, focused on better hooks, giving value first, and making a specific low-effort ask.
+
+## @deedydas - Making friends in a new city
+> Most people today move to a new city for work and are lonely.
+> 
+> We're never formally taught the art of making friends in a new city. Here's 10 things that worked for me:
+> 
+> 1/11
+
+- **Tweet:** https://x.com/deedydas/status/1699599113132916896
+- **What:** Thread about making friends after moving to a new city, framed as a practical social skill that people are rarely taught.
+
+---
+
+# Tuesday, September 5, 2023
+
+## @tibo_maker - AI updates thread for mainstream explanation
+> This is the most surprising thread you'll read today.
+> 
+> Show this to your friends and they will finally get how AI is changing the world.
+> 
+> 16 mindblowing AI updates you missed out on 🧵
+
+- **Tweet:** https://x.com/tibo_maker/status/1699027978569572441
+- **Section:** AI Tools and Agents
+- **What:** Thread positioned as a digest of recent AI updates that could help non-technical friends understand AI momentum.
+
+---
+
+# Monday, September 4, 2023
+
+## @gfodor - Digital devices and content for young kids
+> I have a 3 and 5 year old and I've been kind of YOLOing my own bespoke selection of digital devices and content in my house for them. A 🧵 on what I've been using (and not using) far: https://t.co/7al3DhiPgs
+
+- **Tweet:** https://x.com/gfodor/status/1698834999183859975
+- **Visual:** Photo of young children using a laptop on the floor, matching the kids-and-digital-devices topic.
+- **Section:** Politics and News
+- **What:** Parenting technology thread about choosing devices and digital content for young children. The image shows two kids using a laptop together, reinforcing the screen-time context.
+
+---
+
+# Sunday, September 3, 2023
+
+## @SahilBloom - 22 truths for early adulthood
+> 22 truths I wish I knew at 22:
+> 
+> 1. Most of your friends aren’t really your friends. They’re just along for the ride when it’s fun, convenient, or valuable. Your real friends are the ones who are there for you when it's none of those—when you have nothing to offer in return.
+> 
+> 2. Your success in life is proportional to the number of difficult conversations you're willing to have.
+> 
+> 3. Nothing good happens after midnight (especially when you've been drinking).
+> 
+> 4. Stand up straight and look people in the eye. Two old fashioned things that stand out and never go out of style. The way you carry yourself dramatically impacts how the world will engage with you.
+> 
+> 5. Waking up early and working out will completely change your life. One tiny action with massive ripple effects.
+> 
+> 6. Make decisions that your 80-year old self and 10-year-old self approve of. The former cares about the long-term compounding of actions, while the latter reminds you to have some fun along the way.
+> 
+> 7. The time you spend comparing yourself to others is much better spent investing in yourself. The only comparison worth making is to you from yesterday.
+> 
+> 8. When you think something nice about someone, tell them right then. It's a tiny habit that will pay long lasting dividends.
+> 
+> 9. Social media is designed to make you wish you were someone else, somewhere else, and with someone else. Curate your consumption and eliminate what brings negative emotions.
+> 
+> 10. Prioritize spending time with people who make you better—who lift you up and make you want to grow.
+> 
+> 11. Call your parents more often—they won't be around forever.
+> 
+> 12. Focus on making money, you'll do ok. Focus on creating value, you'll do great.
+> 
+> 13. The "sleep when I'm dead" mentality is broken. Great sleep is an essential ingredient of great results.
+> 
+> 14. Give people a second chance, but never a third. If they're holding you back, cut them out of your life.
+> 
+> 15. Trying is the coolest thing you can do. If you're going to do something, do it well.
+> 
+> 16. Stop trying to be interesting and focus on being interested. You become interesting by being interested.
+> 
+> 17. You'll never know what you want to be when you grow up—and that's fine. Prioritize asking great questions and having a bias for action and you'll always make it.
+> 
+> 18. Finding the truth is more important than being right. Stop arguing to win—start listening to learn.
+> 
+> 19. Grades won't matter much, but energy for learning will.
+> 
+> 20. Stop worrying about what other people think of you. Most people aren't thinking about you at all.
+> 
+> 21. Not all decisions are reversible, but most of them are.
+> 
+> 22. Go on a few wild and crazy adventures that you'll be excited to tell your kids about someday.
+> 
+> ***
+> 
+> If you enjoyed this or learned something, follow me @SahilBloom for more.
+
+- **Tweet:** https://x.com/SahilBloom/status/1698312405061693670
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** Design and UI Patterns
+- **What:** Long life-advice thread covering friendships, hard conversations, health, social comparison, curiosity, sleep, and decision-making.
+
+---
+
+# Tuesday, August 29, 2023
+
+## @nutlope - AI side project playbook
+> My AI side projects this year:
+> 
+> ◆ https://t.co/C4nyqOycgD: 2.1 million users
+> ◆ https://t.co/3NFbnMVfzn: 400k users
+> ◆ https://t.co/wxXedGzPXW: 200k visitors
+> ◆ https://t.co/ByPuxOeGtk: 29k downloads
+> 
+> Here's exactly how I approach building AI side projects in 6 steps:
+> 
+> 1. Think of an idea that excites me but that is very simple. I should be able to describe it in 5 words to anyone.
+> 
+> 2. Take a weekend and block it off entirely to focus on building the app. I'll generally take 15-30 hours to build an initial version.
+> 
+> 3. Try to incorporate the latest AI models so the end result is especially impressive (even though it's trivial with code, like 1 API call to an ML model)
+> 
+> 4. Launch early then iterate based on feedback from users. The benefit of launching early is that you can pivot or work on a new idea if what you launched isn't working out so you don't sink too much time into a failed project.
+> 
+> 5. Make it free + open source so folks can learn from it and are incentivized to share it and follow you. I gained about 20k Twitter followers and 18k GitHub stars from the 4 projects above.
+> 
+> 6. Make sure the UI looks good and is straightforward to use. Nobody will use your project if it doesn't look great, so I typically focus a lot on this aspect.
+> 
+> I do want to call out that I do have a large twitter audience and that helps a lot. With that said, I've seen folks without any followers have successful side projects by doing the things I talked about, so I still stand by them!
+
+- **Tweet:** https://x.com/nutlope/status/1696534532709872072
+- **Links:** https://www.roomgpt.io/, https://www.restorephotos.io/, https://www.twitterbio.io/, https://github.com/Nutlope/aicommits
+- **Section:** Coding Reference
+- **Signals:** roomgpt.io, restorephotos.io, twitterbio.io, github.com, article, github
+- **What:** Builder playbook for small AI apps: simple idea, focused weekend build, latest models, early launch, open source, and strong UI. Links include RoomGPT, RestorePhotos, TwitterBio, and AI Commits.
+
+---
+
+# Monday, August 28, 2023
+
+## @wildtiktokss - Gas prices attention meme
+> https://t.co/LfSQbTqNxS
+
+- **Tweet:** https://x.com/wildtiktokss/status/1696090576016339330
+- **Visual:** Meme image inside a gas station about not paying attention to gas prices.
+- **Section:** Visual Reference
+- **What:** Visual meme about ignoring gas prices because driving is still the practical option; useful as a relatable consumer-cost reference.
+
+---
+
+# Saturday, August 26, 2023
+
+## @mikemcg0 - Designing a 10-star user experience
+> Q: How do you design an amazing user experience?
+> 
+> In the clip below, Airbnb co-founder and CEO Brian Chesky explains that one route to a great UX and word-of-mouth growth is designing the perfect experience for one person:
+> 
+> “How do you make something for a million people? I don’t know where to start. But if you pick one person, study them, and take their journey, you can actually build something really personal. You can design something and keep iterating until they love it. Don’t stop improving it until that person loves it, and you’re not allowed to move to the second person until the first person loves it. Then you get the second person and keep iterating until they love it. And so on.”
+> 
+> As Brian argues, designing the perfect experience for one person is a much easier place to start than trying to design something for a million people. And when people truly love your service, they become your marketing department.
+> 
+> He uses storyboarding and tries to imagine a “10-star experience” for an Airbnb check-in as an example:
+> 
+> “A 5-star rating typically means nothing bad happened. But what if there was a 6th star?”
+> 
+> He proposes the following ever-improving scenarios:
+> 
+> 6 stars: You get to your Airbnb and there’s a bottle of wine and fruit waiting for you with a hand-written note
+> 
+> 7 stars: A limo picks you up from the airport, and when you get to the house there’s a surfboard because the host knows you like surfing
+> 
+> 8 stars: You ride back from the airport on a giant elephant and there’s a parade in your honor
+> 
+> 9 stars: You land at the airport and there’s 5,000 teenagers cheering your name and you do a press conference in the front lawn of your Airbnb (”The Beetles Check-In”)
+> 
+> 10 stars: Elon Musk picks you up from the airport and says “we’re going to space”
+> 
+> The point here is that while you might not be able to create an 8+ star experience for your customers, the act of thinking through the most perfect experience for one customer and figuring out a way to scale something close to that to all of your users can help you arrive at a user experience that is truly amazing.
+
+- **Tweet:** https://x.com/mikemcg0/status/1695433156302643662
+- **Visual/video preview:** Attached media preview provides visual context for the bookmark.
+- **Section:** Design and UI Patterns
+- **What:** Brian Chesky product-design lesson: design an excellent experience for one person first, then scale the pattern; includes the 10-star Airbnb experience framing.
+
+---
+
+# Thursday, August 24, 2023
+
+## @mike_heap_ - Ikea effect conversion lift
+> We used the "Ikea effect" to increase conversion by 82%.
+> 
+> Here's why and how.
+> 
+> The Ikea effect is a "cognitive bias in which consumers place a disproportionately high value on products they partially created".
+> 
+> We wanted to do 2 things in our product:
+> 
+> 1. Increase conversion (getting users to ask more questions on their 1st use)
+> 
+> 2. Educate them about some of the customisations that were available.
+> 
+> We thought:
+> 
+> "What if we made the user do a little more work to personalise their AskAI before we show it to them, making them feel like it is theirs?"
+> 
+> So we added a simple (skippable) screen we called "Pre-settings".
+> 
+> This screen has a subset of our customisations, but the ones that will make the AskAI most usable if the user wanted to share it.
+> 
+> After tracking it for 2 weeks, we found that users who completed the screen were almost twice as likely to reach our question target as those who didn't.
+> 
+> Now the data isn't perfect, and it isn't exactly causal (the users who completed it could already have been higher intent).
+> 
+> But as data is never perfect, we are taking it as a pretty strong signal!
+> 
+> Are there ways you can make your users feel they have "built" more of your product?
+
+- **Tweet:** https://x.com/mike_heap_/status/1694632563178955008
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** AI Tools and Agents
+- **What:** Conversion experiment applying the Ikea effect by making users personalize an AskAI before activation; reported a large lift in the target behavior.
+
+---
+
+# Tuesday, August 22, 2023
+
+## @marshal - Personal chef delegation costs
+> 8 weeks ago I hired a personal chef for my family. 👨‍🍳
+> 
+> It's been the best thing I've delegated recently.
+> 
+> - Healthy meals all week
+> - Saved time (no more cooking or deciding what to eat)
+> - Improved quality of life
+> 
+> Here's how much it all cost: https://t.co/LtdfUhdqIe
+
+- **Tweet:** https://x.com/marshal/status/1693969743810613440
+- **Visual:** Bright kitchen photo that grounds the personal-chef/delegation thread in a home meal-prep context.
+- **Section:** Philosophy and Life
+- **What:** Personal operating-system note on delegating meal planning and cooking, including the quality-of-life and cost tradeoffs. The image shows a polished home kitchen context for the personal-chef setup.
+
+## @mikemcg0 - Ramen profitability as a VC alternative
+> Q: What are some alternatives to raising venture capital?
+> 
+> Ryan Peterson is the founder and CEO of Flexport, which was valued at more than $8 billion last year.
+> 
+> In the clip below, he talks about how he adopted Paul Graham’s “be a cockroach” philosophy and aimed for “ramen profitability” with the company he started before Flexport that didn’t raise venture capital.
+> 
+> He minimized his living expenses, and then to cover those expenses, he picked up part-time jobs that allowed him to spend most of his time working on his startup. He wrote case studies for Columbia Business School, tutored people for the GMAT, and did some SEO consulting.
+> 
+> “That gave me freedom to be successful on any time horizon. I couldn’t die. My expenses were low… It took me a number of years before we found success, but success was certain because we didn’t have this time horizon where the idea had to work in 18 months or else the company would go bankrupt.”
+> 
+> Paul Graham describes this as being “Ramen Profitable”:
+> 
+> “Ramen profitable means a startup makes just enough to pay the founders' living expenses… The main significance of this type of profitability is that you're no longer at the mercy of investors.”
+> 
+> This is probably the best approach if you can’t or don’t want to raise venture capital today. The revenue to cover your living expenses can come from your startup or—as was the case for Ryan—part time jobs that offer the flexibility to still devote a material chunk of your time to your startup.
+> 
+> The other main benefit of ramen profitability is that it’ll improve your ability to raise money in the future. If you don’t need money from investors, it’ll improve your negotiating position and often get you better terms.
+> 
+> Airbnb is another good example of ramen profitability. Their goal during Y Combinator was to make $4,000 per month from the business which would cover $3,500 for rent, and $500 for food. They taped this goal to the mirror in the bathroom of their apartment until they eventually hit it.
+
+- **Tweet:** https://x.com/mikemcg0/status/1693977251010744411
+- **Visual/video preview:** Attached media preview provides visual context for the bookmark.
+- **Section:** Product and Startup Ideas
+- **What:** Startup financing lesson using Ryan Peterson, Paul Graham, and Airbnb to explain ramen profitability as a way to extend runway and improve investor leverage.
+
+## @anothercohen - Timing tradeoffs for having kids
+> I think being 28-32 is the ideal age for having kids:
+> - Kids out of the house by the time you're 50
+> - You're somewhat financially stable &amp; progressing in your career
+> - Still have enough energy for sleepless nights &amp; chasing toddlers
+
+- **Tweet:** https://x.com/anothercohen/status/1693997473180819672
+- **Section:** Health and Fitness
+- **What:** Personal life-planning take on the tradeoffs of having kids in the late twenties to early thirties.
+
+## @johncoogan - Arm IPO business overview
+> Here's what you need to know about the Arm IPO:
+> 
+> - They've shipped over a quarter TRILLION chips
+> - They have 99% market share in mobile
+> - 96% gross margins (26% operating margins)
+> - Aiming for ~65B market cap
+> 
+> For the full history of the company, just watch this video: https://t.co/8R15GFf8Nl
+
+- **Tweet:** https://x.com/johncoogan/status/1694019604040007811
+- **Visual/video preview:** Video thumbnail of a presenter holding an iPhone, matching the Arm IPO explainer format.
+- **Section:** AI Tools and Agents
+- **What:** Video-preview bookmark summarizing Arm IPO context: chip volume, mobile market share, margins, and target valuation.
+
+## @bchesky - YC founder loyalty and Airbnb survival
+> Without YC, there’s no guarantee we would have made it
+>
+> *Quoting @sm:* No one sells YC harder than founders who went through YC…  Either it’s a really great program or it’s a MLM. We’ll never know!
+
+- **Tweet:** https://x.com/bchesky/status/1694037465932382334
+- **Quoted:** https://x.com/sm/status/1693760427035861004
+- **Section:** Product and Startup Ideas
+- **Signals:** quote
+- **What:** Quote tweet noting how strongly YC alumni sell the program, with Brian Chesky emphasizing that YC may have been decisive for Airbnb.
+
+---
+
+# Monday, August 21, 2023
+
+## @RomeenSheth - Career mistake from chasing upside without focus
+> I talked to a super smart 20 year old this week.
+> 
+> All the potential in the world, but had a major major flaw in his thinking.
+> 
+> This flaw is becoming the most common mistake I am seeing young people make early in their career.
+> 
+> Let's break it down:
+
+- **Tweet:** https://x.com/RomeenSheth/status/1693616577500025264
+- **What:** Career advice thread about a common early-career thinking error among high-potential young people.
+
+---
+
+# Sunday, August 20, 2023
+
+## @AlexFinn - Reply strategy for X audience growth
+> If you're under 10k followers your tweets don't matter. Your replies do
+> 
+> Replying was already the most powerful growth strategy on X. Now the algo is making it even more insane
+> 
+> Every big account started like this, including myself
+>              
+> The strategy is incredibly simple:
+> 
+> Post 1-2 high quality tweets a day, then be the loudest reply guy on Twitter
+> 
+> Get a good response? DM the person to start building a relationship
+> 
+> This is isn't a 'growth hack'. This is networking 101.
+> 
+> If you want to get a bigger audience, you talk to more people
+> 
+> Play chess, not checkers
+
+- **Tweet:** https://x.com/AlexFinn/status/1693276384540369270
+- **Visual:** Attached media preview provides visual context for the bookmark.
+- **Section:** Design and UI Patterns
+- **What:** Audience-building advice that treats high-quality replies and DMs as the main growth lever before a creator has a large following.
+
+---
+
+# Friday, August 18, 2023
+
+## @steventey - Open-source SaaS alternatives list
+> I'm curating a list of open-source alternatives to popular SaaS:
+> 
+> ◆ Calendly: @calcom
+> ◆ Algolia: @typesense
+> ◆ Shopify: @MedusaJS
+> ◆ WorkOS: @BoxyHQ
+> ◆ Firebase: @supabase
+> ◆ Amplitude: @posthog
+> ◆ DocuSign: @documenso
+> ◆ Bitly: @dubdotsh
+> 
+> What did I miss? 👀 https://t.co/qCTQI4cLKL
+
+- **Tweet:** https://x.com/steventey/status/1692580677491765637
+- **Visual:** Logo grid of open-source SaaS alternatives including Cal.com, Typesense, Medusa, BoxyHQ, Supabase, PostHog, Documenso, and Dub.sh.
+- **Section:** Product and Startup Ideas
+- **What:** Curated set of open-source substitutes for common SaaS categories: scheduling, search, commerce, auth, backend, analytics, signing, and links. The attached image presents the logos in a clean grid for quick visual scanning.
+
+---
+
 # Wednesday, August 16, 2023
+
+## @TimStodz - 8 ingredients for high-earning websites
+> My websites earn over $2,000,000 per year combined.
+> 
+> Every time I build one, I follow the same system.
+> 
+> Now I want you to have it.
+> 
+> 8 ingredients for 8-figure websites:
+
+- **Tweet:** https://x.com/TimStodz/status/1691801560362234009
+- **Section:** Design and UI Patterns
+- **What:** Thread hook for a repeatable website-building system, framed around ingredients behind high-revenue sites.
 
 ## @GuillaumeMbh - College-age millionaire playbook
 > A $1000 investment gave me a 10,000x return
