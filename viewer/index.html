@@ -153,8 +153,8 @@
 
       .canvas-title {
         margin: 0;
-        font-size: clamp(28px, 5vw, 72px);
-        line-height: 0.9;
+        font-size: clamp(22px, 3vw, 42px);
+        line-height: 1;
         font-weight: 600;
         letter-spacing: 0;
       }
@@ -172,11 +172,13 @@
       }
 
       .tool {
-        width: 34px;
+        min-width: 34px;
         height: 34px;
+        padding: 0 10px;
         border: 1px solid var(--line);
         border-radius: 0;
         background: rgba(0, 0, 0, 0.3);
+        color: var(--muted);
         cursor: pointer;
         transition: background 160ms ease, transform 160ms ease;
       }
@@ -184,6 +186,11 @@
       .tool:hover {
         background: var(--soft);
         transform: translateY(-1px);
+      }
+
+      .tool.active {
+        background: var(--soft);
+        color: var(--ink);
       }
 
       .canvas {
@@ -195,34 +202,34 @@
       }
 
       .stage {
-        position: relative;
-        min-width: 900px;
-        min-height: 640px;
+        display: grid;
+        align-items: start;
+        min-width: 0;
+      }
+
+      .stage.grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 26px;
+        width: max(100%, 660px);
+      }
+
+      .stage.row {
+        grid-template-columns: minmax(0, 620px);
+        gap: 18px;
+        width: min(620px, 100%);
       }
 
       .tweet {
-        position: absolute;
-        width: 300px;
-        height: 170px;
+        width: 100%;
+        min-width: 0;
         padding: 13px 14px;
         border: 1px solid rgba(255, 255, 255, 0.09);
         border-radius: 0;
         background: rgba(255, 255, 255, 0.028);
-        cursor: grab;
-        user-select: none;
-        touch-action: none;
-        overflow: hidden;
-        transform: translate3d(var(--x), var(--y), 0);
-        transition: opacity 220ms ease, border-color 160ms ease, background 160ms ease, transform 220ms ease;
+        user-select: text;
+        overflow: visible;
+        transition: opacity 220ms ease, border-color 160ms ease, background 160ms ease;
         animation: enter 360ms ease both;
-      }
-
-      .tweet.has-media {
-        height: 246px;
-      }
-
-      .tweet:active {
-        cursor: grabbing;
       }
 
       .tweet:hover,
@@ -241,13 +248,23 @@
 
       .media-thumb {
         display: block;
-        width: calc(100% + 28px);
-        height: 92px;
-        margin: -13px -14px 11px;
+        width: 100%;
+        height: auto;
+        max-height: none;
+        margin: 0 0 12px;
         border: 0;
-        border-bottom: 1px solid var(--line);
-        object-fit: cover;
+        object-fit: contain;
         background: #0b0b0b;
+      }
+
+      .media-stack {
+        display: grid;
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+
+      .media-stack .media-thumb {
+        margin: 0;
       }
 
       .author {
@@ -261,22 +278,20 @@
       }
 
       .title {
-        margin: 0 0 8px;
-        font-size: 15px;
-        line-height: 1.18;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
+        margin: 0 0 7px;
+        color: var(--muted);
+        font-size: 11px;
+        line-height: 1.3;
+        font-weight: 400;
       }
 
       .what {
         margin: 0;
-        color: #b8b8b8;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
+        color: #e5e5e5;
+        font-size: 13px;
+        line-height: 1.42;
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
       }
 
       .tweet a {
@@ -297,11 +312,11 @@
       @keyframes enter {
         from {
           opacity: 0;
-          transform: translate3d(var(--x), calc(var(--y) + 16px), 0);
+          transform: translateY(10px);
         }
         to {
           opacity: 1;
-          transform: translate3d(var(--x), var(--y), 0);
+          transform: translateY(0);
         }
       }
 
@@ -347,17 +362,12 @@
           padding: 0;
         }
 
-        .stage {
-          display: grid;
-          gap: 10px;
-          min-width: 0;
-          min-height: 0;
-        }
-
-        .tweet {
-          position: static;
+        .stage,
+        .stage.grid,
+        .stage.row {
+          grid-template-columns: minmax(0, 1fr);
+          gap: 12px;
           width: 100%;
-          transform: none;
         }
       }
     </style>
@@ -371,7 +381,7 @@
         </div>
         <input id="search" class="search" type="search" placeholder="Search" autocomplete="off" />
         <nav id="categories" class="categories" aria-label="Categories"></nav>
-        <p class="hint">Drag tweets around. Click a category to redraw the canvas.</p>
+        <p class="hint">Click a category, then switch between grid and row views.</p>
       </aside>
 
       <header class="canvas-head">
@@ -380,8 +390,8 @@
           <p id="meta" class="canvas-meta"></p>
         </div>
         <div class="tools" aria-label="Canvas controls">
-          <button id="shuffle" class="tool" type="button" title="Reflow">R</button>
-          <button id="clear" class="tool" type="button" title="Clear positions">C</button>
+          <button id="grid" class="tool active" type="button" title="Grid view">Grid</button>
+          <button id="row" class="tool" type="button" title="Row view">Row</button>
         </div>
       </header>
 
@@ -392,15 +402,14 @@
     </main>
 
     <script>
-      const POSITIONS_KEY = "smaug-canvas-positions-v2";
+      const MODE_KEY = "smaug-view-mode";
 
       const state = {
         all: [],
         categories: [],
         active: "All",
         query: "",
-        positions: new Map(),
-        drag: null
+        mode: localStorage.getItem(MODE_KEY) === "row" ? "row" : "grid"
       };
 
       const els = {
@@ -412,8 +421,8 @@
         meta: document.getElementById("meta"),
         empty: document.getElementById("empty"),
         stage: document.getElementById("stage"),
-        shuffle: document.getElementById("shuffle"),
-        clear: document.getElementById("clear")
+        grid: document.getElementById("grid"),
+        row: document.getElementById("row")
       };
 
       init().catch((error) => {
@@ -433,20 +442,25 @@
           state.query = els.search.value.trim().toLowerCase();
           renderCanvas();
         });
-        els.shuffle.addEventListener("click", () => {
-          state.positions.clear();
-          renderCanvas();
-        });
-        els.clear.addEventListener("click", () => {
-          state.positions.clear();
-          localStorage.removeItem(POSITIONS_KEY);
-          localStorage.removeItem("smaug-canvas-positions");
-          renderCanvas();
-        });
+        els.grid.addEventListener("click", () => setMode("grid"));
+        els.row.addEventListener("click", () => setMode("row"));
 
-        loadPositions();
+        renderModeTools();
         renderCategories();
         renderCanvas();
+      }
+
+      function setMode(mode) {
+        state.mode = mode;
+        localStorage.setItem(MODE_KEY, mode);
+        els.canvas.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+        renderModeTools();
+        renderCanvas();
+      }
+
+      function renderModeTools() {
+        els.grid.classList.toggle("active", state.mode === "grid");
+        els.row.classList.toggle("active", state.mode === "row");
       }
 
       function renderCategories() {
@@ -457,11 +471,10 @@
           button.type = "button";
           button.innerHTML = `<span>${escapeHtml(category.name)}</span><span class="count">${category.count}</span>`;
           button.addEventListener("click", () => {
-        state.active = category.name;
-        state.positions.clear();
-        els.canvas.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-        renderCategories();
-        renderCanvas();
+            state.active = category.name;
+            els.canvas.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+            renderCategories();
+            renderCanvas();
           });
           els.categories.appendChild(button);
         }
@@ -484,129 +497,25 @@
         els.meta.textContent = `${items.length.toLocaleString()} in view`;
         els.empty.hidden = visible.length > 0;
         els.stage.innerHTML = "";
-        setStageSize(visible.length);
+        els.stage.className = `stage ${state.mode}`;
 
-        visible.forEach((item, index) => {
-          const pos = getPosition(item, index);
+        visible.forEach((item) => {
           const media = Array.isArray(item.media) ? item.media : [];
           const node = document.createElement("article");
           node.className = `tweet${media.length ? " has-media" : ""}`;
-          node.style.setProperty("--x", `${pos.x}px`);
-          node.style.setProperty("--y", `${pos.y}px`);
           node.dataset.id = item.id;
           node.innerHTML = `
-            ${media[0] ? `<img class="media-thumb" src="${escapeAttr(media[0])}" alt="" loading="lazy" decoding="async">` : ""}
+            ${media.length ? `<div class="media-stack">${media.map((src) => `<img class="media-thumb" src="${escapeAttr(src)}" alt="" loading="lazy" decoding="async">`).join("")}</div>` : ""}
             <div class="tweet-head">
               <span class="author">@${escapeHtml(item.author)}</span>
               <span class="date">${escapeHtml(shortDate(item.date))}</span>
             </div>
             <p class="title">${escapeHtml(item.title)}</p>
-            <p class="what">${escapeHtml(item.what || item.text || "Saved tweet")}</p>
+            <p class="what">${escapeHtml(item.text || item.what || "Saved tweet")}</p>
             ${item.tweet ? `<a href="${escapeAttr(item.tweet)}" target="_blank" rel="noreferrer">open</a>` : ""}
           `;
-          node.addEventListener("pointerdown", (event) => startDrag(event, node, item.id));
-          node.addEventListener("mousedown", (event) => startMouseDrag(event, node, item.id));
           els.stage.appendChild(node);
         });
-      }
-
-      function setStageSize(count) {
-        if (window.innerWidth < 560) return;
-        const cols = columnCount();
-        const rows = Math.max(1, Math.ceil(count / cols));
-        els.stage.style.width = `${cols * 340}px`;
-        els.stage.style.height = `${rows * 272 + 40}px`;
-      }
-
-      function getPosition(item, index) {
-        const saved = state.positions.get(item.id);
-        if (saved) return saved;
-        const cols = columnCount();
-        const col = index % cols;
-        const row = Math.floor(index / cols);
-        const x = col * 340 + ((row % 2) * 18);
-        const y = row * 272 + ((col % 2) * 12);
-        return { x, y };
-      }
-
-      function columnCount() {
-        if (window.innerWidth < 900) return 2;
-        if (window.innerWidth < 1200) return 3;
-        return 4;
-      }
-
-      function startDrag(event, node, id) {
-        if (window.innerWidth < 560) return;
-        const current = state.positions.get(id) || {
-          x: parseFloat(node.style.getPropertyValue("--x")) || 0,
-          y: parseFloat(node.style.getPropertyValue("--y")) || 0
-        };
-        state.drag = {
-          id,
-          node,
-          startX: event.clientX,
-          startY: event.clientY,
-          x: current.x,
-          y: current.y
-        };
-        node.classList.add("focused");
-        node.setPointerCapture(event.pointerId);
-        node.addEventListener("pointermove", dragMove);
-        node.addEventListener("pointerup", dragEnd, { once: true });
-      }
-
-      function startMouseDrag(event, node, id) {
-        if (window.innerWidth < 560 || state.drag) return;
-        event.preventDefault();
-        const current = state.positions.get(id) || {
-          x: parseFloat(node.style.getPropertyValue("--x")) || 0,
-          y: parseFloat(node.style.getPropertyValue("--y")) || 0
-        };
-        state.drag = {
-          id,
-          node,
-          startX: event.clientX,
-          startY: event.clientY,
-          x: current.x,
-          y: current.y
-        };
-        node.classList.add("focused");
-        window.addEventListener("mousemove", dragMove);
-        window.addEventListener("mouseup", dragEnd, { once: true });
-      }
-
-      function dragMove(event) {
-        const drag = state.drag;
-        if (!drag) return;
-        const x = drag.x + event.clientX - drag.startX;
-        const y = drag.y + event.clientY - drag.startY;
-        drag.node.style.setProperty("--x", `${x}px`);
-        drag.node.style.setProperty("--y", `${y}px`);
-      }
-
-      function dragEnd(event) {
-        const drag = state.drag;
-        if (!drag) return;
-        const x = drag.x + event.clientX - drag.startX;
-        const y = drag.y + event.clientY - drag.startY;
-        state.positions.set(drag.id, { x, y });
-        savePositions();
-        drag.node.classList.remove("focused");
-        drag.node.removeEventListener("pointermove", dragMove);
-        window.removeEventListener("mousemove", dragMove);
-        state.drag = null;
-      }
-
-      function savePositions() {
-        localStorage.setItem(POSITIONS_KEY, JSON.stringify([...state.positions.entries()]));
-      }
-
-      function loadPositions() {
-        try {
-          state.positions = new Map(JSON.parse(localStorage.getItem(POSITIONS_KEY) || "[]"));
-        } catch {
-          state.positions = new Map();
-        }
       }
 
       function shortDate(date) {
