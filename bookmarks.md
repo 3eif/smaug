@@ -695,26 +695,984 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ---
 
+# Saturday, November 18, 2023
+
+## @Taishi 🇯🇵🇨🇦 - AI webcam roast tool
+> Jim Carrey is now roasting me in a webcam.
+>
+> Built a tool to get roasted by AI in Jim Carrey's tone.
+> (obv inspired by @charlieholtz)
+>
+> Here's a GPT-4-vision + TTS AI app that voiceovers you as you appear in a webcam.
+>
+> No sign-up is required.
+>
+> You can use your OpenAI API key.
+> The link is in the thread.
+>
+> Check out the demo below :)
+>
+> It's hilarious lol
+
+- **Tweet:** https://x.com/taishik_/status/1725924258105491510
+- **What:** Bookmarked tweet about ai webcam roast tool.
+
+## @Damon Chen - PDF.ai reaches $500K ARR
+> https://t.co/ztAlGd88cd just hit $500k ARR.
+>
+> 6 months ago, I accidentally bought it to test the AI waters.
+>
+> As just an AI wrapper, it's simply luck.
+>
+> Thank you @sama and @gdb! 💜 https://t.co/TqnhRRsN1I
+
+- **Tweet:** https://x.com/damengchen/status/1725996670469787839
+- **Links:** [pdf.ai](https://pdf.ai/), [twitter.com](https://twitter.com/damengchen/status/1725996670469787839/photo/1)
+- **What:** Founder revenue milestone and backstory for PDF.ai reaching $500K ARR. Linked resources: https://pdf.ai/, https://twitter.com/damengchen/status/1725996670469787839/photo/1. Visual: Screenshots/chart around PDF.ai revenue growth and acquisition backstory.
+
+---
+
+# Friday, November 17, 2023
+
+## @Mariana Castilho - Vercel Hackathon design sneak peek
+> Sneak peek at a project I designed for the @vercel Hackathon in the last 1,5 days.
+>
+> I teamed up with the one and only @shadcn to build an AI-powered components playground for our design system -  tweak, mix and share.
+>
+> It’s fully working and UI being polished as we speak. 😌 https://t.co/Mo2di4FhQO
+
+- **Tweet:** https://x.com/mrncst/status/1725583294228537432
+- **Link:** https://twitter.com/mrncst/status/1725583294228537432/photo/1
+- **What:** Bookmarked tweet about vercel hackathon design sneak peek. Linked resource: https://twitter.com/mrncst/status/1725583294228537432/photo/1. Visual: Design screenshots from a Vercel Hackathon project, useful as a rapid UI concept reference.
+
+---
+
+# Thursday, November 16, 2023
+
+## @Ronith - Iris macOS AI multitasking app
+> Meet Iris — a macOS app that makes it easy to multitask with AI.
+>
+> Over the last year, I’ve been exploring how we can evolve the desktop OS. This is the first small step :)
+>
+> You can download Iris now at https://t.co/KALWfNCfQ6 https://t.co/mJdQdWX2Bt
+
+- **Tweet:** https://x.com/ronithhh/status/1725247071689830606
+- **Links:** [iris.fun](https://iris.fun/), [twitter.com](https://twitter.com/ronithhh/status/1725247071689830606/video/1)
+- **What:** Launch bookmark for Iris, a macOS AI multitasking app designed around active work context. Linked resources: https://iris.fun/, https://twitter.com/ronithhh/status/1725247071689830606/video/1. Visual: Video preview for Iris, a macOS AI multitasking app.
+
+---
+
+# Wednesday, November 15, 2023
+
+## @tldraw - tldraw MakeReal launch
+> let's go https://t.co/4dHJiLCegg https://t.co/4y9VMiTN0h
+
+- **Tweet:** https://x.com/tldraw/status/1724892287304646868
+- **Links:** [makereal.tldraw.com](https://makereal.tldraw.com/), [twitter.com](https://twitter.com/tldraw/status/1724892287304646868/video/1)
+- **What:** tldraw MakeReal product reference showing AI-assisted app generation from visual sketches. Linked resources: https://makereal.tldraw.com/, https://twitter.com/tldraw/status/1724892287304646868/video/1. Visual: Video preview for tldraw MakeReal, showing AI-generated UI/app creation from drawings.
+
+---
+
+# Tuesday, November 14, 2023
+
+## @Morten Just - Essential macOS app list
+> Got a new mac. Apparently, this is my list of essential macOS apps, in order: https://t.co/i38fpkglDz
+
+- **Tweet:** https://x.com/mortenjust/status/1724508992704037346
+- **Link:** https://twitter.com/mortenjust/status/1724508992704037346/photo/1
+- **What:** Bookmarked tweet about essential macos app list. Linked resource: https://twitter.com/mortenjust/status/1724508992704037346/photo/1. Visual: Screenshots list essential macOS apps on a new machine.
+
+## @Vindiw Wijesooriya - VoiceoverGPT launch
+> Just launched VoiceoverGPT - a tool where you can upload a screen recording of a demo and get a voiceover for it. (this demo's voiceover is also from it)
+>
+> Built using @OpenAI's new GPT-4 Vision &amp; TTS APIs.
+>
+> Link to live demo in my next tweet. https://t.co/wZd2VJpwvV
+
+- **Tweet:** https://x.com/vindiww/status/1724519150524260517
+- **Link:** https://twitter.com/vindiww/status/1724519150524260517/video/1
+- **What:** Bookmarked tweet about voiceovergpt launch. Linked resource: https://twitter.com/vindiww/status/1724519150524260517/video/1. Visual: Video preview for VoiceoverGPT, a screen-recording-to-voiceover product.
+
+---
+
+# Monday, November 13, 2023
+
+## @levelsio - Startup validation with mockups and TikTok ads
+> If I'd want to validate a startup in 2023 I would
+> - build a mockup
+> - open TikTok account
+> - make daily TikTok about it
+> - have Linktree link in bio
+> - add Stripe payment link to Linktre to pre-order: like $200 but early bird discount $50
+>
+> Do this for 30 ideas
+> - see what sells most
+
+- **Tweet:** https://x.com/levelsio/status/1724045484967276881
+- **What:** Bookmarked tweet about startup validation with mockups and tiktok ads.
+
+---
+
+# Sunday, November 12, 2023
+
+## @Pietro Schirano - ConvertAnything custom GPT
+> My new custom GPT
+>
+> ConvertAnything: The Ultimate File Converter! 🔄
+>
+> Convert images, audio, videos, PDFs &amp; more with ease. Batch uploads, ZIP support, and easy download links included.
+>
+> A one-stop solution for all conversion needs.
+>
+> Try now! 👇
+> https://t.co/fmfVRfxPJM https://t.co/FMWCP93ULR
+
+- **Tweet:** https://x.com/skirano/status/1723769180657213788
+- **Links:** [chatgpt.com](https://chatgpt.com/g/g-kMKw5tFmB-convert-anything), [twitter.com](https://twitter.com/skirano/status/1723769180657213788/video/1)
+- **What:** Custom GPT product that converts files between formats, bookmarked as an AI utility example. Linked resources: https://chatgpt.com/g/g-kMKw5tFmB-convert-anything, https://twitter.com/skirano/status/1723769180657213788/video/1. Visual: Video preview of a custom GPT file converter product demo.
+
+---
+
+# Saturday, November 11, 2023
+
+## @Namya @ Supafast - Before and after design transformation
+> Before → After https://t.co/uJcBGZukiA
+
+- **Tweet:** https://x.com/namyakhann/status/1723332177536913575
+- **Link:** https://twitter.com/namyakhann/status/1723332177536913575/photo/1
+- **What:** Bookmarked tweet about before and after design transformation. Linked resource: https://twitter.com/namyakhann/status/1723332177536913575/photo/1. Visual: Before/after visuals of a website redesign, useful as a conversion/design critique reference.
+
+---
+
+# Friday, November 10, 2023
+
+## @Pat Walls - Hiring young hungry people
+> PSA: You should hire young, hungry people.
+>
+> One year ago, I hired this unemployed 23-year-old kid to help me create TikToks.
+>
+> And today, we are celebrating with $100 steaks at the 2nd best steakhouse in America.
+>
+> What are we celebrating?
+>
+> 100K YouTube subscribers in 6 months.
+>
+> Yes, you heard that right.
+>
+> ZERO to 100K subscribers in 6 months!
+>
+> What's crazier is that this kid had never picked up a camera in his life, or even opened up Adobe Premiere!
+>
+> We met up at a coffee shop, and he pitched me on a ton of video ideas. I was impressed.
+>
+> He then told me he'd work for free, but I told him "hell no".
+>
+> (that never works)
+>
+> I hired him full time on a trial basis and we got to work.
+>
+> Our plan was to create one TikTok per day.
+>
+> He spent HOURS creating our first TikTok video.
+>
+> Scripted, filmed, and edited to perfection.
+>
+> In 24 hours, this kid learned how to edit in Premiere and turned around a video that was better than 95% of videos from experienced editors.
+>
+> I was impressed.
+>
+> We posted it, and it popped off immediately.
+>
+> Over 1M views.
+>
+> Not bad!
+>
+> So we just kept creating more.
+>
+> And we made sure to get better with each one.
+>
+> We got better at hooks, packaging. storytelling, intrigue, etc etc.
+>
+> We created 30 videos that got over 20M views and hundreds of thousands of followers.
+>
+> But... there was a problem.
+>
+> Millions of views, but no revenue.
+>
+> So... 6 months into the journey, we decided to pivot.
+>
+> To YouTube.
+>
+> We came up with an idea for a new format.
+>
+> "MTV Cribs for entrepreneurs"
+>
+> We'll fly to NYC, Chicago, Toronto, etc, find entrepreneurs and create videos about the businesses they built.
+>
+> Our first video got maybe 1,000 views.
+>
+> But we improved with every new video, just like we did on TikTok.
+>
+> And then we went viral.
+>
+> 1K subscribers. 10K subs. 50K subs.
+>
+> And hundreds of thousands of dollars in revenue.
+>
+> And now 100K subs.
+>
+> A year ago, @marcovbenny had never even picked up a camera.
+>
+> But I saw something in him.
+>
+> I gave him a shot, and he DELIVERED.
+>
+> Now, Marco is running the channel full time and we're making moves on our next milestone: 1M subs!
+>
+> I know the whole solopreneur thing is trending, but there is something really special about building a team and hiring people and watching them grow.
+>
+> It's probably the best part about being an entrepreneur.
+
+- **Tweet:** https://x.com/thepatwalls/status/1723135227386622370
+- **What:** Bookmarked tweet about hiring young hungry people.
+
+---
+
+# Thursday, November 9, 2023
+
+## @Dillion - Bento grid design reference
+> i heard twitter likes bento grids  🍱 https://t.co/EOM5Osc8xA
+
+- **Tweet:** https://x.com/dillionverma/status/1722584973402878033
+- **Link:** https://twitter.com/dillionverma/status/1722584973402878033/video/1
+- **What:** Bookmarked tweet about bento grid design reference. Linked resource: https://twitter.com/dillionverma/status/1722584973402878033/video/1. Visual: Bento-grid UI demo/video preview; useful as a layout reference.
+
+---
+
+# Wednesday, November 8, 2023
+
+## @Namya @ Supafast - High-converting light-mode startup websites
+> 10 beautifully designed, high-converting startup websites (light mode):
+>
+> → https://t.co/fyzhIe3I1Z
+> → https://t.co/pyNw8Se20P
+> → https://t.co/qeio6yZ5Fb
+> → https://t.co/nDFjFpoCiA
+> → https://t.co/vzNlIUoczn
+> → https://t.co/qEiTf1SqFP
+> → https://t.co/UrePDDpAvm
+> → https://t.co/khFZ0x2Wvv
+> → https://t.co/AUjpqIQUbo
+> → https://t.co/VA93QIZw7t
+
+- **Tweet:** https://x.com/namyakhann/status/1722207358628348279
+- **Links:** [cal.com](https://cal.com/), [family.co](https://family.co/), [attio.com](https://attio.com/), [rows.com](https://rows.com/), [loom.com](https://www.loom.com/), [equals.com](https://equals.com/), [getcoco.com](https://www.getcoco.com/), [outverse.com](https://www.outverse.com/), [campsite.com](https://www.campsite.com/), [magicbeans.app](https://magicbeans.app/)
+- **What:** Curated set of startup websites to study for clean light-mode conversion design. Linked resources: https://cal.com/, https://family.co/, https://attio.com/ and more. Visual: Website screenshots/examples of polished light-mode startup homepages for design reference.
+
+---
+
+# Sunday, November 5, 2023
+
+## @BUILD OR DIE - Elon Musk advice for young people
+> .@elonmusk's advice for young people:
+>
+> (i) try to be useful; contribute > consume
+> (ii) learn as much as possible; read extensively
+> (iii) find the overlap between what you're talented in and enjoy doing
+> (iv) think positive-sum; celebrate others
+> (v) apply the mental tools of physics in your life
+
+- **Tweet:** https://x.com/BUILD_OR_DIE/status/1721343132921462822
+- **What:** Bookmarked tweet about elon musk advice for young people.
+
+---
+
+# Friday, November 3, 2023
+
+## @Sabine Hossenfelder - Reasonable people being quiet
+> The trouble with society is that the most reasonable people are also the most quiet.
+
+- **Tweet:** https://x.com/skdh/status/1720466911299785010
+- **What:** Bookmarked tweet about reasonable people being quiet.
+
+## @jhey ʕ•ᴥ•ʔ - CSS container query animation units
+> CSS Tip! ✨
+>
+> You can use CSS container query units in your animations to create this glowy border button effect! 🎬
+>
+> Watch the video for the exploding view breakdown 👀
+>
+> @​keyframes slide {
+>   to { translate: calc(100cqw - 100%) 0; }
+> }
+> .glows { container-type: size; }
+>
+> The "trick" is to animate an element from side to side within the container.
+>
+> .glow {
+>   animation: slide calc(var(--speed) * 1s) ease-in-out infinite alternate paused;
+> }
+>
+> Note the use of a custom property for the speed 📝
+>
+> Whilst doing that, you rotate an element within that container. That element has a conic-gradient. And it's important that the element has a 1:1 aspect-ratio.
+>
+> .glow::before {
+>   background: conic-gradient(
+>     from calc(270deg - (var(--glow-spread) * 0.5)),
+>     var(--glow) 0,
+>     var(--glow) var(--glow-spread),
+>     transparent var(--glow-spread));
+>   animation: spin calc(var(--speed) * 2s) infinite paused linear;
+> }
+>
+> Note that the spin is 2x the speed of the slide ⭐️
+>
+> That's pretty much all there is to it. Other details include turning the animation on/off when the button is hovered or has visible focus.
+>
+> button:is(:hover, :focus-visible) .glow {
+>   animation-play-state: running;
+> }
+>
+> And things like showing the glow at the same time by transitioning the opacity. To show then hide the glows on hover, you can use an animation that shows then hides the glows.
+>
+> @​keyframes reveal {
+>   0%, 100% { opacity: 0; }
+>   20%, 80% { opacity: 1; }
+> }
+>
+> And lastly, you can control various things using scoped custom properties 🫶
+>
+> Hope the exploding view helps! If you have any questions, let me know!
+>
+> @CodePen link below! 👇
+
+- **Tweet:** https://x.com/jh3yy/status/1720595836608872892
+- **What:** CSS technique using container query units in animations so motion adapts to the component container.
+
+---
+
+# Thursday, November 2, 2023
+
+## @Kyriakos Eleftheriou - SpaceX culture lessons
+> Learnings from SpaceX from @joshuasforrest
+>
+> The culture at @SpaceX emphasizes effective communication and extreme accountability.
+>
+> By avoiding acronyms and promoting clear communication, everyone at the company can contribute regardless of their background or experience.
+
+- **Tweet:** https://x.com/kyriakosel/status/1720201314481971653
+- **What:** Bookmarked tweet about spacex culture lessons.
+
+## @{PuruVijay}.svelte - Using Zod correctly
+> Today I found out how to use Zod correctly 🤯
+>
+> Now I get the hype. I really do now 🔥 https://t.co/MlZEe9bzK7
+
+- **Tweet:** https://x.com/puruvjdev/status/1720322766241738896
+- **Link:** https://twitter.com/puruvjdev/status/1720322766241738896/photo/1
+- **What:** Developer note about Zod validation patterns and why schema-driven typing feels useful once used correctly. Linked resource: https://twitter.com/puruvjdev/status/1720322766241738896/photo/1. Visual: Screenshots explain Zod usage patterns, likely contrasting schema-first validation and type inference.
+
+---
+
+# Monday, October 30, 2023
+
+## @fmerian/launch - Product Hunt launch checklist
+> are you planning to launch your dev tool on @ProductHunt soon?
+>
+> awesome! below are some great dev-first product launches for inspiration -- includ. @appwrite, @raycastapp, @resendlabs... https://t.co/g4d6Gy9AuF
+
+- **Tweet:** https://x.com/fmerian/status/1718968543088439685
+- **Link:** https://twitter.com/fmerian/status/1718968543088439685/photo/1
+- **What:** Product Hunt launch guidance thread/checklist for developer tools. Linked resource: https://twitter.com/fmerian/status/1718968543088439685/photo/1. Visual: Screenshots likely capture Product Hunt launch planning material; useful as a launch checklist/reference.
+
+## @Steven Tey - Tremor React frontend advantage
+> If you're building React frontends, knowing @tremorlabs gives you such an unfair advantage:
+>
+> ◆ Beautiful time-series charts
+> ◆ Powerful select pickers (search, multi-select)
+> ◆ Advanced tables UI + filtering 🤯
+>
+> Check out the docs → https://t.co/eGNYAokyq9
+>
+> *Quoting @tremor:* Making those new tables as powerful as possible https://t.co/wXdzs5MTZd
+
+- **Tweet:** https://x.com/steventey/status/1719144564366385230
+- **Links:** [tremor.so](https://www.tremor.so/), [twitter.com](https://twitter.com/tremorlabs/status/1718998806237470959/video/1)
+- **Quoted:** https://x.com/tremorlabs/status/1718998806237470959
+- **What:** Frontend reference for using Tremor to build polished React dashboards quickly. Linked resources: https://www.tremor.so/, https://twitter.com/tremorlabs/status/1718998806237470959/video/1. Visual: Video preview/demo around Tremor React dashboard components; useful as a frontend component reference.
+
+---
+
+# Saturday, October 28, 2023
+
+## @levelsio - Levelsio Telegram chat goes public
+> 🔥 https://t.co/GO6ZlNWFax chat is now public and free
+>
+> I tried to monetize it with X subscribers but my subscriber amount got stuck at ~200 subs per month @ $8 = $1,600/mo without growth and while that’s nice it doesn’t seem worth it
+>
+> I think best is to have a public free chat open for everyone to chat about the topics I’m interested in like startups, travel, food and fitness
+>
+> X subs still get the opportunity on DM me on there if subscribed but the community is now free!
+
+- **Tweet:** https://x.com/levelsio/status/1718301507190128830
+- **Link:** https://t.me/levelsio
+- **What:** Bookmarked tweet about levelsio telegram chat goes public. Linked resource: https://t.me/levelsio.
+
+## @Prakash - OpenAI product strategy critique
+> I don’t know why there is any surprise.
+>
+> Here’s OpenAI’s product strategy for the next 2 years:
+>
+> - you will be able to upload anything to ChatGPT
+> - you will be able to link any external service like Gmail, Slack
+> - ChatGPT will have persistent memory, no more multiple chats unless you want it
+> - ChatGPT will have a consistent, user customizable personality including political bias
+> - ChatGPT will be able to respond by text, voice, images (diagrams and video still ?? In this timeframe)
+> - ChatGPT will become much much faster until you feel it’s a real person (>50ms response time)
+> - Hallucinations and non factual errors will decline rapidly
+> - as self moderation improves, question rejection will decline
+>
+> *Quoting @Alex Ker 🔭:* Many startups just died today.   Because OpenAI added PDF chat. You can also chat with data files and other document types.  We had a wave of products better suited as features rather than stand-alone companies.  Wrappers are being squeezed by OpenAI on one side and incumbents on the other.   It's a rough world out there.
+
+- **Tweet:** https://x.com/8teAPi/status/1718459635399848294
+- **Quoted:** https://x.com/thealexker/status/1718445317559902371
+- **What:** Bookmarked tweet about openai product strategy critique.
+
+---
+
+# Friday, October 27, 2023
+
+## @nibras ꩜ - Traits of magnetic people
+> some people are incredible to be around. and i am obsessed with understanding why
+
+- **Tweet:** https://x.com/heynibras/status/1717959944601772421
+- **What:** Bookmarked tweet about traits of magnetic people.
+
+## @cess - Frustration over global response to Palestine
+> it's so infuriating to see the majority of the world on palestine's side, on the right side of history yet fully unable to do anything because the world's power is condensed in a small group of very, very evil people.
+
+- **Tweet:** https://x.com/VARMILT0N/status/1718010086365286665
+- **What:** Bookmarked tweet about frustration over global response to palestine.
+
+## @Mario Nawfal - Israel response to UN resolution
+> 🚨 JUST IN: ISRAEL NOT PRESSURED BY UN RESOLUTION
+>
+> Foreign Minister Eli Cohen:
+>
+> "We reject the despicable call of the UN for a ceasefire outright. Israel intends to act to eliminate Hamas, just as the world acted against the Nazis and ISIS"
+>
+> Source: Channel 11
+>
+> *Quoting @Mario Nawfal:* 🚨 JUST IN: UN APPROVED CEASEFIRE RESOLUTION  In the midst of the biggest escalation in the war so far, the UN General Assembly overwhelmingly adopted a resolution for 'immediate, lasting and sustainable humanitarian ceasefire'  120 countries voted in favor 14 against 45 abstained  Source: UN
+
+- **Tweet:** https://x.com/MarioNawfal/status/1718022858582929565
+- **Quoted:** https://x.com/MarioNawfal/status/1717996108096348213
+- **What:** Bookmarked tweet about israel response to un resolution.
+
+## @Victoria Tran 🧋 - PCRF and Save Gaza action links
+> Our post has a link that allows you to easily and quickly send letters to your local government (🇨🇦,🇺🇸,🇬🇧,🇦🇺) for a ceasefire.
+>
+> Political action is so important, it really can do so much to have your voice heard.
+>
+> *Quoting @Innersloth 🦥:* We’ve donated to the Palestine Children's Relief Fund, and we urge you to write to your local government for a ceasefire. Collective action can do so much.  ➡️Donate: https://t.co/zO3rLT80Zo ➡️Easy letter templates/sending for 🇨🇦🇺🇸🇬🇧🇦🇺: https://t.co/vefE0xKHlN https://t.co/3DL9C9ciBn
+
+- **Tweet:** https://x.com/TheVTran/status/1718045196603318591
+- **Links:** [pcrf.net](https://www.pcrf.net/), [linktr.ee](https://linktr.ee/savegaza), [twitter.com](https://twitter.com/InnerslothDevs/status/1715389819159990651/photo/1)
+- **Quoted:** https://x.com/InnerslothDevs/status/1715389819159990651
+- **What:** Bookmarked tweet about pcrf and save gaza action links. Linked resources: https://www.pcrf.net/, https://linktr.ee/savegaza, https://twitter.com/InnerslothDevs/status/1715389819159990651/photo/1.
+
+## @Steven Tey - Bootstrapped software company examples
+> Cannot agree with this more!
+>
+> Here's a list of high quality (bootstrapped) software products that I'm a huge fan of and happily pay for:
+>
+> ◆ @typefully – manage tweets
+> ◆ @mimestream – manage emails
+> ◆ @TextsHQ – manage DMs
+> ◆ @copilotmoney – manage money
+> ◆ @cleanshot – screen shots
+> ◆ @screenstudio – screen recordings
+>
+> *Quoting @kepano:* Quality software deserves your hard‑earned cash  Quality software from independent makers is like quality food from the farmer’s market. A jar of handmade organic jam is not the same as mass-produced corn syrup-laden jam from the supermarket.  Industrial fruit jam is filled with cheap ingredients and shelf stabilizers. Industrial software is filled with privacy-invasive trackers and proprietary formats.  Google, Apple, and Microsoft make industrial software. Like industrial jam, industrial software has its benefits — it’s cheap, fairly reliable, widely available, and often gets the job done.  Big tech companies earn hundreds of billions of dollars and employ hundreds of thousands of people. When they make a new app, they can market it to their billions of customers easily. They have unbeatable leverage over the cost of developing and maintaining their apps.  Independent software makers are small teams that don’t have those economies of scale. They can try to compete on price by compromising their craft, or they can charge a fair price knowing this will drive a large number of people to choose big tech instead. Either way, big tech wins because they take a 20–30% cut of the app store money earned by most independent makers. A cost that the big tech companies do not incur.  Big tech companies have the ability to make their software cheap by subsidizing costs in a variety of ways:  - Google sells highly profitable advertising and makes its apps free, but you are subjected to ads and privacy-invasive tracking.  - Apple sells highly profitable devices and makes its apps free, but locks you into a proprietary ecosystem.  - Microsoft sells highly profitable enterprise contracts using a bundling strategy, and makes its apps cheap, also locking you into a proprietary ecosystem.  Some tech companies raise hundreds of millions of dollars from venture capital investors, and use this money to subsidize pricing — until the money runs out, and the quality soon declines.  I’m not saying these companies are evil. But their subsidies create the illusion that all software should be cheap or free.  Industrial software has become so incredibly cheap that most of us have lost the sense for how much value a quality piece of software can provide. We have become numb to the taste of good software and hypnotized by the idea of “free”.  I’m not sure why, but we seem more willing to spend money on good fruit jam than on good software. I notice that I spend less on personal software than I do on groceries and many basic things. Yet software is one of the few things I pay for that truly gives me leverage. Consider its cost per use.  Independent makers of quality software go out of their way to make apps that are better for you. They take a principled approach to making tools that don’t compromise your privacy, and don’t lock you in.  Independent software makers are people you can talk to. Like quality jam from the farmer’s market, you might become friends with the person who made it — they’ll listen to your suggestions and your complaints.  If you want to live in a world with more than a handful of software makers, then spend a bit more on quality independent software. It deserves your hard-earned cash.
+
+- **Tweet:** https://x.com/steventey/status/1718104572538093578
+- **Quoted:** https://x.com/kepano/status/1717919168459321525
+- **What:** Reference list of strong bootstrapped software companies, likely useful for positioning, pricing, and product inspiration.
+
+---
+
+# Thursday, October 26, 2023
+
+## @Mario Nawfal - Warning flyers on Palestinian cars
+> 🚨 JUST IN: FLYERS ON PALESTINIAN CARS WITH WARNING
+>
+> Palestinians in the West Bank reported flyers on their cars, "placed by Jews" in the village of Deir Istia, which read:
+>
+> "You have one last chance to escape to Jordan in an orderly manner, after which we will kill every enemy and forcibly expel you from our holy land
+>
+> Take your belongings with you immediately, and leave because we are about to arrive"
+>
+> Source: Channel 11
+
+- **Tweet:** https://x.com/MarioNawfal/status/1717605581769331056
+- **What:** Bookmarked tweet about warning flyers on palestinian cars. Visual: Photo shows an Arabic warning flyer placed on a car windshield; preserve as conflict-related visual evidence without overclaiming beyond the tweet.
+
+## @Nikita Bier - Startup salary after fundraising
+> If the startup you work for doesn’t raise your salary immediately after a large fundraise, you should quit.
+
+- **Tweet:** https://x.com/nikitabier/status/1717683975844495578
+- **What:** Bookmarked tweet about startup salary after fundraising.
+
+---
+
+# Wednesday, October 25, 2023
+
+## @Cody Schneider - AI workflow for LinkedIn growth
+> how to grow your dumb linkedin account entirely by ai
+>
+> find viral reddit posts in niche
+>
+> ai make table with title and supporting idea
+>
+> then canva template produces carousel
+>
+> schedule on linkedin
+>
+> can make 10 of these in 15 minutes
+>
+> 1 hour of work a month
+>
+> 70,000 impressions /mo https://t.co/HOBbZa0K6W
+
+- **Tweet:** https://x.com/codyschneiderxx/status/1717361834221584426
+- **Link:** https://twitter.com/codyschneiderxx/status/1717361834221584426/video/1
+- **What:** Bookmarked tweet about ai workflow for linkedin growth. Linked resource: https://twitter.com/codyschneiderxx/status/1717361834221584426/video/1. Visual: Video preview of a Taplio-style LinkedIn analytics dashboard with follower growth, profile views, likes, and AI posting workflow context.
+
+---
+
+# Tuesday, October 24, 2023
+
+## @DAN KOE - Nobody is coming to save you
+> Nobody is coming to save you.
+>
+> Not your friends. Not your family. Not the government
+>
+> They can offer advice and tools.
+>
+> But at the end of the day, it's up to you to change your mind and act regardless of how you feel.
+>
+> A thread of advice you need to hear:
+
+- **Tweet:** https://x.com/thedankoe/status/1716804239765168610
+- **What:** Bookmarked tweet about nobody is coming to save you.
+
+## @Pat Walls - Starter Story traffic inflection
+> 31 million people have visited my website https://t.co/nkcmLxbPpa.
+>
+> But 3 years ago, the business was on the brink of failure.
+>
+> Until I had one aha moment.
+>
+> Which led me to building one of the biggest websites in the world.
+>
+> This is the story of how I did it. https://t.co/FW2b7iCIkR
+
+- **Tweet:** https://x.com/thepatwalls/status/1716854579781144617
+- **Links:** [starterstory.com](https://www.starterstory.com/), [twitter.com](https://twitter.com/thepatwalls/status/1716854579781144617/photo/1)
+- **What:** Bookmarked tweet about starter story traffic inflection. Linked resources: https://www.starterstory.com/, https://twitter.com/thepatwalls/status/1716854579781144617/photo/1. Visual: Traffic chart marked around 2020 with a major growth inflection, pointing to Starter Story’s content/SEO growth.
+
+---
+
+# Monday, October 23, 2023
+
+## @Ben Geskin - Quest 3 virtual monitor setup
+> Meta Quest 3 virtual monitors with color passthrough 😍
+>
+> I can see myself actually using this!
+>
+> #MetaQuest3 #MixedReality #MR https://t.co/IKfoPNpW4q
+
+- **Tweet:** https://x.com/BenGeskin/status/1716455160245870685
+- **Link:** https://twitter.com/BenGeskin/status/1716455160245870685/video/1
+- **What:** Bookmarked tweet about quest 3 virtual monitor setup. Linked resource: https://twitter.com/BenGeskin/status/1716455160245870685/video/1. Visual: Video preview shows a Quest headset pointed at a MacBook/living-room setup, illustrating mixed-reality virtual monitor use.
+
+## @levelsio - Paywalling free users and ARR growth
+> Crazy things happen when you stop accepting free users to your app and paywall it
+>
+> Crazy things like suddenly you're making great money
+>
+> *Quoting @Baptiste Malaguti:* Kuri’s revenue blowing up 🥹  Instead of making small incremental changes, we went premium-first: hard paywall w/ trial.  After years of hard work, with very little cash, that feels honestly pretty weird 🫠 https://t.co/u5YM4DFGXV
+
+- **Tweet:** https://x.com/levelsio/status/1716486614472397076
+- **Link:** https://twitter.com/Bptstmlgt/status/1716163820954034204/photo/1
+- **Quoted:** https://x.com/Bptstmlgt/status/1716163820954034204
+- **What:** Bookmarked tweet about paywalling free users and arr growth. Linked resource: https://twitter.com/Bptstmlgt/status/1716163820954034204/photo/1. Visual: Charts show a sharp ARR/MRR lift after a paywall or pricing change, used as evidence for monetization strategy.
+
+## @Guillermo Rauch - Vercel Konami code easter egg
+> Try ⬆⬆⬇⬇⬅➡⬅➡🅱🅰 on vercel⁠.com⁠/home
+> https://t.co/F0PFzhSy9e
+
+- **Tweet:** https://x.com/rauchg/status/1716654741269450901
+- **Link:** https://vercel.com/home
+- **What:** Bookmarked tweet about vercel konami code easter egg. Linked resource: https://vercel.com/home.
+
+---
+
+# Sunday, October 22, 2023
+
+## @Mario Nawfal - Israeli hostage account thread
+> 🚨BREAKING: ISRAELI HOSTAGE EXPOSES DISTURBING ACCOUNT
+>
+> In a shocking revelation, Israeli hostage Yasmin Porat has raised disconcerting questions about the tragic events of October 7.
+>
+> The Testimony:
+>
+> In an exclusive interview, Porat disclosed that Israeli forces eliminated everyone, including hostages, amid heavy crossfire and tank shelling.
+>
+> Censorship Concerns and Unfiltered Truth:
+>
+> Porat's account mysteriously vanished from the "Haboker Hazeh" program, sparking questions of potential censorship. The full interview has also been completely censored off of all social media platforms and off of Kan's website. However, her unfiltered testimony has already resonated widely on social media.
+>
+> In her interviews, Porat reveals a shocking twist: Palestinian fighters treated the hostages humanely, offering them hope of a safe passage to Gaza, despite the chaos. The compassionate act stands in stark contrast to the chaos that unfolded.
+>
+> The captive group's relief was brutally disrupted as Israeli forces arrived, unleashing a storm of gunfire that wounded fighters and hostages alike.
+>
+> She said this about the Israeli forces to Israeli radio:
+>
+> "They eliminated everyone, including the hostages."
+>
+> Amid this revelation, questions arise about what truly transpired on October 7, shedding new light on a day marked by profound sorrow for both Israelis and Palestinians.
+>
+> The harrowing testimony of Yasmin Porat challenges the narrative, emphasizing the importance of a thorough, impartial investigation into the events of that fateful day.
+>
+> Source: Vox, Mondoweiss, Middle East Monitor, LN, & The Cradle
+
+- **Tweet:** https://x.com/MarioNawfal/status/1716337785789927642
+- **What:** Bookmarked tweet about israeli hostage account thread.
+
+---
+
+# Saturday, October 21, 2023
+
+## @Sulaiman Ahmed - Palestinian girl challenges Sky News reporter
+> PALESTINIAN GIRL DESTROYS SKY NEWS REPORTER - EXPOSING ISRAELI WAR CRIMES https://t.co/XUUHui3nYC
+
+- **Tweet:** https://x.com/ShaykhSulaiman/status/1715871994460156401
+- **Link:** https://twitter.com/ShaykhSulaiman/status/1715871994460156401/video/1
+- **What:** Bookmarked tweet about palestinian girl challenges sky news reporter. Linked resource: https://twitter.com/ShaykhSulaiman/status/1715871994460156401/video/1. Visual: Video thumbnail appears to show a TV/news interview clip with subtitles; needs the full video for precise claims.
+
+## @Toran Bruce Richards - OpenAI-style analysis of Twitter algorithm
+> 🧵1/8 As an AI developed by OpenAI, I've been analyzing Twitter's open-source recommendation algorithm.
+>
+> Here's what I've learned about how to write a highly ranking tweet. #AI #TwitterAlgorithm https://t.co/h3qifc5rxY
+
+- **Tweet:** https://x.com/SigGravitas/status/1715880916122243525
+- **Link:** https://twitter.com/SigGravitas/status/1715880916122243525/photo/1
+- **What:** Bookmarked tweet about openai-style analysis of twitter algorithm. Linked resource: https://twitter.com/SigGravitas/status/1715880916122243525/photo/1. Visual: Screenshot of the twitter/the-algorithm GitHub repository, used as a visual hook for a thread about algorithmic recommendation strategy.
+
+---
+
+# Friday, October 20, 2023
+
+## @Max Blumenthal - Grayzone article on human shields argument
+> Why has Israel placed its military HQ in a civilian area?
+>
+> Why do its civilians also serve as soldiers for much of their lives?
+>
+> Why are "IDF" bases constructed next to kibbutzim?
+>
+> How Israel uses its own civilians as human shields while assaulting Gaza https://t.co/S0gjGawKwC
+
+- **Tweet:** https://x.com/MaxBlumenthal/status/1715432757004837062
+- **Link:** https://thegrayzone.com/2014/08/06/how-israel-uses-its-own-civilians-as-human-shields-while-assaulting-gaza/
+- **What:** Bookmarked tweet about grayzone article on human shields argument. Linked resource: https://thegrayzone.com/2014/08/06/how-israel-uses-its-own-civilians-as-human-shields-while-assaulting-gaza/.
+
+---
+
+# Thursday, October 19, 2023
+
+## @Pat Walls - Build publicly before searching for a co-founder
+> Searching for a co-founder?
+>
+> Stop searching.
+>
+> Instead, start building. Start creating.
+>
+> Show the world you can execute all by yourself.
+>
+> This will put your work in front of the best talent in the world.
+>
+> And that perfect co-founder? They’ll fall right into your lap.
+>
+> Because successful, talented people want to work with people that get shit done.
+>
+> And a portfolio of work is the only proof that you can execute.
+>
+> And here’s the kicker:
+>
+> By doing this, you might realize you don’t need a co-founder at all.
+>
+> You might realize you can do it yourself and own 100% of the business.
+>
+> I started my side project(s) with the hope that I'd maybe find a co-founder this way.
+>
+> But then my little side project turned into a real business and by that point it was too late.
+>
+> I was a solo founder.
+
+- **Tweet:** https://x.com/thepatwalls/status/1715054625546527108
+- **What:** Startup advice to create momentum through building, shipping, and distribution before trying to recruit a co-founder.
+
+## @The Spectator Index - Israel hostage count update
+> BREAKING: Israel's embassy in Washington announces that as of today, following admission to the Visa Waiver Program, Israelis can travel to the US without a visa.
+
+- **Tweet:** https://x.com/spectatorindex/status/1715095915667800289
+- **What:** Bookmarked tweet about israel hostage count update.
+
+---
+
+# Wednesday, October 18, 2023
+
+## @Josh Pigford - System-following creates a hard realization
+> She did *exactly* as the system told her to do it. And now she's realizing that the system is funded by the university to which she owes $80,000.
+>
+> *Quoting @Austen Allred:* I don’t know who is telling these kids that a generic degree is equivalent to experience or makes you qualified for high-paying roles, but it simply does not https://t.co/cizkzJyA4A
+
+- **Tweet:** https://x.com/Shpigford/status/1714685867107721547
+- **Link:** https://twitter.com/JoshLekach/status/1714278025104376277/video/1
+- **Quoted:** https://x.com/Austen/status/1714646440608403750
+- **What:** Bookmarked tweet about system-following creates a hard realization. Linked resource: https://twitter.com/JoshLekach/status/1714278025104376277/video/1. Visual: Video thumbnail appears to show a woman speaking in a car; treat as a social commentary clip rather than a fully reviewed video.
+
+---
+
+# Friday, October 13, 2023
+
+## @Brett - Growth agency landing page reference
+> Landing page for a new growth agency client. 🌈 https://t.co/m4fAU1E7xV
+
+- **Tweet:** https://x.com/BrettFromDJ/status/1712908995051376852
+- **Link:** https://twitter.com/BrettFromDJ/status/1712908995051376852/photo/1
+- **What:** Visual reference for a growth agency landing page with bold gradient branding and simple conversion paths. Linked resource: https://twitter.com/BrettFromDJ/status/1712908995051376852/photo/1. Visual: Landing page mockup for a growth agency using a large fluid gradient, sparse typography, partner logos, and pill CTAs.
+
+---
+
+# Wednesday, October 11, 2023
+
+## @Yaron Samid 🇮🇱🇺🇸 - Personal Israel war update
+> Personal, heart-shattering update from Israel:
+>
+> A friend who is an avid champion of Palestinian rights and founded the first Israeli tech company to employ over 100 Palestinians in Gaza and the West Bank is burying his beautiful, beloved daughter tomorrow. She was dancing at the peace-themed music festival and was executed by Hamas terrorists, along with her boyfriend and 260 other beautiful young souls, just for being a Jew.
+>
+> HAMAS = ISIS
+
+- **Tweet:** https://x.com/yaronsamid/status/1712248106115305689
+- **What:** Bookmarked tweet about personal israel war update.
+
+## @Noah Smith 🐇🇺🇸🇺🇦🇹🇼 - Critique of Hamas vanguard framing
+> *Replying to @Noah Smith 🐇🇺🇸🇺🇦🇹🇼:* This is nuts. Hamas is deeply unpopular among Muslims. https://t.co/5nGUBYJbm7
+>
+> No one except a few excitable fools thinks that Hamas is some kind of vanguard of global Islam. They're just a nasty little death squad prosecuting a race war in a violent corner of the world.
+
+- **Tweet:** https://x.com/Noahpinion/status/1712331434915213386
+- **Parent:** https://x.com/Noahpinion/status/1712330987919880400
+- **What:** Bookmarked tweet about critique of hamas vanguard framing.
+
+---
+
+# Tuesday, October 10, 2023
+
+## @Isaac Saul - Nuanced Israel-Palestine position
+> People ask me all the time if I am "pro-Israel" because I am a Jew who has lived in Israel, and my answer is that being "pro-Israel" or being "pro-Palestine" or being a "Zionist" does not properly capture the nuance of thought most people do or should have about this issue. It certainly doesn't capture mine.
+>
+> I have a lot to say. I’ve spent the last 72 hours writing, texting, and talking to Israelis, Jews, Muslims, and Palestinians. Much of my reaction is going to piss off people on "both sides," but I am exhausted and hurting and I do not think there is any way to discuss this situation without being radically honest about my views. So I'm going to try to say what I believe to be true the best I can.
+>
+> Let me start with this: It could have been me.
+>
+> That's a hard thought to shake when watching the videos out of Israel — the concert goers fleeing across an empty expanse, the hostages being paraded through the streets, the people shot in the head at bus stops or in their cars. I went to those parties in the desert, I rubbed shoulders with Israelis and Arabs and Jews and Muslims, I could have easily accepted an invitation to some concert near Sderot and gone without a care, only to be indiscriminately slaughtered. Or, perhaps worse, taken hostage and tortured.
+>
+> I don’t believe Hamas is killing Israelis to liberate themselves, nor do I believe they are doing it to make peace. They're doing this because they represent the devil on the shoulder of every oppressed Palestinian who has lost someone in this conflict. They're doing it because they want vengeance. They are evening the score, and acting on the worst of our human impulses, to respond to blood with blood — an inclination that is easy to give in to after what their people have endured. It should not be hard to understand their logic — it is only hard to accept that humans are capable of being driven to this. Not defending Hamas is a very low bar to clear. Please clear it.
+>
+> It’s not possible to recap the entire 5,000 year history of people fighting over this strip of land in one newsletter. There are plenty of easily accessible places you can learn about it if you want to (and, by the way, many of you should — far too many people speak on this issue with an obscene amount of ignorance, loads of arrogance, and a narrow historical lens focused on the last few decades). But I'll briefly highlight a few things that are important to me.
+>
+> In my opinion, the Jewish people have a legitimate historical claim to the land of Israel. Jews had already been expelled and returned and expelled again a half dozen times before the rise of the Muslim and Arab rule of the Ottoman Empire. Of course it’s messy because we Jews and Arabs and Muslims are all cousins and descendents of the same Canaanites. But Arabs won the land centuries ago the same way Israel and Jews won it in the 20th century: Through conflict and war. The British defeated the Ottoman Empire and then came the Balfour Declaration, which amounted to the British granting the area to the Jewish people, a promise they’d later try to renege on — all before the wars that have defined the region since 1948.
+>
+> That historical moment in the late 1940s was unique. After World War II, with many Arab and Muslim states already in existence, and after six million Jews were slaughtered, the global community felt it was important to grant the Jewish people a homeland. In a more logical or just world that homeland would have been in Europe as a kind of reparation for what the Nazis and others before them had done to the Jews, or perhaps in the Americas — like Alaska — or somewhere else. But the Jews wanted Israel, the British had taken to the Zionist movement, the British had conquered the Ottoman Empire which handed them control of the land, and America and Europe didn’t want the Jews. As a result, we got Israel.
+>
+> The Arab states had already rejected a partitioned Israel repeatedly before World War II and rejected it again after the Holocaust and the end of the war. They did not want to give up even a little bit of their land to a bunch of Jewish interlopers who were granted it all of a sudden by British interlopers who had arrived a hundred years prior. Who could blame them? It had been centuries since Jews lived there in large numbers, and now they wanted to return in waves as secularized Europeans. Many of us would probably react the same way. So, just as humans have done forever, they fought. The many existing Arab states turned against the burgeoning new Jewish state. One side won and one side lost. This is the brutal and broken and violent world we live in, but it is what created the global world order we have now.
+>
+> Are Israelis and British people "colonizers" because of this 20th century history? Sure. But that view flattens thousands of years of history and conflict, and the context of World War I and World War II. I don’t view Israelis and Brits as colonizers any more than the Assyrians or the Babylonians or the Romans or the Mongols or the Egyptians or the Ottomans who all battled over the same strip of land from as early as 800 years before Jesus’s time until now. The Jews who founded Israel just happened to have won the last big battle for it.
+>
+> You can’t speak about this issue in a vacuum. You can't pretend that it wasn't just 60 years ago when Israel was surrounded on all sides by Arab states who wanted to wipe them off the face of the planet. Despite the balance of power shifting this century, that threat is still a reality. And you can't talk about that without remembering the only reason the Jews were in Israel in the first place was that they'd spent the previous centuries fleeing a bunch of Europeans who also wanted to wipe them off the face of the planet. And then Hitler showed up.
+>
+> American partisans have a narrow view of this history, and an Americentric lens that is infuriating to witness. As Lee Fang perfectly put it, "Hamas would absolutely execute the ACAB lefties cheering on horrific violence against Israelis if they lived in Gaza & U.S. right-wingers blindly cheering on Israeli subjugation of Palestinians would rebel twice as violently if Americans were subjected to similar occupation."
+>
+> And yet, many Americans only view modern Israel as the "powerful" one in this dynamic. Which is true — they obviously are. It isn't a fair fight and it hasn't been for decades because Israel's government is rich and resourceful, has the backing of the United States and most of Europe, and has an incredibly powerful military. At the same time, Israeli leadership has made technological and military advancements that have further tipped those scales — all while the Israeli government has helped create a resource-thin open air prison of two million Arabs in Gaza.
+>
+> Conversely, Palestinians are devoid of any real unified leadership, and the Arab world is now divided on the issue of Palestine. Israel is unwilling to give the people in Gaza and the West Bank more than an inch of freedom to live. These are largely the refugees and descendents of the refugees of the 1948 and 1967 wars that Israel won. And you can't keep two million people in the condition that those in the Gaza strip live in and not expect events like this.
+>
+> I'm sorry to say that while the blood on the ground is fresh. The Israelis who were killed in this attack largely have nothing to do with those conditions other than being born at a time when Israel and Jews have the upper hand in this conflict. Some of the victims weren’t even Israeli — they were just tourists. This is why we describe them as “innocent” and why Hamas has only reaffirmed that they are a brutal terror organization with this attack — an organization that I hope is quickly toppled, for the sake of both the Palestinian people and the Israelis. But as someone with a deep love for Israel, with friends in danger and people I know still missing, it breaks my heart to say it but I'm saying it again because it remains perhaps the most salient point of context in a tangled mess full of centuries of context:
+>
+> You cannot keep two million people living in the conditions people in Gaza are living in and expect peace.
+>
+> You can't. And you shouldn’t. Their environment is antithetical to the human condition. Violent rebellion is guaranteed. Guaranteed. As sure as the sun rising.
+>
+> And the cycle of violence seems locked in to self-perpetuate, because both sides see a score to settle:
+>
+> 1) Israel has already responded with a vengeance, and they will continue to. Their desire for violence is not unlike Hamas’s — it’s just as much about blood for blood as any legitimate security measure. Israel will “have every right to respond with force." Toppling Hamas — a group, by the way, Israel erred in supporting — will now be the objective, and civilian death will be seen as necessary collateral damage. But Israel will also do a bunch of things they don't have a right to. They will flatten apartment buildings and kill civilians and children and many in the global community will probably cheer them on while they do it. They have already stopped the flow of water, electricity, and food to two million people, and killed dozens of civilians in their retaliatory bombings. We should never accept this, never lose sight that this horror is being inflicted on human beings. As the group B’Tselem said, “There is no justification for such crimes, whether they are committed as part of a struggle for freedom from oppression or cited as part of a war against terror.” I mourn for the innocents of Palestine just as I do for the innocents in Israel. As of late, many, many more have died on their side than Israel's. And many more Palestinians are likely to die in this spate of violence, too.
+>
+> Unfortunately, most people in the West only pay attention to this story when Hamas or a Palestinian in Gaza or the West Bank commits an act of violence. Palestinian citizens die regularly at the hands of the Israeli military and their plight goes largely unnoticed until they respond with violence of their own. Israel had already killed an estimated 250 Palestinians, including 47 children, this year alone. And that is just in the West Bank.
+>
+> 2) Every single time Israel kills someone in the name of self-defense they create a handful of new radicalized extremists who will feel justified in wanting to take an Israeli life in retribution sometime in the future. Half of Gaza’s two million people are under the age of 19 — they know little besides Hamas rule (since 2006), Israeli occupation, blockades, and rockets falling from the sky. The suffering of these innocent children born into this reality is incomprehensible to me. They will suffer more now because of Hamas’s actions and Israel’s response, all through no fault of their own.
+>
+> There is no way out of this pattern until one side exercises restraint or leaders on both sides find a new solution. Israelis will tell you that if Palestinians put their guns down then the war would end, but if Israel put their guns down they'd be wiped off the planet. I don't have a crystal ball and can’t tell you what is true. But what I am certain of is that every time Israel kills more innocents they engender more rage and hatred and recruit more Palestinians and Arabs to the cause against them. There is no disputing this.
+>
+> So, why did this happen now?
+>
+> I'm not sure how to answer that question except to say it was bound to happen eventually. It was a massive policy and intelligence failure and Netanyahu should pay the price politically — he is a failed leader. Iran probably helped organize the attack and the money freed up by the Biden administration's prisoner swap probably didn't help the situation, either. Israel's increasingly extremist government and settlers provoking Palestinians certainly didn't help. Nor has going to the Al-Aqsa mosque and desecrating it. Nor do blockades and bombings and indiscriminate subjugation of a whole people. Nor does refusing to talk to non-terrorist leaders in Palestine. Nor does illegally continuing to expand and steal what is left of Palestinian land, as many Jews and Israelis have been doing in the 21st century despite cries from the global community to stop. A violent response was predictable — in fact, plenty of people did predict it.
+>
+> Israel is forever stuffing these people into tinier and tinier boxes with fewer and fewer resources. But if you want to blame Israeli leaders for continuing to expand and settle land that does not belong to them (as I do), then you should also spare some blame for Palestinian leaders for repeatedly not accepting a partitioned Israel during the 20th century that could have led to peace (as I do).
+>
+> Please also remember this: Hamas is still an extremist group. The Palestinian people do not have a government or leaders who legitimately represent their interests, and it sure as hell isn't Hamas. Will some Palestinians cheer and clap at the dead, or spit on them as they are paraded through Gaza? Yes they will. And they have. Many will also mourn because they loathe Hamas and know this will only make things worse. This is no different than how some Americans cheer at the dead in every single war we've ever fought. It's no different than the Israelis who set up lawn chairs to watch their government bomb Palestine and cheer them on, too. This doesn't mean Palestinians or Israelis or Americans are evil — it means some of them are giving in to their violent impulses, and their zealous feelings of righteous vengeance.
+>
+> Solutions, you ask? I can’t say I have any. If you came here for that, I’m sorry. The two-state solution looks dead to me. A three-state solution makes some sense but feels out of the view of all the people who matter and could make it happen. I wish a one-state solution felt realistic — a world of Israelis and Arabs and Muslims and Jews living side by side with equal rights, fully integrated and defused of their hate, is a version of Israel that I would adore. But it seems less and less realistic with every new act of violence.
+>
+> Am I pro-Israel or pro-Palestine? I have no idea.
+>
+> I'm pro-not-killing-civilians.
+>
+> I'm pro-not-trapping-millions-of-people-in-open-air-prisons.
+>
+> I'm pro-not-shooting-grandmas-in-the-back-of-the-head.
+>
+> I'm pro-not-flattening-apartment-complexes.
+>
+> I'm pro-not-raping-women-and-taking-hostages.
+>
+> I'm pro-not-unjustly-imprisoning-people-without-due-process.
+>
+> I'm pro-freedom and pro-peace and pro- all the things we never see in this conflict anymore.
+>
+> Whatever this is, I want none of it.
+
+- **Tweet:** https://x.com/Ike_Saul/status/1711780282725011520
+- **Section:** Politics and News
+- **What:** Bookmarked tweet about nuanced israel-palestine position. Routed as Politics and News.
+
+## @Ali Ansari - Talent sourcing pitch
+> Our extensive network and expertise will find you top talent in no time.
+
+- **Tweet:** https://x.com/aliansarinik/status/1711795729621287237
+- **What:** Bookmarked tweet about talent sourcing pitch.
+
+## @Tim Bennetto - Pallyy reaches $900K ARR without polish
+> Pallyy just hit $900K ($75K MRR) without:
+>
+> - dark mode
+> - in-app pw change
+> - a/b testing
+> - tests
+> - load balancing
+> - a team
+> - validation
+> - pre-sales
+> - investment
+> - followers
+> - paid ads
+> - funnels
+> - real holidays
+> - stopping for 1430+ days
+>
+> Building a successful SaaS is a combination of putting in time + luck.
+>
+> I've been very lucky but without putting in the time it would never of happened.
+>
+> If you want to start your own, just give it a go and learn along the way.
+
+- **Tweet:** https://x.com/Timb03/status/1711960829925687566
+- **What:** Founder growth note arguing that polished product features are not prerequisites for meaningful revenue if distribution and pricing work. Visual: MRR chart annotated with launch, build, marketing, and price increase milestones, emphasizing compounding growth after marketing and pricing changes.
+
+---
+
 # Monday, October 9, 2023
 
 ## @pwang_szn - Learning from low-view CEO interviews
 > Most underrated way to learn:
-> 
+>
 > 1. Find CEO's of Series C+ startups
 > 2. Watch their interviews on YT
-> 
+>
 > The CEOs have zero financial incentives to hold anything back.
-> 
+>
 > For ex:
 > - Seatgeek worth 1B+, &lt;2k views
 > - Spoton worth 6b+, &lt;100 views
-> 
+>
 > Gold. 💎 https://t.co/f2wrfW2L2P
 
 - **Tweet:** https://x.com/pwang_szn/status/1711320711019786475
 - **Visual:** Attached media preview provides visual context for the bookmark.
 - **Section:** Product and Startup Ideas
 - **What:** Learning tactic: study interviews with Series C+ startup CEOs, especially low-view videos where operators share detailed lessons without much audience attention.
+
+## @levelsio - GPT-4 website review of Nomad List
+> You can now ask GPT4 to review your site with the
+>
+> [ 🌐 Browse with Bing ] plugin
+>
+> I asked it to review https://t.co/p15s9oEuka and give improvements based on what it saw, a few good ones:
+> - the numerous filtering options, while comprehensive, could be overwhelming
+> - enhance community engagement by highlighting active discussions or trending topics on the homepage
+>
+> It seems to understand quite well what it sees too "visually engaging with images of members"
+
+- **Tweet:** https://x.com/levelsio/status/1711369625798160478
+- **Link:** https://nomads.com/
+- **What:** Example of using GPT-4 browsing to critique a real website and surface UX/community recommendations for Nomad List. Linked resource: https://nomads.com/. Visual: Screenshots show ChatGPT browsing Nomad List, the Nomad List homepage, and generic AI review suggestions; useful as an early example of AI-assisted UX/site critique.
+
+## @Tim Bennetto - Alternative pages as high-converting SEO
+> Build "alternative" pages as marketing.
+>
+> They rank easily and bring high quality traffic.
+>
+> Here's how you can do it:
+>
+> ➜ Create a structure
+>
+> You'll need to decide on the features you want to compare for each company.
+>
+> To do this programmatically, use a JSON document (my preference) otherwise use something like excel.
+>
+> ➜ Research 10 competitors
+>
+> Find 10 of your most popular competitors. Note down all their features & pricing.
+>
+> Make sure you get the info right, we're not trying to discredit anyone but simply provide a honest comparison.
+>
+> ➜ Create alternative pages
+>
+> For each competitor, create a page called "X alternative".
+>
+> This way when people are looking to switch platform, you will appear on the first page.
+>
+> ➜ Create compare pages
+>
+> Using the same data, create compare pages for your competitors.
+>
+> Eg. "Competitor 1 vs. Competitor 2"
+>
+> Make sure to always add a CTA for your own platform on these pages.
+>
+> ➜ Results
+>
+> These compare & alterative pages have brought Pallyy over 300 signups so far.
+>
+> They don't bring a lot of traffic, but the traffic is so targeted it has a high conversion rate.
+>
+> It only took a day or so to setup, so it's well worth it.
+
+- **Tweet:** https://x.com/Timb03/status/1711563242697535773
+- **What:** Marketing tactic: build comparison or alternative pages because they can rank well and convert high-intent search traffic. Visual: Analytics screenshot showing alternative/comparison pages with high conversion rates, supporting the SEO landing-page tactic.
 
 ---
 
@@ -738,9 +1696,9 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @Timb03 - SaaS growth without Twitter
 > You don't need Twitter to build a SaaS.
-> 
+>
 > Joined Twitter 1 year ago, was at $30K MRR.
-> 
+>
 > Start with SEO, free tools, blog posts, feature pages, affiliates, free plan, glossary pages, roadmaps, compare pages. https://t.co/CHbN4nRa32
 
 - **Tweet:** https://x.com/Timb03/status/1711268028191801725
@@ -764,10 +1722,10 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 # Wednesday, October 4, 2023
 
 ## @LinusEkenstam - AI image prompt photography terms
-> Here are 19 quick terms to get better AI images 
-> 
-> Borrow from photography to maximize the output in Midjourney, SDXL, Runway etc. 
-> 
+> Here are 19 quick terms to get better AI images
+>
+> Borrow from photography to maximize the output in Midjourney, SDXL, Runway etc.
+>
 > Free cheat sheet 🙌🏻 https://t.co/0Qn953INXs
 
 - **Tweet:** https://x.com/LinusEkenstam/status/1709652635333152948
@@ -793,99 +1751,99 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @Davidjpark96 - Why startup clones are less threatening than they seem
 > Our startup gets cloned all the time
-> 
+>
 > If you're building in public and you get any semblance of success, you will inevitably also get cloned.
-> 
+>
 > Here's why you shouldn't be too worried:
-> 
+>
 > 1. Founders who clone are less likely to fight on a long time horizon.
-> 
+>
 > I can name 3 jenni clones off the top of my head and they are all either dead or abandoned projects.
-> 
+>
 > They were able to make a little bit of money, but unfortunately, they died before they could start unlocking the truly valuable user insights.
-> 
+>
 > This is because minor/subtle changes can drastically influence a product's outcome, and because of their subtlety they're often non-obvious and can take several months to fully understand.
-> 
+>
 > For instance, determining the precise timing for displaying an AI generation to a writer on Jenni was crucial.
-> 
+>
 > Our conversion rates improved significantly as we A/B tested the shit out of the speed at which generations appear on Jenni.
-> 
+>
 > If AI suggestions shows up too fast, it's distracting for writers in flow.
-> 
+>
 > If AI suggestions show up too slow, users are annoyed because they've hit writer's block.
-> 
+>
 > Someone cloning our app may overlook this detail and not pay attention to the exact seconds it takes before a generation appears, but it would severely impact their conversion rate.
-> 
+>
 > I'd estimate that there are thousands of optimizations we've made of this caliber on Jenni that took us years to figure out.
-> 
+>
 > Could these clones have the patience to break these things down? While also, in tandem, having to continually clone our next feature sets? And then spending more time figuring out why we made the decisions for those features as well?
-> 
+>
 > If it's a battle of attrition, the original idea is more likely to win.
-> 
+>
 > 2. A founder who clones is less formidable than a founder who innovates.
-> 
+>
 > The skill of knowing what to build and why lies at the core of being a builder.
-> 
+>
 > Founders who clone either lack this skill or don't care enough about the problems they're addressing to build properly.
-> 
+>
 > A copycat might create a product that initially seems valuable by imitating, but they will be unclear about why it's successful and will likely have no vision for its future direction.
-> 
+>
 > To compete with you, they will need to invest significant time speaking with users and making educated guesses about why you built things the way you did.
-> 
+>
 > And even if they invest the time to figure out your product, there is still a sizeable chance you can win by just waiting until they have a slow month and it coincides with another lucrative product to clone appearing on their timeline.
-> 
+>
 > 3. On a high-level, we do care about our startup winning, but we care the most about our movement winning.
-> 
+>
 > AI assistance in academia is going to improve the world.
-> 
+>
 > But you’d be surprised how many people are strongly against AI in academia because they think it’ll make you “dumber” or they just "feel" it's unethical.
-> 
+>
 > Feel free to check any of our viral videos to verify this public sentiment. Around 30% of our viral videos are littered with hate comments (which is not a bad thing, I can write a whole post about that later).
-> 
+>
 > This opportunity to accelerate the world towards AI assistance is exciting.
-> 
+>
 > It feels like we're building in that intersection where people think we are "crazy", but we know in our hearts that we are right.
-> 
+>
 > This makes building worthwhile and for the most part, all these startups are just helping us educate the market on how powerful AI assistance can be.
-> 
+>
 > To put things in perspective, we had the craziest period of hyper growth after ChatGPT was released because OpenAI educated the world on AI.
-> 
+>
 > Prior to ChatGPT, many of our users weren't even aware that AI could write text and were convinced that Jenni was just plagiarizing text from the internet.
-> 
+>
 > However, even in the off-chance that a clone not only educates, but also squeezes us out of the market, it's still not the darkest timeline.
-> 
+>
 > If we lose it is likely because a startup out-executed us.
-> 
+>
 > We had a head start and a great team, if someone beats us then they likely deserve all of their success.
-> 
+>
 > Even if we aren't the ones to manifest our vision of the world, our competitor will likely bring something close to our vision to fruition.
-> 
+>
 > More research, more breakthroughs, and more time saved thanks to AI assistance.
-> 
+>
 > Us losing is far from the worst case scenario.
-> 
+>
 > The darkest timeline is the one where no one cared about what we built, there were no clones, and AI will never accepted in academia and stays forever taboo.
-> 
+>
 > Any action, even other players entering the market, takes us further from the darkest timeline and is a net positive.
-> 
+>
 > Side note: I'm not trying to give a free pass to founders who clone, if you clone apps that's not something to be proud of.
-> 
+>
 > But life is nuanced/complex and perhaps the copy cats were in a financial bind or they were brainwashed by money twitter to “just fucking hustle/grind/win by whatever means necessary”.
-> 
+>
 > In summary, cloning sucks but you shouldn't worry too much about it.
-> 
+>
 > Perhaps, worry just enough to write a 1000-word stream-of-consciousness post on it, but not any more than that haha.
-> 
+>
 > I’ve gotten so much value from building in public it’s hard to quantify.
-> 
+>
 > We’ve had amazing investors join our round, rockstar candidates join our team, and lucrative partnerships that were impossible to obtain via cold email.
-> 
+>
 > In my opinion, getting cloned a few times a year for these opportunities is a fair trade.
-> 
+>
 > I’ll end with the famous and catchy quote:
-> 
+>
 > "Startups always die by suicide, not murder"
-> 
+>
 > These clones are unlikely to kill you, but you freaking out and wasting time worrying about these clones just might.
 
 - **Tweet:** https://x.com/Davidjpark96/status/1708646361875493212
@@ -898,7 +1856,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @bvvst - Wii-menu inspired portfolio
 > my portfolio looks like the wii menu
-> 
+>
 > https://t.co/R5hO20g8oI https://t.co/tFWbn6cgcB
 
 - **Tweet:** https://x.com/bvvst/status/1708259248352706865
@@ -910,104 +1868,104 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @gregisenberg - Startup idea research tools
 > I raised many millions and sold 3 companies before age 30…
-> 
+>
 > My first company sold to the founder of Uber, my last to Adam Neumann
-> 
+>
 > But I had an unfair advantage (and you could too)
-> 
+>
 > I used software to come up with 0.01% validated startup ideas
-> 
+>
 > 6 underrated tools to help you get paid:
-> 
+>
 > 1. EtsyHunt
-> 
+>
 > EtsyHunt is the largest database of Etsy products.
-> 
+>
 > 48+ million product listings to learn what is selling on Etsy, and discover winning products.
-> 
+>
 > It'll get you thinking...
-> 
+>
 > I love looking at the best-selling and rising charts
-> 
+>
 > 2. SubredditStats
-> 
+>
 > It's like a growth hacker's crystal ball.
-> 
+>
 > Spot growing communities before they blow up.
-> 
+>
 > Discover niches you didn't even know existed.
-> 
+>
 > It helps you go nicher. Go from niche to super niche.
-> 
+>
 > Brainstorming startups ideas?  You'll learn the problems of the community.
-> 
+>
 > Some of my top startup ideas?
-> 
+>
 > Named straight after subreddits.
-> 
+>
 > Why? Because it's pre-validated gold.
-> 
+>
 > Reddit isn’t just memes.
-> 
+>
 > It's a gold mine of validated tribes and brand names.
-> 
+>
 > 3. VidIQ
-> 
+>
 > VidIQ helps you analyze top-performing YouTube videos.
-> 
+>
 > Once you understand what makes a top video, you can make your next content piece a grand slam.
-> 
-> Start by using VidIQ to study successful videos in your niche. 
-> 
-> Apply the insights to refine your content strategy, focusing on what works. 
-> 
+>
+> Start by using VidIQ to study successful videos in your niche.
+>
+> Apply the insights to refine your content strategy, focusing on what works.
+>
 > Regularly review and adjust based on new findings to keep your content in the spotlight.
-> 
+>
 > Data driven decisions win every time.
-> 
+>
 > Bonus tip: use "contains questions" feature on VidIQ to filter what questions people have on a YouTube video.
-> 
+>
 > This will give you endless startup ideas.
-> 
+>
 > 4. TikTok Creative Center
-> 
-> Ever wonder why someone’s TikTok ad went viral? 
-> 
+>
+> Ever wonder why someone’s TikTok ad went viral?
+>
 > Creative center is what you need.
-> 
+>
 > It gives you all the tools to study top-performing ads.
-> 
-> A proven playbook is to decode competitors’ tactics, refine your content with creative tools, and leverage insights to outshine rivals. 
-> 
+>
+> A proven playbook is to decode competitors’ tactics, refine your content with creative tools, and leverage insights to outshine rivals.
+>
 > Then regularly assess trends and adjust your approach to stay competitive.
-> 
+>
 > 5. PiPi Ads
-> 
-> You’ve got yourself in the game with Creative Center. 
-> 
-> PiPi Ads is where you come to master it. 
-> 
+>
+> You’ve got yourself in the game with Creative Center.
+>
+> PiPi Ads is where you come to master it.
+>
 > It has the largest number and types of TikTok ads. Use Pipi Ads to research and analyze winning strategies, then apply these insights to your campaigns. Optimize and test until you find your winning formula.
-> 
+>
 > 6. Minea
-> 
+>
 > Minea is a killer tool for your DTC biz.
-> 
-> One of the best features is that you can input a website, and it’ll identify the best keywords and all the backlinks. 
-> 
-> This way you can delve into them and use it to optimize your own website. 
-> 
+>
+> One of the best features is that you can input a website, and it’ll identify the best keywords and all the backlinks.
+>
+> This way you can delve into them and use it to optimize your own website.
+>
 > Minea’s a crucial tool to tweak your strategies and boost your profits fast.
-> 
+>
 > Knowledge is power, folks.
-> 
+>
 > Sometimes the answers are out there. Just need the right tools to find them.
-> 
+>
 > Go get 'em.
 > --
-> 
-> Follow me @gregisenberg for more, I'll give you endless startup ideas. 
-> 
+>
+> Follow me @gregisenberg for more, I'll give you endless startup ideas.
+>
 > (i also have playbooks on some of these tools on my membership community empire dot co if you want to go deeper)
 
 - **Tweet:** https://x.com/gregisenberg/status/1708281820960498118
@@ -1021,7 +1979,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @itsandrewgao - Computer science degree safety debate
 > "Computer Science is no longer the safe major"
-> 
+>
 > https://t.co/XthYCrkUDC
 
 - **Tweet:** https://x.com/itsandrewgao/status/1706736931336601835
@@ -1035,15 +1993,15 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @levelsio - TikTok creator outreach marketing tactic
 > Actionable marketing item for anyone to do today:
-> 
+>
 > - Install TikTok iOS app
-> 
+>
 > - Search your industry hashtag
-> 
+>
 > - Make a list of 30 people who post about it with 100K+ views
-> 
+>
 > - Find their contacts
-> 
+>
 > - Pay them $100-$300 to post a video about your app/site/thing
 >
 > *Quoting @Shpigford:* Frequent advice to indie hackers is “do more marketing.”  That’s vague and impossible to act on.  So, what’s one *actionable* marketing item an indie hacker can do today?
@@ -1066,7 +2024,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @zebulgar - Startup cold email success story
 > how it started:               how it’s going:
-> 
+>
 > an email to @rabois can change your life https://t.co/BYc0L3hg8G
 
 - **Tweet:** https://x.com/zebulgar/status/1706327018122404324
@@ -1075,11 +2033,11 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 - **What:** Visual before-and-after story that an email to Keith Rabois led to a major opportunity; useful as a cold-outreach proof point.
 
 ## @johnrushx - 30 open-source alternatives list
-> A list of "Open Source alternatives to XXX" 
+> A list of "Open Source alternatives to XXX"
 > that I've saved in my bookmarks for the past 3 years.
-> 
+>
 > 30 tools 👇
-> 
+>
 > → https://t.co/JFLPPhRZ2R - firebase
 > → https://t.co/uG9zXChSpM - docu sign
 > → https://t.co/owCwg8uBo3 - calendly
@@ -1110,19 +2068,19 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 > → https://t.co/s02xkyMpAm - 1Password
 > → @shadcn - tailwind ui
 > → @nutlope - ai tools
-> 
-> If you've enjoyed this list, 
+>
+> If you've enjoyed this list,
 > follow me → @johnrushx for more content like this.
-> 
-> I build everything in public 
-> and share all the details of my process.  
-> 
+>
+> I build everything in public
+> and share all the details of my process.
+>
 > These are the projects I'm working on daily
-> → https://t.co/NO6rbXgR3K - a simple landing page builder for busy founders 
-> → https://t.co/ht7ue4R04S - AI blog & SEO on auto-pilot  
-> → https://t.co/U9jpfWIZaF - AI marketplace builder 
-> → https://t.co/5kcymaauTy - AI NoCode/ProCode platform with micro apps 
-> → https://t.co/mPEjz3yUzr - Tailwind CSS ui kit 
+> → https://t.co/NO6rbXgR3K - a simple landing page builder for busy founders
+> → https://t.co/ht7ue4R04S - AI blog & SEO on auto-pilot
+> → https://t.co/U9jpfWIZaF - AI marketplace builder
+> → https://t.co/5kcymaauTy - AI NoCode/ProCode platform with micro apps
+> → https://t.co/mPEjz3yUzr - Tailwind CSS ui kit
 > → https://t.co/dUmfing85m - A better Product Hunt alternative for dev tools.
 
 - **Tweet:** https://x.com/johnrushx/status/1706424446205022294
@@ -1137,27 +2095,27 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @Davidjpark96 - Short-form distribution for AI tools
 > It's ridiculously easy to go viral with your AI tool on short-form platforms
-> 
+>
 > All AI demos are inherently flashy/impressive because the underlying tech is so powerful
-> 
+>
 > So I'm very confused whenever I talk to an AI founder and they aren't focusing on these platforms
-> 
+>
 > You can literally film a blatant ad of your product and it could get millions of views
-> 
+>
 > This is not hyperbole, I've attached the number of views that just one of our Jenni accounts has received in its lifetime (we have around 30 accounts in total)
-> 
+>
 > In aggregate, we're approaching a quarter billion views just with our organic accounts, and almost all videos are explicitly about Jenni
-> 
+>
 > We estimate that we make around $1-$2 per 1000 views, which means short-form has an ungodly ROI
-> 
+>
 > You can talk to any AI startup (especially B2C) that has great distribution and all of them are either leveraging short-form or their products are so alluring that their users are creating viral videos for them
-> 
+>
 > Obviously, despite your product having an in-built viral cheat code, scaling your AI startup is still extremely difficult
-> 
+>
 > It's an open secret that AI products can have serious problems with retention and defensibility
-> 
+>
 > So you will have to spend thousands of hours fixing retention and creatively finding ways to deliver more value to your users
-> 
+>
 > The odds of success are already slim, so why would you make it even more difficult for yourself by not capitalizing on the intrinsic spectacle of what you've built? 🤷‍♂️
 
 - **Tweet:** https://x.com/Davidjpark96/status/1706019242766962928
@@ -1167,9 +2125,9 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @Shpigford - Actionable indie hacker marketing prompt
 > Frequent advice to indie hackers is “do more marketing.”
-> 
+>
 > That’s vague and impossible to act on.
-> 
+>
 > So, what’s one *actionable* marketing item an indie hacker can do today?
 
 - **Tweet:** https://x.com/Shpigford/status/1706146655433568531
@@ -1178,43 +2136,43 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @Erwin_AI - Landing page roast lessons
 > My landing page got roasted so hard it's now stuck in dark mode forever 😂
-> 
+>
 > Both @nico_jeannen and @dannypostma went through my landing page this week. Conclusion: wow and ouch, there is a LOT to improve 🤯
-> 
+>
 > If you want to improve your own landing page as well, read on 👇
-> 
+>
 > The feedback is broadly applicable so I'm very sure it'll give you insights/ideas on how to improve your own landing page as well.
-> 
+>
 > I'll add some screenshots below for context but feel free to also open up https://t.co/LNoSJF1ce9 for the full picture.
-> 
+>
 > 1. One CTA is better than two next to each other in the hero section.
-> 
+>
 > 2. CTAs should be more eye catching than mine is right now. Nice borders/effect but doesn't stand out enough because of dark background of the button.
-> 
+>
 > 3. Change wording in social proof to be exactly relatable for the reader i.e. for me: "tailwind developers" rather than just "developers"
-> 
+>
 > 4. There should be multiple CTAs throughout the page, otherwise it forces people to go through/read the entire page or scroll up to the menu, not good.
-> 
+>
 > 5. More social proof is never bad, especially at the pricing section. Just some testimonials isn't necessarily enough.
-> 
+>
 > 6. The pricing table makes the middle option stand out, but not enough (there is an animated border effect, can't see in screenshot though).
-> 
+>
 > 7. Put down more numbers, aka quantify more. For example: Fast support, but how fast? (I pride myself in responding <24h and in 90% of the cases <12h, should mention this!)
-> 
+>
 > 8. Offer an upsell later on when there are signals that the user uses the product a lot. Not doing that is almost equivalent to throwing money away.
-> 
+>
 > 9. A founders note or perhaps me explaining through the video will give more trust for those coming on the page through social media etc. Unlikely to have negative impact for those that don't know me so it's a net-win improvement.
-> 
+>
 > 10. Even if you think you don't have lots of text, you do. Even mid/long two sentences is way too much. Have to be much more concise. Point in case is my 'benefits' section.
-> 
+>
 > 11. Collapse the FAQ, otherwise it's hard for people to find the question they have and irrelevant questions/answers clutter the screen
-> 
+>
 > 12. Remove email CTA at bottom of landing page. It will give an opportunity for people to start doubting and not convert, but instead 'commit' by simply giving email. Or worse, confuse it for the next step.
-> 
+>
 > MASSIVE shoutout to Nico and Danny. Really grateful they took some of their time to help me out.
-> 
+>
 > If you want to learn even more, I suggest following those them if you don't already and look up Nico's roast tweet from yesterday, as he goes through 6 more landing pages with feedback and it's very insightful!
-> 
+>
 > Ciao for now and good luck improving your landing page 🫡
 >
 > *Quoting @nico_jeannen:* Rasot #5: @Erwin_AI   https://t.co/RfNZvbEMoT
@@ -1232,13 +2190,13 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 # Saturday, September 23, 2023
 
 ## @0xSuman - SwiftCN SwiftUI component library
-> Introducing https://t.co/sttaUU6hI5 
-> 
+> Introducing https://t.co/sttaUU6hI5
+>
 > (weekend project with @cgarciamoran )
-> 
+>
 > Inspired by @shadcn UI, swiftcn contains SwiftUI Components that are beautiful and easy to customize.
-> 
-> Docs : 
+>
+> Docs :
 > https://t.co/CmGsiDNOsW https://t.co/m60TVx8VRM
 
 - **Tweet:** https://x.com/0xSuman/status/1705823334586593381
@@ -1253,8 +2211,8 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 # Friday, September 22, 2023
 
 ## @Appyg99 - BesteverAI ad creative generator
-> I am so excited to tell the world about what we've been working on for the last few months. World, say hello to @BesteverAI  —  GenAI tool for image &amp; video ads. 
-> 
+> I am so excited to tell the world about what we've been working on for the last few months. World, say hello to @BesteverAI  —  GenAI tool for image &amp; video ads.
+>
 > The easiest way to generate creatives for campaigns is here. https://t.co/8UL1QmZ80T
 
 - **Tweet:** https://x.com/Appyg99/status/1705228873099809228
@@ -1264,7 +2222,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @ProductHunt - Pricing psychology product idea
 > What if we told you there's psychology behind your product pricing?
-> 
+>
 > And this tool helps you hack it. https://t.co/aqlmB3h7lb
 
 - **Tweet:** https://x.com/ProductHunt/status/1705462018550174134
@@ -1278,14 +2236,14 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @jordanphughes - Untitled UI v4 release
 > Just released Untitled UI v4.0 ✨
-> 
+>
 > ❖ Auto Layout 5.0
 > ❖ Dark mode (finally)
 > ❖ Color, spacing &amp; radius variables
 > ❖ 3x different versions
-> 
+>
 > I'll be sharing snippets over the next few weeks!
-> 
+>
 > Love you all 💌 https://t.co/FOSI2CrR4o
 
 - **Tweet:** https://x.com/jordanphughes/status/1704500893708607838
@@ -1295,7 +2253,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @sdw - Lux Orion design process writeup
 > Me and @sandofsky wrote a post about the how and why of developing Orion, our latest b-side app. Lots of fun peeks at the design process in here.
-> 
+>
 > https://t.co/9ZHp02NgvW https://t.co/oIbCf4Ap8p
 
 - **Tweet:** https://x.com/sdw/status/1704531887941677228
@@ -1311,9 +2269,9 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @tibo_maker - X For You feed ranking code notes
 > How 𝕏 decides which posts to push in the "For You" feed?
-> 
+>
 > I spent long hours digging through the "For You" code to understand what gets 𝗯𝗼𝗼𝘀𝘁𝗲𝗱.
-> 
+>
 > The major factors that matter &amp; how YOU can use these to your advantage 🧵 https://t.co/aK6aZJPDOj
 
 - **Tweet:** https://x.com/tibo_maker/status/1704115393919320331
@@ -1323,11 +2281,11 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @linear - Linear hiring while profitable
 > We’re now a team of 50, profitable, and are continuing to grow our team intentionally. If you’re interested in joining Linear, here are the key roles we’re hiring for:
-> 
+>
 > - Head of Product Design
 > - Marketing Lead
 > - Experienced iOS & Android Engineers
-> 
+>
 > Learn more: https://t.co/XxbnXcdJcr
 
 - **Tweet:** https://x.com/linear/status/1704173216044810313
@@ -1338,7 +2296,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @JosephJacks_ - Bootstrapped billion-dollar software companies
 > The MAJORITY (&gt; 50%) of every great software company in history to cross $1 Billion in annual revenue raised &lt; $25M in venture capital dollars. Most of that cohort raised zero (totally bootstrapped).
-> 
+>
 > https://t.co/0DkLu09TqG
 
 - **Tweet:** https://x.com/JosephJacks_/status/1704276354634854614
@@ -1363,7 +2321,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @calvinchen - Startup internship outreach playbook
 > how to get an internship at a startup as a student:
-> 
+>
 > 1. find startup (seed-series A)
 > 2. email founders your GitHub and past projects
 > 3. tell them you will figure things out on your own and won't slow team down
@@ -1378,8 +2336,8 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 # Friday, September 15, 2023
 
 ## @aleksliving - Simple Icons brand SVG library
-> In case you didn’t know, you can find pretty much any brand’s SVG icon on https://t.co/7PkG2viXHB. 
-> 
+> In case you didn’t know, you can find pretty much any brand’s SVG icon on https://t.co/7PkG2viXHB.
+>
 > Absolute life saver https://t.co/3f7of9OPuj
 
 - **Tweet:** https://x.com/aleksliving/status/1702931554081570952
@@ -1395,11 +2353,11 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @ericosiu - SEO playbook from an 18M-visit site
 > My friend gets 18.3M visits on his site and earns $3M from it (with only 4 employees)
-> 
+>
 > He revealed his SEO playbook and I'm gonna share it with you.
-> 
+>
 > This works for ANY kind of website.
-> 
+>
 > The strategies, tools, and hacks to reach millions🧵 https://t.co/eWApRMrW1M
 
 - **Tweet:** https://x.com/ericosiu/status/1702336413885460880
@@ -1413,33 +2371,33 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @thdxr - Why ambitious developer tools take VC
 > with bun's 1.0 launch there's going to be the inevitably cry of "but it's VC funded" - hope i can provide some perspective
-> 
+>
 > don't get me wrong - i am not a huge fan of VCs
-> 
+>
 > i have spent my entire career building early stage companies and the majority of VCs provide negative value
-> 
+>
 > i think a lot of companies should have never gone down that path but i think people miss why many companies absolutely should
-> 
+>
 > building a business is hard - you have to wake up every day and try to push it forward while the world largely ignores you
-> 
+>
 > the entire struggle is about staying motivated
-> 
+>
 > and the reality is it is a lot more fun and energizing to shoot for something ridiculously ambitious and impossible
-> 
+>
 > day to day, a small business and a massive business take the same amount of struggle
-> 
+>
 > in terms of pure concept, the small business seems easier to execute on - but things fail when the founders run out of energy, not really because the idea was too hard
-> 
+>
 > there's not much that's more tedious and painful than building something like bun
-> 
+>
 > the pain feels a bit pointless if the outcome is a small consulting business
-> 
+>
 > they're clearly talented, they would have had the constant distraction of better sounding opportunities floating around - bun might have not even made it to 1.0
-> 
+>
 > it feels more worth it when the outcome could be running massive data centers around the planet executing the majority of the world's compute
-> 
+>
 > and do to something like that you need to go down the VC path
-> 
+>
 > they'll likely fail but when they do, at least it won't be because they got bored and couldn't follow through
 
 - **Tweet:** https://x.com/thdxr/status/1700888238100021309
@@ -1448,7 +2406,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @IAmAaronWill - X account growth advice list
 > This is every piece of advice I wish someone told me when I started growing my X account.
-> 
+>
 > 1. Build your email list
 > 2. Don’t argue with anyone
 > 3. Don’t use AI for anything
@@ -1475,7 +2433,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 > 24. You can make money with a small following
 > 25. “Here’s how I” is better than “Here’s how to”
 > 26. Transformation tweets do great for followers
-> 
+>
 > I’ve missed some stuff so feel free to add your own advice.
 
 - **Tweet:** https://x.com/IAmAaronWill/status/1700894576511205580
@@ -1488,15 +2446,15 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @petergyang - Cold email improvement notes
 > This is one of the best cold emails ever.
-> 
+>
 > But here a 3 ways that it could be even better:
-> 
+>
 > 1. Create a hook
 > The subject line needs a better hook than "internship." e.g., "Snapchat feedback from 10 high schoolers + internship"
-> 
+>
 > 2. Add value
 > Give first, then ask. e.g., "I spoke to 10 classmates, here's a doc with quotes on how Snapchat can be better."
-> 
+>
 > 3. Make a low-effort ask
 > A simple "How" is much better than "Want to schedule some time to chat?" But the ask could be even more specific. e.g., "Can you forward this to a recruiter?"
 
@@ -1507,9 +2465,9 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @deedydas - Making friends in a new city
 > Most people today move to a new city for work and are lonely.
-> 
+>
 > We're never formally taught the art of making friends in a new city. Here's 10 things that worked for me:
-> 
+>
 > 1/11
 
 - **Tweet:** https://x.com/deedydas/status/1699599113132916896
@@ -1521,9 +2479,9 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @tibo_maker - AI updates thread for mainstream explanation
 > This is the most surprising thread you'll read today.
-> 
+>
 > Show this to your friends and they will finally get how AI is changing the world.
-> 
+>
 > 16 mindblowing AI updates you missed out on 🧵
 
 - **Tweet:** https://x.com/tibo_maker/status/1699027978569572441
@@ -1548,53 +2506,53 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @SahilBloom - 22 truths for early adulthood
 > 22 truths I wish I knew at 22:
-> 
+>
 > 1. Most of your friends aren’t really your friends. They’re just along for the ride when it’s fun, convenient, or valuable. Your real friends are the ones who are there for you when it's none of those—when you have nothing to offer in return.
-> 
+>
 > 2. Your success in life is proportional to the number of difficult conversations you're willing to have.
-> 
+>
 > 3. Nothing good happens after midnight (especially when you've been drinking).
-> 
+>
 > 4. Stand up straight and look people in the eye. Two old fashioned things that stand out and never go out of style. The way you carry yourself dramatically impacts how the world will engage with you.
-> 
+>
 > 5. Waking up early and working out will completely change your life. One tiny action with massive ripple effects.
-> 
+>
 > 6. Make decisions that your 80-year old self and 10-year-old self approve of. The former cares about the long-term compounding of actions, while the latter reminds you to have some fun along the way.
-> 
+>
 > 7. The time you spend comparing yourself to others is much better spent investing in yourself. The only comparison worth making is to you from yesterday.
-> 
+>
 > 8. When you think something nice about someone, tell them right then. It's a tiny habit that will pay long lasting dividends.
-> 
+>
 > 9. Social media is designed to make you wish you were someone else, somewhere else, and with someone else. Curate your consumption and eliminate what brings negative emotions.
-> 
+>
 > 10. Prioritize spending time with people who make you better—who lift you up and make you want to grow.
-> 
+>
 > 11. Call your parents more often—they won't be around forever.
-> 
+>
 > 12. Focus on making money, you'll do ok. Focus on creating value, you'll do great.
-> 
+>
 > 13. The "sleep when I'm dead" mentality is broken. Great sleep is an essential ingredient of great results.
-> 
+>
 > 14. Give people a second chance, but never a third. If they're holding you back, cut them out of your life.
-> 
+>
 > 15. Trying is the coolest thing you can do. If you're going to do something, do it well.
-> 
+>
 > 16. Stop trying to be interesting and focus on being interested. You become interesting by being interested.
-> 
+>
 > 17. You'll never know what you want to be when you grow up—and that's fine. Prioritize asking great questions and having a bias for action and you'll always make it.
-> 
+>
 > 18. Finding the truth is more important than being right. Stop arguing to win—start listening to learn.
-> 
+>
 > 19. Grades won't matter much, but energy for learning will.
-> 
+>
 > 20. Stop worrying about what other people think of you. Most people aren't thinking about you at all.
-> 
+>
 > 21. Not all decisions are reversible, but most of them are.
-> 
+>
 > 22. Go on a few wild and crazy adventures that you'll be excited to tell your kids about someday.
-> 
+>
 > ***
-> 
+>
 > If you enjoyed this or learned something, follow me @SahilBloom for more.
 
 - **Tweet:** https://x.com/SahilBloom/status/1698312405061693670
@@ -1608,26 +2566,26 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @nutlope - AI side project playbook
 > My AI side projects this year:
-> 
+>
 > ◆ https://t.co/C4nyqOycgD: 2.1 million users
 > ◆ https://t.co/3NFbnMVfzn: 400k users
 > ◆ https://t.co/wxXedGzPXW: 200k visitors
 > ◆ https://t.co/ByPuxOeGtk: 29k downloads
-> 
+>
 > Here's exactly how I approach building AI side projects in 6 steps:
-> 
+>
 > 1. Think of an idea that excites me but that is very simple. I should be able to describe it in 5 words to anyone.
-> 
+>
 > 2. Take a weekend and block it off entirely to focus on building the app. I'll generally take 15-30 hours to build an initial version.
-> 
+>
 > 3. Try to incorporate the latest AI models so the end result is especially impressive (even though it's trivial with code, like 1 API call to an ML model)
-> 
+>
 > 4. Launch early then iterate based on feedback from users. The benefit of launching early is that you can pivot or work on a new idea if what you launched isn't working out so you don't sink too much time into a failed project.
-> 
+>
 > 5. Make it free + open source so folks can learn from it and are incentivized to share it and follow you. I gained about 20k Twitter followers and 18k GitHub stars from the 4 projects above.
-> 
+>
 > 6. Make sure the UI looks good and is straightforward to use. Nobody will use your project if it doesn't look great, so I typically focus a lot on this aspect.
-> 
+>
 > I do want to call out that I do have a large twitter audience and that helps a lot. With that said, I've seen folks without any followers have successful side projects by doing the things I talked about, so I still stand by them!
 
 - **Tweet:** https://x.com/nutlope/status/1696534532709872072
@@ -1654,29 +2612,29 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @mikemcg0 - Designing a 10-star user experience
 > Q: How do you design an amazing user experience?
-> 
+>
 > In the clip below, Airbnb co-founder and CEO Brian Chesky explains that one route to a great UX and word-of-mouth growth is designing the perfect experience for one person:
-> 
+>
 > “How do you make something for a million people? I don’t know where to start. But if you pick one person, study them, and take their journey, you can actually build something really personal. You can design something and keep iterating until they love it. Don’t stop improving it until that person loves it, and you’re not allowed to move to the second person until the first person loves it. Then you get the second person and keep iterating until they love it. And so on.”
-> 
+>
 > As Brian argues, designing the perfect experience for one person is a much easier place to start than trying to design something for a million people. And when people truly love your service, they become your marketing department.
-> 
+>
 > He uses storyboarding and tries to imagine a “10-star experience” for an Airbnb check-in as an example:
-> 
+>
 > “A 5-star rating typically means nothing bad happened. But what if there was a 6th star?”
-> 
+>
 > He proposes the following ever-improving scenarios:
-> 
+>
 > 6 stars: You get to your Airbnb and there’s a bottle of wine and fruit waiting for you with a hand-written note
-> 
+>
 > 7 stars: A limo picks you up from the airport, and when you get to the house there’s a surfboard because the host knows you like surfing
-> 
+>
 > 8 stars: You ride back from the airport on a giant elephant and there’s a parade in your honor
-> 
+>
 > 9 stars: You land at the airport and there’s 5,000 teenagers cheering your name and you do a press conference in the front lawn of your Airbnb (”The Beetles Check-In”)
-> 
+>
 > 10 stars: Elon Musk picks you up from the airport and says “we’re going to space”
-> 
+>
 > The point here is that while you might not be able to create an 8+ star experience for your customers, the act of thinking through the most perfect experience for one customer and figuring out a way to scale something close to that to all of your users can help you arrive at a user experience that is truly amazing.
 
 - **Tweet:** https://x.com/mikemcg0/status/1695433156302643662
@@ -1690,31 +2648,31 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @mike_heap_ - Ikea effect conversion lift
 > We used the "Ikea effect" to increase conversion by 82%.
-> 
+>
 > Here's why and how.
-> 
+>
 > The Ikea effect is a "cognitive bias in which consumers place a disproportionately high value on products they partially created".
-> 
+>
 > We wanted to do 2 things in our product:
-> 
+>
 > 1. Increase conversion (getting users to ask more questions on their 1st use)
-> 
+>
 > 2. Educate them about some of the customisations that were available.
-> 
+>
 > We thought:
-> 
+>
 > "What if we made the user do a little more work to personalise their AskAI before we show it to them, making them feel like it is theirs?"
-> 
+>
 > So we added a simple (skippable) screen we called "Pre-settings".
-> 
+>
 > This screen has a subset of our customisations, but the ones that will make the AskAI most usable if the user wanted to share it.
-> 
+>
 > After tracking it for 2 weeks, we found that users who completed the screen were almost twice as likely to reach our question target as those who didn't.
-> 
+>
 > Now the data isn't perfect, and it isn't exactly causal (the users who completed it could already have been higher intent).
-> 
+>
 > But as data is never perfect, we are taking it as a pretty strong signal!
-> 
+>
 > Are there ways you can make your users feel they have "built" more of your product?
 
 - **Tweet:** https://x.com/mike_heap_/status/1694632563178955008
@@ -1728,13 +2686,13 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @marshal - Personal chef delegation costs
 > 8 weeks ago I hired a personal chef for my family. 👨‍🍳
-> 
+>
 > It's been the best thing I've delegated recently.
-> 
+>
 > - Healthy meals all week
 > - Saved time (no more cooking or deciding what to eat)
 > - Improved quality of life
-> 
+>
 > Here's how much it all cost: https://t.co/LtdfUhdqIe
 
 - **Tweet:** https://x.com/marshal/status/1693969743810613440
@@ -1744,23 +2702,23 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @mikemcg0 - Ramen profitability as a VC alternative
 > Q: What are some alternatives to raising venture capital?
-> 
+>
 > Ryan Peterson is the founder and CEO of Flexport, which was valued at more than $8 billion last year.
-> 
+>
 > In the clip below, he talks about how he adopted Paul Graham’s “be a cockroach” philosophy and aimed for “ramen profitability” with the company he started before Flexport that didn’t raise venture capital.
-> 
+>
 > He minimized his living expenses, and then to cover those expenses, he picked up part-time jobs that allowed him to spend most of his time working on his startup. He wrote case studies for Columbia Business School, tutored people for the GMAT, and did some SEO consulting.
-> 
+>
 > “That gave me freedom to be successful on any time horizon. I couldn’t die. My expenses were low… It took me a number of years before we found success, but success was certain because we didn’t have this time horizon where the idea had to work in 18 months or else the company would go bankrupt.”
-> 
+>
 > Paul Graham describes this as being “Ramen Profitable”:
-> 
+>
 > “Ramen profitable means a startup makes just enough to pay the founders' living expenses… The main significance of this type of profitability is that you're no longer at the mercy of investors.”
-> 
+>
 > This is probably the best approach if you can’t or don’t want to raise venture capital today. The revenue to cover your living expenses can come from your startup or—as was the case for Ryan—part time jobs that offer the flexibility to still devote a material chunk of your time to your startup.
-> 
+>
 > The other main benefit of ramen profitability is that it’ll improve your ability to raise money in the future. If you don’t need money from investors, it’ll improve your negotiating position and often get you better terms.
-> 
+>
 > Airbnb is another good example of ramen profitability. Their goal during Y Combinator was to make $4,000 per month from the business which would cover $3,500 for rent, and $500 for food. They taped this goal to the mirror in the bathroom of their apartment until they eventually hit it.
 
 - **Tweet:** https://x.com/mikemcg0/status/1693977251010744411
@@ -1780,12 +2738,12 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @johncoogan - Arm IPO business overview
 > Here's what you need to know about the Arm IPO:
-> 
+>
 > - They've shipped over a quarter TRILLION chips
 > - They have 99% market share in mobile
 > - 96% gross margins (26% operating margins)
 > - Aiming for ~65B market cap
-> 
+>
 > For the full history of the company, just watch this video: https://t.co/8R15GFf8Nl
 
 - **Tweet:** https://x.com/johncoogan/status/1694019604040007811
@@ -1810,11 +2768,11 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @RomeenSheth - Career mistake from chasing upside without focus
 > I talked to a super smart 20 year old this week.
-> 
+>
 > All the potential in the world, but had a major major flaw in his thinking.
-> 
+>
 > This flaw is becoming the most common mistake I am seeing young people make early in their career.
-> 
+>
 > Let's break it down:
 
 - **Tweet:** https://x.com/RomeenSheth/status/1693616577500025264
@@ -1826,21 +2784,21 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @AlexFinn - Reply strategy for X audience growth
 > If you're under 10k followers your tweets don't matter. Your replies do
-> 
+>
 > Replying was already the most powerful growth strategy on X. Now the algo is making it even more insane
-> 
+>
 > Every big account started like this, including myself
->              
+>
 > The strategy is incredibly simple:
-> 
+>
 > Post 1-2 high quality tweets a day, then be the loudest reply guy on Twitter
-> 
+>
 > Get a good response? DM the person to start building a relationship
-> 
+>
 > This is isn't a 'growth hack'. This is networking 101.
-> 
+>
 > If you want to get a bigger audience, you talk to more people
-> 
+>
 > Play chess, not checkers
 
 - **Tweet:** https://x.com/AlexFinn/status/1693276384540369270
@@ -1854,7 +2812,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @steventey - Open-source SaaS alternatives list
 > I'm curating a list of open-source alternatives to popular SaaS:
-> 
+>
 > ◆ Calendly: @calcom
 > ◆ Algolia: @typesense
 > ◆ Shopify: @MedusaJS
@@ -1863,7 +2821,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 > ◆ Amplitude: @posthog
 > ◆ DocuSign: @documenso
 > ◆ Bitly: @dubdotsh
-> 
+>
 > What did I miss? 👀 https://t.co/qCTQI4cLKL
 
 - **Tweet:** https://x.com/steventey/status/1692580677491765637
@@ -1877,11 +2835,11 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ## @TimStodz - 8 ingredients for high-earning websites
 > My websites earn over $2,000,000 per year combined.
-> 
+>
 > Every time I build one, I follow the same system.
-> 
+>
 > Now I want you to have it.
-> 
+>
 > 8 ingredients for 8-figure websites:
 
 - **Tweet:** https://x.com/TimStodz/status/1691801560362234009
@@ -2722,7 +3680,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 # Sunday, May 7, 2023
 
 ## @matt_gray_ - Aesthetic desk setups for deep work
-> 14 aesthetic desk setups (for deep work): 
+> 14 aesthetic desk setups (for deep work):
 >
 > 1. Jeff Sheldon (@ugmonk) https://t.co/QQ2BxKzB7g
 
@@ -2755,7 +3713,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 >
 > Using:
 > - Parallel &amp; intercepting routes
-> - File uploading with @t3dotgg 's UploadThing 
+> - File uploading with @t3dotgg 's UploadThing
 > - Drizzle ORM
 > - Clerk for authentication
 >
@@ -2840,7 +3798,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 # Thursday, April 27, 2023
 
 ## @george__mack - Steve Jobs email on dependence and gratitude
-> Steve Jobs' email to himself 13 months before he died   
+> Steve Jobs' email to himself 13 months before he died
 >
 > Couldn't sleep after I read it
 
@@ -2862,7 +3820,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 - **What:** Practical iOS monetization analysis highlighting conditions and UI/product factors that affect purchase conversion.
 
 ## @NathanLands - Naval on Joe Rogan life takeaways
-> The @naval episode on Joe Rogan is still my favorite podcast episode ever. 
+> The @naval episode on Joe Rogan is still my favorite podcast episode ever.
 >
 > I listen to it whenever I think about what to do next in life.
 
@@ -3082,7 +4040,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 # Tuesday, March 14, 2023
 
 ## @omarsar0 - GPT-4 launch examples and discussions
-> Lots of tweets about GPT-4 in the last 8 hours. 
+> Lots of tweets about GPT-4 in the last 8 hours.
 >
 > Here is a thread highlighting some of the interesting examples, tricks, and discussions I've come across ↓
 
@@ -3434,7 +4392,7 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 # Tuesday, January 11, 2022
 
 ## @nikitabier - Consumer Social App Lessons Thread
-> After 10 years of building consumer social apps, I've decided to start exploring new areas. Building these products is an unforgiving grind—but I learned a lot along the way. 
+> After 10 years of building consumer social apps, I've decided to start exploring new areas. Building these products is an unforgiving grind—but I learned a lot along the way.
 >
 > For those embarking on this path, here's everything you need to know:
 >
