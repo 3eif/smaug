@@ -695,6 +695,839 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ---
 
+# Wednesday, August 16, 2023
+
+## @GuillaumeMbh - College-age millionaire playbook
+> A $1000 investment gave me a 10,000x return
+>
+> and I became a multi-millionaire at the age of 29.
+>
+> A  playbook for every college kid to become a millionaire in their 20s🧵 https://t.co/PGllTQPMTe
+
+- **Tweet:** https://x.com/GuillaumeMbh/status/1691727924485910812
+- **Link:** https://twitter.com/GuillaumeMbh/status/1691727924485910812/photo/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Photo attachment used as a promotional thread image for the founder wealth-building story.
+- **What:** Founder thread framing an early $1,000 investment as the starting point for a large startup outcome and distilling advice for young entrepreneurs.
+
+---
+
+# Tuesday, August 15, 2023
+
+## @orangebook - Indicators that life is on the right path
+> How to know you are on the right path in life, a few indicators.
+
+- **Tweet:** https://x.com/orangebook/status/1691652369283735660
+- **Section:** Philosophy and Life
+- **What:** A concise life-direction thread collecting signals that someone is making sound personal choices.
+
+---
+
+# Saturday, August 12, 2023
+
+## @felixleezd - Apple design lessons from Steve Jobs
+> Apple's Design Secret.
+>
+> I found out how Apple and Steve Jobs built principles where product design can be insanely great.
+>
+> 10 design lessons from Steve Jobs that every designer must know (Genius Strategies): https://t.co/4ZQ6nJVMWz
+
+- **Tweet:** https://x.com/felixleezd/status/1690377684965371904
+- **Link:** https://twitter.com/felixleezd/status/1690377684965371904/photo/1
+- **Section:** Design and UI Patterns
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Image attachment supporting a design-principles thread about Apple and Steve Jobs.
+- **What:** Design strategy thread using Apple as a case study for product principles, taste, and disciplined execution.
+
+---
+
+# Saturday, August 5, 2023
+
+## @FonsMans - Ultra gradient tutorial in Figma
+> Gradient tutorial! ✨￼
+>
+> Learn how to create an 'ultra gradient' with @figma, without using any plugins!
+>
+> Let's get started ￼👇 https://t.co/ID8NXyCq1X
+
+- **Tweet:** https://x.com/FonsMans/status/1687845770613932032
+- **Link:** https://twitter.com/FonsMans/status/1687845770613932032/photo/1
+- **Section:** Coding Reference
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Figma-oriented gradient tutorial image showing the visual result and setup.
+- **What:** Practical design tutorial for creating rich gradients directly in Figma without a plugin.
+
+---
+
+# Sunday, July 30, 2023
+
+## @soren_iverson - iMessage group chat TL;DR concept
+> iMessage group chat TL;DR https://t.co/kftvUDoYve
+
+- **Tweet:** https://x.com/soren_iverson/status/1685651226510159872
+- **Link:** https://twitter.com/soren_iverson/status/1685651226510159872/photo/1
+- **Section:** Visual Reference
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Product mockup for summarizing an iMessage group chat into a quick digest.
+- **What:** Speculative UX pattern for summarizing noisy group chats, useful as an AI messaging feature reference.
+
+---
+
+# Tuesday, July 25, 2023
+
+## @pissang1 - Vector to 3D Figma plugin
+> 🥳🥳My Figma plugin "Vector to 3D" has been published!
+>
+> https://t.co/cbxuUzSuMJ
+>
+> It can convert any vectors to 3D with one simple click. And with its high-quality ray-tracing renderer, you can create beautiful 3D icons, text, or other 3D-style images without being a 3D specialist
+
+- **Tweet:** https://x.com/pissang1/status/1683766062935048192
+- **Link:** https://www.figma.com/community/plugin/1264600219316901594/Vector-to-3D
+- **Section:** Design and UI Patterns
+- **Signals:** figma.com, twitter.com, article, media, has-media
+- **Visual:** Video preview of a Figma plugin turning flat vector artwork into rendered 3D-style output.
+- **What:** Figma plugin that converts vectors to ray-traced 3D imagery, useful for icon and product-visual workflows.
+
+---
+
+# Saturday, July 22, 2023
+
+## @orangebook - Things people need to hear
+> Things people don't want to hear, but need to hear, a thread.
+
+- **Tweet:** https://x.com/orangebook/status/1682708318157144065
+- **Section:** Plain Tweets
+- **What:** Advice thread collecting blunt personal-development observations.
+
+---
+
+# Thursday, July 20, 2023
+
+## @thepatwalls - Reddit growth story
+> Dear Reddit,
+>
+> I'm sorry for stealing your users.
+>
+> But you made me a millionaire.
+>
+> This is the story of how I stole millions of users from one subreddit, in plain sight.
+
+- **Tweet:** https://x.com/thepatwalls/status/1682063194557415424
+- **Section:** AI Tools and Agents
+- **What:** Growth story about acquiring users from a subreddit and turning that traffic into a business.
+
+---
+
+# Tuesday, July 18, 2023
+
+## @tdinh_me - Expensive landing page build
+> This landing page costs $500K to build: https://t.co/5gFgQohnnm
+
+- **Tweet:** https://x.com/tdinh_me/status/1681510293187473408
+- **Link:** https://twitter.com/tdinh_me/status/1681510293187473408/video/1
+- **Section:** Design and UI Patterns
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Video preview of a highly produced landing page used as an example of costly web execution.
+- **What:** Reference for evaluating what makes a landing page expensive: animation, polish, interaction design, and production detail.
+
+---
+
+# Sunday, July 16, 2023
+
+## @baldridgecpa - Small business tax advantages
+> Owning a small business is the best tax deal in America.
+>
+> Whether it's a $10K side hustle or $10MM business, earning business income opens up amazing opportunities for tax savings and wealth creation.
+>
+> Let’s walk through how it works:
+
+- **Tweet:** https://x.com/baldridgecpa/status/1680565769321455617
+- **Section:** Product and Startup Ideas
+- **What:** Finance thread explaining how business income can create tax and wealth-building opportunities.
+
+---
+
+# Friday, July 14, 2023
+
+## @soren_iverson - iMessage average response time
+> iMessage average response time https://t.co/lIW9klJJvP
+
+- **Tweet:** https://x.com/soren_iverson/status/1679853343546437633
+- **Link:** https://twitter.com/soren_iverson/status/1679853343546437633/photo/1
+- **Section:** Visual Reference
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Product mockup adding average response-time metadata to iMessage contacts or conversations.
+- **What:** Speculative UX idea for communication analytics inside messaging apps.
+
+---
+
+# Thursday, July 13, 2023
+
+## @dsiroker - Deadline confidence instead of deadline resentment
+> Most engineers bristle at the idea of a deadline. They have scar tissue from prior jobs where unrealistic promises were made to customers or investors and now they have to sacrifice time with family & friends to make the impossible happen.
+>
+> Good news! There is a better way.
+>
+> Inst
+
+- **Tweet:** https://x.com/dsiroker/status/1679513798758260737
+- **Section:** Product and Startup Ideas
+- **What:** Engineering-management thread about making deadlines useful by tying them to confidence, scope, and better communication rather than arbitrary pressure.
+
+---
+
+# Tuesday, July 11, 2023
+
+## @EliotJacobson - Record global heat week
+> The 7 hottest days on Earth in the last 100,000+ years all happened in the last week:
+>
+> July 6 ~ 17.23°C / 63.01°F
+> July 7 ~ 17.20°C / 62.96°F
+> July 4 ~ 17.18°C / 62.93°F
+> July  5 ~ 17.18°C / 62.92°F
+> July 8 ~ 17.17°C / 62.90°F
+> July 10 ~ 17.12°C / 62.81°F
+> July 9 ~ 17.11°C / 62.79°F
+
+- **Tweet:** https://x.com/EliotJacobson/status/1678727804110905344
+- **Section:** Design and UI Patterns
+- **What:** Climate-data thread noting a cluster of record-hot global average temperature days in July 2023.
+
+---
+
+# Monday, July 3, 2023
+
+## @LinusEkenstam - Steve Jobs communication masterclass
+> Steve Jobs Invented Loom in 1991 🤯
+>
+> Most people suck at communication 🤐
+>
+> A Masterclass in communication 👇
+>
+> 🧵 A little thread https://t.co/WFTJO3MBRC
+
+- **Tweet:** https://x.com/LinusEkenstam/status/1675855129981878275
+- **Link:** https://twitter.com/LinusEkenstam/status/1675855129981878275/video/1
+- **Section:** Visual Reference
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Video preview used to frame an older Steve Jobs demo as a model for clear asynchronous communication.
+- **What:** Communication thread analyzing a Steve Jobs demo as an early pattern for narrated product explanation.
+
+---
+
+# Sunday, July 2, 2023
+
+## @PicturesFoIder - Visual mechanism reference
+> this is so cool https://t.co/nsuvVlPS6U
+
+- **Tweet:** https://x.com/PicturesFoIder/status/1675483958753234945
+- **Link:** https://twitter.com/PicturesFoIder/status/1675483958753234945/photo/1
+- **Section:** Visual Reference
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Image reference of a striking mechanical or physical object, saved for visual curiosity and mechanism inspiration.
+- **What:** Short visual bookmark preserved mainly for the attached image reference.
+
+---
+
+# Friday, June 30, 2023
+
+## @daniel_eckler - Hidden logo design thread
+> Hidden Logo Designs 🧵
+>
+> Toyota’s logo contains each letter in the brands name.
+>
+> 1/26 https://t.co/ZtQy67K97O
+
+- **Tweet:** https://x.com/daniel_eckler/status/1674773573410643970
+- **Link:** https://twitter.com/daniel_eckler/status/1674773573410643970/photo/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Logo-design image illustrating hidden forms inside the Toyota mark.
+- **What:** Visual branding thread collecting logos with hidden meanings or embedded shapes.
+
+## @pwang_szn - LeetCode interview prep lessons
+> In Jan 2022, I wasted 3 months no-life grinding @LeetCode and ended up with 3 decent offers (all software eng):
+>
+> - $250k+ from @Uber
+> - $270k+ from @Affirm
+> - $260k+ from @gopuff
+>
+> and then a bunch more 200k+ offers.
+>
+> 5 lessons i learned: https://t.co/JNMZ7xJ9A1
+
+- **Tweet:** https://x.com/pwang_szn/status/1674719490993688577
+- **Link:** https://twitter.com/pwang_szn/status/1674719490993688577/photo/1
+- **Section:** Coding Reference
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Screenshot-style attachment supporting a thread about software interview preparation.
+- **What:** Coding-career thread summarizing lessons from intensive LeetCode preparation and high-compensation software engineering offers.
+
+---
+
+# Wednesday, June 28, 2023
+
+## @helloitsolly - Common landing page mistakes
+> I’ve roasted 850 landing pages in 2.5 years
+>
+> Here are the 15 most common mistakes and how to fix them 👇🏾
+
+- **Tweet:** https://x.com/helloitsolly/status/1674031086819581957
+- **Section:** Plain Tweets
+- **What:** Landing-page teardown thread distilling common conversion and communication mistakes.
+
+---
+
+# Sunday, June 25, 2023
+
+## @awilkinson - Twitter headcount and Parkinson's Law
+> Elon Musk fired 6,500 employees at Twitter.
+>
+> A little birdie told me it's down to:
+>
+> - 2 designers
+> - 6 iOS developers
+> - 20 web developers
+> - Around 1,400 sales and operations people
+>
+> How is it possible that we are still using this website?
+>
+> Two words:
+>
+> Parkinson's Law.
+>
+> Have you e
+
+- **Tweet:** https://x.com/awilkinson/status/1673099604345389056
+- **Section:** Design and UI Patterns
+- **What:** Organizational-design thread using Twitter's reduced headcount as a prompt to discuss Parkinson's Law and team bloat.
+
+---
+
+# Tuesday, June 20, 2023
+
+## @adamlyttleapps - MidJourney prompts for app icons
+> I've been using MidJourney to create my app icons…
+>
+> Here's the prompts I use 👇
+>
+> (Bookmark this thread) https://t.co/wEbu3nqvoM
+
+- **Tweet:** https://x.com/adamlyttleapps/status/1671363003177123841
+- **Link:** https://twitter.com/adamlyttleapps/status/1671363003177123841/photo/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, media, has-media
+- **Visual:** App-icon examples generated with MidJourney, useful as prompt and style references.
+- **What:** Prompt thread for generating app icon concepts with MidJourney.
+
+---
+
+# Monday, June 12, 2023
+
+## @whyvert - New Zealand IMO squad
+> International Mathematical Olympiad upcoming in Japan in July.
+>
+> This is the New Zealand squad.
+>
+> I wonder what the US, Canadian, Australian, etc, teams look like. https://t.co/RG2vrrol3K
+
+- **Tweet:** https://x.com/whyvert/status/1668383370609295373
+- **Link:** https://twitter.com/whyvert/status/1668383370609295373/photo/1
+- **Section:** Visual Reference
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Photo of the New Zealand International Mathematical Olympiad squad.
+- **What:** Visual bookmark around competitive math representation and national team composition.
+
+---
+
+# Friday, June 9, 2023
+
+## @nico_jeannen - Scrap AI web data collector
+> +300 pre-orders and 3 weeks of hard work later, https://t.co/JfatxQfD72 is now available in public Beta 🤩
+>
+> Scrap is the first AI-ssistant that can browse the web & collect data for you.
+>
+> - Add a list of websites (or keywords)
+> - Tell Scrap what information you want to collect
+> - S
+
+- **Tweet:** https://x.com/nico_jeannen/status/1667153270568255488
+- **Link:** https://adkit.so/
+- **Section:** AI Tools and Agents
+- **Signals:** adkit.so, article, has-media
+- **Visual:** Video preview for an AI assistant that browses websites and extracts structured data.
+- **What:** Product launch for Scrap, an AI web data collection assistant that takes websites or keywords and extracts requested information.
+
+---
+
+# Thursday, June 8, 2023
+
+## @KenneyNL - Alternatives to Adobe tools
+> The best choice any aspiring artist can make is not to use @Adobe products. There are many alternatives available nowadays that can produce the same quality content but won't strain your budget and are more community focused.
+>
+> For an overview, see; https://t.co/ftcGeqREcO
+>
+> *Quoting @XdanielArt:* So I updated my alternatives to Adobe programs list. It has grown super big with all the programs everyone requested. Icons have shapes now for better redeabili
+
+- **Tweet:** https://x.com/KenneyNL/status/1666859556541018136
+- **Quoted:** https://x.com/XdanielArt/status/1434611199140896772
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, tweet, media, has-media, quote
+- **Visual:** Chart-style image listing alternatives to Adobe products, with icons and shape coding for readability.
+- **What:** Quote tweet recommending budget-friendly and community-focused creative software alternatives to Adobe.
+
+---
+
+# Tuesday, June 6, 2023
+
+## @TanmayS_Chauhan - Apple's power words in presentation copy
+> *Replying to @TanmayS_Chauhan:* 1. Big Bold Presentation
+>
+> They are always very careful of their backgrounds and colors.
+>
+> Choosing a sunny day to transfer a cheerful mood to their audience.
+>
+> Ti
+>
+> 2. Powerwords
+>
+> Words you use create the reality of your customer's perception.
+>
+> You'll notice they are nailing copywriting fundamentals and constantly throwing power words in your faces.
+>
+> For 2 hours, they kept repeating these words a bunch of times. https://t.co/HHgDd6xo3S
+
+- **Tweet:** https://x.com/TanmayS_Chauhan/status/1666064610221326337
+- **Parent:** https://x.com/TanmayS_Chauhan/status/1666064497092579329
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, media, has-media, reply
+- **Visual:** Presentation screenshot used to analyze Apple's copywriting and launch-event language.
+- **What:** Reply-thread item about how Apple uses repeated power words and careful presentation framing to shape audience perception.
+
+---
+
+# Saturday, June 3, 2023
+
+## @levelsio - Alcohol and fatty liver visual
+> Drinking alcohol negatively affects the liver and leads to fatty liver called cirrhosis https://t.co/4CuRSXiIuB
+
+- **Tweet:** https://x.com/levelsio/status/1665242780631986177
+- **Link:** https://twitter.com/levelsio/status/1665242780631986177/photo/1
+- **Section:** Visual Reference
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Medical or explanatory image about alcohol's effects on the liver.
+- **What:** Health-related visual bookmark about alcohol, liver damage, and fatty liver/cirrhosis risk.
+
+## @peterthedecent - iMessage Embeddings with Chroma
+> Introducing: iMessage Embeddings 💬 with @trychroma
+>
+> In just 30 seconds, automatically embed your entire iMessage history for
+>
+> 1. Searching,
+> 2. Clustering,
+> 3. Classifying, and
+> 4. Visualizing your message history
+>
+> Try it here: https://t.co/VQCgW6GLQO https://t.co/aEGE0UWwJi
+
+- **Tweet:** https://x.com/peterthedecent/status/1665151897945120769
+- **Link:** https://github.com/petersolimine/imessage-embedder
+- **Filed:** [imessage-embedder.md](./knowledge/tools/imessage-embedder.md)
+- **Section:** Coding Reference
+- **Signals:** github.com, twitter.com, github, media, has-media
+- **Visual:** Video preview demonstrating embedding an iMessage history for search, clustering, classification, and visualization.
+- **What:** GitHub project for embedding iMessage history with Chroma to make personal messages searchable and analyzable.
+
+## @AliAbdaal - Science-based sleep routine
+> I used to wake up tired every morning.
+>
+> This 9-step sleep routine saved my life (Based on science): https://t.co/AJUseBizPk
+
+- **Tweet:** https://x.com/AliAbdaal/status/1664974527032352771
+- **Link:** https://twitter.com/AliAbdaal/status/1664974527032352771/photo/1
+- **Section:** Philosophy and Life
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Sleep-routine image summarizing the thread's practical steps.
+- **What:** Health and productivity thread outlining a nine-step routine for improving sleep quality.
+
+---
+
+# Thursday, June 1, 2023
+
+## @diegojimenez - iPhone anti-theft automation
+> I made a quick Automation to protect my iPhone if someone steals it while unlocked: if they turn on Airplane Mode (Find My), it asks for a passcode. If wrong… it automatically locks the phone 🔒, turns ON all connectivity 📡 + Low Power Mode 🔋, and shares its current location📍
+
+- **Tweet:** https://x.com/diegojimenez/status/1664312209650991105
+- **Link:** https://twitter.com/diegojimenez/status/1664312209650991105/video/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Video preview of an iOS Shortcuts automation flow for theft protection.
+- **What:** Practical iPhone automation that detects Airplane Mode changes, requests a passcode, restores connectivity, locks the phone, and shares location.
+
+## @felixleezd - Aesthetically stunning websites
+> Most Aesthetically Stunning Websites!
+>
+> I found web designs so exquisite; they redefine elegance in the digital realm.
+>
+> Here are 9 most aesthetic websites and why (GENIUS strategy): https://t.co/NpoDxtTckL
+
+- **Tweet:** https://x.com/felixleezd/status/1664285949986226176
+- **Link:** https://twitter.com/felixleezd/status/1664285949986226176/photo/1
+- **Section:** Design and UI Patterns
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Animated visual reference for a thread collecting polished website designs.
+- **What:** Design-inspiration thread analyzing aesthetically strong websites and the strategies behind them.
+
+---
+
+# Wednesday, May 31, 2023
+
+## @0xgaut - Twitter bookmark self-own
+> *Replying to @0xgaut:* stop bookmarking this
+>
+> the biggest lies you can tell yourself: - i will workout while on vacation - i will use that domain i bought - i will look at my twitter bookmarks
+
+- **Tweet:** https://x.com/0xgaut/status/1664017736719032320
+- **Parent:** https://x.com/0xgaut/status/1664017140876210178
+- **Section:** AI Tools and Agents
+- **Signals:** reply
+- **What:** Joke about aspirational bookmarking and the common failure mode of never revisiting saved tweets.
+
+## @0xgaut - People who bookmark tweets
+> people who bookmark tweets
+>
+> https://t.co/ipbyFSHijM
+
+- **Tweet:** https://x.com/0xgaut/status/1664016959493529603
+- **Link:** https://twitter.com/morozov_dev/status/1561328791229812736/video/1
+- **Section:** Visual Reference
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Video preview used as a joke about bookmark-hoarding behavior.
+- **What:** Meme-style visual bookmark about people saving tweets and not returning to them.
+
+---
+
+# Saturday, May 27, 2023
+
+## @danliu - Jensen Huang commencement lessons
+> Jensen Huang, the founder of Nvidia, just gave a commencement speech in Taiwan.
+>
+> Like Steve Jobs in 2005, he shared 3 stories — 3 pivotal decisions that led Nvidia to where it is today.
+>
+> The stories are about humility, perseverance, and focus. Here they are.
+
+- **Tweet:** https://x.com/danliu/status/1662657519888617476
+- **Section:** AI Tools and Agents
+- **What:** Thread summarizing Jensen Huang's commencement speech through three Nvidia-defining stories about humility, perseverance, and focus.
+
+---
+
+# Wednesday, May 24, 2023
+
+## @theo - Skin care tips for men
+> SKIN CARE TIPS NOBODY TELLS MEN: A THREAD
+>
+> (These obviously apply for women too but it is uncool for men to care about skin health for some reason?)
+
+- **Tweet:** https://x.com/theo/status/1661440910885031936
+- **Section:** Health and Fitness
+- **What:** Practical skincare thread aimed at men while noting the advice is broadly applicable.
+
+---
+
+# Monday, May 22, 2023
+
+## @_MaxQ_ - Starship Superheavy recovered launch image
+> *Replying to @_MaxQ_:* At this point in time, this looks to be the very last image captured on both camera and card.
+>
+> **HOWEVER**
+>
+> My gut tells me that the imagery data captured in t
+>
+> Trust your gut. Starship Superheavy comes to life.
+>
+> Some images have been recovered! While there is still some data to sort through, I’m absolutely stoked to be seeing these images on screen.
+>
+> Massive thanks to @derekiswise in aiding data recovery!
+>
+> 📸 - @NASASpaceflight https://t.co/tfmR66W5Uh
+
+- **Tweet:** https://x.com/_MaxQ_/status/1660704832762658816
+- **Parent:** https://x.com/_MaxQ_/status/1660671195375628288
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, media, has-media, reply
+- **Visual:** Dramatic Starship/Superheavy launch image with flame plume, tower, and dust cloud, recovered from damaged or incomplete image data.
+- **What:** Visual and process bookmark about recovering launch photography data from a Starship Superheavy shoot.
+
+## @thejustinwelsh - One-person business reaches $4M
+> Yesterday, my little one-person business crossed $4M in revenue.
+>
+> It took 1,352 days, I ran zero ads & operate at a 94% margin.
+>
+> Here are the 20 steps of my wild & strange journey:
+>
+> Hope it's helpful to someone.
+>
+> [🧵 thread]
+
+- **Tweet:** https://x.com/thejustinwelsh/status/1660619395532505094
+- **Section:** Product and Startup Ideas
+- **What:** Solo-business retrospective outlining the steps behind a $4M revenue, high-margin one-person operation.
+
+---
+
+# Saturday, May 20, 2023
+
+## @Julian - Why VCs fund young founders
+> I want to explain why venture capitalists give 21 year olds $30,000,000 to pursue startup ideas.
+>
+> What's going through their heads? What specifically are investors looking for today?
+>
+> Here's how I've seen VCs' minds work after 4 years:
+
+- **Tweet:** https://x.com/Julian/status/1659949604006404097
+- **Section:** AI Tools and Agents
+- **What:** Venture capital explainer on why investors back very young founders and what signals they are underwriting.
+
+## @matt_gray_ - Five-step phone addiction plan
+> The silent killer of your motivation: Your phone.
+>
+> A 5-step plan to beat your phone addiction:
+
+- **Tweet:** https://x.com/matt_gray_/status/1659893006713995266
+- **Section:** Plain Tweets
+- **What:** Productivity thread with a short behavior-change plan for reducing phone addiction.
+
+---
+
+# Friday, May 19, 2023
+
+## @scrumtuous - Tech Twitter astroturfing examples
+> Want to know how the biggest #techtwitter accounts gain their tens of thousands of followers?👍
+>
+> Astroturfing is the key!🗝️
+>
+> For those that don't know what 'astroturfing' is, here's a visual example you can see in the attached photos. 🤷‍♀️
+>
+> It's when members of your engagement
+
+- **Tweet:** https://x.com/scrumtuous/status/1659636798287388676
+- **Section:** Coding Reference
+- **Signals:** has-media
+- **Visual:** Screenshots of repetitive Twitter replies and engagement patterns, with highlighted repeated accounts and phrasing.
+- **What:** Visual explanation of social-media astroturfing and engagement pods in tech Twitter growth.
+
+---
+
+# Thursday, May 18, 2023
+
+## @emergetools - ChatGPT iOS linked modules
+> *Replying to @emergetools:* The main thing that stands out is they're shipping 18 MB worth of debug symbols in the app. Nothing stood out when we sifted through  It's best practice to stri
+>
+> ChatGPT isn't linking any dynamic frameworks, helping keep it's size small. We can see some modules they're linking statically
+>
+> @mixpanel for analytics
+> @datadoghq for logging
+> @getsentry for performance monitoring
+> @RevenueCat for payments
+> @auth0 for authentication
+> + others https://t.co/E5t98uzLaz
+
+- **Tweet:** https://x.com/emergetools/status/1659283371938258947
+- **Parent:** https://x.com/emergetools/status/1659283370495340553
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, media, has-media, reply
+- **Visual:** App binary treemap showing ChatGPT iOS modules and dependencies such as OpenAI, Mixpanel, RevenueCat, Auth0, Sentry, and Datadog.
+- **What:** App-size and dependency analysis showing ChatGPT's static linked modules and third-party services.
+
+---
+
+# Wednesday, May 17, 2023
+
+## @levelsio - Flightradar24 pricing and upgrade UX
+> My favorite app to get pricing/plan inspiration is @flightradar24
+>
+> 3 plans:
+>
+> - Basic: free
+> - Silver: $9.99/y
+> - Gold: $34.99/y
+>
+> And if you tap a feature you want to use but not on plan yet it shows a 🔐 and popup to upgrade
+>
+> 800,000 subs @ $9.99 to $34.99 = $8M to $28M revenue/y
+
+- **Tweet:** https://x.com/levelsio/status/1659073439733514241
+- **Link:** https://twitter.com/levelsio/status/1659073439733514241/photo/1
+- **Section:** Design and UI Patterns
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Mobile paywall and upgrade screens showing plan tabs, locked features, a 14-day trial offer, and feature-triggered upsell moments.
+- **What:** Pricing and paywall UX reference for tiered consumer subscriptions with contextual upgrade prompts.
+
+## @emergetools - React Native to native app performance
+> What happens to an app's performance when it goes from react native -> native?
+>
+> The @peacock app just made the switch on iOS & Android and had a significant change in size and startup time
+>
+> 🧵 Performance impact of switching to native
+
+- **Tweet:** https://x.com/emergetools/status/1658885804276449309
+- **Section:** Design and UI Patterns
+- **What:** Mobile performance thread comparing app size and startup-time effects after Peacock moved from React Native to native implementations.
+
+---
+
+# Tuesday, May 16, 2023
+
+## @culturaltutor - Boethius and The Consolation of Philosophy
+> Why read a self-help book published in 2023 when you could read one that was a best seller for 1,500 years?
+>
+> This is the Consolation of Philosophy, written by a man called Boethius while he was in prison, awaiting execution, in 523 AD.
+>
+> Here are its 8 most powerful ideas: https:/
+
+- **Tweet:** https://x.com/culturaltutor/status/1658395657172918274
+- **Link:** https://twitter.com/culturaltutor/status/1658395657172918274/photo/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Decorative book cover for Boethius's The Consolation of Philosophy, shown with medieval-style lettering and ornament.
+- **What:** Philosophy thread extracting enduring ideas from Boethius's prison-written classic.
+
+---
+
+# Sunday, May 14, 2023
+
+## @levelsio - Networking events versus earned gravity
+> Only losers go to networking events
+>
+> The only people you'll meet at events are people who want something from you or aren't meaningfully engaged in a pursuit of their own
+>
+> The easiest way to meet interesting people is by having accomplished something yourself
+
+- **Tweet:** https://x.com/levelsio/status/1657677048134111233
+- **Section:** Design and UI Patterns
+- **What:** Opinionated networking advice arguing that visible work and accomplishment attract better relationships than attending generic events.
+
+---
+
+# Saturday, May 13, 2023
+
+## @NathanLands - AI video examples
+> AI video has started to produce mindblowing results and could eventually disrupt Hollywood.
+>
+> (PT8)
+>
+> Here are the best AI videos I've found:
+
+- **Tweet:** https://x.com/NathanLands/status/1657513104136183808
+- **Section:** AI Tools and Agents
+- **What:** Curated thread of AI-generated video examples and their potential implications for film and media production.
+
+## @OfficialPCMR - Bent radiator fin repair trick
+> Bent radiator fins? No problem!
+>
+> #oddlysatisfying
+>
+> https://t.co/5jvzQlKZm5 https://t.co/ltgvL9g0ip
+
+- **Tweet:** https://x.com/OfficialPCMR/status/1657389138700558339
+- **Link:** https://www.reddit.com/r/pcmasterrace/comments/13d45yg/i_use_toothpicks_but_great_little_trick_if_you/
+- **Section:** Visual Reference
+- **Signals:** reddit.com, twitter.com, article, media, has-media
+- **Visual:** Video preview of radiator fins being straightened with a small tool, useful as a repair technique reference.
+- **What:** Practical hardware-maintenance trick for fixing bent radiator fins.
+
+---
+
+# Friday, May 12, 2023
+
+## @LinusEkenstam - AI mega-brand campaign reference
+> 🤯 stfu and take my money
+>
+> This is the most impressive campaign I’ve seen from a mega brand so far using AI & StableDiffusion.
+>
+> Would love a breakdown of how this was all done.
+>
+> https://t.co/H5ryW3owi4
+
+- **Tweet:** https://x.com/LinusEkenstam/status/1657083568231702528
+- **Link:** https://twitter.com/StabilityAI_JP/status/1656859810682515456/video/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Video preview of an AI-assisted brand campaign, with architectural/product imagery generated or transformed using Stable Diffusion.
+- **What:** Visual reference for a polished AI-generated advertising campaign from a major brand.
+
+---
+
+# Thursday, May 11, 2023
+
+## @waitbutwhy - Nested timelines from 2015 to the Big Bang
+> From 2015 back to the Big Bang, in 12 tweets. Each subsequent timeline contains all the previous timelines.
+>
+> 1/12 https://t.co/zRKHmgSJEN
+
+- **Tweet:** https://x.com/waitbutwhy/status/1656699060902936593
+- **Link:** https://twitter.com/waitbutwhy/status/1656699060902936593/photo/1
+- **Section:** AI Tools and Agents
+- **Signals:** twitter.com, media, has-media
+- **Visual:** Timeline graphic showing nested views of recent time, longer history, and the scale shift toward deep time.
+- **What:** Wait But Why thread visualizing time by nesting progressively larger timelines back to the Big Bang.
+
+---
+
+# Wednesday, May 10, 2023
+
+## @NewsIn6ix - ChatGPT stock-market returns claim
+> This is absoutely isnane 🤯
+>
+> A ChatGPT trading algorithm delivered 500% returns in the stock market.
+>
+> A University of Florida study revealed ChatGPT achieved a staggering 500% return in one investing model
+>
+> This outpaces conventional sentiment analysis models used by hedge funds
+>
+> This will be revolutionary in the finance and investment industry
+>
+> Generative AI’s potential could spark a new arms race in the finance industry, potentially disrupting hedge fund strategies and empowering retail traders.
+
+- **Tweet:** https://x.com/NewsIn6ix/status/1656363018454970368
+- **Section:** AI Tools and Agents
+- **Signals:** has-media
+- **Visual:** Line chart comparing cumulative returns for several news/sentiment trading strategies, with long-short and short strategies outperforming benchmarks.
+- **What:** Tweet highlighting a University of Florida study claim about ChatGPT-assisted sentiment signals for stock-market trading.
+
+## @NathanLands - Code Interpreter data science examples
+> AutoGPT? Not useful yet.
+>
+> Code Interpreter, however, is set to revolutionize data science. And it actually works.
+>
+> Here are 13 examples that will blow your freakin' mind:
+
+- **Tweet:** https://x.com/NathanLands/status/1656245251261054980
+- **Section:** Coding Reference
+- **What:** Thread collecting early examples of ChatGPT Code Interpreter applied to data science workflows.
+
+---
+
+# Tuesday, May 9, 2023
+
+## @heykahn - Important mental models
+> 20 of the most important ideas everyone should know:
+>
+> 1. Cunningham's Law:
+>
+> The best way to find the right answer on the internet is not to ask the right question, but to post the wrong answer.
+>
+> Why? Because people are more interested in criticizing others than helping them.
+
+- **Tweet:** https://x.com/heykahn/status/1655912175301718018
+- **Section:** AI Tools and Agents
+- **What:** Thread collecting useful mental models, starting with Cunningham's Law as a way to provoke corrections online.
+
+---
+
 # Sunday, May 7, 2023
 
 ## @matt_gray_ - Aesthetic desk setups for deep work
