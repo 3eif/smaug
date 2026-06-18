@@ -692,3 +692,13 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 - **Tweet:** https://x.com/alexhillman/status/1992252350812270856
 - **What:** Personal reflection on core imperatives with emphasis on keeping humans central to all technology decisions.
+
+---
+
+# Sunday, October 12, 2014
+
+## @ZohranKMamdani - My Beautiful Dark Twisted Fantasy appreciation
+> listening to beautiful dark twisted fantasy. damn, I forgot just how good this album is. thank you @kanyewest.
+
+- **Tweet:** https://x.com/ZohranKMamdani/status/521498505081532417
+- **What:** Personal music appreciation post revisiting Kanye West's *My Beautiful Dark Twisted Fantasy*.
