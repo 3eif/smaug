@@ -553,10 +553,15 @@
 
         visible.forEach((item) => {
           const media = Array.isArray(item.media) ? item.media : [];
+          const previewUrl = media.length ? "" : item.previewUrl;
+          const displayText = displayTweetText(item.text || item.what || "Saved tweet", item, {
+            hasMedia: media.length > 0,
+            hasPreview: Boolean(previewUrl)
+          });
           const node = document.createElement("article");
           node.className = `tweet${media.length ? " has-media" : ""}`;
           node.dataset.id = item.id;
-          if (item.previewUrl) node.dataset.previewUrl = item.previewUrl;
+          if (previewUrl) node.dataset.previewUrl = previewUrl;
           node.innerHTML = `
             ${media.length ? `<div class="media-stack">${media.map((src) => `<img class="media-thumb" src="${escapeAttr(src)}" alt="" loading="lazy" decoding="async">`).join("")}</div>` : ""}
             <div class="tweet-head">
@@ -564,8 +569,8 @@
               <span class="date">${escapeHtml(shortDate(item.date))}</span>
             </div>
             <p class="title">${escapeHtml(item.title)}</p>
-            <p class="what">${escapeHtml(item.text || item.what || "Saved tweet")}</p>
-            ${item.previewUrl ? `<a class="link-preview" href="${escapeAttr(item.previewUrl)}" target="_blank" rel="noreferrer" data-preview-url="${escapeAttr(item.previewUrl)}" hidden></a>` : ""}
+            <p class="what">${escapeHtml(displayText)}</p>
+            ${previewUrl ? `<a class="link-preview" href="${escapeAttr(previewUrl)}" target="_blank" rel="noreferrer" data-preview-url="${escapeAttr(previewUrl)}" hidden></a>` : ""}
             ${item.tweet ? `<a href="${escapeAttr(item.tweet)}" target="_blank" rel="noreferrer">open</a>` : ""}
           `;
           els.stage.appendChild(node);
@@ -625,6 +630,46 @@
 
       function shortDate(date) {
         return String(date || "").replace(/^[A-Za-z]+,\s*/, "").replace(/,\s*\d{4}$/, "");
+      }
+
+      function displayTweetText(text, item, options) {
+        let next = String(text || "");
+
+        if (options.hasPreview) {
+          next = removeUrls(next, [item.previewShortUrl, item.previewUrl]);
+        } else if (options.hasMedia) {
+          if (item.previewShortUrl && item.previewUrl) {
+            next = next.replaceAll(item.previewShortUrl, displayUrl(item.previewUrl));
+          }
+          const visiblePreviewShortUrl = item.previewShortUrl || "";
+          const hiddenMediaUrls = (next.match(/https?:\/\/t\.co\/[A-Za-z0-9]+/g) || [])
+            .filter((url) => url !== visiblePreviewShortUrl);
+          next = removeUrls(next, hiddenMediaUrls);
+        }
+
+        return next.replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+      }
+
+      function removeUrls(text, urls) {
+        let next = String(text || "");
+        for (const url of urls) {
+          if (!url) continue;
+          next = next.replaceAll(url, "");
+        }
+        return next;
+      }
+
+      function displayUrl(value) {
+        try {
+          const url = new URL(value);
+          return `${url.hostname.replace(/^www\./, "")}${url.pathname === "/" ? "" : url.pathname}`;
+        } catch {
+          return value;
+        }
+      }
+
+      function escapeRegExp(value) {
+        return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
       }
 
       function escapeHtml(value) {

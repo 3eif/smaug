@@ -84,6 +84,11 @@ function firstExternalLink(links = []) {
   }) || '';
 }
 
+function firstShortUrlForLink(text, linkIndex) {
+  const shortUrls = String(text || '').match(/https?:\/\/t\.co\/[A-Za-z0-9]+/g) || [];
+  return shortUrls[linkIndex] || '';
+}
+
 function absoluteUrl(base, value) {
   if (!value) return '';
   try {
@@ -284,6 +289,7 @@ function parseArchive(markdown, config) {
       const id = meta.Tweet?.match(/status\/(\d+)/)?.[1] || `${date}-${j}`;
       const links = [...entry.matchAll(/^- \*\*(?:Link|Media|Quoted|Parent):\*\* (.+)$/gm)]
         .map((match) => match[1].trim());
+      const previewUrl = firstExternalLink(links);
       sections.push({
         id,
         date,
@@ -296,7 +302,8 @@ function parseArchive(markdown, config) {
         visual: meta.Visual || '',
         media: localMediaForId(config, id),
         links,
-        previewUrl: firstExternalLink(links)
+        previewUrl,
+        previewShortUrl: previewUrl ? firstShortUrlForLink(quote, links.indexOf(previewUrl)) : ''
       });
     }
   }
