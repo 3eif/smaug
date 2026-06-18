@@ -42,11 +42,7 @@
         position: relative;
         width: 100vw;
         height: 100vh;
-        background:
-          linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px),
-          #050505;
-        background-size: 48px 48px;
+        background: #050505;
       }
 
       .sidebar {
@@ -58,7 +54,7 @@
         width: 224px;
         padding: 18px 14px;
         border: 1px solid var(--line);
-        border-radius: 8px;
+        border-radius: 0;
         background: var(--rail);
         backdrop-filter: blur(18px);
         display: flex;
@@ -116,7 +112,7 @@
         width: 100%;
         min-height: 32px;
         border: 0;
-        border-radius: 6px;
+        border-radius: 0;
         background: transparent;
         color: var(--muted);
         text-align: left;
@@ -179,7 +175,7 @@
         width: 34px;
         height: 34px;
         border: 1px solid var(--line);
-        border-radius: 999px;
+        border-radius: 0;
         background: rgba(0, 0, 0, 0.3);
         cursor: pointer;
         transition: background 160ms ease, transform 160ms ease;
@@ -207,10 +203,10 @@
       .tweet {
         position: absolute;
         width: 300px;
-        height: 152px;
+        height: 170px;
         padding: 13px 14px;
         border: 1px solid rgba(255, 255, 255, 0.09);
-        border-radius: 7px;
+        border-radius: 0;
         background: rgba(255, 255, 255, 0.028);
         cursor: grab;
         user-select: none;
@@ -219,6 +215,10 @@
         transform: translate3d(var(--x), var(--y), 0);
         transition: opacity 220ms ease, border-color 160ms ease, background 160ms ease, transform 220ms ease;
         animation: enter 360ms ease both;
+      }
+
+      .tweet.has-media {
+        height: 246px;
       }
 
       .tweet:active {
@@ -237,6 +237,17 @@
         gap: 12px;
         align-items: baseline;
         margin-bottom: 9px;
+      }
+
+      .media-thumb {
+        display: block;
+        width: calc(100% + 28px);
+        height: 92px;
+        margin: -13px -14px 11px;
+        border: 0;
+        border-bottom: 1px solid var(--line);
+        object-fit: cover;
+        background: #0b0b0b;
       }
 
       .author {
@@ -270,7 +281,7 @@
 
       .tweet a {
         display: inline-block;
-        margin-top: 12px;
+        margin-top: 10px;
         color: var(--ink);
         text-decoration: none;
         border-bottom: 1px solid rgba(255, 255, 255, 0.35);
@@ -294,7 +305,7 @@
         }
       }
 
-      @media (max-width: 760px) {
+      @media (max-width: 560px) {
         body {
           overflow: auto;
           height: auto;
@@ -381,6 +392,8 @@
     </main>
 
     <script>
+      const POSITIONS_KEY = "smaug-canvas-positions-v2";
+
       const state = {
         all: [],
         categories: [],
@@ -426,6 +439,7 @@
         });
         els.clear.addEventListener("click", () => {
           state.positions.clear();
+          localStorage.removeItem(POSITIONS_KEY);
           localStorage.removeItem("smaug-canvas-positions");
           renderCanvas();
         });
@@ -474,12 +488,14 @@
 
         visible.forEach((item, index) => {
           const pos = getPosition(item, index);
+          const media = Array.isArray(item.media) ? item.media : [];
           const node = document.createElement("article");
-          node.className = "tweet";
+          node.className = `tweet${media.length ? " has-media" : ""}`;
           node.style.setProperty("--x", `${pos.x}px`);
           node.style.setProperty("--y", `${pos.y}px`);
           node.dataset.id = item.id;
           node.innerHTML = `
+            ${media[0] ? `<img class="media-thumb" src="${escapeAttr(media[0])}" alt="" loading="lazy" decoding="async">` : ""}
             <div class="tweet-head">
               <span class="author">@${escapeHtml(item.author)}</span>
               <span class="date">${escapeHtml(shortDate(item.date))}</span>
@@ -495,11 +511,11 @@
       }
 
       function setStageSize(count) {
-        if (window.innerWidth < 760) return;
+        if (window.innerWidth < 560) return;
         const cols = columnCount();
         const rows = Math.max(1, Math.ceil(count / cols));
         els.stage.style.width = `${cols * 340}px`;
-        els.stage.style.height = `${rows * 178 + 40}px`;
+        els.stage.style.height = `${rows * 272 + 40}px`;
       }
 
       function getPosition(item, index) {
@@ -509,7 +525,7 @@
         const col = index % cols;
         const row = Math.floor(index / cols);
         const x = col * 340 + ((row % 2) * 18);
-        const y = row * 178 + ((col % 2) * 12);
+        const y = row * 272 + ((col % 2) * 12);
         return { x, y };
       }
 
@@ -520,7 +536,7 @@
       }
 
       function startDrag(event, node, id) {
-        if (window.innerWidth < 760) return;
+        if (window.innerWidth < 560) return;
         const current = state.positions.get(id) || {
           x: parseFloat(node.style.getPropertyValue("--x")) || 0,
           y: parseFloat(node.style.getPropertyValue("--y")) || 0
@@ -540,7 +556,7 @@
       }
 
       function startMouseDrag(event, node, id) {
-        if (window.innerWidth < 760 || state.drag) return;
+        if (window.innerWidth < 560 || state.drag) return;
         event.preventDefault();
         const current = state.positions.get(id) || {
           x: parseFloat(node.style.getPropertyValue("--x")) || 0,
@@ -582,12 +598,12 @@
       }
 
       function savePositions() {
-        localStorage.setItem("smaug-canvas-positions", JSON.stringify([...state.positions.entries()]));
+        localStorage.setItem(POSITIONS_KEY, JSON.stringify([...state.positions.entries()]));
       }
 
       function loadPositions() {
         try {
-          state.positions = new Map(JSON.parse(localStorage.getItem("smaug-canvas-positions") || "[]"));
+          state.positions = new Map(JSON.parse(localStorage.getItem(POSITIONS_KEY) || "[]"));
         } catch {
           state.positions = new Map();
         }
