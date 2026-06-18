@@ -695,6 +695,1171 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ---
 
+# Monday, January 29, 2024
+
+## @levelsio - Hard paywall experiment for non-VC products
+> I recommend EVERYONE without VC investors to try nuking their free plan and see what happens
+>
+> Generally I see 2 things happen:
+> - customer support load goes down 100x
+> - revenue goes up 100x
+>
+> Supporting free users is a VC startup's job not yours
+>
+> *Quoting @Bptstmlgt:* $10k in January 🤗
+>
+> Hard paywall was a necessary step that I had never considered up until 4 months ago. Thought it was “wrong” for my users. Yet I feel like I’ve never delivered as much as in the last 2 months.
+>
+> The best is yet to come 🙏 https://t.co/tOO0Qqot87
+
+- **Tweet:** https://x.com/levelsio/status/1752075138919473349
+- **Media:** https://twitter.com/Bptstmlgt/status/1752045744998023612/photo/1
+- **Quoted:** https://x.com/Bptstmlgt/status/1752045744998023612
+- **Section:** Product and Startup Ideas
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Levels recommends non-VC founders test removing free plans, citing examples where hard paywalls improved both revenue and product focus.
+
+## @carmguti - Impact over gifted-kid identity
+> don’t let your legacy be “over-educated former gifted kid who ended up leaving no impact”
+
+- **Tweet:** https://x.com/carmguti/status/1752116505976730007
+- **What:** A concise reminder not to let education or former gifted-kid identity substitute for actual impact.
+
+## @radshaan - Engineering clubs as career leverage
+> Can confirm. It is why I spend time after classes working on race cars. Most of our team's leads are hired directly by Tesla, Apple, SpaceX, etc.
+>
+> If you are a hard tech startup, you NEED to hire from FSAE teams across the country. Insane work ethic and skills across the board
+>
+> *Quoting @deedydas:* Two of SpaceX's senior execs Mark Juncosa and Bill Riley are Cornell grads who credit their engineering chops to the Formula1 project team (FSAE) in college.
+>
+> Join clubs in college to actually building stuff together, not the "consulting club" which is just college kids chatting. https://t.co/WZUma0uUnP
+
+- **Tweet:** https://x.com/radshaan/status/1752179527365644464
+- **Media:** https://twitter.com/debarghya_das/status/1752176071016104124/photo/1
+- **Quoted:** https://x.com/deedydas/status/1752176071016104124
+- **Section:** Design and UI Patterns
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Quote tweet agreeing that hands-on college engineering teams like Formula SAE can create stronger career signals than classes alone.
+
+---
+
+# Sunday, January 28, 2024
+
+## @GeringerAdam - Leaving tech for skilled trades
+> I’m 25 and tomorrow is the first day of my new career. After an unnecessarily hectic year in tech/ML, I’m out.
+>
+> I’ve decided that the industry is on track to become something I don’t want to participate in. Labor will be squeezed between LLMs, increasing amounts of insider games, and a desperate labor force willing to work for cheaper and longer. There is no shortage of talent in tech, in fact it seems to be a black hole for talented people actually capable of changing the world for better.
+>
+> All of this on the backdrop of talent shortages in other industries. These industries that are neglected, present the highest ROI for applying tech. This is where applying machine learning yields actual ROI. I’d describe this as a breath of fresh air. It seems like tech has just become SaaS companies exchanging api keys and acting like billions of dollars of efficiency and value is being created. Fake!
+>
+> Ownership and mastery are important to me. I want to master a skill and build a business around it. Simple is better here. Machine learning seems to offer neither, so I must leave to pursue my new field of work.
+>
+> After long consideration I have decided to move into geomatics and surveying. At a glance
+> - indoor and outdoor job
+> - ancient
+> - market can be cornered
+> - cannot be outsourced or mechanized
+> - basic skills can be mastered
+>
+> On top of job perks the licensing is the ultimate draw. Professional Land Surveyor (PLS) licenses are rare, required, and respected. The median age of these license holders is in their 60s. In other words at least half of the license holders are looking to retire soon.
+>
+> But it’s a very long process to get a license, even with a bachelors of applied math. Likely more school and years of work experience.
+>
+> The first step is in transitioning my data engineering skills from machine learning with point clouds to capturing the point clouds as a lidar tech. New job starts next week.
+>
+> Today is the first day of the rest of your like or some cheesy bullshit.
+>
+> PS. I’ll still be keeping up with ml but only as a hobby
+
+- **Tweet:** https://x.com/GeringerAdam/status/1751740203205579126
+- **Section:** AI Tools and Agents
+- **What:** Adam Geringer announces a move from tech/ML into a new hands-on career, saved as a career-path and AI-era labor-market reflection.
+
+---
+
+# Thursday, January 25, 2024
+
+## @coffeewithone - YC is not automatic customer distribution
+> I can confirm this. You might think that just because we are at YC, we get customers left and right from YC.
+>
+> What you might not understand as a VC who was never a founder is this:
+>
+> People at YC are incredibly smart, hard working and most of them are always ready to help. But if your product is not great (I am not talking about being good, you have to be great), they are just not gonna continue using  it because these people have options, a lot actually. It doesn’t matter if your product is free or you are a YC founder. As a founder you have to work crazy hard to build a great product and only then these smart people your are meeting will keep using your product.
+>
+> @fondocom has an incredible product and you as that VC probably don’t know their story. (I don’t who this VC is but pretty sure they don’t know a thing about building startup from negative + the struggle). Since you just copy paste your case study from a16z or Sequoia or some chart you found on LinkedIn. Let me tell you,  It took @davj’s team a long time, they almost ran out of money and worked insanely hard to get where they are today.
+>
+> Yeah I post everyday about my own journey in public as a YC founder. But this is what people don’t see, my co-founder @halim__rafi and I go through hell everyday to figure out all the technical intricacies to build the best product possible, what our users actually want vs what they would pay for, running around from office to office at SF to learn from other founders and companies, implement feedbacks, and most people always say NO to us. We don’t complain and we just keep shipping.
+>
+> I texted my co-founder today saying that we needed to fix a feature our user asked and he was walking on the street on his way to home. He immediately sat on the side of the street, coded for 2 hours, merged and deployed to production and then went home.
+>
+> We are still not satisfied and can still fail, most startups fail. But we just keep shipping.
+>
+> To any VC who is reading this, please understand that at the end of the day it doesn’t matter if we were in YC or a16z gave us $6M seed check.
+>
+> It’s always and ALWAYS will be building something that people want. And if you are that VC who never built a product from scratch, you might not know this, so let me tell you, it takes a different brain muscle and insane amount of will power + relentless to achieve that.
+>
+> No amount of investment or connections can build a generational company, it’s always building a great product that people love and care about. And @fondocom is doing exactly that, building a great product that people love and care about.
+>
+> (The photo was taken by my co-founder who while he was coding on the side of the street and was showing me the new feature we were working on)
+>
+> *Quoting @davj:* Met a VC today who said the only reason @fondocom has gotten the opportunity to serve 1,000+ founders is because we “are selling to our friends at YC”
+>
+> First off, I wish I had 1,000 friends.
+>
+> Second, we have worked incredibly hard to win the business of 1,000+ incredible founders. Proud of us.
+>
+> If you’re reading this, fuck you.
+
+- **Tweet:** https://x.com/coffeewithone/status/1750777190197997822
+- **Quoted:** https://x.com/davj/status/1750768064399077478
+- **Section:** Product and Startup Ideas
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Founder confirms that YC does not automatically deliver customers; even YC-backed companies must earn distribution and sales.
+
+---
+
+# Wednesday, January 24, 2024
+
+## @fireship_dev - Solopreneur economics critique
+> Being a solopreneur is dumb
+>
+> If you're lucky, you might make a million bucks grinding for an honest profit, 37% of which gets stolen to fix the roads (income tax)
+>
+> If you wanna get rich find multiple co-founders, take the VC money, grow fast, and don't bother with profits
+>
+> Even when you give up 90% of your equity, you'll still make 100x more than most solopreneurs if you exit for a modest 1 billion
+>
+> And you'll only pay 20% capital gains tax, lol
+
+- **Tweet:** https://x.com/fireship_dev/status/1750287971906179437
+- **Section:** AI Tools and Agents
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Fireship critiques solopreneurship economics by contrasting high-effort independent profit with taxes and the leverage of bigger outcomes.
+
+---
+
+# Tuesday, January 23, 2024
+
+## @ridd_design - Website inspiration sources
+> Bunch of people asking "where do you find these websites?" recently...
+>
+> Here's where I'm getting inspiration lately 👇
+
+- **Tweet:** https://x.com/ridd_design/status/1749831890356547638
+- **Section:** Design and UI Patterns
+- **What:** Ridd shares where he finds website inspiration, useful as a design research source list.
+
+## @brotzky - Stock screener data complexity
+> Building a Stock Screener is incredibly complex.
+>
+> The amount of data you need is only half the equation. You also have to make it searchable and simple to use.
+>
+> What’s the trick to ours? https://t.co/GtnaBWUKoz
+
+- **Tweet:** https://x.com/brotzky/status/1749845351593595068
+- **Media:** https://twitter.com/brotzky_/status/1749845351593595068/video/1
+- **Section:** Design and UI Patterns
+- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
+- **What:** Brotzky explains that building a stock screener is complex because data is only part of the challenge; interaction, filtering, and presentation also matter.
+
+---
+
+# Monday, January 22, 2024
+
+## @jayair - AI search demo rationale
+> Our little AI demo went viral over the weekend so I wanted to take a minute to share why we built it.
+>
+> I also have a slightly different take on these LLMs.
+>
+> *cough* AI is the future of UI *cough*
+>
+> Let's do a thread!
+>
+> *Quoting @thdxr:* we’re re-enacting the plot to silicon valley with LLMs
+>
+> we’ve been gifted the best way to search over compressed data ever invented
+>
+> but everyone is building the same chatbot over and over
+>
+> we built a 100% open source demo of something more practical
+>
+> check the thread https://t.co/OP3Yq11u4I
+
+- **Tweet:** https://x.com/jayair/status/1749506462802432317
+- **Media:** https://twitter.com/thdxr/status/1748380755942609376/photo/1
+- **Quoted:** https://x.com/thdxr/status/1748380755942609376
+- **Section:** AI Tools and Agents
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Jay V explains why an AI demo went viral and frames LLMs as a way to search over compressed data beyond generic chatbots.
+
+---
+
+# Sunday, January 21, 2024
+
+## @ixahmedxi - Monorepos basics explainer
+> Monorepos as a concept is a bit challenging to understand, and so I made a video explaining the basics of monorepos. Check it out! https://t.co/PL3JxvAeL0
+
+- **Tweet:** https://x.com/ixahmedxi/status/1749037230612447445
+- **Media:** https://twitter.com/ixahmedxii/status/1749037230612447445/photo/1
+- **Section:** AI Tools and Agents
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Ahmed shares a visual/video explanation of monorepos, aimed at making the concept easier to understand.
+
+## @natiakourdadze - Viral content metric checklist for founders
+> If you are a startup founder and have less than 1000 followers, this checklist of metrics can help with the viral content marketing on X:
+>
+> 1. Twitter blue (2x boost)
+> 2. Likes (30x boost)
+> 3. Comments (50x boost)
+> 4. Retweets (20x boost)
+>
+> 5. Links (limited reach)
+> 6. Visual content (2x boost)
+> 7. Misinformation (limited reach)
+> 8. Getting unfollows (limited reach)
+>
+> 9. If you are barely getting impressions, leave the comments on big creators' posts for 3 weeks (Elon Musk, Sahil Bloom, Sam Altman, Tim Cook, Dan Koe, Justin Welsh, etc.)
+> 10. If you want to get attention faster, focus on meme marketing.
+> 11. If you are past 1000 followers and want to get quality leads, focus on educational content.
+>
+> 12. If you want to automate reposting of your posts, use Phantombuster's automations.
+> 13. If you want to capture ideas on X faster, use the chrome extension: Save to Notion.
+>
+> P.s.
+>
+> X has a snowball effect, once you get the attention, there is no going back! One of my most viral posts reached 922K impressions today 🫣
+>
+> #buildinpublic
+
+- **Tweet:** https://x.com/natiakourdadze/status/1749066471748051013
+- **Section:** Product and Startup Ideas
+- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
+- **What:** Checklist of metrics intended to help startup founders with under 1,000 followers understand and improve viral content performance.
+
+## @jlndev - 10,000+ shadcn/ui themes
+> Just open sourced my project with the 10.000+ Themes for shadcn/ui
+>
+> https://t.co/zIMEsdvDLo
+
+- **Tweet:** https://x.com/jlndev/status/1749079458466664757
+- **GitHub:** https://github.com/jln13x/ui.jln.dev
+- **Filed:** [ui-jln-dev.md](./knowledge/tools/ui-jln-dev.md)
+- **Section:** Coding Reference
+- **What:** Open-source TypeScript project providing over 10,000 themes for shadcn/ui, useful for rapidly exploring interface palettes and component styling.
+
+## @donaldklee - Build in public distribution warning
+> I have a friend who is building a SaaS.
+>
+> But he's not building in public or his personal brand.
+>
+> He hopes that it will pay off and free him from the 9-5.
+>
+> Build it and they will come, the old false adage.
+>
+> What advice would you give him?
+
+- **Tweet:** https://x.com/donaldklee/status/1749141007067758980
+- **Section:** Design and UI Patterns
+- **What:** Founder caution that building a SaaS without a personal brand, public building, or distribution system leaves growth too dependent on launch luck.
+
+## @CodeHagen - CodeHagen open-source growth update
+> Update after 3 weeks of open source ✨
+>
+> Since our last update, we've had a stunning growth:
+>
+> ◆ 429 stars ⭐ (189% growth)
+> ◆ 32 Pull-requests 🔁 (60% growth)
+> ◆ 84 members on Discord 👥 (82% growth)
+> ◆ 17 contributors 🧑‍💻 (33% growth)
+>
+> Blown away by your enthusiasm.
+> Honored to be part of this journey. ✨
+>
+> Video is off the software at this stage.
+>
+> Tech-stack:
+> @nextjs
+> @nextauthjs
+> @prisma
+> @resend
+> @shadcn
+> @tailwindcss
+> @PlanetScale
+
+- **Tweet:** https://x.com/CodeHagen/status/1749151193975111971
+- **Section:** AI Tools and Agents
+- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
+- **What:** Three-week open-source update showing strong GitHub star growth and project momentum, useful as a build-in-public example.
+
+---
+
+# Saturday, January 20, 2024
+
+## @hobdaydesign - Strut website design critique
+> Here's what I like about the @strut_ai website.
+> 1) This yellow-orange blob in the background helps to highlight/focus attention on the main call to action, and means that the button colour doesn't feel as suddenly against the website background. https://t.co/n6yZd9sgCw
+
+- **Tweet:** https://x.com/hobdaydesign/status/1748683815323684920
+- **Media:** https://twitter.com/hobdaydesign/status/1748683815323684920/photo/1
+- **Section:** AI Tools and Agents
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Design critique noting how the Strut website uses a yellow-orange background blob to focus attention and structure the hero.
+
+## @Abmankendrick - Four free typefaces for UI design
+> UI/UX Designers, here are 04 amazing free typefaces that I'm loving right now ✨ https://t.co/4sKGZytv4W
+
+- **Tweet:** https://x.com/Abmankendrick/status/1748731310724514261
+- **Media:** https://twitter.com/Abmankendrick/status/1748731310724514261/photo/1
+- **Section:** Design and UI Patterns
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Typeface reference thread collecting four free fonts for UI/UX designers, saved for visual and typography inspiration.
+
+## @adriankuleszo - DesignMe hero section video
+> New hero section for DesignMe 🎞️ https://t.co/Cbm7vATjmA
+
+- **Tweet:** https://x.com/adriankuleszo/status/1748818409649828098
+- **Media:** https://twitter.com/uiuxadrian/status/1748818409649828098/video/1
+- **Section:** Design and UI Patterns
+- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
+- **What:** New hero section concept for DesignMe, saved as a motion and landing-page reference from sampled video frames.
+
+---
+
+# Wednesday, January 17, 2024
+
+## @rauchg - Luma product praise
+> https://t.co/zJTSKoh5ys is an incredible product https://t.co/raigigEGzN
+
+- **Tweet:** https://x.com/rauchg/status/1747659596918120871
+- **Link:** https://luma.com/
+- **Media:** https://twitter.com/rauchg/status/1747659596918120871/video/1
+- **Section:** AI Tools and Agents
+- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
+- **What:** Guillermo Rauch praises Luma as an excellent product, with a video demo and link to the product.
+
+## @tailwiinder - Cormen-first college CS advice
+> If you're in your first year of college -
+>
+> Before you discover any bhaiya or didi on YouTube, read Cormen with full faith.
+>
+> Take some time out, immerse yourself in it. See yourself turn into an absolute megachad of an engineer. https://t.co/B0dJbfMQte
+
+- **Tweet:** https://x.com/tailwiinder/status/1747840063323705374
+- **Media:** https://twitter.com/tailwiinder/status/1747840063323705374/photo/1
+- **Section:** AI Tools and Agents
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Advice for first-year college students to read Cormen and build fundamentals before relying on influencer-style learning paths.
+
+## @danluu - Google culture change discussion
+> Current and former Google engineers discuss how Google has changed: https://t.co/NzIb6JxfT8
+
+- **Tweet:** https://x.com/danluu/status/1747844679671140708
+- **Media:** https://twitter.com/danluu/status/1747844679671140708/photo/1
+- **Section:** Visual Reference
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Dan Luu links a discussion among current and former Google engineers about how Google has changed over time.
+
+---
+
+# Tuesday, January 16, 2024
+
+## @emilkowalski - Animations on the web course
+> Introducing Animations on the web
+>
+> A course about how to craft animations that make people feel something.
+>
+> It contains everything I know about motion on the web.
+>
+> https://t.co/RP4FIdUZHG https://t.co/Ryndtm1WXj
+
+- **Tweet:** https://x.com/emilkowalski/status/1747257917919932905
+- **Link:** https://animations.dev/
+- **Media:** https://twitter.com/emilkowalski_/status/1747257917919932905/video/1
+- **Section:** Design and UI Patterns
+- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
+- **What:** Launch of Emil Kowalski’s course on crafting web animations that feel polished and emotionally responsive, with a video demo.
+
+## @leerob - Self-hosting Next.js context
+> *Replying to @tannerlinsley:* Does anyone out there I know host Next on something other Vercel? I'm genuinely curious, so speak up if you do. Is it easy? Is it feature-complete?
+>
+> Even though I prefer Vercel, ofc, I talk to and support tons of folks who self-host Next. Some thoughts on this as I can understand the sentiment.
+>
+> Most of these devs are at very large companies where they have an infrastructure or DevOps team that manages their Kubernetes setup. Product engineers hand off the Next.js app in a Docker container and wave goodbye to the infra team to take it from there.
+>
+> So, easy for the product engineer writing Next.js code, absolutely. For managing the infra? Well that's a tougher conversation. Some people think it's easy, but overall I think the state of cloud infrastructure is pretty hard unless that's your job.
+>
+> The discourse around "is self-hosting Next.js easy?" usually comes from folks trying to run multi-region or multi-container workloads. Deploying a Dockerized Next.js app? Takes like ~5min to GCP / AWS from our Docker example, works with all features.
+>
+> Scaling a multi-container, multi-region global workload? Hard to do for product engineers. Still kind of hard for infrastructure folks. We've tried to make it easier to giving them hooks to bring their own Redis cache.
+>
+> Still think there's more we can do to make self-hosting even better, like continuing to invest in the static export option as well for folks who want to dump to S3.
+>
+> I love working with and talking to folks like Twitch, Hulu, Walmart, Doordash, and more who all have really exceptional infra teams that manage their Next.js apps self-hosted.
+>
+> P.S. we recently updated our docs here!
+>
+> https://t.co/mtlqxw1U9I
+
+- **Tweet:** https://x.com/leerob/status/1747432003614437453
+- **Link:** https://nextjs.org/docs/app/getting-started/deploying
+- **Parent:** https://x.com/tannerlinsley/status/1747407484665593902
+- **Section:** Design and UI Patterns
+- **What:** Lee Robinson responds to self-hosting Next.js concerns, pointing to deployment docs while acknowledging Vercel preference and non-Vercel users.
+
+---
+
+# Monday, January 15, 2024
+
+## @handotdev - Mintlify DevEx stack
+> The @mintlify devex:
+>
+> - @nextjs for the frontend framework
+> - @vercel for frontend hosting
+> - @tailwindcss for css
+> - @MongoDB for the database
+> - @awscloud for everything backend
+> - @resend for emails
+> - @infisical for secrets management
+> - @dubdotco for links
+> - @mintlify for docs 😎
+
+- **Tweet:** https://x.com/handotdev/status/1746985693577195866
+- **Section:** AI Tools and Agents
+- **What:** Breakdown of Mintlify’s developer experience stack, including Next.js, Vercel, Tailwind, MongoDB, and related tooling choices.
+
+---
+
+# Sunday, January 14, 2024
+
+## @Davidjpark96 - Growth path to 3M ARR
+> How to go from 0 to $3,000,000 ARR in 18 months (step by step)
+>
+> I included all of our growth hacks that we used at each stage of our startup
+>
+> 1. The student cold caller ($0 - $5000 ARR)
+>
+> Cold calling itself is a growth hack because very few people actually have the mental fortitude to get rejected hundreds of times per day.
+>
+> If you can get over that mental blockade, you can learn 10x faster from your users because you are able to skip the bullshit and just talk with them and ask them about their life.
+>
+> One secret I learned to not get hung up on immediately is to be a student.
+>
+> I would always start my cold call with “I’m a student at 'x' university and I'm calling about 'y' because I want to learn more about this field”
+>
+> You will still get rejected because cold calling is inherently annoying for the receiver, but the frequency of getting hung up on as well as the warmth of the prospect was night and day for me.
+>
+> All you need is that extra few seconds of them not hanging up to demonstrate you’re not a greedy leech cold calling to waste their time.
+>
+> You might be thinking “what if I’m not a student, do I lie?”
+>
+> No, don’t lie. That’s weird.
+>
+> But it’s pretty easy to enroll in an online class or become a student to genuinely learn more about the market you will be building for.
+>
+> For example, when I was cold calling I was not a traditional student because I dropped out, but I was taking summer classes when I had time.
+>
+> This growth hack is great because you can talk to users, and get immediate revenue.
+>
+> Its weakness is that it isn’t scalable at all, which is why you should move to different growth strategies once you have some revenue (in our case $5000 ARR) and a basic idea of your users.
+>
+> 2. Facebook groups ($5,000 - $30,000 ARR)
+>
+> I wrote a super extensive post on this a few months ago, but I’ll summarize it again here.
+>
+> Find Facebook groups where your target audience hangs out and deeply immerse yourself.
+>
+> Genuinely engage with power users and become an active member. Active doesn’t mean just posting, it means you are truly learning/contributing.
+>
+> Eventually you will befriend enough people in the group where you can ask them if they’re open to getting on a call so you could pick their brain for just 15 minutes.
+>
+> Use all the learnings you’ve gathered from the group as a whole and these individual calls to build a Minimum Viable Product (MVP) that you will privately share to the relevant group members who you’ve grown close to.
+>
+> As these relationships deepen and the product evolves based on feedback, eventually your beta users will promote your tool on your behalf.
+>
+> If they are hesitant to do so, it likely means that your tool isn’t cool enough or doesn’t provide enough value.
+>
+> This is good, just continue to iterate and get more feedback.
+>
+> Eventually you end up with a pool of people willingly ready to give you product feedback (this is rare), a product that people want to use (this is even more rare) and a tool that already has a few evangelists who are excited to talk about it (this is what you need to get momentum going)
+>
+> 3. Get lucky to build momentum ($30,000 - $120,000 ARR)
+>
+> Once you have a product that has some semblance of PMF, you need to start broadly shooting and experimenting with marketing that can scale.
+>
+> You need to explore before you can exploit.
+>
+> Try your hand at paid ads, influencer marketing, partnering with other tools, etc.
+>
+> Also, try unorthodox things specific to your product.
+>
+> We tried making university ambassador programs, hosting college events, sponsoring clubs, digital ads on student reddit pages, etc.
+>
+> You’ll either succeed with one of these channels, or someone will notice you from these channels and give you your lucky break (assuming your product actually provides value, which it should if you’ve spoken to enough users!)
+>
+> For us, our lucky break was a majorly viral tweet from Zain Kahn.
+>
+> It got over 348k likes and is possibly the most viral tweet about AI in history.
+>
+> We had been paying influencers in Zain’s adjacent space and he must have found our tool from one of these promotions.
+>
+> Either way, that one tweet quadrupled our revenue and propelled us from $30,000 ARR to $120,000 ARR in one month.
+>
+> I wish I had more actionable advice, but unfortunately this is the truth of our journey. We got very lucky.
+>
+> However, I’d argue that these “lucky breaks” are somewhat common if you have a product that people love and you are prepared to take advantage of it.
+>
+> Examples:
+> - You’ll be posting videos for months until one video finally goes viral and suddenly all your videos are being picked up by the algorithm. 0 to 50,000 followers overnight.
+> - You wake up and suddenly you’ve been included in some newsletter or a big account retweeted you and suddenly you’ve 10x’d your traffic
+> - You are unable to close any deals until you miraculously close one big client and now they’re recommending you to all of their other big enterprise friends
+>
+> There’s no formula to “create” luck, but you can increase your surface area of luck for better odds and you can capitalize on situations when luck finally arrives.
+>
+> The actionable advice is to do both of these things to the best of your ability as you’re experimenting and getting your product out there.
+>
+> 4. Social media marketing lives up to the hype ($120,000 - $600,000 ARR)
+>
+> After seeing the insane virality of Zain’s tweet, it was clear that social media was an easy driver of growth for AI tools.
+>
+> We noticed that his tweet inspired several TikTok and Instagram creators to make videos about our startup, and those videos also went viral.
+>
+> So we started taking short-form video marketing very seriously, and it was one of the best decisions that we ever made.
+>
+> I wrote a long post about short-form as well, and that post is more difficult to concisely summarize so I’ll just link that somewhere below this post.
+>
+> In aggregate, we’re approaching a half a billion views just with our organic accounts, and almost all videos are explicitly about our product.
+>
+> You can talk to any AI startup (especially B2C) that has great distribution and all of them are either leveraging short-form or their products are so alluring that their users are creating viral videos for them.
+>
+> All AI demos are inherently flashy/impressive because the underlying tech is so powerful, so why are you not capitalizing on the intrinsic spectacle of what you’ve built?
+>
+> This step is pretty straight forward, just post more TikToks.
+>
+> 5. Diversify at first sign of trouble ($600,000 - $1,740,000 ARR)
+>
+> We were a one trick pony at this point, all of our growth lived and died on whether our videos would go viral that week.
+>
+> The crazy part was that we had a streak of continuous bangers for several months until winter break.
+>
+> But during winter break, our growth plateaued.
+>
+> None of our videos went viral because nobody wanted to watch videos about school, everyone was on break.
+>
+> It was very sobering, and although we could handle a few weeks of slow growth we knew that we couldn’t handle multiple months of slow growth when summer break would roll around.
+>
+> We immediately started unloading all the eggs from our TikTok basket and spreading them out.
+>
+> To name a few: we built out referral systems, 10x’d our influencer marketing budget, took SEO seriously, and started doing paid ads.
+>
+> Thanks to our diversification we grew the fastest we’ve ever grown during summer break.
+>
+> We went from $1M to $1.75M ARR in 3 months despite all of our short-form videos flopping hard.
+>
+> Fast forward to today and organic short-form isn’t even our main source of traffic and tbh I need to spend more time focusing on that distribution arm because we’ve diversified possibly too much.
+>
+> But the key lesson is that had we purely lived and died by our TikTok videos, we would have died.
+>
+> 6. Strengthen the funnel & focus on internal metrics ($1,740,000 - $3,000,000 ARR)
+>
+> Growth isn’t just something external of more views and more clicks.
+>
+> Growth can also be internal, how can you be more efficient with the users that come to your product?
+>
+> At this point we were building out systems so that we would consistently add hundreds of thousands of new users each month, while also tackling our internal growth metrics.
+>
+> We had a renewed focus on improving the very basics of our startup:
+> 1. Conversion rates (how many free users -> paid)
+> 2. Churn rates (how long are users staying?)
+> 3. Growth loops (can we get one user to bring another user?)
+>
+> Don’t get me wrong, we’ve always had a focus on these metrics, but we started to get truly obsessive.
+>
+> We’ve probably done thousands of experiments at this point and the vast majority of them have been “failures”.
+>
+> But all you need are a few key improvements or learnings and it could make a world of a difference.
+>
+> And thankfully we made a lot of headway, particularly when it came to converting users.
+>
+> To put this in perspective:
+> - Before optimizations when we added 241,700 new users our MRR only increased by $26,000 MRR
+> - After optimizations when we added 152,300 new users our MRR increased by $48,000 MRR
+>
+> That month we only had 63% traffic but had 1.8x more growth.
+>
+> These internal improvements will hopefully pay dividends later down the line when we crank up the top of the funnel even more because we’ll convert at a higher rate.
+>
+> The future ($3,000,000 - $??? ARR)
+>
+> We went from 0-$3M ARR and it’s mostly been a cyclical strategy.
+>
+> Explore a myriad of different growth strategies + product directions, then double down when we find something that works well.
+>
+> We’re also always cycling between distribution, conversion or churn.
+>
+> We’re hyper-focused on one of these pillars at all times, it’s just a question of which pillar.
+>
+> As of now, I think we have the systems in place to continue growth at our current pace for the short-medium future, so now it’s time to explore once more.
+>
+> I suspect we can cruise to $4-$5M ARR with our current systems in place, but we’ll have to innovate a bit more to hit $10-$20M ARR.
+>
+> At this point in time, the pillar we are focusing on is churn and we’re exploring multiple product directions that will hopefully double the value that we’re currently providing.
+>
+> And of course, we’re also cooking up some truly unhinged marketing bets that could either embarrassingly flop or have great upside.
+>
+> It feels kind of weird because at each stage of growth I feel like I have to be a ‘different’ founder.
+>
+> Some weeks are honestly really easy because the path forward is so obvious and/or we discover something that works and we’re having so much fun tuning the knobs to try and maximize growth.
+>
+> Other weeks we’re scrambling because no matter what we do it isn’t moving the needle or we’re trying to understand why something isn’t working anymore.
+>
+> The scariest times are when we are afraid that we might be approaching the limit and we can’t scale any further.
+>
+> We know logically that there are always ways to unblock growth/scale, but it doesn’t make the uncertain moments any less daunting.
+>
+> In those uncertain times, it’s extra meaningful to get a pat on the back, a supportive slack message, an unprompted plate of cut fruits (thanks mom), or perhaps an unnecessarily long post on X with a few ideas on how to get to the next stage of growth lol.
+>
+> If you’re currently in an uncertain moment, I hope this post helped a little.
+>
+> Thanks for reading.
+
+- **Tweet:** https://x.com/Davidjpark96/status/1746573265425064293
+- **Section:** Product and Startup Ideas
+- **What:** David Park shares a step-by-step account of growing to $3M ARR in 18 months, including stage-specific growth hacks.
+
+---
+
+# Friday, January 12, 2024
+
+## @amasad - Amjad Masad meme image bookmark
+> 💀 https://t.co/6mCSKZvHXf
+
+- **Tweet:** https://x.com/amasad/status/1746030748602339461
+- **Media:** https://twitter.com/amasad/status/1746030748602339461/photo/1
+- **Section:** Visual Reference
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Visual/culture bookmark from Amjad Masad with a terse reaction; retained as media-first context because the tweet text alone is minimal.
+
+---
+
+# Wednesday, January 10, 2024
+
+## @johnrushx - Five-minute SEO performance query tactic
+> The lowest-hanging SEO fruit I do in 5 min which always works.
+>
+> 1) Go to https://t.co/SVgXtqXOpk
+> 2) Open "Performance" page
+> 3) Sort the "Queries" tab by "Impressions"
+> 4) In the top 20, find top 5 queries with "CTR" &lt; 50%
+> 5) Insert them to your home page hero, h1/h2 &amp; meta tags https://t.co/tnUfqQTvBf
+
+- **Tweet:** https://x.com/johnrushx/status/1745319375299866989
+- **Link:** https://www.google.com/
+- **Media:** https://twitter.com/johnrushx/status/1745319375299866989/photo/1
+- **Section:** Design and UI Patterns
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** John Rush describes a low-effort SEO tactic using Google Search Console Performance data to find high-leverage query/page opportunities.
+
+---
+
+# Sunday, January 7, 2024
+
+## @jxnlco - Advice to young people essay
+> Fuck it ship it.
+>
+> I wrote this while kinda being annoyed by people asking for advice.
+>
+> But know if that I sound angry and haughty, it’s only 40% intentional.
+>
+> https://t.co/2T4vSAnMqv
+
+- **Tweet:** https://x.com/jxnlco/status/1744024140816757112
+- **Link:** https://jxnl.github.io/blog/writing/2024/06/01/advice-to-young-people/?x=1
+- **Section:** Coding Reference
+- **What:** Jason Liu links an essay written from frustration with repeated advice requests; the bookmark captures the more direct, opinionated career and building guidance.
+
+---
+
+# Saturday, January 6, 2024
+
+## @alitaylor - Personal finance advice uncertainty
+> lfg https://t.co/C6qHHeyI0l
+>
+> *Quoting @alitaylor:* i cannot for the life of me figure out if i should be paying someone to manage my money or just putting it in an s&amp;p500 index
+
+- **Tweet:** https://x.com/alitaylor/status/1743731782183489821
+- **Media:** https://twitter.com/_ali_taylor/status/1743731782183489821/photo/1
+- **Quoted:** https://x.com/alitaylor/status/1742622097124315539
+- **Section:** Philosophy and Life
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Quote tweet about whether to pay a money manager or invest in an S&P 500 index, saved as a concise personal-finance decision prompt.
+
+---
+
+# Thursday, January 4, 2024
+
+## @sama - Support for Muslim and Arab tech colleagues
+> muslim and arab (especially palestinian) colleagues in the tech community i've spoken with feel uncomfortable speaking about their recent experiences, often out of fear of retaliation and damaged career prospects.
+>
+> our industry should be united in our support of these colleagues; it is an atrocious time. i continue to hope for a real and lasting peace, and that in the meantime we can treat each other with empathy.
+
+- **Tweet:** https://x.com/sama/status/1743080079515959364
+- **What:** Sam Altman notes that Muslim and Arab, especially Palestinian, tech colleagues feel uncomfortable speaking about recent experiences and should receive support.
+
+---
+
+# Monday, January 1, 2024
+
+## @Lukewearechange - Terrifying viral video bookmark
+> This clip is absolutely terrifying to me https://t.co/YwzmuznSOZ
+
+- **Tweet:** https://x.com/Lukewearechange/status/1741963336814596146
+- **Media:** https://twitter.com/HumansNoContext/status/1741853474705330461/video/1
+- **Section:** Coding Reference
+- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
+- **What:** Video bookmark saved for later review; only sampled thumbnails/frames are available, so the archive preserves the cautionary context without claiming full video details.
+
+## @ixahmedxi - VS Code setup with Aura and Geist Mono
+> Since many are asking, here is whats in my vscode setup.
+>
+> Theme: Aura theme
+> Font: Geist Mono
+>
+> I use apc vscode extension to apply the font throughout and the non ordinary ui customisations like activity bar on the bottom.
+>
+> *Quoting @ixahmedxi:* @kamilogorek my current setup https://t.co/D37cTTQDNp
+
+- **Tweet:** https://x.com/ixahmedxi/status/1741990178506293543
+- **Media:** https://twitter.com/ixahmedxii/status/1741895573660135601/photo/1
+- **Quoted:** https://x.com/ixahmedxi/status/1741895573660135601
+- **Section:** Design and UI Patterns
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Ahmed shares a VS Code setup using Aura theme, Geist Mono, APC extension, and custom styling; useful as an editor aesthetics reference.
+
+---
+
+# Saturday, December 30, 2023
+
+## @jxnlco - Volume times leverage heuristic
+> *Replying to @jxnlco:* I went from 500 to almost 9.8k followers in less than a year.
+>
+> Here’s how I did it.
+>
+> Realized I average 1 followers per tweet.
+>
+> Then I tweeted 9000 tweets.
+>
+> Outcome = volume * leverage.
+>
+> People forget about volume. 😮‍💨
+
+- **Tweet:** https://x.com/jxnlco/status/1741231673046356006
+- **Parent:** https://x.com/jxnlco/status/1741231077581103570
+- **What:** Compact growth heuristic: outcome equals volume times leverage, with emphasis that people often forget the volume side.
+
+---
+
+# Thursday, December 28, 2023
+
+## @jmtrivedi - Iridescent metallic card interaction
+> I made this iridescent/metallic card, inspired by the cover of @flarup’s iOS App Icon Book.
+>
+> The color, texture, and noise is driven by two SwiftUI Metal shaders. https://t.co/GMmOnYM3N0
+
+- **Tweet:** https://x.com/jmtrivedi/status/1740478680722489559
+- **Media:** https://twitter.com/jmtrivedi/status/1740478680722489559/video/1
+- **Section:** Design and UI Patterns
+- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
+- **What:** Visual design reference for an iridescent/metallic card inspired by an app-icon book cover, useful for texture, shine, and motion treatment ideas.
+
+## @readswithravi - Reading into theory and concepts
+> “Read enough, and you become a connoisseur. Then you naturally gravitate more towards theory, concepts, non-fiction”, says Naval Ravikant.
+>
+> The genuine love for reading itself, when cultivated, is a superpower.
+>
+> 25 books recommended by @naval 🧵 https://t.co/lmxillISFp
+
+- **Tweet:** https://x.com/readswithravi/status/1740625525415227727
+- **Media:** https://twitter.com/readswithravi/status/1740625525415227727/photo/1
+- **Section:** Design and UI Patterns
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Quote about becoming a connoisseur through enough reading, then naturally moving toward theory, concepts, and nonfiction.
+
+---
+
+# Wednesday, December 27, 2023
+
+## @buccocapital - Interview self-selling advice
+> (1/8) Yesterday I said it was wild how many talented people struggle to sell themselves during interviews
+>
+> Lots of people asked how to do it
+>
+> I've interviewed 100's (if not 1,000's) of ppl, and done a bunch interviewing myself, so here are 5 simple elements of selling yourself
+
+- **Tweet:** https://x.com/buccocapital/status/1740006937826300184
+- **Section:** AI Tools and Agents
+- **What:** Thread about why talented candidates struggle in interviews and how to better communicate evidence of competence and fit.
+
+## @ebey_jacob - Amazon alternative link
+> Hey everyone, this exists https://t.co/9wT9jaXUan
+>
+> Fuck Amazon.
+
+- **Tweet:** https://x.com/ebey_jacob/status/1740089751003451580
+- **Link:** https://t.co/9wT9jaXUan
+- **Section:** Memes and Culture
+- **What:** Brief pointer to an Amazon-related alternative or critique link; the expanded URL failed to fetch, so the archive keeps the context without overclaiming.
+
+---
+
+# Monday, December 25, 2023
+
+## @DhravyaShah - Vercel usage spike from spammed endpoint
+> Oh, here's what happened:
+>
+> Someone spammed my website (sigh)
+>
+> Which is why my all my @Vercel sites have been disabled, including my blog which was popping off 😭
+>
+> @leeerob what to do in this situation? I took complete care, but this happened in nextauth api route https://t.co/5mc59EBVKu
+
+- **Tweet:** https://x.com/DhravyaShah/status/1739340359526662285
+- **Media:** https://twitter.com/DhravyaShah/status/1739340359526662285/photo/1
+- **Section:** Coding Reference
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Postmortem-style note about a spammed website causing large Vercel serverless usage, with screenshot evidence of request paths and execution costs.
+
+---
+
+# Sunday, December 24, 2023
+
+## @jamie_maguire1 - SaaS social media API lessons
+> *Replying to @idanmasas:* I think I’ve chosen the SaaS that will take me to $10k/mo in 2024.
+>
+> A social media management tool.
+>
+> I will design, build, and market it entirely by myself.
+>
+> I would love to hear your honest opinions.
+>
+> @idanmasas I've been through this exactly journey.
+>
+> 24 lessons I learned.
+>
+> https://t.co/VNTd3TUjTI
+
+- **Tweet:** https://x.com/jamie_maguire1/status/1739004296543285738
+- **Link:** https://jamiemaguire.net/index.php/2023/10/14/24-lessons-i-learned-bootstrapping-saas-with-twitter-x-linkedin-facebook-and-instagram-for-business-api-integrations/
+- **Parent:** https://x.com/idanmasas/status/1738902716762534202
+- **Section:** Design and UI Patterns
+- **What:** Reply linking to 24 lessons from building SaaS around Twitter/X, LinkedIn, Facebook, and Instagram business API integrations.
+
+---
+
+# Saturday, December 23, 2023
+
+## @johnrushx - Startup lessons from a first founder journey
+> If only someone told me this before my 1st startup:
+>
+> 1. Validate idea first.
+> I wasted at least 5 years building stuff nobody needed.
+>
+> 2. Kill your EGO.
+> It's not about me, but the user. I must want what the user wants, not what I want.
+>
+> 3. Don't chaise investors, chase users, and then investors will be chasing you.
+>
+> 4. Never hire managers.
+> Only hire doers until PMF.
+>
+> 5. Landing page is the least important thing in a startup.
+> Pick an average template, edit texts and that's it.
+> 90% of the users will end up on your site coming from a blog article, social media post, a recommendation. Which means they have the intent. No need to "convert" them again.
+>
+> 6. Hire only fullstack devs.
+> There is nothing less productive in this world than a team of developers.
+> One full stack dev building the whole product. That's it.
+>
+> 7. Chase global market from day 1.
+> If the product and marketing are good, it will work on the global market too, if it's bad, it won't work on the local market too. So better go global from day 1, so that if it works, the upside is 100x bigger.
+>
+> 8. Do SEO from day 2.
+> As early as you can. I ignored this for 14 years. It's my biggest regret.
+>
+> 9. Sell features, before building them.
+> Ask existing users if they want this feature. I run DMs with 10-20 users every day, where I chat about all my ideas and features I wanna add. I clearly see what resonates with me most and only go build those.
+>
+> 10. Hire only people you would wanna hug.
+> My mentor said this to me in 2015. And it was a big shift. I realized that if I don't wanna hug the person, it means I dislike them. Even if I can't say why, but that's the fact. Sooner or later, we would have a conflict and eventually break up.
+>
+> 11. Invest all money into your startups and friends.
+> Not crypt0, not stockmarket, not properties.
+> I did some math, if I kept investing all my money into all my friends’ startups, that would be about 70 investments.
+> 3 of them turned into unicorns eventually. Even 1 would have made the bank. Since 2022, I have invested all my money into my products, friends, and network.
+>
+> 12. Post on Twitter daily.
+> I started posting here in March this year. It's my primary source of new connections and traffic.
+>
+> 13. Don't work/partner with corporates.
+> Corporations always seem like an amazing opportunity. They're big and rich, they promise huge stuff, millions of users, etc. But every single time none of this happens. Because you talk to a regular employees there. They waste your time, destroy focus, shift priorities, and eventually bring in no users/money.
+>
+> 14. Don't get ever distracted by hype, e.g. crypt0.
+> I lost 1.5 years of my life this way.
+> I met the worst people along the way. Fricks, scammers, thieves. Some of my close friends turned into thieves along the way, just because it was so common in that space. I wish this didn't happen to me.
+>
+> 15. Don't build consumer apps. Only b2b.
+> Consumer apps are so hard, like a lottery. It's just 0.00001% who make it big. The rest don't.
+> Even if I got many users, then there is a monetization challenge. I've spent 4 years in consumer apps and regret it.
+>
+> 16. Don't hold on bad project for too long, max 1 year.
+> Some projects just don't work. In most cases, it's either the idea that's so wrong that you can't even pivot it or it's a team that is good one by one but can't make it as a team. Don't drag this out for years.
+>
+> 17. Tech conferences are a waste of time.
+> They cost money, take energy, and time and you never really meet anyone there. Most people there are the "good" employees of corporations who were sent there as a perk for being loyal to the corporation. Very few fellow makers.
+>
+> 18. Scrum is a Scam.
+> If I had a team that had to be nagged every morning with questions as if they were children in kindergarten, then things would eventually fail.
+> The only good stuff I managed to do happened with people who were grownups and could manage their stuff. We would just do everything over chat as a sync on goals and plans.
+>
+> 19. Outsource nothing at all until PMF.
+> In a startup, almost everything needs to be done in a slightly different way, more creative, and more integrated into the vision. When outsourcing, the external members get no love and no case for the product. It's just yet another assignment in their boring job.
+>
+> 20. Bootstrap.
+> I spent way too much time raising money. I raised more than 10 times, preseed, seed, and series A. But each time it was a 3-9 month project, meetings every week, and lots of destruction. I could afford to bootstrap, but I still went the VC-funded way, I don't know why. To be honest, I didn't know bootstrapping was a thing I could do or anyone does.
+>
+> That's it.
+> All my projects → https://t.co/Fpjq9yZPMZ
+
+- **Tweet:** https://x.com/johnrushx/status/1738718385536393712
+- **Link:** https://x.com/johnrushx/bio
+- **Section:** Product and Startup Ideas
+- **What:** John Rush lists hard-won startup lessons, starting with validating ideas before spending years building products nobody wants.
+
+## @zfellows - Jeff Bezos humbled by physics talent
+> every entrepreneur needs to read the story of Jeff Bezos being humbled https://t.co/Rt0NOitTio
+
+- **Tweet:** https://x.com/zfellows/status/1738724335672520744
+- **Media:** https://twitter.com/ZFellows_/status/1738724335672520744/photo/1
+- **Section:** Visual Reference
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Anecdote about Jeff Bezos realizing theoretical physics was not his path after seeing a peer solve a hard problem instantly, then switching to computer science.
+
+---
+
+# Friday, December 22, 2023
+
+## @joannejang - OpenAI anti-bureaucracy culture note
+> this is what keeps me at OpenAI: specifically, our C-suite in particular has zero tolerance for bullshit.
+>
+> this empowers me to call out BS whenever I see it, and prevented me from quitting exactly a year ago – and I'm so grateful to still be here because of them. https://t.co/Xcsk6mpDRE
+>
+> *Quoting @sama:* what i wish someone had told me:
+>
+> https://t.co/1nEaYimzXG
+
+- **Tweet:** https://x.com/joannejang/status/1738308937806438449
+- **Media:** https://twitter.com/joannejang/status/1738308937806438449/photo/1
+- **Link:** https://blog.samaltman.com/what-i-wish-someone-had-told-me
+- **Quoted:** https://x.com/sama/status/1737967598032326786
+- **Section:** AI Tools and Agents
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Joanne Jang highlights a Sam Altman principle about fighting bureaucracy, framing OpenAI leadership culture as unusually intolerant of organizational drag.
+
+---
+
+# Thursday, December 21, 2023
+
+## @shl - Gumroad product designer application strategy
+> How I would apply for this job:
+>
+> 1. Spend 1 hour watching the recent public board meetings on YouTube
+>
+> 2. Spend 3 hours designing something relevant to the company roadmap in Figma
+>
+> 3. An email or DM with the image embedded inline and some explanations to the design decisions I made
+>
+> Would put you in the top ≈1% of applicants thus far!
+>
+> This is the sort of thinking and effort that’s needed if you’re applying for an in-demand remote job available to everyone. There are only 1 or 2 spots, and there have been over 1,000 applicants thus far (including some very strong people, thank you for applying!)
+>
+> TLDR: Show (don’t tell) that you can do the job to most likely get the job
+>
+> *Quoting @shl:* Gumroad is hiring product designers!
+>
+> - $200/hr, no matter where you live
+> - Choose % you’d like as equity (0-80%)
+> - Work remotely, or from NYC
+> - No meetings besides one a quarter
+>
+> Apply by DMing me a short origin story and a portfolio of some work you’ve shipped, including at least one URL.
+>
+> You can also email me the above: sahil@gumroad.com
+
+- **Tweet:** https://x.com/shl/status/1737841415525470569
+- **Quoted:** https://x.com/shl/status/1737456445363216848
+- **Section:** Design and UI Patterns
+- **What:** Concrete application plan for a Gumroad product design role: study public board meetings, critique the product, then present product directions as evidence of taste and initiative.
+
+## @ocolegro - AgentSearch open-core search engine for agents
+> Today, I'm sharing AgentSearch, an open-core effort to make humanity's knowledge accessible for LLM agents.
+>
+> To start, I have embedded all of Wikipedia, Arxiv, filtered common crawl, and more.
+>
+> The result is over 1 billion embedding vectors, try it at https://t.co/TfSrQTfmmb. https://t.co/t2EIfRNx11
+
+- **Tweet:** https://x.com/ocolegro/status/1737899295573991452
+- **Link:** https://search.sciphi.ai/
+- **Media:** https://twitter.com/ocolegro/status/1737899295573991452/photo/1
+- **Section:** AI Tools and Agents
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Announcement for AgentSearch, an open-core search engine intended to make knowledge accessible to LLM agents. The screenshot shows a dark search landing page with search, research, and docs actions.
+
+---
+
+# Tuesday, December 19, 2023
+
+## @levelsio - Build projects instead of trying to learn all coding
+> I would not try learn to code cause there is no ending for that either, I keep learning new stuff every day
+>
+> I would instead set a goal and a deadline and set a $ price on it with a friend
+>
+> We can do that now: if you don't ship your first website/app with a domain name, that actually does something by January 14 you have to pay me $500
+>
+> Anyone else who wants to join and also do it can join!
+>
+> *Quoting @chillick1:* @levelsio enjoyed your Convergence cameo and been following a while. What would be your tips for someone looking to learn to code, where would you start? With the aim of increasing knowledge and skill but also potentially building out business ideas (indie hacking if you will)
+
+- **Tweet:** https://x.com/levelsio/status/1737070932466811056
+- **Quoted:** https://x.com/chillick1/status/1737064481660842231
+- **Section:** Coding Reference
+- **What:** Levels advises learning to code through specific projects because programming has no fixed endpoint and practical projects create a stronger learning loop.
+
+## @ryanwinchester - Fast patient search as expected baseline
+> The state of web development is in a sad place if this is considered impressive and unusual instead of the norm
+>
+> 30k records is not an insane amount of data
+>
+> is it the result of a generation chasing the wrong direction for too long?
+>
+> *Quoting @thdxr:* impressive performance shouldn't need daily essays telling you it's impressive
+>
+> it should just be impressive
+>
+> here's searching through 30,000 patients at 60fps
+>
+> from a real app customers pay 5 figures a month for
+>
+> RSCs won't help you do this https://t.co/0Y8bpbqJyI
+
+- **Tweet:** https://x.com/ryanwinchester/status/1737289610655404254
+- **Media:** https://twitter.com/thdxr/status/1736780708759175487/video/1
+- **Quoted:** https://x.com/thdxr/status/1736780708759175487
+- **Section:** AI Tools and Agents
+- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
+- **What:** Commentary on a real app searching 30,000 patients at 60fps, arguing that this level of product performance should be normal rather than remarkable.
+
+---
+
+# Monday, December 18, 2023
+
+## @IndieHackers - Five UX/UI tips for founders
+> Most founders suck at UX/UI.
+>
+> 🧵 Here are 5 UX/UI tips to help you move from the bottom 90% to the top 20 (with before/after pictures): 🧵
+
+- **Tweet:** https://x.com/IndieHackers/status/1736703134720766432
+- **Section:** Design and UI Patterns
+- **What:** Indie Hackers thread positioning practical UX/UI improvements as a way for founders to move from weak product design toward stronger execution.
+
+## @jh3yy - Single-attribute CSS explosion interaction
+> – One HTML attribute
+> – One JavaScript event listener
+> – Configurable via CSS custom properties
+>
+> Let's get this explodin' 🤙 https://t.co/06pJnKsLDF
+
+- **Tweet:** https://x.com/jh3yy/status/1736854137634017451
+- **Media:** https://twitter.com/jh3yy/status/1736854137634017451/video/1
+- **Section:** Coding Reference
+- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
+- **What:** Code demo showing an interaction driven by one HTML attribute, one JavaScript listener, and CSS custom properties; useful as a compact pattern for configurable visual effects.
+
+---
+
+# Saturday, December 16, 2023
+
+## @kamilogorek - VS Code TypeScript source definition setting
+> If you are using VS Code to write TypeScript and get annoyed by cmd+click teleporting you to a type definition instead of the implementation:
+>
+> Settings UI: "Prefer Go To Source Definition"
+> or settings.json: "typescript.preferGoToSourceDefinition": true
+>
+> You are welcome 😌
+
+- **Tweet:** https://x.com/kamilogorek/status/1735947897986769136
+- **Section:** Coding Reference
+- **What:** Tip for making cmd-click in VS Code prefer implementation/source definitions over TypeScript declaration files via `typescript.preferGoToSourceDefinition`.
+
+## @nearcyan - Early AI startup discovery through Twitter
+> how early I found recent AI startups via effective twitter usage:
+>
+> midjourney: ~50th user (https://t.co/NaYznr9GKw)
+> chatgpt: 5min after launch (https://t.co/UCkEIl23TP)
+> elevenlabs: day 1 (https://t.co/mKDNtfJSY6)
+> stable diffusion: pre-launch (https://t.co/lMvwV9tUYb)
+> pika labs: ~10th user
+> [redacted ba517ada]: day 1
+> [redacted 1310efab]: pre-launch
+> [redacted 1215569f]: pre-launch
+> [redacted 3a9c99d4]: pre-launch
+> [redacted e4a6ddc5]: ?
+>
+> i love twitter lists
+>
+> *Quoting @nearcyan:* hard to believe that the AI model that can produce these images along with billions of others, using only a few seconds on consumer hardware, is about to be released out into the world forever
+>
+> things will really, really never be the same after this #StableDiffusion https://t.co/rvagzA80SA
+
+- **Tweet:** https://x.com/nearcyan/status/1736163686140756014
+- **Link:** https://twitter.com/nearcyan/status/1622326715887263745
+- **Link:** https://twitter.com/nearcyan/status/1598036052651872256
+- **Link:** https://twitter.com/nearcyan/status/1620275439716683776
+- **Link:** https://twitter.com/nearcyan/status/1559304598992687138
+- **Media:** https://twitter.com/nearcyan/status/1559304598992687138/photo/1
+- **Quoted:** https://x.com/nearcyan/status/1559304598992687138
+- **Section:** AI Tools and Agents
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Reflection on using Twitter to find AI startups extremely early, citing Midjourney, ChatGPT, ElevenLabs, and Stable Diffusion as examples of high-signal discovery before mainstream attention.
+
+---
+
+# Friday, December 15, 2023
+
+## @PixelJanitor - Natural layered shadow recipe
+> Here’s a strategy I use for more natural looking shadows:
+>
+> Adjust your shadow stack sizes to account for a negative spread that’s 1/2 the amount of the Y. To make it even easier, I use a matching Y and Blur for each shadow layer and then set every layer to the same color/opacity. https://t.co/jrYWkr42Bh
+
+- **Tweet:** https://x.com/PixelJanitor/status/1735758919509684360
+- **Media:** https://twitter.com/PixelJanitor/status/1735758919509684360/photo/1
+- **Section:** Visual Reference
+- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
+- **What:** Design reference for softer UI shadows using a matching Y/blur stack with negative spread equal to half the Y offset. The attached image compares a basic shadow ladder with the more natural compressed-spread version.
+
+---
+
+## @saltyAom - Elysia benchmark against Rust and Go
+> Update Elysia's benchmark to include Rust, and Go because I feel too bad comparing Elysia to Node.
+> We are now using TechEmpower as the reference. https://t.co/Lhf9zJEc24
+
+- **Tweet:** https://x.com/saltyAom/status/1735734133383630865
+- **Link:** https://twitter.com/saltyAom/status/1735734133383630865/photo/1
+- **Section:** Coding Reference
+- **Signals:** twitter.com
+- **Visual:** Benchmark chart image comparing Elysia against Rust and Go using TechEmpower-style results.
+- **What:** SaltyAom updates Elysia benchmarks to compare against Rust and Go using TechEmpower as reference, positioning the framework beyond Node comparisons.
+
+---
+
 # Thursday, December 14, 2023
 
 ## @wagieeacc - Mixtral inference price competition
@@ -5481,1158 +6646,6 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 ---
 
-# Monday, January 29, 2024
-
-## @levelsio - Hard paywall experiment for non-VC products
-> I recommend EVERYONE without VC investors to try nuking their free plan and see what happens
-> 
-> Generally I see 2 things happen:
-> - customer support load goes down 100x
-> - revenue goes up 100x
-> 
-> Supporting free users is a VC startup's job not yours
-> 
-> *Quoting @Bptstmlgt:* $10k in January 🤗
-> 
-> Hard paywall was a necessary step that I had never considered up until 4 months ago. Thought it was “wrong” for my users. Yet I feel like I’ve never delivered as much as in the last 2 months.
-> 
-> The best is yet to come 🙏 https://t.co/tOO0Qqot87
-
-- **Tweet:** https://x.com/levelsio/status/1752075138919473349
-- **Media:** https://twitter.com/Bptstmlgt/status/1752045744998023612/photo/1
-- **Quoted:** https://x.com/Bptstmlgt/status/1752045744998023612
-- **Section:** Product and Startup Ideas
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Levels recommends non-VC founders test removing free plans, citing examples where hard paywalls improved both revenue and product focus.
-
-## @carmguti - Impact over gifted-kid identity
-> don’t let your legacy be “over-educated former gifted kid who ended up leaving no impact”
-
-- **Tweet:** https://x.com/carmguti/status/1752116505976730007
-- **What:** A concise reminder not to let education or former gifted-kid identity substitute for actual impact.
-
-## @radshaan - Engineering clubs as career leverage
-> Can confirm. It is why I spend time after classes working on race cars. Most of our team's leads are hired directly by Tesla, Apple, SpaceX, etc. 
-> 
-> If you are a hard tech startup, you NEED to hire from FSAE teams across the country. Insane work ethic and skills across the board
-> 
-> *Quoting @deedydas:* Two of SpaceX's senior execs Mark Juncosa and Bill Riley are Cornell grads who credit their engineering chops to the Formula1 project team (FSAE) in college.
-> 
-> Join clubs in college to actually building stuff together, not the "consulting club" which is just college kids chatting. https://t.co/WZUma0uUnP
-
-- **Tweet:** https://x.com/radshaan/status/1752179527365644464
-- **Media:** https://twitter.com/debarghya_das/status/1752176071016104124/photo/1
-- **Quoted:** https://x.com/deedydas/status/1752176071016104124
-- **Section:** Design and UI Patterns
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Quote tweet agreeing that hands-on college engineering teams like Formula SAE can create stronger career signals than classes alone.
-
----
-
-# Sunday, January 28, 2024
-
-## @GeringerAdam - Leaving tech for skilled trades
-> I’m 25 and tomorrow is the first day of my new career. After an unnecessarily hectic year in tech/ML, I’m out. 
-> 
-> I’ve decided that the industry is on track to become something I don’t want to participate in. Labor will be squeezed between LLMs, increasing amounts of insider games, and a desperate labor force willing to work for cheaper and longer. There is no shortage of talent in tech, in fact it seems to be a black hole for talented people actually capable of changing the world for better.
-> 
-> All of this on the backdrop of talent shortages in other industries. These industries that are neglected, present the highest ROI for applying tech. This is where applying machine learning yields actual ROI. I’d describe this as a breath of fresh air. It seems like tech has just become SaaS companies exchanging api keys and acting like billions of dollars of efficiency and value is being created. Fake!
-> 
-> Ownership and mastery are important to me. I want to master a skill and build a business around it. Simple is better here. Machine learning seems to offer neither, so I must leave to pursue my new field of work.
-> 
-> After long consideration I have decided to move into geomatics and surveying. At a glance
-> - indoor and outdoor job
-> - ancient
-> - market can be cornered
-> - cannot be outsourced or mechanized
-> - basic skills can be mastered
-> 
-> On top of job perks the licensing is the ultimate draw. Professional Land Surveyor (PLS) licenses are rare, required, and respected. The median age of these license holders is in their 60s. In other words at least half of the license holders are looking to retire soon. 
-> 
-> But it’s a very long process to get a license, even with a bachelors of applied math. Likely more school and years of work experience.
-> 
-> The first step is in transitioning my data engineering skills from machine learning with point clouds to capturing the point clouds as a lidar tech. New job starts next week.
-> 
-> Today is the first day of the rest of your like or some cheesy bullshit.
-> 
-> PS. I’ll still be keeping up with ml but only as a hobby
-
-- **Tweet:** https://x.com/GeringerAdam/status/1751740203205579126
-- **Section:** AI Tools and Agents
-- **What:** Adam Geringer announces a move from tech/ML into a new hands-on career, saved as a career-path and AI-era labor-market reflection.
-
----
-
-# Thursday, January 25, 2024
-
-## @coffeewithone - YC is not automatic customer distribution
-> I can confirm this. You might think that just because we are at YC, we get customers left and right from YC. 
-> 
-> What you might not understand as a VC who was never a founder is this:
-> 
-> People at YC are incredibly smart, hard working and most of them are always ready to help. But if your product is not great (I am not talking about being good, you have to be great), they are just not gonna continue using  it because these people have options, a lot actually. It doesn’t matter if your product is free or you are a YC founder. As a founder you have to work crazy hard to build a great product and only then these smart people your are meeting will keep using your product. 
-> 
-> @fondocom has an incredible product and you as that VC probably don’t know their story. (I don’t who this VC is but pretty sure they don’t know a thing about building startup from negative + the struggle). Since you just copy paste your case study from a16z or Sequoia or some chart you found on LinkedIn. Let me tell you,  It took @davj’s team a long time, they almost ran out of money and worked insanely hard to get where they are today. 
-> 
-> Yeah I post everyday about my own journey in public as a YC founder. But this is what people don’t see, my co-founder @halim__rafi and I go through hell everyday to figure out all the technical intricacies to build the best product possible, what our users actually want vs what they would pay for, running around from office to office at SF to learn from other founders and companies, implement feedbacks, and most people always say NO to us. We don’t complain and we just keep shipping. 
-> 
-> I texted my co-founder today saying that we needed to fix a feature our user asked and he was walking on the street on his way to home. He immediately sat on the side of the street, coded for 2 hours, merged and deployed to production and then went home. 
-> 
-> We are still not satisfied and can still fail, most startups fail. But we just keep shipping. 
-> 
-> To any VC who is reading this, please understand that at the end of the day it doesn’t matter if we were in YC or a16z gave us $6M seed check. 
-> 
-> It’s always and ALWAYS will be building something that people want. And if you are that VC who never built a product from scratch, you might not know this, so let me tell you, it takes a different brain muscle and insane amount of will power + relentless to achieve that. 
-> 
-> No amount of investment or connections can build a generational company, it’s always building a great product that people love and care about. And @fondocom is doing exactly that, building a great product that people love and care about. 
-> 
-> (The photo was taken by my co-founder who while he was coding on the side of the street and was showing me the new feature we were working on)
-> 
-> *Quoting @davj:* Met a VC today who said the only reason @fondocom has gotten the opportunity to serve 1,000+ founders is because we “are selling to our friends at YC”
-> 
-> First off, I wish I had 1,000 friends.
-> 
-> Second, we have worked incredibly hard to win the business of 1,000+ incredible founders. Proud of us.
-> 
-> If you’re reading this, fuck you.
-
-- **Tweet:** https://x.com/coffeewithone/status/1750777190197997822
-- **Quoted:** https://x.com/davj/status/1750768064399077478
-- **Section:** Product and Startup Ideas
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Founder confirms that YC does not automatically deliver customers; even YC-backed companies must earn distribution and sales.
-
----
-
-# Wednesday, January 24, 2024
-
-## @fireship_dev - Solopreneur economics critique
-> Being a solopreneur is dumb
-> 
-> If you're lucky, you might make a million bucks grinding for an honest profit, 37% of which gets stolen to fix the roads (income tax)
-> 
-> If you wanna get rich find multiple co-founders, take the VC money, grow fast, and don't bother with profits
-> 
-> Even when you give up 90% of your equity, you'll still make 100x more than most solopreneurs if you exit for a modest 1 billion
-> 
-> And you'll only pay 20% capital gains tax, lol
-
-- **Tweet:** https://x.com/fireship_dev/status/1750287971906179437
-- **Section:** AI Tools and Agents
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Fireship critiques solopreneurship economics by contrasting high-effort independent profit with taxes and the leverage of bigger outcomes.
-
----
-
-# Tuesday, January 23, 2024
-
-## @ridd_design - Website inspiration sources
-> Bunch of people asking "where do you find these websites?" recently...
-> 
-> Here's where I'm getting inspiration lately 👇
-
-- **Tweet:** https://x.com/ridd_design/status/1749831890356547638
-- **Section:** Design and UI Patterns
-- **What:** Ridd shares where he finds website inspiration, useful as a design research source list.
-
-## @brotzky - Stock screener data complexity
-> Building a Stock Screener is incredibly complex.
-> 
-> The amount of data you need is only half the equation. You also have to make it searchable and simple to use.
-> 
-> What’s the trick to ours? https://t.co/GtnaBWUKoz
-
-- **Tweet:** https://x.com/brotzky/status/1749845351593595068
-- **Media:** https://twitter.com/brotzky_/status/1749845351593595068/video/1
-- **Section:** Design and UI Patterns
-- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
-- **What:** Brotzky explains that building a stock screener is complex because data is only part of the challenge; interaction, filtering, and presentation also matter.
-
----
-
-# Monday, January 22, 2024
-
-## @jayair - AI search demo rationale
-> Our little AI demo went viral over the weekend so I wanted to take a minute to share why we built it.
-> 
-> I also have a slightly different take on these LLMs.
-> 
-> *cough* AI is the future of UI *cough*
-> 
-> Let's do a thread!
-> 
-> *Quoting @thdxr:* we’re re-enacting the plot to silicon valley with LLMs
-> 
-> we’ve been gifted the best way to search over compressed data ever invented
-> 
-> but everyone is building the same chatbot over and over
-> 
-> we built a 100% open source demo of something more practical
-> 
-> check the thread https://t.co/OP3Yq11u4I
-
-- **Tweet:** https://x.com/jayair/status/1749506462802432317
-- **Media:** https://twitter.com/thdxr/status/1748380755942609376/photo/1
-- **Quoted:** https://x.com/thdxr/status/1748380755942609376
-- **Section:** AI Tools and Agents
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Jay V explains why an AI demo went viral and frames LLMs as a way to search over compressed data beyond generic chatbots.
-
----
-
-# Sunday, January 21, 2024
-
-## @ixahmedxi - Monorepos basics explainer
-> Monorepos as a concept is a bit challenging to understand, and so I made a video explaining the basics of monorepos. Check it out! https://t.co/PL3JxvAeL0
-
-- **Tweet:** https://x.com/ixahmedxi/status/1749037230612447445
-- **Media:** https://twitter.com/ixahmedxii/status/1749037230612447445/photo/1
-- **Section:** AI Tools and Agents
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Ahmed shares a visual/video explanation of monorepos, aimed at making the concept easier to understand.
-
-## @natiakourdadze - Viral content metric checklist for founders
-> If you are a startup founder and have less than 1000 followers, this checklist of metrics can help with the viral content marketing on X:
-> 
-> 1. Twitter blue (2x boost)
-> 2. Likes (30x boost)
-> 3. Comments (50x boost)
-> 4. Retweets (20x boost)
-> 
-> 5. Links (limited reach)
-> 6. Visual content (2x boost)
-> 7. Misinformation (limited reach)
-> 8. Getting unfollows (limited reach)
-> 
-> 9. If you are barely getting impressions, leave the comments on big creators' posts for 3 weeks (Elon Musk, Sahil Bloom, Sam Altman, Tim Cook, Dan Koe, Justin Welsh, etc.)
-> 10. If you want to get attention faster, focus on meme marketing.
-> 11. If you are past 1000 followers and want to get quality leads, focus on educational content.
-> 
-> 12. If you want to automate reposting of your posts, use Phantombuster's automations.
-> 13. If you want to capture ideas on X faster, use the chrome extension: Save to Notion.
-> 
-> P.s.
-> 
-> X has a snowball effect, once you get the attention, there is no going back! One of my most viral posts reached 922K impressions today 🫣
-> 
-> #buildinpublic
-
-- **Tweet:** https://x.com/natiakourdadze/status/1749066471748051013
-- **Section:** Product and Startup Ideas
-- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
-- **What:** Checklist of metrics intended to help startup founders with under 1,000 followers understand and improve viral content performance.
-
-## @jlndev - 10,000+ shadcn/ui themes
-> Just open sourced my project with the 10.000+ Themes for shadcn/ui
-> 
-> https://t.co/zIMEsdvDLo
-
-- **Tweet:** https://x.com/jlndev/status/1749079458466664757
-- **GitHub:** https://github.com/jln13x/ui.jln.dev
-- **Filed:** [ui-jln-dev.md](./knowledge/tools/ui-jln-dev.md)
-- **Section:** Coding Reference
-- **What:** Open-source TypeScript project providing over 10,000 themes for shadcn/ui, useful for rapidly exploring interface palettes and component styling.
-
-## @donaldklee - Build in public distribution warning
-> I have a friend who is building a SaaS.
-> 
-> But he's not building in public or his personal brand.
-> 
-> He hopes that it will pay off and free him from the 9-5.
-> 
-> Build it and they will come, the old false adage.
-> 
-> What advice would you give him?
-
-- **Tweet:** https://x.com/donaldklee/status/1749141007067758980
-- **Section:** Design and UI Patterns
-- **What:** Founder caution that building a SaaS without a personal brand, public building, or distribution system leaves growth too dependent on launch luck.
-
-## @CodeHagen - CodeHagen open-source growth update
-> Update after 3 weeks of open source ✨  
-> 
-> Since our last update, we've had a stunning growth:
-> 
-> ◆ 429 stars ⭐ (189% growth) 
-> ◆ 32 Pull-requests 🔁 (60% growth) 
-> ◆ 84 members on Discord 👥 (82% growth) 
-> ◆ 17 contributors 🧑‍💻 (33% growth)
-> 
-> Blown away by your enthusiasm. 
-> Honored to be part of this journey. ✨
-> 
-> Video is off the software at this stage. 
-> 
-> Tech-stack: 
-> @nextjs 
-> @nextauthjs 
-> @prisma 
-> @resend 
-> @shadcn 
-> @tailwindcss 
-> @PlanetScale
-
-- **Tweet:** https://x.com/CodeHagen/status/1749151193975111971
-- **Section:** AI Tools and Agents
-- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
-- **What:** Three-week open-source update showing strong GitHub star growth and project momentum, useful as a build-in-public example.
-
----
-
-# Saturday, January 20, 2024
-
-## @hobdaydesign - Strut website design critique
-> Here's what I like about the @strut_ai website.
-> 1) This yellow-orange blob in the background helps to highlight/focus attention on the main call to action, and means that the button colour doesn't feel as suddenly against the website background. https://t.co/n6yZd9sgCw
-
-- **Tweet:** https://x.com/hobdaydesign/status/1748683815323684920
-- **Media:** https://twitter.com/hobdaydesign/status/1748683815323684920/photo/1
-- **Section:** AI Tools and Agents
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Design critique noting how the Strut website uses a yellow-orange background blob to focus attention and structure the hero.
-
-## @Abmankendrick - Four free typefaces for UI design
-> UI/UX Designers, here are 04 amazing free typefaces that I'm loving right now ✨ https://t.co/4sKGZytv4W
-
-- **Tweet:** https://x.com/Abmankendrick/status/1748731310724514261
-- **Media:** https://twitter.com/Abmankendrick/status/1748731310724514261/photo/1
-- **Section:** Design and UI Patterns
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Typeface reference thread collecting four free fonts for UI/UX designers, saved for visual and typography inspiration.
-
-## @adriankuleszo - DesignMe hero section video
-> New hero section for DesignMe 🎞️ https://t.co/Cbm7vATjmA
-
-- **Tweet:** https://x.com/adriankuleszo/status/1748818409649828098
-- **Media:** https://twitter.com/uiuxadrian/status/1748818409649828098/video/1
-- **Section:** Design and UI Patterns
-- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
-- **What:** New hero section concept for DesignMe, saved as a motion and landing-page reference from sampled video frames.
-
----
-
-# Wednesday, January 17, 2024
-
-## @rauchg - Luma product praise
-> https://t.co/zJTSKoh5ys is an incredible product https://t.co/raigigEGzN
-
-- **Tweet:** https://x.com/rauchg/status/1747659596918120871
-- **Link:** https://luma.com/
-- **Media:** https://twitter.com/rauchg/status/1747659596918120871/video/1
-- **Section:** AI Tools and Agents
-- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
-- **What:** Guillermo Rauch praises Luma as an excellent product, with a video demo and link to the product.
-
-## @tailwiinder - Cormen-first college CS advice
-> If you're in your first year of college -
-> 
-> Before you discover any bhaiya or didi on YouTube, read Cormen with full faith.
-> 
-> Take some time out, immerse yourself in it. See yourself turn into an absolute megachad of an engineer. https://t.co/B0dJbfMQte
-
-- **Tweet:** https://x.com/tailwiinder/status/1747840063323705374
-- **Media:** https://twitter.com/tailwiinder/status/1747840063323705374/photo/1
-- **Section:** AI Tools and Agents
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Advice for first-year college students to read Cormen and build fundamentals before relying on influencer-style learning paths.
-
-## @danluu - Google culture change discussion
-> Current and former Google engineers discuss how Google has changed: https://t.co/NzIb6JxfT8
-
-- **Tweet:** https://x.com/danluu/status/1747844679671140708
-- **Media:** https://twitter.com/danluu/status/1747844679671140708/photo/1
-- **Section:** Visual Reference
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Dan Luu links a discussion among current and former Google engineers about how Google has changed over time.
-
----
-
-# Tuesday, January 16, 2024
-
-## @emilkowalski - Animations on the web course
-> Introducing Animations on the web
-> 
-> A course about how to craft animations that make people feel something.
-> 
-> It contains everything I know about motion on the web.
-> 
-> https://t.co/RP4FIdUZHG https://t.co/Ryndtm1WXj
-
-- **Tweet:** https://x.com/emilkowalski/status/1747257917919932905
-- **Link:** https://animations.dev/
-- **Media:** https://twitter.com/emilkowalski_/status/1747257917919932905/video/1
-- **Section:** Design and UI Patterns
-- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
-- **What:** Launch of Emil Kowalski’s course on crafting web animations that feel polished and emotionally responsive, with a video demo.
-
-## @leerob - Self-hosting Next.js context
-> *Replying to @tannerlinsley:* Does anyone out there I know host Next on something other Vercel? I'm genuinely curious, so speak up if you do. Is it easy? Is it feature-complete?
-> 
-> Even though I prefer Vercel, ofc, I talk to and support tons of folks who self-host Next. Some thoughts on this as I can understand the sentiment.
-> 
-> Most of these devs are at very large companies where they have an infrastructure or DevOps team that manages their Kubernetes setup. Product engineers hand off the Next.js app in a Docker container and wave goodbye to the infra team to take it from there.
-> 
-> So, easy for the product engineer writing Next.js code, absolutely. For managing the infra? Well that's a tougher conversation. Some people think it's easy, but overall I think the state of cloud infrastructure is pretty hard unless that's your job.
-> 
-> The discourse around "is self-hosting Next.js easy?" usually comes from folks trying to run multi-region or multi-container workloads. Deploying a Dockerized Next.js app? Takes like ~5min to GCP / AWS from our Docker example, works with all features.
-> 
-> Scaling a multi-container, multi-region global workload? Hard to do for product engineers. Still kind of hard for infrastructure folks. We've tried to make it easier to giving them hooks to bring their own Redis cache.
-> 
-> Still think there's more we can do to make self-hosting even better, like continuing to invest in the static export option as well for folks who want to dump to S3.
-> 
-> I love working with and talking to folks like Twitch, Hulu, Walmart, Doordash, and more who all have really exceptional infra teams that manage their Next.js apps self-hosted.
-> 
-> P.S. we recently updated our docs here! 
-> 
-> https://t.co/mtlqxw1U9I
-
-- **Tweet:** https://x.com/leerob/status/1747432003614437453
-- **Link:** https://nextjs.org/docs/app/getting-started/deploying
-- **Parent:** https://x.com/tannerlinsley/status/1747407484665593902
-- **Section:** Design and UI Patterns
-- **What:** Lee Robinson responds to self-hosting Next.js concerns, pointing to deployment docs while acknowledging Vercel preference and non-Vercel users.
-
----
-
-# Monday, January 15, 2024
-
-## @handotdev - Mintlify DevEx stack
-> The @mintlify devex:
-> 
-> - @nextjs for the frontend framework
-> - @vercel for frontend hosting
-> - @tailwindcss for css
-> - @MongoDB for the database
-> - @awscloud for everything backend
-> - @resend for emails
-> - @infisical for secrets management
-> - @dubdotco for links
-> - @mintlify for docs 😎
-
-- **Tweet:** https://x.com/handotdev/status/1746985693577195866
-- **Section:** AI Tools and Agents
-- **What:** Breakdown of Mintlify’s developer experience stack, including Next.js, Vercel, Tailwind, MongoDB, and related tooling choices.
-
----
-
-# Sunday, January 14, 2024
-
-## @Davidjpark96 - Growth path to 3M ARR
-> How to go from 0 to $3,000,000 ARR in 18 months (step by step)
-> 
-> I included all of our growth hacks that we used at each stage of our startup
-> 
-> 1. The student cold caller ($0 - $5000 ARR)
-> 
-> Cold calling itself is a growth hack because very few people actually have the mental fortitude to get rejected hundreds of times per day.
-> 
-> If you can get over that mental blockade, you can learn 10x faster from your users because you are able to skip the bullshit and just talk with them and ask them about their life.
-> 
-> One secret I learned to not get hung up on immediately is to be a student. 
-> 
-> I would always start my cold call with “I’m a student at 'x' university and I'm calling about 'y' because I want to learn more about this field”
-> 
-> You will still get rejected because cold calling is inherently annoying for the receiver, but the frequency of getting hung up on as well as the warmth of the prospect was night and day for me. 
-> 
-> All you need is that extra few seconds of them not hanging up to demonstrate you’re not a greedy leech cold calling to waste their time.
-> 
-> You might be thinking “what if I’m not a student, do I lie?”
-> 
-> No, don’t lie. That’s weird.
-> 
-> But it’s pretty easy to enroll in an online class or become a student to genuinely learn more about the market you will be building for.
-> 
-> For example, when I was cold calling I was not a traditional student because I dropped out, but I was taking summer classes when I had time.
-> 
-> This growth hack is great because you can talk to users, and get immediate revenue.
-> 
-> Its weakness is that it isn’t scalable at all, which is why you should move to different growth strategies once you have some revenue (in our case $5000 ARR) and a basic idea of your users.
-> 
-> 2. Facebook groups ($5,000 - $30,000 ARR)
-> 
-> I wrote a super extensive post on this a few months ago, but I’ll summarize it again here.
-> 
-> Find Facebook groups where your target audience hangs out and deeply immerse yourself.
-> 
-> Genuinely engage with power users and become an active member. Active doesn’t mean just posting, it means you are truly learning/contributing.
-> 
-> Eventually you will befriend enough people in the group where you can ask them if they’re open to getting on a call so you could pick their brain for just 15 minutes.
-> 
-> Use all the learnings you’ve gathered from the group as a whole and these individual calls to build a Minimum Viable Product (MVP) that you will privately share to the relevant group members who you’ve grown close to. 
-> 
-> As these relationships deepen and the product evolves based on feedback, eventually your beta users will promote your tool on your behalf. 
-> 
-> If they are hesitant to do so, it likely means that your tool isn’t cool enough or doesn’t provide enough value. 
-> 
-> This is good, just continue to iterate and get more feedback. 
-> 
-> Eventually you end up with a pool of people willingly ready to give you product feedback (this is rare), a product that people want to use (this is even more rare) and a tool that already has a few evangelists who are excited to talk about it (this is what you need to get momentum going)
-> 
-> 3. Get lucky to build momentum ($30,000 - $120,000 ARR)
-> 
-> Once you have a product that has some semblance of PMF, you need to start broadly shooting and experimenting with marketing that can scale. 
-> 
-> You need to explore before you can exploit.
-> 
-> Try your hand at paid ads, influencer marketing, partnering with other tools, etc.
-> 
-> Also, try unorthodox things specific to your product. 
-> 
-> We tried making university ambassador programs, hosting college events, sponsoring clubs, digital ads on student reddit pages, etc.
-> 
-> You’ll either succeed with one of these channels, or someone will notice you from these channels and give you your lucky break (assuming your product actually provides value, which it should if you’ve spoken to enough users!)
-> 
-> For us, our lucky break was a majorly viral tweet from Zain Kahn. 
-> 
-> It got over 348k likes and is possibly the most viral tweet about AI in history.
-> 
-> We had been paying influencers in Zain’s adjacent space and he must have found our tool from one of these promotions. 
-> 
-> Either way, that one tweet quadrupled our revenue and propelled us from $30,000 ARR to $120,000 ARR in one month.
-> 
-> I wish I had more actionable advice, but unfortunately this is the truth of our journey. We got very lucky.
-> 
-> However, I’d argue that these “lucky breaks” are somewhat common if you have a product that people love and you are prepared to take advantage of it.
-> 
-> Examples:
-> - You’ll be posting videos for months until one video finally goes viral and suddenly all your videos are being picked up by the algorithm. 0 to 50,000 followers overnight.
-> - You wake up and suddenly you’ve been included in some newsletter or a big account retweeted you and suddenly you’ve 10x’d your traffic
-> - You are unable to close any deals until you miraculously close one big client and now they’re recommending you to all of their other big enterprise friends
-> 
-> There’s no formula to “create” luck, but you can increase your surface area of luck for better odds and you can capitalize on situations when luck finally arrives.
-> 
-> The actionable advice is to do both of these things to the best of your ability as you’re experimenting and getting your product out there.
-> 
-> 4. Social media marketing lives up to the hype ($120,000 - $600,000 ARR)
-> 
-> After seeing the insane virality of Zain’s tweet, it was clear that social media was an easy driver of growth for AI tools.
-> 
-> We noticed that his tweet inspired several TikTok and Instagram creators to make videos about our startup, and those videos also went viral.
-> 
-> So we started taking short-form video marketing very seriously, and it was one of the best decisions that we ever made.
-> 
-> I wrote a long post about short-form as well, and that post is more difficult to concisely summarize so I’ll just link that somewhere below this post.
-> 
-> In aggregate, we’re approaching a half a billion views just with our organic accounts, and almost all videos are explicitly about our product.
-> 
-> You can talk to any AI startup (especially B2C) that has great distribution and all of them are either leveraging short-form or their products are so alluring that their users are creating viral videos for them.
-> 
-> All AI demos are inherently flashy/impressive because the underlying tech is so powerful, so why are you not capitalizing on the intrinsic spectacle of what you’ve built?
-> 
-> This step is pretty straight forward, just post more TikToks.
-> 
-> 5. Diversify at first sign of trouble ($600,000 - $1,740,000 ARR)
-> 
-> We were a one trick pony at this point, all of our growth lived and died on whether our videos would go viral that week.
-> 
-> The crazy part was that we had a streak of continuous bangers for several months until winter break.
-> 
-> But during winter break, our growth plateaued. 
-> 
-> None of our videos went viral because nobody wanted to watch videos about school, everyone was on break.
-> 
-> It was very sobering, and although we could handle a few weeks of slow growth we knew that we couldn’t handle multiple months of slow growth when summer break would roll around.
-> 
-> We immediately started unloading all the eggs from our TikTok basket and spreading them out.
-> 
-> To name a few: we built out referral systems, 10x’d our influencer marketing budget, took SEO seriously, and started doing paid ads.
-> 
-> Thanks to our diversification we grew the fastest we’ve ever grown during summer break.
-> 
-> We went from $1M to $1.75M ARR in 3 months despite all of our short-form videos flopping hard.
-> 
-> Fast forward to today and organic short-form isn’t even our main source of traffic and tbh I need to spend more time focusing on that distribution arm because we’ve diversified possibly too much.
-> 
-> But the key lesson is that had we purely lived and died by our TikTok videos, we would have died.
-> 
-> 6. Strengthen the funnel & focus on internal metrics ($1,740,000 - $3,000,000 ARR)
-> 
-> Growth isn’t just something external of more views and more clicks.
-> 
-> Growth can also be internal, how can you be more efficient with the users that come to your product?
-> 
-> At this point we were building out systems so that we would consistently add hundreds of thousands of new users each month, while also tackling our internal growth metrics.
-> 
-> We had a renewed focus on improving the very basics of our startup:
-> 1. Conversion rates (how many free users -> paid)
-> 2. Churn rates (how long are users staying?)
-> 3. Growth loops (can we get one user to bring another user?)
-> 
-> Don’t get me wrong, we’ve always had a focus on these metrics, but we started to get truly obsessive.
-> 
-> We’ve probably done thousands of experiments at this point and the vast majority of them have been “failures”.
-> 
-> But all you need are a few key improvements or learnings and it could make a world of a difference.
-> 
-> And thankfully we made a lot of headway, particularly when it came to converting users.
-> 
-> To put this in perspective:
-> - Before optimizations when we added 241,700 new users our MRR only increased by $26,000 MRR
-> - After optimizations when we added 152,300 new users our MRR increased by $48,000 MRR
-> 
-> That month we only had 63% traffic but had 1.8x more growth.
-> 
-> These internal improvements will hopefully pay dividends later down the line when we crank up the top of the funnel even more because we’ll convert at a higher rate.
-> 
-> The future ($3,000,000 - $??? ARR)
-> 
-> We went from 0-$3M ARR and it’s mostly been a cyclical strategy.
-> 
-> Explore a myriad of different growth strategies + product directions, then double down when we find something that works well.
-> 
-> We’re also always cycling between distribution, conversion or churn. 
-> 
-> We’re hyper-focused on one of these pillars at all times, it’s just a question of which pillar. 
-> 
-> As of now, I think we have the systems in place to continue growth at our current pace for the short-medium future, so now it’s time to explore once more.
-> 
-> I suspect we can cruise to $4-$5M ARR with our current systems in place, but we’ll have to innovate a bit more to hit $10-$20M ARR.
-> 
-> At this point in time, the pillar we are focusing on is churn and we’re exploring multiple product directions that will hopefully double the value that we’re currently providing.
-> 
-> And of course, we’re also cooking up some truly unhinged marketing bets that could either embarrassingly flop or have great upside.
-> 
-> It feels kind of weird because at each stage of growth I feel like I have to be a ‘different’ founder. 
-> 
-> Some weeks are honestly really easy because the path forward is so obvious and/or we discover something that works and we’re having so much fun tuning the knobs to try and maximize growth.
-> 
-> Other weeks we’re scrambling because no matter what we do it isn’t moving the needle or we’re trying to understand why something isn’t working anymore.
-> 
-> The scariest times are when we are afraid that we might be approaching the limit and we can’t scale any further.
-> 
-> We know logically that there are always ways to unblock growth/scale, but it doesn’t make the uncertain moments any less daunting.
-> 
-> In those uncertain times, it’s extra meaningful to get a pat on the back, a supportive slack message, an unprompted plate of cut fruits (thanks mom), or perhaps an unnecessarily long post on X with a few ideas on how to get to the next stage of growth lol.
-> 
-> If you’re currently in an uncertain moment, I hope this post helped a little.
-> 
-> Thanks for reading.
-
-- **Tweet:** https://x.com/Davidjpark96/status/1746573265425064293
-- **Section:** Product and Startup Ideas
-- **What:** David Park shares a step-by-step account of growing to $3M ARR in 18 months, including stage-specific growth hacks.
-
----
-
-# Friday, January 12, 2024
-
-## @amasad - Amjad Masad meme image bookmark
-> 💀 https://t.co/6mCSKZvHXf
-
-- **Tweet:** https://x.com/amasad/status/1746030748602339461
-- **Media:** https://twitter.com/amasad/status/1746030748602339461/photo/1
-- **Section:** Visual Reference
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Visual/culture bookmark from Amjad Masad with a terse reaction; retained as media-first context because the tweet text alone is minimal.
-
----
-
-# Wednesday, January 10, 2024
-
-## @johnrushx - Five-minute SEO performance query tactic
-> The lowest-hanging SEO fruit I do in 5 min which always works.
-> 
-> 1) Go to https://t.co/SVgXtqXOpk
-> 2) Open "Performance" page
-> 3) Sort the "Queries" tab by "Impressions"
-> 4) In the top 20, find top 5 queries with "CTR" &lt; 50%
-> 5) Insert them to your home page hero, h1/h2 &amp; meta tags https://t.co/tnUfqQTvBf
-
-- **Tweet:** https://x.com/johnrushx/status/1745319375299866989
-- **Link:** https://www.google.com/
-- **Media:** https://twitter.com/johnrushx/status/1745319375299866989/photo/1
-- **Section:** Design and UI Patterns
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** John Rush describes a low-effort SEO tactic using Google Search Console Performance data to find high-leverage query/page opportunities.
-
----
-
-# Sunday, January 7, 2024
-
-## @jxnlco - Advice to young people essay
-> Fuck it ship it. 
-> 
-> I wrote this while kinda being annoyed by people asking for advice. 
-> 
-> But know if that I sound angry and haughty, it’s only 40% intentional.
-> 
-> https://t.co/2T4vSAnMqv
-
-- **Tweet:** https://x.com/jxnlco/status/1744024140816757112
-- **Link:** https://jxnl.github.io/blog/writing/2024/06/01/advice-to-young-people/?x=1
-- **Section:** Coding Reference
-- **What:** Jason Liu links an essay written from frustration with repeated advice requests; the bookmark captures the more direct, opinionated career and building guidance.
-
----
-
-# Saturday, January 6, 2024
-
-## @alitaylor - Personal finance advice uncertainty
-> lfg https://t.co/C6qHHeyI0l
-> 
-> *Quoting @alitaylor:* i cannot for the life of me figure out if i should be paying someone to manage my money or just putting it in an s&amp;p500 index
-
-- **Tweet:** https://x.com/alitaylor/status/1743731782183489821
-- **Media:** https://twitter.com/_ali_taylor/status/1743731782183489821/photo/1
-- **Quoted:** https://x.com/alitaylor/status/1742622097124315539
-- **Section:** Philosophy and Life
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Quote tweet about whether to pay a money manager or invest in an S&P 500 index, saved as a concise personal-finance decision prompt.
-
----
-
-# Thursday, January 4, 2024
-
-## @sama - Support for Muslim and Arab tech colleagues
-> muslim and arab (especially palestinian) colleagues in the tech community i've spoken with feel uncomfortable speaking about their recent experiences, often out of fear of retaliation and damaged career prospects.
-> 
-> our industry should be united in our support of these colleagues; it is an atrocious time. i continue to hope for a real and lasting peace, and that in the meantime we can treat each other with empathy.
-
-- **Tweet:** https://x.com/sama/status/1743080079515959364
-- **What:** Sam Altman notes that Muslim and Arab, especially Palestinian, tech colleagues feel uncomfortable speaking about recent experiences and should receive support.
-
----
-
-# Monday, January 1, 2024
-
-## @Lukewearechange - Terrifying viral video bookmark
-> This clip is absolutely terrifying to me https://t.co/YwzmuznSOZ
-
-- **Tweet:** https://x.com/Lukewearechange/status/1741963336814596146
-- **Media:** https://twitter.com/HumansNoContext/status/1741853474705330461/video/1
-- **Section:** Coding Reference
-- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
-- **What:** Video bookmark saved for later review; only sampled thumbnails/frames are available, so the archive preserves the cautionary context without claiming full video details.
-
-## @ixahmedxi - VS Code setup with Aura and Geist Mono
-> Since many are asking, here is whats in my vscode setup.
-> 
-> Theme: Aura theme
-> Font: Geist Mono
-> 
-> I use apc vscode extension to apply the font throughout and the non ordinary ui customisations like activity bar on the bottom.
-> 
-> *Quoting @ixahmedxi:* @kamilogorek my current setup https://t.co/D37cTTQDNp
-
-- **Tweet:** https://x.com/ixahmedxi/status/1741990178506293543
-- **Media:** https://twitter.com/ixahmedxii/status/1741895573660135601/photo/1
-- **Quoted:** https://x.com/ixahmedxi/status/1741895573660135601
-- **Section:** Design and UI Patterns
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Ahmed shares a VS Code setup using Aura theme, Geist Mono, APC extension, and custom styling; useful as an editor aesthetics reference.
-
----
-
-# Saturday, December 30, 2023
-
-## @jxnlco - Volume times leverage heuristic
-> *Replying to @jxnlco:* I went from 500 to almost 9.8k followers in less than a year. 
-> 
-> Here’s how I did it. 
-> 
-> Realized I average 1 followers per tweet. 
-> 
-> Then I tweeted 9000 tweets.
-> 
-> Outcome = volume * leverage. 
-> 
-> People forget about volume. 😮‍💨
-
-- **Tweet:** https://x.com/jxnlco/status/1741231673046356006
-- **Parent:** https://x.com/jxnlco/status/1741231077581103570
-- **What:** Compact growth heuristic: outcome equals volume times leverage, with emphasis that people often forget the volume side.
-
----
-
-# Thursday, December 28, 2023
-
-## @jmtrivedi - Iridescent metallic card interaction
-> I made this iridescent/metallic card, inspired by the cover of @flarup’s iOS App Icon Book.
-> 
-> The color, texture, and noise is driven by two SwiftUI Metal shaders. https://t.co/GMmOnYM3N0
-
-- **Tweet:** https://x.com/jmtrivedi/status/1740478680722489559
-- **Media:** https://twitter.com/jmtrivedi/status/1740478680722489559/video/1
-- **Section:** Design and UI Patterns
-- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
-- **What:** Visual design reference for an iridescent/metallic card inspired by an app-icon book cover, useful for texture, shine, and motion treatment ideas.
-
-## @readswithravi - Reading into theory and concepts
-> “Read enough, and you become a connoisseur. Then you naturally gravitate more towards theory, concepts, non-fiction”, says Naval Ravikant.
-> 
-> The genuine love for reading itself, when cultivated, is a superpower.
-> 
-> 25 books recommended by @naval 🧵 https://t.co/lmxillISFp
-
-- **Tweet:** https://x.com/readswithravi/status/1740625525415227727
-- **Media:** https://twitter.com/readswithravi/status/1740625525415227727/photo/1
-- **Section:** Design and UI Patterns
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Quote about becoming a connoisseur through enough reading, then naturally moving toward theory, concepts, and nonfiction.
-
----
-
-# Wednesday, December 27, 2023
-
-## @buccocapital - Interview self-selling advice
-> (1/8) Yesterday I said it was wild how many talented people struggle to sell themselves during interviews
-> 
-> Lots of people asked how to do it
-> 
-> I've interviewed 100's (if not 1,000's) of ppl, and done a bunch interviewing myself, so here are 5 simple elements of selling yourself
-
-- **Tweet:** https://x.com/buccocapital/status/1740006937826300184
-- **Section:** AI Tools and Agents
-- **What:** Thread about why talented candidates struggle in interviews and how to better communicate evidence of competence and fit.
-
-## @ebey_jacob - Amazon alternative link
-> Hey everyone, this exists https://t.co/9wT9jaXUan
-> 
-> Fuck Amazon.
-
-- **Tweet:** https://x.com/ebey_jacob/status/1740089751003451580
-- **Link:** https://t.co/9wT9jaXUan
-- **Section:** Memes and Culture
-- **What:** Brief pointer to an Amazon-related alternative or critique link; the expanded URL failed to fetch, so the archive keeps the context without overclaiming.
-
----
-
-# Monday, December 25, 2023
-
-## @DhravyaShah - Vercel usage spike from spammed endpoint
-> Oh, here's what happened:
-> 
-> Someone spammed my website (sigh)
-> 
-> Which is why my all my @Vercel sites have been disabled, including my blog which was popping off 😭
-> 
-> @leeerob what to do in this situation? I took complete care, but this happened in nextauth api route https://t.co/5mc59EBVKu
-
-- **Tweet:** https://x.com/DhravyaShah/status/1739340359526662285
-- **Media:** https://twitter.com/DhravyaShah/status/1739340359526662285/photo/1
-- **Section:** Coding Reference
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Postmortem-style note about a spammed website causing large Vercel serverless usage, with screenshot evidence of request paths and execution costs.
-
----
-
-# Sunday, December 24, 2023
-
-## @jamie_maguire1 - SaaS social media API lessons
-> *Replying to @idanmasas:* I think I’ve chosen the SaaS that will take me to $10k/mo in 2024.
-> 
-> A social media management tool.
-> 
-> I will design, build, and market it entirely by myself.
-> 
-> I would love to hear your honest opinions.
-> 
-> @idanmasas I've been through this exactly journey.
-> 
-> 24 lessons I learned.
-> 
-> https://t.co/VNTd3TUjTI
-
-- **Tweet:** https://x.com/jamie_maguire1/status/1739004296543285738
-- **Link:** https://jamiemaguire.net/index.php/2023/10/14/24-lessons-i-learned-bootstrapping-saas-with-twitter-x-linkedin-facebook-and-instagram-for-business-api-integrations/
-- **Parent:** https://x.com/idanmasas/status/1738902716762534202
-- **Section:** Design and UI Patterns
-- **What:** Reply linking to 24 lessons from building SaaS around Twitter/X, LinkedIn, Facebook, and Instagram business API integrations.
-
----
-
-# Saturday, December 23, 2023
-
-## @johnrushx - Startup lessons from a first founder journey
-> If only someone told me this before my 1st startup:
-> 
-> 1. Validate idea first.
-> I wasted at least 5 years building stuff nobody needed.
-> 
-> 2. Kill your EGO.
-> It's not about me, but the user. I must want what the user wants, not what I want.
-> 
-> 3. Don't chaise investors, chase users, and then investors will be chasing you.
-> 
-> 4. Never hire managers.
-> Only hire doers until PMF.
-> 
-> 5. Landing page is the least important thing in a startup.
-> Pick an average template, edit texts and that's it.
-> 90% of the users will end up on your site coming from a blog article, social media post, a recommendation. Which means they have the intent. No need to "convert" them again.
-> 
-> 6. Hire only fullstack devs.
-> There is nothing less productive in this world than a team of developers.
-> One full stack dev building the whole product. That's it.
-> 
-> 7. Chase global market from day 1.
-> If the product and marketing are good, it will work on the global market too, if it's bad, it won't work on the local market too. So better go global from day 1, so that if it works, the upside is 100x bigger.
-> 
-> 8. Do SEO from day 2.
-> As early as you can. I ignored this for 14 years. It's my biggest regret.
-> 
-> 9. Sell features, before building them.
-> Ask existing users if they want this feature. I run DMs with 10-20 users every day, where I chat about all my ideas and features I wanna add. I clearly see what resonates with me most and only go build those.
-> 
-> 10. Hire only people you would wanna hug.
-> My mentor said this to me in 2015. And it was a big shift. I realized that if I don't wanna hug the person, it means I dislike them. Even if I can't say why, but that's the fact. Sooner or later, we would have a conflict and eventually break up.
-> 
-> 11. Invest all money into your startups and friends.
-> Not crypt0, not stockmarket, not properties.
-> I did some math, if I kept investing all my money into all my friends’ startups, that would be about 70 investments.
-> 3 of them turned into unicorns eventually. Even 1 would have made the bank. Since 2022, I have invested all my money into my products, friends, and network.
-> 
-> 12. Post on Twitter daily.
-> I started posting here in March this year. It's my primary source of new connections and traffic.
-> 
-> 13. Don't work/partner with corporates.
-> Corporations always seem like an amazing opportunity. They're big and rich, they promise huge stuff, millions of users, etc. But every single time none of this happens. Because you talk to a regular employees there. They waste your time, destroy focus, shift priorities, and eventually bring in no users/money.
-> 
-> 14. Don't get ever distracted by hype, e.g. crypt0.
-> I lost 1.5 years of my life this way.
-> I met the worst people along the way. Fricks, scammers, thieves. Some of my close friends turned into thieves along the way, just because it was so common in that space. I wish this didn't happen to me.
-> 
-> 15. Don't build consumer apps. Only b2b.
-> Consumer apps are so hard, like a lottery. It's just 0.00001% who make it big. The rest don't.
-> Even if I got many users, then there is a monetization challenge. I've spent 4 years in consumer apps and regret it.
-> 
-> 16. Don't hold on bad project for too long, max 1 year.
-> Some projects just don't work. In most cases, it's either the idea that's so wrong that you can't even pivot it or it's a team that is good one by one but can't make it as a team. Don't drag this out for years.
-> 
-> 17. Tech conferences are a waste of time.
-> They cost money, take energy, and time and you never really meet anyone there. Most people there are the "good" employees of corporations who were sent there as a perk for being loyal to the corporation. Very few fellow makers.
-> 
-> 18. Scrum is a Scam.
-> If I had a team that had to be nagged every morning with questions as if they were children in kindergarten, then things would eventually fail.
-> The only good stuff I managed to do happened with people who were grownups and could manage their stuff. We would just do everything over chat as a sync on goals and plans.
-> 
-> 19. Outsource nothing at all until PMF.
-> In a startup, almost everything needs to be done in a slightly different way, more creative, and more integrated into the vision. When outsourcing, the external members get no love and no case for the product. It's just yet another assignment in their boring job.
-> 
-> 20. Bootstrap.
-> I spent way too much time raising money. I raised more than 10 times, preseed, seed, and series A. But each time it was a 3-9 month project, meetings every week, and lots of destruction. I could afford to bootstrap, but I still went the VC-funded way, I don't know why. To be honest, I didn't know bootstrapping was a thing I could do or anyone does.
-> 
-> That's it.
-> All my projects → https://t.co/Fpjq9yZPMZ
-
-- **Tweet:** https://x.com/johnrushx/status/1738718385536393712
-- **Link:** https://x.com/johnrushx/bio
-- **Section:** Product and Startup Ideas
-- **What:** John Rush lists hard-won startup lessons, starting with validating ideas before spending years building products nobody wants.
-
-## @zfellows - Jeff Bezos humbled by physics talent
-> every entrepreneur needs to read the story of Jeff Bezos being humbled https://t.co/Rt0NOitTio
-
-- **Tweet:** https://x.com/zfellows/status/1738724335672520744
-- **Media:** https://twitter.com/ZFellows_/status/1738724335672520744/photo/1
-- **Section:** Visual Reference
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Anecdote about Jeff Bezos realizing theoretical physics was not his path after seeing a peer solve a hard problem instantly, then switching to computer science.
-
----
-
-# Friday, December 22, 2023
-
-## @joannejang - OpenAI anti-bureaucracy culture note
-> this is what keeps me at OpenAI: specifically, our C-suite in particular has zero tolerance for bullshit.
-> 
-> this empowers me to call out BS whenever I see it, and prevented me from quitting exactly a year ago – and I'm so grateful to still be here because of them. https://t.co/Xcsk6mpDRE
-> 
-> *Quoting @sama:* what i wish someone had told me:
-> 
-> https://t.co/1nEaYimzXG
-
-- **Tweet:** https://x.com/joannejang/status/1738308937806438449
-- **Media:** https://twitter.com/joannejang/status/1738308937806438449/photo/1
-- **Link:** https://blog.samaltman.com/what-i-wish-someone-had-told-me
-- **Quoted:** https://x.com/sama/status/1737967598032326786
-- **Section:** AI Tools and Agents
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Joanne Jang highlights a Sam Altman principle about fighting bureaucracy, framing OpenAI leadership culture as unusually intolerant of organizational drag.
-
----
-
-# Thursday, December 21, 2023
-
-## @shl - Gumroad product designer application strategy
-> How I would apply for this job:
-> 
-> 1. Spend 1 hour watching the recent public board meetings on YouTube
-> 
-> 2. Spend 3 hours designing something relevant to the company roadmap in Figma
-> 
-> 3. An email or DM with the image embedded inline and some explanations to the design decisions I made
-> 
-> Would put you in the top ≈1% of applicants thus far!
-> 
-> This is the sort of thinking and effort that’s needed if you’re applying for an in-demand remote job available to everyone. There are only 1 or 2 spots, and there have been over 1,000 applicants thus far (including some very strong people, thank you for applying!)
-> 
-> TLDR: Show (don’t tell) that you can do the job to most likely get the job
-> 
-> *Quoting @shl:* Gumroad is hiring product designers!
-> 
-> - $200/hr, no matter where you live
-> - Choose % you’d like as equity (0-80%)
-> - Work remotely, or from NYC
-> - No meetings besides one a quarter
-> 
-> Apply by DMing me a short origin story and a portfolio of some work you’ve shipped, including at least one URL.
-> 
-> You can also email me the above: sahil@gumroad.com
-
-- **Tweet:** https://x.com/shl/status/1737841415525470569
-- **Quoted:** https://x.com/shl/status/1737456445363216848
-- **Section:** Design and UI Patterns
-- **What:** Concrete application plan for a Gumroad product design role: study public board meetings, critique the product, then present product directions as evidence of taste and initiative.
-
-## @ocolegro - AgentSearch open-core search engine for agents
-> Today, I'm sharing AgentSearch, an open-core effort to make humanity's knowledge accessible for LLM agents.
-> 
-> To start, I have embedded all of Wikipedia, Arxiv, filtered common crawl, and more.
-> 
-> The result is over 1 billion embedding vectors, try it at https://t.co/TfSrQTfmmb. https://t.co/t2EIfRNx11
-
-- **Tweet:** https://x.com/ocolegro/status/1737899295573991452
-- **Link:** https://search.sciphi.ai/
-- **Media:** https://twitter.com/ocolegro/status/1737899295573991452/photo/1
-- **Section:** AI Tools and Agents
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Announcement for AgentSearch, an open-core search engine intended to make knowledge accessible to LLM agents. The screenshot shows a dark search landing page with search, research, and docs actions.
-
----
-
-# Tuesday, December 19, 2023
-
-## @levelsio - Build projects instead of trying to learn all coding
-> I would not try learn to code cause there is no ending for that either, I keep learning new stuff every day
-> 
-> I would instead set a goal and a deadline and set a $ price on it with a friend
-> 
-> We can do that now: if you don't ship your first website/app with a domain name, that actually does something by January 14 you have to pay me $500
-> 
-> Anyone else who wants to join and also do it can join!
-> 
-> *Quoting @chillick1:* @levelsio enjoyed your Convergence cameo and been following a while. What would be your tips for someone looking to learn to code, where would you start? With the aim of increasing knowledge and skill but also potentially building out business ideas (indie hacking if you will)
-
-- **Tweet:** https://x.com/levelsio/status/1737070932466811056
-- **Quoted:** https://x.com/chillick1/status/1737064481660842231
-- **Section:** Coding Reference
-- **What:** Levels advises learning to code through specific projects because programming has no fixed endpoint and practical projects create a stronger learning loop.
-
-## @ryanwinchester - Fast patient search as expected baseline
-> The state of web development is in a sad place if this is considered impressive and unusual instead of the norm
-> 
-> 30k records is not an insane amount of data
-> 
-> is it the result of a generation chasing the wrong direction for too long?
-> 
-> *Quoting @thdxr:* impressive performance shouldn't need daily essays telling you it's impressive
-> 
-> it should just be impressive
-> 
-> here's searching through 30,000 patients at 60fps
-> 
-> from a real app customers pay 5 figures a month for
-> 
-> RSCs won't help you do this https://t.co/0Y8bpbqJyI
-
-- **Tweet:** https://x.com/ryanwinchester/status/1737289610655404254
-- **Media:** https://twitter.com/thdxr/status/1736780708759175487/video/1
-- **Quoted:** https://x.com/thdxr/status/1736780708759175487
-- **Section:** AI Tools and Agents
-- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
-- **What:** Commentary on a real app searching 30,000 patients at 60fps, arguing that this level of product performance should be normal rather than remarkable.
-
----
-
-# Monday, December 18, 2023
-
-## @IndieHackers - Five UX/UI tips for founders
-> Most founders suck at UX/UI.
-> 
-> 🧵 Here are 5 UX/UI tips to help you move from the bottom 90% to the top 20 (with before/after pictures): 🧵
-
-- **Tweet:** https://x.com/IndieHackers/status/1736703134720766432
-- **Section:** Design and UI Patterns
-- **What:** Indie Hackers thread positioning practical UX/UI improvements as a way for founders to move from weak product design toward stronger execution.
-
-## @jh3yy - Single-attribute CSS explosion interaction
-> – One HTML attribute
-> – One JavaScript event listener
-> – Configurable via CSS custom properties 
-> 
-> Let's get this explodin' 🤙 https://t.co/06pJnKsLDF
-
-- **Tweet:** https://x.com/jh3yy/status/1736854137634017451
-- **Media:** https://twitter.com/jh3yy/status/1736854137634017451/video/1
-- **Section:** Coding Reference
-- **Visual:** Local media evidence available (video-thumbnail, video-frame); summary is based on tweet context and sampled attachments only.
-- **What:** Code demo showing an interaction driven by one HTML attribute, one JavaScript listener, and CSS custom properties; useful as a compact pattern for configurable visual effects.
-
----
-
-# Saturday, December 16, 2023
-
-## @kamilogorek - VS Code TypeScript source definition setting
-> If you are using VS Code to write TypeScript and get annoyed by cmd+click teleporting you to a type definition instead of the implementation:
-> 
-> Settings UI: "Prefer Go To Source Definition"
-> or settings.json: "typescript.preferGoToSourceDefinition": true
-> 
-> You are welcome 😌
-
-- **Tweet:** https://x.com/kamilogorek/status/1735947897986769136
-- **Section:** Coding Reference
-- **What:** Tip for making cmd-click in VS Code prefer implementation/source definitions over TypeScript declaration files via `typescript.preferGoToSourceDefinition`.
-
-## @nearcyan - Early AI startup discovery through Twitter
-> how early I found recent AI startups via effective twitter usage:
-> 
-> midjourney: ~50th user (https://t.co/NaYznr9GKw)
-> chatgpt: 5min after launch (https://t.co/UCkEIl23TP)
-> elevenlabs: day 1 (https://t.co/mKDNtfJSY6)
-> stable diffusion: pre-launch (https://t.co/lMvwV9tUYb)
-> pika labs: ~10th user
-> [redacted ba517ada]: day 1
-> [redacted 1310efab]: pre-launch
-> [redacted 1215569f]: pre-launch
-> [redacted 3a9c99d4]: pre-launch
-> [redacted e4a6ddc5]: ?
-> 
-> i love twitter lists
-> 
-> *Quoting @nearcyan:* hard to believe that the AI model that can produce these images along with billions of others, using only a few seconds on consumer hardware, is about to be released out into the world forever
-> 
-> things will really, really never be the same after this #StableDiffusion https://t.co/rvagzA80SA
-
-- **Tweet:** https://x.com/nearcyan/status/1736163686140756014
-- **Link:** https://twitter.com/nearcyan/status/1622326715887263745
-- **Link:** https://twitter.com/nearcyan/status/1598036052651872256
-- **Link:** https://twitter.com/nearcyan/status/1620275439716683776
-- **Link:** https://twitter.com/nearcyan/status/1559304598992687138
-- **Media:** https://twitter.com/nearcyan/status/1559304598992687138/photo/1
-- **Quoted:** https://x.com/nearcyan/status/1559304598992687138
-- **Section:** AI Tools and Agents
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Reflection on using Twitter to find AI startups extremely early, citing Midjourney, ChatGPT, ElevenLabs, and Stable Diffusion as examples of high-signal discovery before mainstream attention.
-
----
-
-# Friday, December 15, 2023
-
-## @PixelJanitor - Natural layered shadow recipe
-> Here’s a strategy I use for more natural looking shadows:
-> 
-> Adjust your shadow stack sizes to account for a negative spread that’s 1/2 the amount of the Y. To make it even easier, I use a matching Y and Blur for each shadow layer and then set every layer to the same color/opacity. https://t.co/jrYWkr42Bh
-
-- **Tweet:** https://x.com/PixelJanitor/status/1735758919509684360
-- **Media:** https://twitter.com/PixelJanitor/status/1735758919509684360/photo/1
-- **Section:** Visual Reference
-- **Visual:** Local media evidence available (image); summary is based on tweet context and sampled attachments only.
-- **What:** Design reference for softer UI shadows using a matching Y/blur stack with negative spread equal to half the Y offset. The attached image compares a basic shadow ladder with the more natural compressed-spread version.
-
----
-
 # Thursday, December 2, 2021
 
 ## @dalvarago - iMessage Wrapped Parody Screens
@@ -6748,4 +6761,3 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 
 - **Tweet:** https://x.com/ZohranKMamdani/status/521498505081532417
 - **What:** Personal music appreciation post revisiting Kanye West's *My Beautiful Dark Twisted Fantasy*.
-
