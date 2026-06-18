@@ -359,6 +359,13 @@ Example `smaug.config.json`:
   },
   "autoInvokeClaude": true,
   "claudeModel": "sonnet",
+  "autoInvokeCodex": true,
+  "codexModel": "gpt-5.5",
+  "codexSandbox": "workspace-write",
+  "codexApprovalPolicy": "never",
+  "codexIgnoreUserConfig": true,
+  "codexReasoningEffort": null,
+  "codexServiceTier": null,
   "claudeTimeout": 900000,
   "allowedTools": "Read,Write,Edit,Glob,Grep,Bash,Task,TodoWrite",
   "webhookUrl": null,
@@ -370,22 +377,61 @@ Example `smaug.config.json`:
 |--------|---------|-------------|
 | `source` | `bookmarks` | What to fetch: `bookmarks` (default), `likes`, or `both` |
 | `includeMedia` | `false` | **EXPERIMENTAL**: Include media attachments (photos, videos, GIFs) |
+| `mediaCacheDir` | `./.state/media` | Local cache for images/video thumbnails used by Codex visual analysis |
 | `fetchPageDelayMs` | `0` | Delay between paginated bookmark pages in milliseconds |
 | `fetchPageSize` | `null` | Page size to use when throttling paginated bookmark fetches |
 | `birdRequestDelayMs` | `0` | Delay before X-side `bird` read/search requests |
 | `bookmarkDelayMs` | `0` | Delay between bookmark preparation steps |
 | `archiveFile` | `./bookmarks.md` | Main archive file |
 | `timezone` | `America/New_York` | For date formatting |
-| `cliTool` | `claude` | AI CLI to use: `claude` or `opencode` |
+| `cliTool` | `claude` | AI CLI to use: `claude`, `opencode`, or `codex` |
 | `autoInvokeClaude` | `true` | Auto-run Claude Code for analysis |
 | `claudeModel` | `sonnet` | Model to use (`sonnet`, `haiku`, or `opus`) |
 | `autoInvokeOpencode` | `true` | Auto-run OpenCode for analysis |
 | `opencodeModel` | `opencode/glm-4.7-free` | OpenCode model (see OpenCode docs) |
+| `autoInvokeCodex` | `true` | Auto-run Codex CLI for analysis |
+| `codexModel` | `gpt-5.5` | Codex model to use |
+| `codexSandbox` | `workspace-write` | Codex sandbox mode for `codex exec` |
+| `codexApprovalPolicy` | `never` | Codex approval policy for non-interactive runs |
+| `codexIgnoreUserConfig` | `true` | Run Codex with `--ignore-user-config` while still using saved auth |
+| `codexReasoningEffort` | `null` | Optional Codex reasoning effort override, such as `low`, `medium`, or `high` |
+| `codexServiceTier` | `null` | Optional Codex service tier override, such as `fast` or `flex` |
+| `codexMaxImages` | `24` | Max enriched images/thumbnails attached to a Codex processing batch |
 | `claudeTimeout` | `900000` | Max processing time (15 min) |
 | `parallelThreshold` | `8` | Min bookmarks before parallel processing kicks in |
 | `webhookUrl` | `null` | Discord/Slack webhook for notifications |
 
-Environment variables also work: `AUTH_TOKEN`, `CT0`, `SOURCE`, `INCLUDE_MEDIA`, `FETCH_PAGE_DELAY_MS`, `FETCH_PAGE_SIZE`, `BIRD_REQUEST_DELAY_MS`, `BOOKMARK_DELAY_MS`, `ARCHIVE_FILE`, `TIMEZONE`, `CLI_TOOL`, `CLAUDE_MODEL`, `OPENCODE_MODEL`, etc.
+Environment variables also work: `AUTH_TOKEN`, `CT0`, `SOURCE`, `INCLUDE_MEDIA`, `MEDIA_CACHE_DIR`, `FETCH_PAGE_DELAY_MS`, `FETCH_PAGE_SIZE`, `BIRD_REQUEST_DELAY_MS`, `BOOKMARK_DELAY_MS`, `ARCHIVE_FILE`, `TIMEZONE`, `CLI_TOOL`, `CLAUDE_MODEL`, `OPENCODE_MODEL`, `CODEX_MODEL`, `CODEX_SANDBOX`, `CODEX_APPROVAL_POLICY`, `CODEX_IGNORE_USER_CONFIG`, `CODEX_REASONING_EFFORT`, `CODEX_SERVICE_TIER`, `CODEX_MAX_IMAGES`, etc.
+
+### Organization and Media Enrichment
+
+Before running AI processing on a large backlog, enrich pending bookmarks with richer routing metadata:
+
+```bash
+npx smaug enrich
+```
+
+This adds an `organization` object to each pending bookmark with:
+- `category`: stable machine category such as `coding_reference`, `design_ui`, `visual_reference`, or `research_papers`
+- `section`: reader-facing section such as `Coding Reference` or `Design and UI Patterns`
+- `signals`: domains, link types, and context clues used for routing
+- `needsMediaAnalysis`: whether visual media should influence the final summary
+
+For visual analysis, hydrate media URLs and cache image/video thumbnails locally:
+
+```bash
+npx smaug enrich --limit 25 --media --download-media --bird-delay-ms 1000
+```
+
+To test the freshest bookmarks first, add `--latest`:
+
+```bash
+npx smaug enrich --latest --limit 25 --media --download-media --bird-delay-ms 1000
+```
+
+When enriched bookmarks have local `mediaAssets[]`, Codex-backed `smaug run` attaches those images/thumbnails to `codex exec` using `--image`. This lets Codex inspect actual images and video thumbnails while organizing the current batch.
+
+For videos, Smaug currently caches thumbnails and records direct video URLs when `bird read` exposes them. It does not yet sample multiple frames or transcribe audio automatically.
 
 ### Experimental: Media Attachments
 
@@ -418,6 +464,34 @@ Smaug supports multiple AI CLI tools for intelligent bookmark processing:
 
 - **Claude Code** (default) - Anthropic's Claude CLI
 - **OpenCode** - Alternative AI CLI with support for multiple models
+- **Codex CLI** - OpenAI's Codex CLI, run via non-interactive `codex exec`
+
+### Using Codex CLI
+
+To use Codex instead of Claude Code:
+
+```json
+{
+  "cliTool": "codex",
+  "autoInvokeCodex": true,
+  "codexModel": "gpt-5.5",
+  "codexSandbox": "workspace-write",
+  "codexApprovalPolicy": "never",
+  "codexIgnoreUserConfig": true,
+  "codexReasoningEffort": "low",
+  "codexServiceTier": "fast"
+}
+```
+
+`codexIgnoreUserConfig: true` avoids stale or incompatible local `~/.codex/config.toml` settings while still using saved Codex authentication.
+
+Set via environment variable:
+```bash
+export CLI_TOOL=codex
+export CODEX_MODEL=gpt-5.5
+export CODEX_REASONING_EFFORT=low
+export CODEX_SERVICE_TIER=fast
+```
 
 ### Using OpenCode (Alternative to Claude)
 

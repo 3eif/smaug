@@ -21,6 +21,14 @@ export {
 // Configuration
 export { loadConfig, initConfig } from './config.js';
 
+// Organization and media enrichment
+export {
+  classifyBookmark,
+  collectCodexImageInputs,
+  enrichPendingBookmarks,
+  inferMediaRefs
+} from './organizer.js';
+
 // Scheduled job runner
 export { run as runJob } from './job.js';
 export { default as job } from './job.js';

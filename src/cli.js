@@ -7,6 +7,7 @@
  *   setup    - Interactive setup wizard (recommended for first-time users)
  *   run      - Run the full job (fetch + process with Claude Code)
  *   fetch    - Fetch bookmarks and prepare them for processing
+ *   enrich   - Add organization and media metadata to pending bookmarks
  *   process  - Process pending bookmarks with Claude Code
  *   status   - Show current configuration and status
  *   init     - Create a config file (non-interactive)
@@ -14,6 +15,7 @@
 
 import { fetchAndPrepareBookmarks } from './processor.js';
 import { initConfig, loadConfig } from './config.js';
+import { enrichPendingBookmarks } from './organizer.js';
 import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
@@ -326,6 +328,43 @@ async function main() {
       break;
     }
 
+    case 'enrich': {
+      const limitIdx = args.findIndex(a => a === '--limit' || a === '-l');
+      let limit = null;
+      if (limitIdx !== -1 && args[limitIdx + 1]) {
+        limit = parseInt(args[limitIdx + 1], 10);
+        if (Number.isNaN(limit) || limit <= 0) {
+          console.error('Invalid --limit value. Must be a positive number.');
+          process.exit(1);
+        }
+      }
+
+      const birdDelayIdx = args.findIndex(a => a === '--bird-delay-ms');
+      let birdDelayMs = 0;
+      if (birdDelayIdx !== -1 && args[birdDelayIdx + 1]) {
+        birdDelayMs = parseInt(args[birdDelayIdx + 1], 10);
+        if (Number.isNaN(birdDelayMs) || birdDelayMs < 0) {
+          console.error('Invalid --bird-delay-ms value. Must be 0 or greater.');
+          process.exit(1);
+        }
+      }
+
+      const result = await enrichPendingBookmarks({
+        limit,
+        latest: args.includes('--latest'),
+        force: args.includes('--force') || args.includes('-f'),
+        fetchMedia: args.includes('--media') || args.includes('--fetch-media'),
+        downloadMedia: args.includes('--download-media'),
+        birdDelayMs
+      });
+
+      console.log(`Enriched ${result.enriched} / ${result.total} pending bookmarks.`);
+      console.log(`Changed: ${result.changed}`);
+      console.log(`With media refs: ${result.mediaHydrated}`);
+      console.log(`Output: ${result.pendingFile}`);
+      break;
+    }
+
     case 'process': {
       const config = loadConfig();
 
@@ -363,7 +402,14 @@ async function main() {
       console.log(`Source:      ${config.source || 'bookmarks'}`);
       console.log(`Media:       ${config.includeMedia ? '✓ enabled (experimental)' : 'disabled (use --media to enable)'}`);
       console.log(`Twitter:     ${config.twitter?.authToken ? '✓ configured' : '✗ not configured'}`);
-      console.log(`Auto-Claude: ${config.autoInvokeClaude ? 'enabled' : 'disabled'}`);
+      console.log(`AI CLI:      ${config.cliTool || 'claude'}`);
+      if (config.cliTool === 'opencode') {
+        console.log(`Auto-AI:     ${config.autoInvokeOpencode ? 'enabled' : 'disabled'}`);
+      } else if (config.cliTool === 'codex') {
+        console.log(`Auto-AI:     ${config.autoInvokeCodex ? 'enabled' : 'disabled'}`);
+      } else {
+        console.log(`Auto-AI:     ${config.autoInvokeClaude ? 'enabled' : 'disabled'}`);
+      }
 
       if (fs.existsSync(config.pendingFile)) {
         const pending = JSON.parse(fs.readFileSync(config.pendingFile, 'utf8'));
@@ -407,6 +453,9 @@ Commands:
   fetch --force  Re-fetch even if already archived
   fetch --source <source>  Fetch from: bookmarks, likes, or both
   fetch --media  EXPERIMENTAL: Include media attachments
+  enrich         Add organization metadata to pending bookmarks
+  enrich --media --download-media  Fetch media URLs and cache images/thumbnails
+  enrich --latest --limit N         Enrich newest N pending bookmarks
   process        Show pending tweets
   status         Show current status
 
@@ -424,6 +473,9 @@ Examples:
   smaug fetch --source both      # Fetch from bookmarks AND likes
   smaug fetch --media            # Include photos/videos/GIFs (experimental)
   smaug fetch --force            # Re-process archived tweets
+  smaug enrich                   # Classify pending bookmarks into richer sections
+  smaug enrich --limit 25 --media --download-media
+  smaug enrich --latest --limit 25 --media --download-media
 
 Config (smaug.config.json):
   "source": "bookmarks"    Default source (bookmarks, likes, or both)

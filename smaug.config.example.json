@@ -2,6 +2,7 @@
   "archiveFile": "./bookmarks.md",
   "pendingFile": "./.state/pending-bookmarks.json",
   "stateFile": "./.state/bookmarks-state.json",
+  "mediaCacheDir": "./.state/media",
   "parallelThreshold": 8,
   "timezone": "UTC",
   "twitter": {
@@ -12,5 +13,13 @@
   "claudeModel": "sonnet",
   "autoInvokeOpencode": true,
   "opencodeModel": "opencode/glm-4.7-free",
+  "autoInvokeCodex": true,
+  "codexModel": "gpt-5.5",
+  "codexSandbox": "workspace-write",
+  "codexApprovalPolicy": "never",
+  "codexIgnoreUserConfig": true,
+  "codexReasoningEffort": null,
+  "codexServiceTier": null,
+  "codexMaxImages": 24,
   "cliTool": "claude"
 }

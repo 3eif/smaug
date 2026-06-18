@@ -19,6 +19,9 @@ const DEFAULT_CONFIG = {
   // Off by default - enable with --media flag or config
   includeMedia: false,
 
+  // Local cache for downloaded media thumbnails/images used by Codex analysis
+  mediaCacheDir: './.state/media',
+
   // Where to store the markdown archive
   archiveFile: './bookmarks.md',
 
@@ -126,7 +129,10 @@ const DEFAULT_CONFIG = {
   // Auto-invoke OpenCode after fetching bookmarks
   autoInvokeOpencode: true,
 
-  // CLI tool to use: 'claude' or 'opencode'
+  // Auto-invoke Codex after fetching bookmarks
+  autoInvokeCodex: true,
+
+  // CLI tool to use: 'claude', 'opencode', or 'codex'
   cliTool: 'claude',
 
   // Claude model to use (sonnet, haiku, opus)
@@ -134,6 +140,17 @@ const DEFAULT_CONFIG = {
 
   // OpenCode model to use (any OpenCode-compatible model)
   opencodeModel: 'opencode/glm-4.7-free',
+
+  // Codex model to use for ChatGPT-backed Codex CLI auth.
+  codexModel: 'gpt-5.5',
+
+  // Codex sandbox/approval settings for non-interactive automation
+  codexSandbox: 'workspace-write',
+  codexApprovalPolicy: 'never',
+  codexIgnoreUserConfig: true,
+  codexReasoningEffort: null,
+  codexServiceTier: null,
+  codexMaxImages: 24,
 
   // Claude invocation timeout in ms (default 15 min)
   claudeTimeout: 900000,
@@ -245,6 +262,9 @@ export function loadConfig(configPath) {
   if (process.env.INCLUDE_MEDIA !== undefined) {
     config.includeMedia = process.env.INCLUDE_MEDIA === 'true';
   }
+  if (process.env.MEDIA_CACHE_DIR) {
+    config.mediaCacheDir = process.env.MEDIA_CACHE_DIR;
+  }
   if (process.env.AUTH_TOKEN) {
     config.twitter.authToken = process.env.AUTH_TOKEN;
   }
@@ -259,6 +279,9 @@ export function loadConfig(configPath) {
   if (process.env.AUTO_INVOKE_OPENCODE !== undefined) {
     config.autoInvokeOpencode = process.env.AUTO_INVOKE_OPENCODE === 'true';
   }
+  if (process.env.AUTO_INVOKE_CODEX !== undefined) {
+    config.autoInvokeCodex = process.env.AUTO_INVOKE_CODEX === 'true';
+  }
   if (process.env.CLI_TOOL) {
     config.cliTool = process.env.CLI_TOOL;
   }
@@ -267,6 +290,27 @@ export function loadConfig(configPath) {
   }
   if (process.env.CLAUDE_MODEL) {
     config.claudeModel = process.env.CLAUDE_MODEL;
+  }
+  if (process.env.CODEX_MODEL) {
+    config.codexModel = process.env.CODEX_MODEL;
+  }
+  if (process.env.CODEX_SANDBOX) {
+    config.codexSandbox = process.env.CODEX_SANDBOX;
+  }
+  if (process.env.CODEX_APPROVAL_POLICY) {
+    config.codexApprovalPolicy = process.env.CODEX_APPROVAL_POLICY;
+  }
+  if (process.env.CODEX_IGNORE_USER_CONFIG !== undefined) {
+    config.codexIgnoreUserConfig = process.env.CODEX_IGNORE_USER_CONFIG === 'true';
+  }
+  if (process.env.CODEX_REASONING_EFFORT) {
+    config.codexReasoningEffort = process.env.CODEX_REASONING_EFFORT;
+  }
+  if (process.env.CODEX_SERVICE_TIER) {
+    config.codexServiceTier = process.env.CODEX_SERVICE_TIER;
+  }
+  if (process.env.CODEX_MAX_IMAGES) {
+    config.codexMaxImages = parseInt(process.env.CODEX_MAX_IMAGES, 10);
   }
   if (process.env.CLAUDE_TIMEOUT) {
     config.claudeTimeout = parseInt(process.env.CLAUDE_TIMEOUT, 10);
@@ -287,6 +331,7 @@ export function loadConfig(configPath) {
   config.stateFile = expandTilde(config.stateFile);
   config.birdPath = expandTilde(config.birdPath);
   config.projectRoot = expandTilde(config.projectRoot);
+  config.mediaCacheDir = expandTilde(config.mediaCacheDir);
 
   // Expand ~ in category folders
   if (config.categories) {
@@ -309,6 +354,7 @@ export function initConfig(targetPath = './smaug.config.json') {
     source: 'bookmarks',
     // EXPERIMENTAL: Include media attachments (photos, videos, GIFs)
     // includeMedia: false,
+    mediaCacheDir: './.state/media',
     archiveFile: './bookmarks.md',
     pendingFile: './.state/pending-bookmarks.json',
     stateFile: './.state/bookmarks-state.json',
@@ -349,11 +395,19 @@ export function initConfig(targetPath = './smaug.config.json') {
     // Automation (for scheduled jobs)
     autoInvokeClaude: true,
     autoInvokeOpencode: true,
-    // CLI tool: 'claude' or 'opencode'
+    autoInvokeCodex: true,
+    // CLI tool: 'claude', 'opencode', or 'codex'
     cliTool: 'claude',
     // Models for each CLI
     claudeModel: 'sonnet',
     opencodeModel: 'opencode/glm-4.7-free',
+    codexModel: 'gpt-5.5',
+    codexSandbox: 'workspace-write',
+    codexApprovalPolicy: 'never',
+    codexIgnoreUserConfig: true,
+    codexReasoningEffort: null,
+    codexServiceTier: null,
+    codexMaxImages: 24,
     claudeTimeout: 900000,
 
     // Notifications (optional)

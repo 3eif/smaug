@@ -18,6 +18,7 @@ import path from 'path';
 import os from 'os';
 import { fetchAndPrepareBookmarks } from './processor.js';
 import { loadConfig } from './config.js';
+import { collectCodexImageInputs } from './organizer.js';
 
 const JOB_NAME = 'smaug';
 const LOCK_FILE = path.join(os.tmpdir(), 'smaug.lock');
@@ -364,7 +365,46 @@ function findOpenCode() {
   return 'opencode';
 }
 
-function getCLISettings(cliType, config, bookmarkCount) {
+export function findCodex(options = {}) {
+  const platform = options.platform || process.platform;
+  const env = options.env || process.env;
+  const existsSync = options.existsSync || fs.existsSync;
+  const execSyncFn = options.execSyncFn || execSync;
+  const isWindows = platform === 'win32';
+
+  const possiblePaths = [
+    '/usr/local/bin/codex',
+    '/opt/homebrew/bin/codex',
+    path.join(env.HOME || '', '.bun/bin/codex'),
+    path.join(env.HOME || '', '.local/bin/codex'),
+  ];
+
+  if (isWindows) {
+    possiblePaths.push(
+      path.join(env.APPDATA || '', 'npm', 'codex.cmd'),
+      path.join(env.LOCALAPPDATA || '', 'npm', 'codex.cmd'),
+      path.join(env.USERPROFILE || '', 'AppData', 'Roaming', 'npm', 'codex.cmd'),
+      path.join(env.PROGRAMFILES || '', 'Codex', 'codex.exe'),
+      path.join(env.LOCALAPPDATA || '', 'Programs', 'codex', 'codex.exe'),
+    );
+  }
+
+  for (const p of possiblePaths) {
+    if (existsSync(p)) {
+      return p;
+    }
+  }
+
+  try {
+    const findCmd = isWindows ? 'where codex' : 'which codex';
+    const result = execSyncFn(findCmd, { encoding: 'utf8' }).trim();
+    return result.split('\n')[0] || 'codex';
+  } catch {
+    return 'codex';
+  }
+}
+
+export function getCLISettings(cliType, config, bookmarkCount, options = {}) {
   const isWindows = process.platform === 'win32';
   const pathSep = isWindows ? ';' : ':';
   const prompt = `Process the ${bookmarkCount} bookmark(s) in ./.state/pending-bookmarks.json following the instructions in ./.claude/commands/process-bookmarks.md. Read that file first, then process each bookmark.`;
@@ -397,6 +437,56 @@ function getCLISettings(cliType, config, bookmarkCount) {
     };
   }
 
+  if (cliType === 'codex') {
+    const model = config.codexModel || null;
+    const args = [
+      '--ask-for-approval', config.codexApprovalPolicy || 'never',
+    ];
+
+    if (config.codexReasoningEffort) {
+      args.push('-c', `model_reasoning_effort="${config.codexReasoningEffort}"`);
+    }
+
+    if (config.codexServiceTier) {
+      args.push('-c', `service_tier="${config.codexServiceTier}"`);
+    }
+
+    args.push('exec');
+
+    if (config.codexIgnoreUserConfig !== false) {
+      args.push('--ignore-user-config');
+    }
+
+    args.push(
+      '--json',
+      '--sandbox', config.codexSandbox || 'workspace-write',
+      '--cd', config.projectRoot || process.cwd(),
+      '--color', 'never'
+    );
+
+    for (const imagePath of options.imagePaths || []) {
+      args.push('--image', imagePath);
+    }
+
+    if (model) {
+      args.push('--model', model);
+    }
+
+    args.push(prompt);
+
+    return {
+      binary: findCodex(),
+      model: model || 'codex-default',
+      args,
+      env: {
+        ...process.env,
+        PATH: enhancedPath
+      },
+      shell: isWindows,
+      stdin: 'ignore'
+    };
+  }
+
   const model = config.claudeModel || 'sonnet';
   const allowedTools = config.allowedTools || 'Read,Write,Edit,Glob,Grep,Bash,Task,TodoWrite';
   const cleanEnv = { ...process.env };
@@ -425,7 +515,7 @@ async function invokeAICLI(config, bookmarkCount, options = {}) {
   const trackTokens = options.trackTokens || false;
   const cliType = config.cliTool || 'claude';
   
-  const settings = getCLISettings(cliType, config, bookmarkCount);
+  const settings = getCLISettings(cliType, config, bookmarkCount, options);
   
   await showDragonReveal(bookmarkCount);
 
@@ -592,6 +682,22 @@ async function invokeAICLI(config, bookmarkCount, options = {}) {
             tokenUsage.output = event.usage.output_tokens || 0;
             tokenUsage.cacheRead = event.usage.cache_read_input_tokens || 0;
             tokenUsage.cacheWrite = event.usage.cache_creation_input_tokens || 0;
+          }
+
+          if (event.type === 'turn.completed' && event.usage) {
+            tokenUsage.input = event.usage.input_tokens || 0;
+            tokenUsage.output = event.usage.output_tokens || 0;
+            tokenUsage.cacheRead = event.usage.cached_input_tokens || 0;
+            tokenUsage.cacheWrite = event.usage.cache_creation_input_tokens || 0;
+            stopSpinner(intervals);
+            process.stdout.write(`\n  Codex completed the bookmark processing turn.\n`);
+          }
+
+          if (event.type === 'item.completed' && event.item?.type === 'agent_message' && event.item.text) {
+            const text = event.item.text.trim();
+            if (text) {
+              process.stdout.write(`\n💬 ${text.slice(0, 300)}${text.length > 300 ? '...' : ''}\n`);
+            }
           }
 
           if (event.type === 'user' && event.message?.content) {
@@ -811,16 +917,26 @@ export async function run(options = {}) {
     // Track IDs we're about to process
     const idsToProcess = pendingData.bookmarks.map(b => b.id);
 
-    // Phase 2: AI analysis (Claude or OpenCode based on cliTool config)
-    const shouldInvoke = config.cliTool === 'opencode'
-      ? config.autoInvokeOpencode !== false
-      : config.autoInvokeClaude !== false;
+    // Phase 2: AI analysis (Claude, OpenCode, or Codex based on cliTool config)
+    let shouldInvoke = config.autoInvokeClaude !== false;
+    if (config.cliTool === 'opencode') {
+      shouldInvoke = config.autoInvokeOpencode !== false;
+    } else if (config.cliTool === 'codex') {
+      shouldInvoke = config.autoInvokeCodex !== false;
+    }
 
     if (shouldInvoke) {
       console.log(`[${now}] Phase 2: Invoking ${config.cliTool || 'Claude'} for analysis...`);
+      const imagePaths = config.cliTool === 'codex'
+        ? collectCodexImageInputs(pendingData, { maxImages: config.codexMaxImages || 24 })
+        : [];
+      if (imagePaths.length > 0) {
+        console.log(`[${now}] Attaching ${imagePaths.length} media image(s) for Codex analysis`);
+      }
 
       const aiResult = await invokeAICLI(config, bookmarkCount, {
-        trackTokens: options.trackTokens
+        trackTokens: options.trackTokens,
+        imagePaths
       });
 
       if (aiResult.success) {

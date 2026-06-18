@@ -106,6 +106,10 @@ Prepared bookmarks are in the `pendingFile` path from config (typically `./.stat
 Each bookmark includes:
 - `id`, `author`, `authorName`, `text`, `tweetUrl`, `date`
 - `tags[]` - folder tags from bookmark folders (e.g., `["ai-tools"]`)
+- `organization` - optional precomputed routing with `category`, `section`, `signals`, `confidence`, and `needsMediaAnalysis`
+- `mediaRefs[]` - optional media references discovered from tweet, quote, reply, or media links
+- `mediaAssets[]` - optional locally cached image/video-thumbnail files. Codex runs may receive these files as image attachments.
+- `mediaAnalysis` - optional visual analysis status and labels
 - `links[]` - each with `original`, `expanded`, `type`, and `content`
   - `type`: "github", "article", "video", "tweet", "media", "image"
   - `content`: extracted text, headline, author (for articles/github)
@@ -113,6 +117,41 @@ Each bookmark includes:
 - `isQuote`, `quoteContext` - quoted tweet info if this is a quote tweet
 
 ## Categories System
+
+### Rich Organization Metadata
+
+If a bookmark has an `organization` object, treat it as the primary routing hint:
+
+- `organization.section`: reader-facing section name for archive grouping
+- `organization.category`: stable machine category
+- `organization.signals`: concrete reasons such as domains, link types, `has-media`, `quote`, or `reply`
+- `organization.needsMediaAnalysis`: true when visual media should influence the summary
+
+Use this metadata to make entries more searchable:
+
+```markdown
+- **Section:** Design and UI Patterns
+- **Signals:** github.com, media, quote
+```
+
+Only include `Section` and `Signals` when they add useful context. Do not blindly repeat low-value fallback signals.
+
+### Visual Media Handling
+
+When `mediaAssets[]` exists, use the attached images/thumbnails as evidence. For videos, the attached image is usually a thumbnail, so describe it as a visual/video preview rather than claiming to have watched the full video unless a transcript or frames are provided.
+
+For visual bookmarks:
+
+- Describe what the media appears to show.
+- Capture style, UI pattern, product idea, artifact type, or visual reference value.
+- Route to `Visual Reference`, `Design and UI Patterns`, `Videos and Demos`, or another fitting `organization.section`.
+- If media is only a URL and no asset was attached, say it is a media link and avoid overclaiming visual details.
+
+Suggested extra line:
+
+```markdown
+- **Visual:** Short description of the image/video thumbnail and why it matters
+```
 
 Categories define how different bookmark types are handled. Each category has:
 - `match`: URL patterns or keywords to identify this type
